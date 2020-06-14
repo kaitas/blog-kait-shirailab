@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Report &#8211; Shirai Lab</title>
+	<atom:link href="http://blog.shirai.la/blog/topics/report/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la</link>
+	<description>白井研究室</description>
+	<lastBuildDate>
+	Wed, 18 Jul 2018 14:08:27 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.5</generator>
+	<item>
+		<title>CEDEC2013初日まとめ</title>
+		<link>http://blog.shirai.la/blog/2013/08/cedec2013%e5%88%9d%e6%97%a5%e3%81%be%e3%81%a8%e3%82%81/</link>
+				<pubDate>Wed, 21 Aug 2013 13:33:14 +0000</pubDate>
+		<dc:creator><![CDATA[shirai]]></dc:creator>
+				<category><![CDATA[2013]]></category>
+		<category><![CDATA[CEDEC]]></category>
+		<category><![CDATA[Report]]></category>
+		<category><![CDATA[ITE]]></category>
+		<category><![CDATA[SIGGRAPH]]></category>
+		<category><![CDATA[マンガ]]></category>
+		<category><![CDATA[展示]]></category>
+		<category><![CDATA[白井研究室]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/?p=2124</guid>
+				<description><![CDATA[日本最大のゲーム開発カンファレンス「CEDEC2013」に白井研究室＋有志で参加中です。 ■■姿勢評価によるリ [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>日本最大のゲーム開発カンファレンス「CEDEC2013」に白井研究室＋有志で参加中です。</p>
+<p>■■姿勢評価によるリアルタイム感情推定を特徴とする動的マンガ生成システム「Manga Generator」(インタラクティブセッション)</p>
+<p><a href="http://blog.shirai.la/blog/2013/07/manga-siggraph2013-cedec2013/" class="autohyperlink" target="_blank">http://blog.shirai.la/blog/2013/07/manga-siggraph2013-cedec2013/</a></p>
+<p>全セッションのリストはこちらから。<br />
+(白井が前日まで徹夜で開発したCoFun、みんな使って下さい)</p>
+<p><a href="http://cofun.shirai.la/conf.php?cid=1&#038;d=2013-08-21" class="autohyperlink" target="_blank">http://cofun.shirai.la/conf.php?cid=1&#038;d=2013-08-21</a></p>
+<p>聴講したのは以下のとおり。</p>
+<p>11:20 ～<br />
+　HTML5 と JavaScript で Wii U ゲーム開発 ～Nintendo Web Framework 最新情報～<br />
+13:30 ～<br />
+　Compute Shader Magic ～あなたの描画エンジンでコンピュートシェーダを活用するアイデア</p>
+<p>16:30 ～<br />
+　「日本のゲームが海外に通用しない」なんてウソだ！ ～大人気の日本コンテンツの実態～　※なんと日本語セッション！<br />
+17:50 ～<br />
+　日本のゲームでもっと遊びたい！～ヨーロッパから日本のゲームクリエイターへのエール～　※なんと日本語セッション！</p>
+<p>以下メモです。<br />
+正確な情報を知りたい人はCEDILやニュースサイト、ニコ生を参照下さい。</p>
+<p>★は白井の心の声。</p>
+<p>■HTML5 と JavaScript で Wii U ゲーム開発 ～Nintendo Web Framework 最新情報～<br />
+温井 崇友・松本 健児／任天堂株式会社 (5F 503) [ENG] </p>
+<p>NWF(Nintendo Web Framework)をつかったHTML5開発．</p>
+<p>テレビ側の初期化などが特別なあたり．<br />
+秀丸エディタなのが親近感わいた．</p>
+<p>GDC以降に追加された技術情報．<br />
+・手元のWebコンテンツをWii Uで動かす<br />
+　「シェアードウェブビュー」<br />
+　　ひとつのDOMをWii U GamePadとTVで共有できる．いままでは（タブブラウザのように）２画面の制御が必要だった．<br />
+　　これはマルチウェブビュー，これに加えてシェアードウェブビュー．<br />
+　「キーボードリマップ」PCでのキーボード入力設定をWii Uでのボタンでリマップできる．</p>
+<p>「３分間で移植にチャレンジ」上記の機能をデモする為に，インタラクティブな元素記号表示（マウスとキーボード）を３分で移植した．<br />
+実際には２分１０秒でおわり．NWFでダッシュボードにてシェアードウェブビューに切り替え，秀丸エディタでkeys.jsonを書き換えただけ．</p>
+<p>各ライブラリの動作確認も進めている．<br />
+上記のデモはjQuery, three.js, TweenJSが使われているが．</p>
+<p>その他，動作確認がとれているライブラリ一覧（カテゴリ順）<br />
+Frameworks<br />
+jQuery,Underscore, Knockout.js, Handlebars</p>
+<p>processing.js<br />
+three.js, EaselJS, pixi.js<br />
+Tween<br />
+Require<br />
+GSAP-JS<br />
+Preload<br />
+tweenJS<br />
+Jasmine, Qunit</p>
+<p>ゲームエンジン<br />
+box2D<br />
+enchant.js<br />
+Impact Lime.js</p>
+<p>enchant.js, Impactについては，NWF向けカスタマイズも進めている．<br />
+enchant/jsによるUECの縦スクロールシューティングをiPhone向けからWii U向けにパワーアップして移植．作業2ヶ月．任天堂展示ブースにてデモあり．</p>
+<p>Kemco「トガビトノセンリツ」Wii Uバージョンも開発中．<br />
+Impact(<a href="http://impactjs.com" class="autohyperlink" target="_blank">impactjs.com</a>)個人ゲーム開発（ドイツ）の有償ゲーム開発エンジン．2Dゲーム向け．<br />
+「X-TYPE」というWii Uの左右のアナログスティックを使った弾幕系シューティングゲーム．</p>
+<p>「BIOLAB DISASTER」（★HTML5ベンチマークに使われているゲームですね），GUIレベルエディタもついてくる．<br />
+レベルエディタ自体がブラウザ上で動作する．（biolab1.js）というシーン，コリジョン等が既に設定されているところに，新しい足場，敵等を配置．<br />
+NWFのダッシュボードに戻って実機で起動．</p>
+<p>NWFのeコマース対応<br />
+追加課金型のダウンロードコンテンツに対応し，リリース後のマネタイズが可能になった．</p>
+<p>NWFまとめ<br />
+・３分でWii U向け移植<br />
+・JavaScriptライブラリ<br />
+・enchant.js，Impactのカスタマイズ<br />
+・eコマース対応</p>
+<p>ソフトウェアの開発のプロセス<br />
+「ニンテンドーイーショップでのダウンロードリリースでの流れ」<br />
+　NWFだけでなく，C/C++，Unity3D for Wii U (Unity4相当)も共通<br />
+1.問い合わせ・事前相談<br />
+2.開発契約・開発環境の入手<br />
+3.開発<br />
+4.提出<br />
+5.審査<br />
+6.リリース</p>
+<p>★企画申し込みのアドレスが公開される。<br />
+(メールアドレスは本日〜９月末まで)ただし「日本では法人からの受付のみ，個人からは受け付けていません」との明記がありガッカリ。<br />
+NWFとUnity4 Uii Uは無償で配布されるらしいです。<br />
+★教育版ライセンスの早期提供が期待されますね！<br />
+だって旧世代になってから提供されても技術的にも市場的にも何のメリットも無いし&#8230;。</p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;<br />
+<a href="http://cofun.shirai.la/conf.php?cid=1&#038;d=2013-08-21#13:30%E3%80%9C14:30" class="autohyperlink" target="_blank">http://cofun.shirai.la/conf.php?cid=1&#038;d=2013-08-21#13:30%E3%80%9C14:30</a></p>
+<p>■Compute Shader Magic ～あなたの描画エンジンでコンピュートシェーダを活用するアイデア 髙橋 誠史／株式会社バンダイナムコスタジオ (5F 501) [ENG VA] </p>
+<p>Compute Shader用語<br />
+・「スレッド」スレッドが１つのコンピュートシェーダ，スレッドにはIDが割り振られるので，画像処理時のピクセルや頂点処理の頂点番号のヒントにする．<br />
+・「スレッドグループ」1024スレッドまでをひとまとめ．使用するスレッドグループ数はC++コード側で決める<br />
+　・スレッドグループ内のスレッド間での同期命令がある<br />
+・「スレッドグループ共有メモリ」32KBのスクラッチパッド的に使えるメモリ．とても速い．GPUごとに最適値がある．<br />
+・「Structured Buffer」<br />
+・「Byte Address Buffer」頂点バッファ/インデックスバッファとしてバインドできる．水面のシミュレーションなど．<br />
+・「リソースビュー」GPUからのリソースのアクセス（読み書き）をどういった性質でアクセスするかを記述する．<br />
+　Shader Resource View (SRV)　シェーダーが読みこむ，テクスチャとかバッファを読み込み専用で扱う<br />
+　Unordered TAccess View（UAV）　シェーダが読み_書き_できる，Compute Shaderの出力先<br />
+　Render Target View<br />
+　もうひとつ</p>
+<p>UAVは，Compute Shaderの出力先，11.0ならPixel Shaderでも使える．11.1なら前シェーダステージで使える．DX11なら8出力，DX11.1なら64まで（GPU依存）．<br />
+Registerはu0〜u#まで．</p>
+<p>Pixel ShaderのテクニックをCompute Shaderへ<br />
+・SSAO系のテクニック（HDAOやHBAO）<br />
+・スクリーンスペース○○（Real-time Local Reflectionとか）<br />
+・上手に実装すればパフォーマンスが向上する<br />
+　・タイルベースのアルゴリズム<br />
+　・スレッドグループ</p>
+<p>ライティングでの活用<br />
+・Compute Shaderを使う事で大量のライトを扱える手法<br />
+　・Tile-based Deffered Rendering (EA DICE)<br />
+　・AMD Forward+(AMD)<br />
+　・採用事例多い</p>
+<p>物理演算とかAIみたいな話<br />
+・いわゆるGPGPU<br />
+・物理エンジン：NVIDIA PhysiX, Bullet</p>
+<p>今日の話<br />
+・マルチスレッド化は当たり前だが，</p>
+<p>描画エンジンにCompute Shaderを使う上で何を効率化するか？<br />
+（テクスチャ→テクスチャ以外の処理にどう使うか）</p>
+<p>・GPUで使うものを使い回す<br />
+　DX8-9においては，マルチパスが開発された，他<br />
+　DX10のUnifiedだと頂点でも遅くなくなった．<br />
+　　ジオメトリシェーダとStream Output，シェーダで計算した頂点データを頂点バッファに書き出す，頂点のキャッシング．DrawAutoで書き出す．<br />
+　Compute Shaderの計算結果を利用できるもの：<br />
+　　ピクセルシェーダ，頂点シェーダともByte Address Bufferであること．<br />
+　頂点処理を使い回す<br />
+　毎フレーム頂点データに何らかの計算処理をしなければならないもの｛スキニング，BlendShape,パーティクル｝<br />
+　計算結果を何回も描画する｛G-buffer, Foward rendering, Shadow map｝</p>
+<p>　頂点キャッシング<br />
+　・Shadow描画，通常描画を考える<br />
+　・スキニングが楽になる，Unity4.0のGPUSkinningなど<br />
+　　CPUスキニングよくある光景，GPUスキニングよくある光景→GPUスキニング結果のStream Outputによりスキニング計算量の削減<br />
+　・Stream Outputとの比較：頂点バッファに出力する際のデータ構造の制約が多い，バッファ４つまで．インスタンシングできない，インデックスバッファが使えない．<br />
+　・DirectXの場合，OpenGLと違い，頂点シェーダとジオメトリシェーダが走る．<br />
+　　OpenGLのTransformfeedbackと異なる，2つのシェーダが走るのは無駄じゃない？<br />
+　・ベンチマークはみなさんやってみてください<br />
+　・BlendShape　GPU Gems3参考</p>
+<p>・DrawCallを削減する事に考える<br />
+　・GPUの処理結果をCPUにリードバックしないで使う<br />
+　・DX11のインスタンシングは使いやすい，DrawCall減る<br />
+　・インスタンシング<br />
+　　・描画する頂点バッファをGPU複数回書かせる<br />
+　　・シェーダ内で描画インスタンスが何番目かわかるので，各描画単位で独立した処理をさせられる．<br />
+　　・応用例：同じものを沢山書くマップパーツ，岩が崩れるエフェクト，カスケードシャドウマップ，Displacement Mapping利用の変形<br />
+　・具体例：カリング付きインスタンシング<br />
+  ・バッチング：同じマテリアル，テクスチャを使う頂点バッファを連結<br />
+  ・メリット：複数の描画コールがGPUで動的まとまる<br />
+  ・デメリット：バッチングした頂点メモリをキャッシュするメモリ（メモり少ないとつらいが，次世代機なら可能？）</p>
+<p>・GPUの処理結果をGPUにリードバックしないで使い回す<br />
+・GPUの中で使うものはGPUでセットアップする<br />
+上記の処理の起点にCompute Shaderを使う．</p>
+<p>課題など<br />
+コードはguthub/shaderjp へ。</p>
+<p>★高橋くん、プレゼンうまくなってきたな～。そしてスライド速くて凝縮。</p>
+<p>&#8212;&#8211;</p>
+<p><a href="http://cofun.shirai.la/conf.php?cid=1&#038;d=2013-08-21#16:30%E3%80%9C17:30" class="autohyperlink" target="_blank">http://cofun.shirai.la/conf.php?cid=1&#038;d=2013-08-21#16:30%E3%80%9C17:30</a></p>
+<p>■「日本のゲームが海外に通用しない」なんてウソだ！ ～大人気の日本コンテンツの実態～　※なんと日本語セッション！ フロラン ゴルジュ／Omaké books アン フェレロ／nolife (5F 502) [GD 海外] </p>
+<p>★Anneさん、偉くなったなあ</p>
+<p>1970 ゴルドラック世代：「UFOロボ・グレンダイザー」「キャンディ・キャンディ」など（理由は，安かったから）<br />
+1978-1998 ドロテ世代：クラブ・ドロテ（TF1）週30時間　視聴率50％超える<br />
+　「日本のアニメ最低，暴力ばっかり，子供向けじゃない」などの意見が政治家，親からでてくる．<br />
+　吹き替え等でギャグになってたりする，ひどい翻訳．フランス製コンテンツをパーセンテージで維持する文化保護法ができる．<br />
+　別のチャネルも日本のアニメを放映するのをやめる．<br />
+　しかし日本のアニメを見たい世代，続編が見たいティーンエイジャーはどうしたらいいのか，と自分たちから熱狂的なファンが日本にたどり着き，<br />
+　「アニメはマンガから来ている」と気づいて，出版社に提案をし始める。</p>
+<p>第一世代のオタクの作品を公開．日本の戦隊ものに影響されて作られた映像「フランスファイブ」．<br />
+実はフランスファイブのレッドはnolifeの社長らしい．</p>
+<p>90年代後半「JAPAN EXPO」<br />
+　最初はマンガとアニメのフェスティバル，高校やIT専門学校の校庭等で開催されていた．<br />
+　2010年のJapanExpoの映像（NolifeTV編集）が猫の恩返しのテーマ曲「風になる」で上映される．モー娘。が来た年．<br />
+　地下鉄で見かける日本の観光ポスター，昔では考えられなかった．OKINAWA，「より身近な日本」など．日本美術のポスターなど．<br />
+　日本のゲームのポスターは，ベヨネッタ，メタルギアライジングなど．STREET FIGHTER IVはビルラッピング．<br />
+　和食ブーム，寿司ブーム．1600店以上あるが，9割以上は日本人以外．「焼き高知」など．お弁当ブーム，景気が悪くて持参する考えが増えた．<br />
+　国語辞典では「bento」が今年から載るようになった．</p>
+<p>新ジャポニズム<br />
+　本来のフランス製のアニメは「タンタン」のようなものだったが，Totally Spites(2002)，Wakfu(2008)，フランスの若手バンデシネの作家は完全に日本の画風．</p>
+<p>J-Cultureランキング<br />
+戦隊ものアニメ映画<br />
+　１：ドラゴンボール<br />
+　２：グレンダイザー<br />
+　３：ポケモンシリーズ<br />
+　４：聖闘士星矢<br />
+　５：キャプテン翼<br />
+「宇宙伝説コリシーズ」のような日欧合作が根強い．</p>
+<p>マンガランキング<br />
+1.ドラゴンボール<br />
+2.ワンピース<br />
+3.DEATHNOTE<br />
+4.NARUTO<br />
+萌え系，サラリーマン系は全くない．孤独のグルメが人気ある．</p>
+<p>日本アニメは<br />
+1.ドラゴンボール<br />
+2.ONEPIECE<br />
+3.エヴァンゲリオン<br />
+4.コードギアス<br />
+「STEINSGATE」(14)，「進撃の巨人」(15)が放送されていないのに既にランク上位．これはもったいない．</p>
+<p>日本の映画ランキング<br />
+1.バトルロワイヤル<br />
+ ティーン向け，暴力とクレイジーさ，これが日本のコンテンツとしては重要なポイントになる．<br />
+2.七人の侍<br />
+3.クローズZERO<br />
+4.座頭市<br />
+5.リング<br />
+北野武監督人気，昔のコメディアンとしてのたけしを知らないので「たけしの挑戦状」は人気だがショックを受ける人も．<br />
+他のアジアものも混ざってくる．</p>
+<p>クリエイター<br />
+1.北野監督<br />
+2.村上春樹<br />
+クリエイターの名前は知らない人が多いらしい．<br />
+ある意味では可能性を感じる．</p>
+<p>初めて購入したゲーム機<br />
+日本製ハード87％，圧倒的．<br />
+　ファミコン，NES，ATARI2600(アタリ2800)</p>
+<p>初めて購入したソフト<br />
+1.スーパーマリオ(NES)<br />
+獣王記，アレックスキッドは(メガドライブ，同梱されていた）．<br />
+TMNT忍者タートルズ<br />
+13位までほぼ日本のゲーム．52位にミッキーマウスシリーズ．親の世代は圧倒的にミッキー世代なのに，完全に超えている．</p>
+<p>最近の状況<br />
+　日本のゲームを遊ぶ為にyahoo.co.jpやmsn.co.jpなどのアカウントを作り，マクドナルドやピザハットの住所を使うらしい．<br />
+　「ドラゴンクエストX」200時間遊んでもIPが日本じゃないとばれてアカウントbanされる．<br />
+　「リージョンフリーであるものを買う」が61％．<br />
+　「日本語の吹き替えが残っていることは重要ですが？」87％と圧倒的．英語版とは全く違う．<br />
+　日本のキャラデザインなのに英語しゃべっているのが変に感じるらしい．<br />
+　「アキラ」であって「aquila」ではない．</p>
+<p>&#8212;-</p>
+<p><a href="http://cofun.shirai.la/conf.php?cid=1&#038;d=2013-08-21#17:50%E3%80%9C18:50" class="autohyperlink" target="_blank">http://cofun.shirai.la/conf.php?cid=1&#038;d=2013-08-21#17:50%E3%80%9C18:50</a></p>
+<p>■日本のゲームでもっと遊びたい！～ヨーロッパから日本のゲームクリエイターへのエール～　※なんと日本語セッション！ アン フェレロ／nolifeフロラン ゴルジュ／Omaké books (5F 503) [AC] </p>
+<p>★その後のパネルセッション。Manga Generatorブース立ち番あったので、後半だけ聴講。なぜか遠藤さん(神)がパネリストに降臨。</p>
+<p>日本人クリエーターたちに期待されているゲームのキーワードまとめ<br />
+・日本人が得意とする夢の世界，幻想的な世界<br />
+・和風アートセンス<br />
+・クレージーな発送<br />
+・挑戦意欲，インディーズ精神<br />
+・ジャパニーズドリーム<br />
+・大人っぽいゲームを！</p>
+<p>「日本人による洋ゲー」はいらない，西洋が日本のレベルに追いついてきただけ，日本はまだまだトップのレベルです．</p>
+<p>&#8212;-<br />
+スピーカー懇親会はHardrock Cafe。</p>
+<p>明日も頑張ろう。</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

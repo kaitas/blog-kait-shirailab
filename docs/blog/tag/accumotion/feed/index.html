@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>AccuMotion &#8211; Shirai Lab</title>
+	<atom:link href="http://blog.shirai.la/blog/tag/accumotion/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la</link>
+	<description>白井研究室</description>
+	<lastBuildDate>
+	Wed, 18 Jul 2018 14:08:27 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.5</generator>
+	<item>
+		<title>Kinectを使った先端特許を雑誌で公開</title>
+		<link>http://blog.shirai.la/blog/2012/11/25-cq-kinect/</link>
+				<pubDate>Fri, 23 Nov 2012 15:00:22 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[AccuMotion]]></category>
+		<category><![CDATA[CQ出版社]]></category>
+		<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[お知らせ]]></category>
+		<category><![CDATA[執筆]]></category>
+		<category><![CDATA[技術]]></category>
+		<category><![CDATA[特許・知的財産]]></category>
+		<category><![CDATA[Interface]]></category>
+		<category><![CDATA[Kinect]]></category>
+		<category><![CDATA[NEC]]></category>
+		<category><![CDATA[USB接続 赤外線リモコンKIT]]></category>
+		<category><![CDATA[インターフェース]]></category>
+		<category><![CDATA[情報メディア学科]]></category>
+		<category><![CDATA[情報学部]]></category>
+		<category><![CDATA[白井研究室]]></category>
+		<category><![CDATA[相模原市]]></category>
+		<category><![CDATA[神奈川工科大学]]></category>
+		<category><![CDATA[赤外線リモコンキット]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/?p=231</guid>
+				<description><![CDATA[2012年11月25日発売予定のCQ出版社「インターフェース」2013年1月号「研究 人間センシング」のp.1 [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>2012年11月25日発売予定のCQ出版社「インターフェース」2013年1月号「研究 人間センシング」のp.130-138に、『誤認識しにくいジェスチャ入力の研究！』という記事を寄稿いたしました。</p>
+<p><span id="more-231"></span></p>
+<iframe src="https://rcm-jp.amazon.co.jp/e/cm?t=amazonas-22&o=9&p=8&l=as1&asins=B009YK3V7Q&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<p>記事のWeb版は<a href="http://www.kumikomi.net/interface/sample/201301/if01_130.pdf" target="_blank">こちら</a><img src="http://blog.shirai.la/wp-content/uploads/2012/11/Web1stpage.png" alt="" title="Web1stpage" width="396" height="529" class="alignright size-full wp-image-262" srcset="http://blog.shirai.la/wp-content/uploads/2012/11/Web1stpage.png 396w, http://blog.shirai.la/wp-content/uploads/2012/11/Web1stpage-224x300.png 224w" sizes="(max-width: 396px) 100vw, 396px" /><br />
+<a href="http://www.kumikomi.net/interface/sample/201301/if01_130.pdf"><br />
+</a></p>
+<p>Kinectを用いて姿勢認識を行い、ビット・トレード・ワン社（神奈川県相模原市）の「<a href="http://bit-trade-one.co.jp/BTOpicture/Products/005-RS/index.html" target="_blank">USB接続 赤外線リモコンKIT</a>」によってテレビのチャンネル切り替えを操作できます。</p>
+<p>本誌の記事はこちら　<a href="http://www.kumikomi.net/interface/contents/201301.php">http://www.kumikomi.net/interface/contents/201301.php</a><br />
+一部PDFで公開されているようです！ <a href="http://www.kumikomi.net/interface/sample/201301/if01_130.pdf">http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</a></p>
+<p>以下にサンプルプログラムソースコードと限定版のAccuMotionライブラリを公開します。</p>
+<h4>ダウンロードはこちらから <a class="download-link" title="バージョン 1.00" href="http://blog.shirai.la/download/4665/" rel="nofollow">
+	KinectTVRemote+AccuMotionLib	(716 ダウンロード)
+</a></h4>
+<p>以下、Readmeより引用。</p>
+<h2>README: Kinect TV Remote + AccuMotion.DLL</h2>
+<p align="right">制作者：神奈川工科大学 白井研究室 藤村 航</p>
+<p align="right">公開日：2012年11月19日</p>
+<p align="right"><a href="http://www.shirai.la/members/wataru-fujimura">http://www.shirai.la/members/wataru-fujimura</a></p>
+<h3>概要</h3>
+<p>このツールはCQ出版社「インターフェース」2013年1月号の特集『誤認識しにくいジェスチャ入力の研究！』のためのサンプルプログラムです。Kinectを用いて姿勢認識を行い、赤外線リモコンキットによってテレビのチャンネル切り替えを操作できます。</p>
+<p>※注意：<span style="text-decoration: underline;">テレビの赤外線コードは会社ごと仕様が違います。このプログラムでは</span><span style="text-decoration: underline;">Sharp</span><span style="text-decoration: underline;">のデジタルテレビを用いています。他社のテレビでは動かないことがあります。</span></p>
+<h3>実行環境</h3>
+<ul>
+<li>.NET Framework 4.0</li>
+<li>Kinect for Windows SDK 1.6</li>
+<li>「赤外線リモコンキット」のドライバ</li>
+</ul>
+<p>以上のものがPCに導入・動作していることを確認してください。</p>
+<h3>実行方法</h3>
+<p>1．PCにKinectと赤外線リモコンデバイスをPCに接続します。</p>
+<p>（赤外線リモコンキットデバイスがなくても起動はしますが、テレビ操作はできません）</p>
+<ul>
+<li>Kinectを置く高さは、腹～胸あたりの高さに設置してください</li>
+<li>赤外線リモコンはできるだけテレビの近くに設置してください</li>
+</ul>
+<p>2．「Kinect TV Remote\KinectTVRemote\bin\Release」内にあるexeを実行します。</p>
+<p>（exeが起動しなかった場合、Visual Studioでビルドし直してください）</p>
+<p>3．プログラムが起動したことを確認し、Kinectで人物認識できるように1.5～2mほど離れ、正面に立ちます</p>
+<p>4．入力操作をするために、右腕をKinectに向かって突き出してください。しばらくすると右下のMotionTypeが「None」から「HandKeep」に変化します。これで「溜め動作」が認識され、「入力操作」を認識できるようになります。</p>
+<p><a href="http://blog.shirai.la/wp-content/uploads/2012/11/Readme1.png"><img src="http://blog.shirai.la/wp-content/uploads/2012/11/Readme1-300x151.png" title="Readme-Fig1" width="300" height="151" /></a></p>
+<p>5．MotionTypeが「HandKeep」になった状態で、右腕を上下左右に動かすとMotionTypeが「HandUp」「Handdown」「Handdown」「HandLeft」に変化します。</p>
+<p>MotionTypeが変化した段階で、入力操作として受けつけ、各姿勢状態に設定した「赤外線コード」が送信されテレビの操作を行うことができます。</p>
+<div id="attachment_256" style="width: 576px" class="wp-caption alignright"><a href="http://blog.shirai.la/wp-content/uploads/2012/11/AccuMotionLib2.png"><img aria-describedby="caption-attachment-256" src="http://blog.shirai.la/wp-content/uploads/2012/11/AccuMotionLib2.png" title="AccuMotionLib" width="566" height="286" class="size-full wp-image-256" srcset="http://blog.shirai.la/wp-content/uploads/2012/11/AccuMotionLib2.png 566w, http://blog.shirai.la/wp-content/uploads/2012/11/AccuMotionLib2-300x151.png 300w" sizes="(max-width: 566px) 100vw, 566px" /></a><p id="caption-attachment-256" class="wp-caption-text">図 2：各姿勢を行い、認識した状態</p></div>
+<p>&nbsp;</p>
+<h4>現在設定してある操作</h4>
+<ul>
+<li>HandUp：矢印の上ボタン</li>
+<li>Handdown：矢印の下ボタン</li>
+<li>HandRight：決定ボタン</li>
+<li>HandLeft：番組表を表示するボタン</li>
+</ul>
+<h3>HandKeepやHandUpなどの姿勢を記録する方法</h3>
+<p>例：「HandKeep」の姿勢を記録する場合</p>
+<p>1.「HandKeep」で認識させたいポーズをとる　（左右の腕の骨格情報だけを保存します）</p>
+<p>2.「HandKeep」の右側にある「姿勢を保存」のボタンを押す　（無線マウスなどの利用がお勧めです）</p>
+<h3>認識精度の変更</h3>
+<p>各姿勢のスケールバーを調整して、閾値を設定します（初期値は85%）。各姿勢の類似度が閾値を超えた場合、姿勢を行ったと認識します。</p>
+<div id="attachment_258" style="width: 336px" class="wp-caption aligncenter"><a href="http://blog.shirai.la/wp-content/uploads/2012/11/Readme3.png"><img aria-describedby="caption-attachment-258" src="http://blog.shirai.la/wp-content/uploads/2012/11/Readme3.png" alt="" title="図 3：「HandKeep」の姿勢とユーザーの行っている姿勢の類似度" width="326" height="177" class="size-full wp-image-258" srcset="http://blog.shirai.la/wp-content/uploads/2012/11/Readme3.png 326w, http://blog.shirai.la/wp-content/uploads/2012/11/Readme3-300x162.png 300w" sizes="(max-width: 326px) 100vw, 326px" /></a><p id="caption-attachment-258" class="wp-caption-text">図 3：「HandKeep」の姿勢とユーザーの行っている姿勢の類似度</p></div>
+<p>図3では「HandKeep」の類似度が54%であり、この状態では「HandKeep」を認識しません。</p>
+<p>閾値を上げると認識精度が上がります。誤認識を防ぐことができますが、設定した姿勢を完璧に再現する必要があり、入力が難しくなります。</p>
+<p>閾値をさせると認識精度が下がります。入力が容易になりますが、誤認識も増える可能性があります。</p>
+<h3>リモコンの機能を変える</h3>
+<p>プログラムをVisual Studioで開き、「TVRemote.cs」を開きます。「code〇」という変数を変更すると、送信する赤外線のコードが変わり別の操作をすることができます。</p>
+<ul>
+<li>code0：HandUpで用いる</li>
+<li>code1：Handdownで用いる</li>
+<li>code2：HandRightで用いる</li>
+<li>code3：HandLeftで用いる</li>
+</ul>
+<h3>～その他～</h3>
+<ul>
+<li> 赤外線のコードは、「赤外線リモコンキット」のサンプルにあるサンプルプログラム「受信用設定ツール」「送信用設定ツール」で確認できます</li>
+</ul>
+<p><a href="http://a-desk.jp/modules/forum_hobby/index.php?cat_id=8">http://a-desk.jp/modules/forum_hobby/index.php?cat_id=8</a></p>
+<ul>
+<li>赤外線の通信フォーマットとしては、AEHAフォーマット（家電協会）を用いています</li>
+</ul>
+<p><a href="http://a-desk.jp/project/hobby/IR/USB_IR_REMOCON_LIBRARY.pdf">http://a-desk.jp/project/hobby/IR/USB_IR_REMOCON_LIBRARY.pdf</a></p>
+<ul>
+<li>ソニー製のテレビの場合は、信号の送り方を変えなければならないようです</li>
+</ul>
+<p><a href="http://a-desk.jp/modules/forum_hobby/index.php?topic_id=38">http://a-desk.jp/modules/forum_hobby/index.php?topic_id=38</a></p>
+<p>&nbsp;</p>
+<h3>AccuMotionライブラリについて</h3>
+<p>本プロジェクトに同梱されている「AccuMotion.dll」は特許出願中（特願2011-171482「姿勢判定方法」）に基づく学校法人 幾徳学園 神奈川工科大学 情報学部 情報メディア学科 白井研究室の著作物です。</p>
+<ul>
+<li>CQ出版社「インターフェース」2013年1月号の特集のための限定バージョンです</li>
+<li>サポート等を行う予定はありませんが、内部動作や商用使用等のライセンスについてご興味があります場合は、以下にご相談ください。</li>
+</ul>
+<p>【技術開発】白井研究室AccuMotionプロジェクト　accumotion &lt;at&gt; shirai.la</p>
+<p>【特許ライセンス関連】TAMA-TLO株式会社 042-631-1325　tech &lt;at&gt; <a href="http://tama-tlo.com" class="autohyperlink" target="_blank">tama-tlo.com</a></p>
+<p>&#8212;-</p>
+<p>他の特集も大変面白いです！<br />
+<iframe style="width: 120px; height: 240px;" src="http://rcm-jp.amazon.co.jp/e/cm?t=amazonas-22&amp;o=9&amp;p=8&amp;l=as1&amp;asins=B009YK3V7Q&amp;ref=qf_sp_asin_til&amp;fc1=000000&amp;IS2=1&amp;lt1=_blank&amp;m=amazon&amp;lc1=0000FF&amp;bc1=000000&amp;bg1=FFFFFF&amp;f=ifr" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="320" height="240"></iframe></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>「白井研究室通信」 第27号</title>
+		<link>http://blog.shirai.la/blog/2012/11/mn27/</link>
+				<pubDate>Thu, 22 Nov 2012 09:43:37 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[白井研究室通信]]></category>
+		<category><![CDATA[2x3D]]></category>
+		<category><![CDATA[AccuMotion]]></category>
+		<category><![CDATA[iEXPO]]></category>
+		<category><![CDATA[Interface]]></category>
+		<category><![CDATA[Kinect]]></category>
+		<category><![CDATA[NEC]]></category>
+		<category><![CDATA[NHK]]></category>
+		<category><![CDATA[Scritter]]></category>
+		<category><![CDATA[Ustream]]></category>
+		<category><![CDATA[インターフェース]]></category>
+		<category><![CDATA[サイエンスZERO]]></category>
+		<category><![CDATA[スウェーデン料理]]></category>
+		<category><![CDATA[ミートボール]]></category>
+		<category><![CDATA[募集]]></category>
+		<category><![CDATA[卒業研究]]></category>
+		<category><![CDATA[卒研]]></category>
+		<category><![CDATA[協働事業]]></category>
+		<category><![CDATA[学園祭]]></category>
+		<category><![CDATA[市民協働]]></category>
+		<category><![CDATA[幾徳祭]]></category>
+		<category><![CDATA[情報メディア学科]]></category>
+		<category><![CDATA[所さんの学校では教えてくれないそこんトコロ！]]></category>
+		<category><![CDATA[料理番組]]></category>
+		<category><![CDATA[白井研究室]]></category>
+		<category><![CDATA[相模原市]]></category>
+		<category><![CDATA[瞬刊少年マルマル]]></category>
+		<category><![CDATA[神奈川工科大学]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/?p=236</guid>
+				<description><![CDATA[「白井研究室通信」 第27号／NHK「サイエンスZERO」大特集！ (2012年11月22日発行) 今月号のあ [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>「白井研究室通信」 第27号／NHK「サイエンスZERO」大特集！ (2012年11月22日発行)</p>
+<p>今月号のあいさつ文担当は修士2年の岩楯です。</p>
+<p>11月も終わりを迎え、寒さも本格的になってまいりました。ただいま私はScritterの展示のため、4年生の奈良くんと名古屋におります。愛知県の伏見付近にお住まいでしたら是非おこしくださいませ。</p>
+<p><span id="more-236"></span></p>
+<p>■&#8211;INDEX&#8211;■<br />
+1. 「NHKサイエンスZERO」スタジオコメンテーターで出演します<br />
+2.「所さんの学校では教えてくれないそこんトコロ！」で百万点!?<br />
+3. SIGGRAPH ASIA 2012 Emerging Technologiesで「2x3D」をデモ発表します<br />
+4. 幾徳祭2012 ご視聴ありがとうございました<br />
+5. NEC映像ソリューションフェアで全国デモツアー実施中<br />
+6. 相模原市立博物館と市民協働提案を行いました<br />
+7. Kinectを使った先端特許を雑誌で公開します<br />
+8. 次年度卒研生募集中<br />
+9. Webサイトをリニューアル，個人Blogも！<br />
+10.予告と募集<br />
+編集後記「冬の訪れを感じるこの旬感」<br />
+&#8212;&#8211;</p>
+<p>1. 「NHKサイエンスZERO」スタジオコメンテーターで出演します（白井）<br />
+■サイエンスZERO「SF世界が現実に！プロジェクション映像技術の衝撃」<br />
+2012年11月25日(日) [Ｅテレ] 夜11：30～12：00<br />
+2012年12月1日(土) [Ｅテレ] 昼0：30～1：00<br />
+他、国際放送、NHKオンデマンドでの放送もあるそうです。<br />
+<a href="http://www.nhk.or.jp/zero/index.html" class="autohyperlink" target="_blank">http://www.nhk.or.jp/zero/index.html</a><br />
+<a href="http://www.nhk.or.jp/zero/contents/dsp408.html" class="autohyperlink" target="_blank">http://www.nhk.or.jp/zero/contents/dsp408.html</a><br />
+内容は先日、リニューアルされた東京駅丸の内で実施されたプロジェクションマッピング技術、その裏側特集なのですが、白井研究室の代表研究「多重化隠蔽映像Scritter」は、まさにプロジェクタで投影した映像の上に任意の映像を表示する技術と言えます。新潟県立自然科学館「サイエンスクエスト」プロジェクトや日本科学未来館での4Kデジタルシネマ「かぐやの夢」なども、先端のプロジェクション映像技術を駆使した活動です。<br />
+技術の紹介だけでなく、スタジオでの実演、コメンテーターとしての収録もあり、大変な大舞台でした。サイエンスZEROとしても最長の収録時間（2時間半！）だったという話です。慣れないスタジオでのオリジナルコンテンツの実演の裏には、綿密なテストと、SIGGRAPH発表準備の忙しい合間に技術サポートを提供してくれた大学院生の藤村くんの活躍があります。<br />
+編集された映像ではわからないかもしれませんが、台本は流れとメッセージだけが存在し、あとは要点に合わせて出演者が突っ込んでいきます。チーフプロデューサーの斉藤さんの設計、出演者の竹内薫さん（サイエンス作家）、中村慶子アナウンサーさんのすばらしい質問の投げかけ、そして女優の南沢奈央さん（立教大学 映像身体学科4年生）の透き通るような美しさ…収録前には『文系女子の代表、女優の南沢奈央さんの視点でわかるように！』と自分なりに設定していたのですが、これが本当に難しい！気がつけば熱く「夢のある研究」について語ってしまいました…勿体ないのですが、実際には1/10ぐらいにカットされてしまうと思います。<br />
+後で『もっと技術の話をすればよかった!!』と後悔しきり…プロの科学コミュニケーターと研究者・技術屋の合間での葛藤でしょうか…疲れもあって、収録後まる2日はグッタリしていました。<br />
+LCDパネル全盛の時代、「プロジェクター技術はクラシックなもの」とお考えの人も多いと思います。番組を見た後はそのような考えが一新しているはずです。<br />
+また情報メディア学科の学生さんの親御さんなど、「情報メディアってなんだろう？そんな産業に未来があるのだろうか？」とお考えの方も思います。そういった方にこそ、ぜひ見ていただきたい特集であります。<br />
+☆詳細・ご感想などはこちらへどうぞ<br />
+<a href="http://blog.shirai.la/blog/2012/11/25-nhk/" class="autohyperlink" target="_blank">http://blog.shirai.la/blog/2012/11/25-nhk/</a></p>
+<p>2.「所さんの学校では教えてくれないそこんトコロ！」で百万点!?<br />
+【放映日は11月30日(金)、21:00から2hスペシャルの番組になっています】<br />
+<a href="http://www.tv-tokyo.co.jp/sokontokoro/" class="autohyperlink" target="_blank">http://www.tv-tokyo.co.jp/sokontokoro/</a><br />
+詳細は番組をお楽しみに！ご笑覧ください！<br />
+■「100点満点中、100万点だよ!」（奈良 優斗）<br />
+TV東京の「所さんの学校では教えてくれないそこんトコロ！」で、「瞬刊少年マルマル」が紹介されます。<br />
+先日スタジオ収録を終えて来たのですが、所さんをはじめ、多くの芸能人の方にもご好評頂きました。所さんには、「100点満点中、100万点だよ!」というお言葉を頂きました。<br />
+「瞬刊少年マルマル」は、番組中盤当たりで登場すると思います。よろしくお願いします。<br />
+■ テレビ番組制作の裏側体験記（鈴木 伸之介）<br />
+11月15日にテレビ東京の「所さんの学校では教えてくれないそこんトコロ」、11月16日にNHKの「サイエンスZERO」と2日連続でテレビ局の見学をさせていただきました。<br />
+テレビ東京はバラエティ番組のためか、笑いあり拍手あり非常に明るい雰囲気でした。NHKはそれとは全く異なり、非常に静かで重々しい雰囲気で息がつまりそうでした。　番組の種類の違いによるものなのでしょうが雰囲気がガラりと変わったことには驚きした。2時間番組（朝10時から夕方6時半）と30分番組（2時から10時半）のリハーサルもあわせた収録時間がほぼ同じだったことにも驚きました。映像制作に興味がある自分としては大変勉強になりました！</p>
+<p>3. SIGGRAPH ASIA 2012 Emerging Technologiesで「2x3D」をデモ発表します（藤村，小出, Khama, Jonas）<br />
+M1の藤村です。11月28日から12月1日まで行われるSIGGRAPH ASIA 2012のEmerging Technologies部門で「2x3D」をデモ展示＆発表を行います！SIGGRAPHはこれまでポスター展示やデモのお手伝いで参加したことがありますが、世界最高の舞台であるEmerging Technologiesで自分の発表デモや発表の機会を得られたのは今回が初となります。留学生もチームに加わり、体制もまずまず。今までの研究成果を存分に発揮したいと思います！</p>
+<p>■「2x3D」とは？<br />
+2x3D（ツーバイスリーディー）は１つの画面で、2Dの映像と3Dの映像を同時に視聴できるシステムです。裸眼の状態では2D映像を視聴でき、3Dメガネを掛けると3D映像が視聴できます。メガネの掛け替えだけで、簡単に映像を切り替えることができます。<br />
+<a href="http://blog.shirai.la/blog/2012/10/pressrelease20121025/" class="autohyperlink" target="_blank">http://blog.shirai.la/blog/2012/10/pressrelease20121025/</a></p>
+<p>■SIGGRAPH Asia 2012 Emerging Technologiesとは？<br />
+世界最大のコンピュータグラフィック＆インタラクティブ技術の国際会議「ACM SIGGRAPH」のアジア開催年次大会です。<br />
+Emerging Technologiesは先端技術を中心とした新しいインタラクティブ技術のデモセッションで、採択難度は大変に高い一方、多くの来場者と直接出会えるSIGGRAPHの看板セッションです。</p>
+<p>SIGGRAPH Asia 2012<br />
+開催場所：シンガポール<br />
+開催期間：11月28 日~ 12月1日<br />
+<a href="http://www.siggraph.org/asia2012/" class="autohyperlink" target="_blank">http://www.siggraph.org/asia2012/</a><br />
+【詳細・映像はこちら】 <a href="http://www.shirai.la/topics/news/SA2012" class="autohyperlink" target="_blank">http://www.shirai.la/topics/news/SA2012</a></p>
+<p>4. 幾徳祭2012 ご視聴ありがとうございました（鈴木 伸之介）<br />
+今年の幾徳祭、白井研究室では「日本の食材で作るスウェーデン料理」という番組をUSTREAMでライブ配信しました。<br />
+<a href="http://www.ustream.tv/channel/swedishfood-cookingshow" class="autohyperlink" target="_blank">http://www.ustream.tv/channel/swedishfood-cookingshow</a><br />
+スウェーデン料理の「ジャム付きミートボール」を作りました。研究室にとてもいい匂いが立ち込めていて、またライブ感がある楽しい番組になりました。テレビ放送では非常に伝わりにくい味についてを放送したスウェーデン料理番組でしたが、いかがでしたでしょうか。ミートボールは肉にジャムを付けて食べるというゲテモノ風なのですが、意外にもおいしかったのです。問題はそのあとに作ったチョコレートボールでした。調理の段階からおかしな量の砂糖を使用していたのでかなり甘いだろうとは予想していたのですが、予想以上に喉が痛くなるような甘さのお菓子でした。日本人との味覚の違いというのが判ったような気がしますが、ゲスト参加していた1年生の鈴木さん（女子）は「おいしい！」と言っていました。男子と女子の味の違いも判ったような気がします。<br />
+また、ご視聴いただいた皆様、ありがとうございました。相模原市在住の中島さまからは後日談でも「すばらしい！こういうことが学園祭でできる学生はこれから必要！」と白井先生経由でメッセージをいただきました。ありがとうございました。<br />
+P.S. 現在、卒業研究で「スマホによる笑い検出システム”L-Pod”」の研究でAndroidアプリの開発などをしている私ですが、先日、大本命だった地元静岡の会社に不採用通知をいただいてしまい、崖っぷちにおります。全国どちらの企業さんでもかまいません、可能性のある採用企業様、お声をおかけいただければ幸いです！メール→ shin &lt;at&gt; shirai.la</p>
+<p>5. NEC映像ソリューションフェアで全国デモツアー実施中（奈良，岩楯）<br />
+NEC映像ソリューションフェア2012[中部] （11/22）<br />
+<a href="http://www.nec-display.com/jp/info/sol/2012__nagoya.html" class="autohyperlink" target="_blank">http://www.nec-display.com/jp/info/sol/2012__nagoya.html</a><br />
+NEC映像ソリューションフェア2012[大阪] （12/4・5）<br />
+<a href="http://www.nec-display.com/jp/info/sol/2012_kansai.html" class="autohyperlink" target="_blank">http://www.nec-display.com/jp/info/sol/2012_kansai.html</a><br />
+本日、名古屋市中区にあるNEC中部ビルにて本日22日10時~17時にScritterのデモ展示をおこなっております。<br />
+展示の内容は、液晶プロジェクターによる隠蔽表示、LEDプロジェクターによる2x3D、隠蔽表示の最新2点です。<br />
+この展示はScritter第2世代と、研究の最新成果であるScritter第3世代を展示になります。<br />
+（東京・名古屋・大阪の”3大都市ジャパン・ツアー”をSIGGRAPH ASIAシンガポールでの展示と並列に行なっているという奇跡的な状況でもあります）<br />
+展示ご協力をいただいておりますNECディスプレイソリューションズ様にこの場をお借りして御礼申し上げます。<br />
+皆様と会場でお会いできますことを楽しみにしております。<br />
+<a href="http://blog.shirai.la/blog/2012/11/neciexpo2012/" class="autohyperlink" target="_blank">http://blog.shirai.la/blog/2012/11/neciexpo2012/</a></p>
+<p>6. 相模原市立博物館と市民協働提案を行いました（白井）<br />
+2012年11月13日、平成24年度相模原市協働事業提案制度の公開プレゼンテーションにおいて、新企画「みんなでつくる相模原『知的探求散策アルバム』」を発表させていただきました。<br />
+「協働事業」とは、市民と行政が一体となって、問題を解決していく新しい取り組みで、全国各地の自治体で実施されつつあります。今回の提案は、相模原市立博物館における「相模原どこでもミュージアム」という市立博物館の構想に対して、具体的に市民主体の博物活動をネットワーク（人的・通信的）を活用して『楽しく実施』するという視点で、街歩き・映像ワークショップを行うという設計になっています。<br />
+博物活動以外に、科学コミュニケーション、三世代いっしょに、デジタルデバイド、情報の世代間伝達、情報リテラシー、シティセールスなど多くの課題を楽しく解決できる可能性がある取り組みです。</p>
+<p>■詳細・プレゼンテーション・動画はこちら<br />
+<a href="http://blog.shirai.la/blog/2012/11/13-sagamihara/" class="autohyperlink" target="_blank">http://blog.shirai.la/blog/2012/11/13-sagamihara/</a><br />
+この場をお借りして、御関係各位のご協力にむけた感謝を述べさせて頂きます。<br />
+来年度の研究室活動の一つの軸になると思います。採択されることを祈っております。</p>
+<p>7. Kinectを使った先端特許を雑誌で公開します<br />
+特許というのはただ取得してもなかなか利用や普及にはつながらないものです。<br />
+特にソフトウェアやシステムはその価値を表現するのが大変です。<br />
+この度、公開される白井研究室の特許「姿勢判定方法」（特許出願中：特願2011-171482）を11月25日発売予定のCQ出版社「インターフェース」2013年1月号特集『誤認識しにくいジェスチャ入力の研究！』において詳細に解説し、サンプルソースコード付きライブラリの形で提供します。<br />
+ご興味ありますかたはぜひ、お試しください！<br />
+<a href="http://interface.cqpub.co.jp/" class="autohyperlink" target="_blank">http://interface.cqpub.co.jp/</a><br />
+<a href="http://blog.shirai.la/blog/tag/accumotion/" class="autohyperlink" target="_blank">http://blog.shirai.la/blog/tag/accumotion/</a></p>
+<p>8. 次年度卒研生募集中<br />
+学内向け、情報メディア学科3年生向けのお知らせです。<br />
+昨日11月21日から来年度の卒研希望者の面談を開始しています。<br />
+2日目現在、9名の一次定員枠に7名の希望者が第一志望で白井研究室を希望してくれている状況です。すばらしい才能をもった学生たちに先生自身が揺り動かされています。<br />
+面談は、海外発表につき26日月曜日夕方から不在します。配属希望する3年生はすぐご訪問ください！メール一本、Twitter一本でも構いません。</p>
+<p>9. Webサイトをリニューアル，個人Blogも！<br />
+お気づきの方もいらっしゃると思いますが、白井研究室のホームページが大幅にリニューアル進行中です！<br />
+以後 www.shirai.la は国際系のコンテンツ、 blog.shirai.la は学生個人、プロジェクトおよび日本向けのコンテンツというようにドメインごとに住み分けていきたいと思います（移行作業中）。<br />
+すでにいくつかのブログが立ち上がっているようですので紹介いたします。<br />
+☆4年生の亀山です。亀山のブログなのでそのままkameblogと名付けました。特に制限を設けず、自分の興味のあること(主に特撮・アニメ・ゲームetc&#8230;&#8230;)についてのんびり書いていこうと思います。よかったら覗いてみてください。よろしくおねがいします。 <a href="http://blog.shirai.la/kame/" class="autohyperlink" target="_blank">http://blog.shirai.la/kame/</a><br />
+☆M1の北田です。学習帳のように日々の研究活動および調査内容をまとめていくスタンスで個人ブログを更新していきたいと思います。よろしくお願いいたします。 <a href="http://blog.shirai.la/kitada/" class="autohyperlink" target="_blank">http://blog.shirai.la/kitada/</a></p>
+<p>10.予告と募集</p>
+<p>【ご協力お願い】「コンピューターゲームにおけるユーザーの求める要素の分析」の第2回アンケートを下記のURLで実施中です！第1回にご協力して下さった方もよろしければご協力お願いします！(雷電)<br />
+短縮URL：http://bit.ly/GG20121023<br />
+【年賀状をお送りします】「住所登録」をお願いいたします　http://j.mp/ShiraiLabSubsc<br />
+【参加者募集】忘年会は12/21（研究室内）予定、新年会は1/7（本厚木駅前）の予定<br />
+【募集】多重化隠蔽映像「ScritterH」の国際特許・ライセンスにご興味のある企業様、ご相談お待ちしております。<br />
+【Call For Demo】 Laval Virtual ReVolution2013 “THE NEXT BIG STEP”<br />
+<a href="http://www.shirai.la/event/lavalvirtual/blog/20121008" class="autohyperlink" target="_blank">http://www.shirai.la/event/lavalvirtual/blog/20121008</a><br />
+■編集後記　今号のテーマ「冬の訪れを感じるこの旬感」<br />
+(藤村) ケンタッキーのCM<br />
+(小出)朝起きるのがつらい<br />
+(亀山)マックのグラコロ。<br />
+(岩楯) 頭痛、冷え性、静電気<br />
+(北田) 鍋物料理が恋しくなる<br />
+(白井)霜柱、吐く息が白い、車に暖気、夜明けが遅い（＝夜が長い→徹夜が長くなる）。</p>
+<p>-+-+-+-+-+-+-<br />
+白井研究室では留学生交換や、企業・他大学との共同研究、インターンシッププログラムなどを積極的に開発しています。<br />
+科学コミュニケーションや先端技術、エンタテイメ ント技術、イベントや共同研究のご提案、また本メールニュースへのお知らせなどの掲載希望などはこちらまでお気軽にお寄せください。もちろんご意見ご感想も歓迎です。<br />
+お問い合わせフォーム　http://j.mp/shirailabc<br />
+白井研究室facebook 　http://j.mp/FBShiraiLab<br />
+白井研究室メールニュース「白井研究室通信」第27号<br />
+ご購読/配信停止はこちらから　http://j.mp/ShiraiLabSubsc<br />
+著作製作：神奈川工科大学 白井研究室 / 改変はご遠慮ください</p>
+<p>-+-+-+-+-+-+-</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>AccuMotion</title>
+		<link>http://blog.shirai.la/blog/2012/11/accumotion/</link>
+				<pubDate>Thu, 01 Nov 2012 10:35:18 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[AccuMotion]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[Interface]]></category>
+		<category><![CDATA[Kinect]]></category>
+		<category><![CDATA[NEC]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/?p=103</guid>
+				<description><![CDATA[AccuMotionに関する情報はこちら AccuMotionとは？ Kinectなどの自然動作ユーザインタフ [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>AccuMotionに関する情報はこちら</p>
+<p>AccuMotionとは？</p>
+<p>Kinectなどの自然動作ユーザインタフェース（Natural User Interface: NUI）において，「溜め動作」に注目して自然動作とコマンド動作を入力するアルゴリズムおよび特許の通称です．Accumulate（溜める）＋Motionの造語です．またAccuMotionアルゴリズムを応用した関連プロジェクトについてもこのタグがついています．</p>
+<p><span id="more-103"></span></p>
+<p>&nbsp;</p>
+<p><iframe width="990" height="743" src="https://www.youtube.com/embed/yaIPyRwjfTE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><a href="http://blog.shirai.la/wp-content/uploads/2012/11/20121102-032625.jpg"><img src="http://blog.shirai.la/wp-content/uploads/2012/11/20121102-032625.jpg" alt="20121102-032625.jpg" class="alignnone size-full" /></a></p>
+<p>&nbsp;</p>
+<p>サンプルのダウンロードはこちらから <a class="download-link" title="バージョン 1.00" href="http://blog.shirai.la/download/4665/" rel="nofollow">
+	KinectTVRemote+AccuMotionLib	(716 ダウンロード)
+</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>
