@@ -1,9 +1,14 @@
 # 神奈川工科大学 情報メディア学科 白井研究室 blog.shirai.la アーカイブ
 
-## 作業記録
+作業記録
 
+## 20200530 とりあえずのアーカイブを作成
+zipにした段階で2.14GBもある…
+ファイル数: 17,855、フォルダー数: 7,509
 
-1. 20200613 このリポジトリを作成、Github PagesにスタティックHTMLとして保存する作業を始める。
+## 20200613 このリポジトリを作成、Github PagesにスタティックHTMLとして保存する作業を始める。
+
+どんなオプションでダウンロードしたか思い出せないので再度実施しながら作業する。
 
 `` wget --mirror --page-requisites --html-extension --convert-links http://blog.shirai.la``
 
@@ -46,6 +51,11 @@
 - juten : 18.3MB ファイル数: 156、フォルダー数: 91
 - events: ファイル数: 4、フォルダー数: 3
 
+ここまでやって `/downloads` がないことに気づく。ダウンロードしなおしている方は無事に落とせているようだ。
+
+### 旧ドメインの「http://blog.shirai.la」の相対パス化
+
+`--convert-links` オプションでダウンロードしなおした素材がどうなるのか確認してから次の作業にしたい。
 
 
 ### ドメインの設定(設定保留)
@@ -54,9 +64,68 @@
 公式資料
 - [GitHub Pages サイトのカスタムドメインを管理する](https://help.github.com/ja/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
 
+- nic.la での設定は終了。digなりnslookupなりで確認できるようにはなっていない。
+
+```
+nslookup githubpages.shirai.la
+サーバー:  aterm.me
+Address:  240b:11:7c0:e100:fab7:97ff:fe3d:d770
+*** aterm.me が githubpages.shirai.la を見つけられません: Non-existent domain
+```
 
 
+Githubの[リポジトリ設定](https://github.com/kaitas/blog-kait-shirailab/settings)で実施すると、いきなり反映されてしまうので、しばらく様子見してからもう一度試してみたい。
 
-1. 20200530 とりあえずのアーカイブを作成
-zipにした段階で2.14GBもある…
-ファイル数: 17,855、フォルダー数: 7,509
+
+### Kagoyaのサーバ情報
+
+- https://vps.kagoya.com/login
+- vps87415
+
+
+| インスタンス名 | CPU | メモリ | ストレージ | IP | 状態 | コスト |
+----|---- 
+| kagoya.shirai.la | 6コア | 2GB | 400GB | 153.127.242.163 | 停止中 | 1760円/月 |
+| new.blog.shirai.la | 6コア | 2GB | 160GB | 133.18.30.222 | 使用中 | 1760円/月 |
+
+月額3520円
+
+
+### 153.127.242.163
+
+- 20120824起動
+- kagoya.shirai.la / blog.shirai.laとして長年使用してきたが，2016年初頭からdnsとhttpdの動作が不安定になり，2016/4/1にblog(wordpress)のみ引越し，その後，細かなサービスはインスタンスから復元し，問題ないようならそのまま運用し，本サーバは削除予定．
+- (20190815)ファイル回収作業を開始。終了後は速やかに廃棄。
+- (2020/3/15) /home/aki を F:\WinSCP-backup\kagoya\kagoya.shirai.la-v2824 に移動中
+- いったんファイルのバックアップはおわったようなので削除に向けて電源断。
+- (2020/6/14) 電源断しても料金はかかり続けるようなのでインスタンス削除。お疲れ様でした。
+
+nic.laよりエントリー削除
+
+### 133.18.30.222
+- vps20160401
+- (2019/8/15)現在のblog.shirai.la と思われる。つぶすサーバ(kagoya.shirai.la)のファイルを/home/akiに移動させて、最終的にはこちらも停止に向けて動く。作業開始時のディスク使用量67.23GB。
+- (2020/3/15)調査メモリ使用量1324MB ディスク使用量76.49GB システム負荷0.03,0.08,0.02 →メモリクリア実施して再起動してみた→メモリ539MBディスク使用量76.49GB
+- (2020/3/15)スペック変更で3コア,1 GB / 2 GB,80GB SSDに変更。SSD容量が半分（ギリギリ）になっているが、料金は1760→880円になっているので効果はあると思います。PHPをアップグレードするか、できるだけはやく blog.shirai.la を静的サイトに移行すること。
+- (2020/3/16) Simply-Staticを使って静的サイトにする見通しはついた。作業ディスクがないので再び160GBに拡張。
+
+### shirai.la DNS
+- blog A 133.18.30.222
+- githubpages CNAME kaitas.github.io.shirai.la.
+- vps CNAME blog.shirai.la.
+
+以下はいらないかもしれないエントリー
+- hayabusa A 153.127.243.78
+- red CNAME vps.shirai.la.
+- expixel CNAME vps.shirai.la.
+- waral CNAME vps.shirai.la.
+- mukai CNAME vps.shirai.la.
+- gameloc CNAME vps.shirai.la.
+- exconv CNAME vps.shirai.la.
+- sown CNAME vps.shirai.la.
+- cofun CNAME vps.shirai.la.
+- manga CNAME vps.shirai.la.
+- yumecon CNAME vps.shirai.la.
+- shinken CNAME vps.shirai.la.
+- member CNAME vps.shirai.la.
+- dev CNAME vps.shirai.la.
