@@ -12,6 +12,14 @@
 0530のindex.htmlからリポジトリに移動してみる。
 何が大きいのか皆目見当つかない。
 
+### ドメインの設定
+``githubpages.shirai.la`` というドメインに設定してみたい
+
+公式資料
+- [GitHub Pages サイトのカスタムドメインを管理する](https://help.github.com/ja/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
+
+
+
 
 1. 20200530 とりあえずのアーカイブを作成
 zipにした段階で2.14GBもある…
