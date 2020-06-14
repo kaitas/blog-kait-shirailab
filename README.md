@@ -12,7 +12,14 @@
 0530のindex.htmlからリポジトリに移動してみる。
 何が大きいのか皆目見当つかない。
 
-### ドメインの設定
+### スタイルシートの移植
+
+`Gridster-lite`というスタイルを使っていたようなので移植
+`wp-content/themes/gridster-lite/style.css@ver=5.1.5.css`
+`wp-content/uploads`だけで 758 MB (795,056,501 バイト) あるのでこれを除く`themes`, `plugins`を移植。
+
+
+### ドメインの設定(設定保留)
 ``githubpages.shirai.la`` というドメインに設定してみたい
 
 公式資料
