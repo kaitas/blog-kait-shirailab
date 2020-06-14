@@ -16,7 +16,15 @@
 
 `Gridster-lite`というスタイルを使っていたようなので移植
 `wp-content/themes/gridster-lite/style.css@ver=5.1.5.css`
-`wp-content/uploads`だけで 758 MB (795,056,501 バイト) あるのでこれを除く`themes`, `plugins`を移植。
+`wp-content/uploads`だけで 758 MB (795,056,501 バイト) あるのでこれを除く`themes`, `plugins`を移植。 →成功
+
+### 画像の移植
+
+たとえば
+``http://blog.shirai.la/wp-content/uploads/2017/08/SIGGRAPH2017%E6%97%85%E3%81%AE%E3%81%97%E3%81%8A%E3%82%8A-225x158.png``
+といった形で `/uploads` に画像がいるので、年ごとなど細かい単位で移植していく。新しい順にやってみる。
+
+- 2018 : 8.47MB ファイル数: 11、フォルダー数: 2
 
 
 ### ドメインの設定(設定保留)
