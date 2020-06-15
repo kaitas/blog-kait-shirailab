@@ -10,7 +10,7 @@ zipにした段階で2.14GBもある…
 
 どんなオプションでダウンロードしたか思い出せないので再度実施しながら作業する。
 
-`` wget --mirror --page-requisites --html-extension --convert-links http://blog.shirai.la``
+`` wget --mirror --page-requisites --html-extension --convert-links https://new.shirai.la``
 
 いちおう wordpressのエクスポートはしてみる `shirailab.WordPress.2020-06-14.xml` (9.08MB)
 
@@ -26,7 +26,7 @@ zipにした段階で2.14GBもある…
 ### 画像の移植
 
 たとえば
-``http://blog.shirai.la/wp-content/uploads/2017/08/SIGGRAPH2017%E6%97%85%E3%81%AE%E3%81%97%E3%81%8A%E3%82%8A-225x158.png``
+``https://new.shirai.la/wp-content/uploads/2017/08/SIGGRAPH2017%E6%97%85%E3%81%AE%E3%81%97%E3%81%8A%E3%82%8A-225x158.png``
 といった形で `/uploads` に画像がいるので、年ごとなど細かい単位で移植していく。新しい順にやってみる。
 
 - 2018 : 8.47MB ファイル数: 11、フォルダー数: 2
@@ -53,7 +53,7 @@ zipにした段階で2.14GBもある…
 
 ここまでやって `/downloads` がないことに気づく。ダウンロードしなおしている方は無事に落とせているようだ。
 
-### 旧ドメインの「http://blog.shirai.la」の相対パス化
+### 旧ドメインの「https://new.shirai.la」の相対パス化
 
 `--convert-links` オプションでダウンロードしなおした素材がどうなるのか確認してから次の作業にしたい。
 
@@ -132,7 +132,7 @@ nic.laよりエントリー削除
 
 ### `wget` ダウンロードファイルの置き直し
 
-`` wget --mirror --page-requisites --html-extension --convert-links http://blog.shirai.la``
+`` wget --mirror --page-requisites --html-extension --convert-links https://new.shirai.la``
 
 
 ### `/download` ディレクトリの置き直し（問題あり）
@@ -226,10 +226,12 @@ https://new.shirai.la/download/4939/webbased.pdf
 - yuzen
 
 
-### 相対パスの確認
+### サーバ名の変更
 
 - `a href="http://blog.shirai.la/` to `a href="https://new.shirai.la/` 10000 results in 1764 files
 - `href='http://blog.shirai.la/wp-json/'` to `href='https://new.shirai.la/wp-json/'` 2303 results in 2303 files
+- `http://new.shirai.la` to `https://new.shirai.la` 10004 resulrs in 1256 files
+
 
 ### Google Analytics の置き直し
 

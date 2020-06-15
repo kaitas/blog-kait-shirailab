@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	神戸のブログ へのコメント	</title>
-	<atom:link href="http://blog.shirai.la/goudo/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>http://blog.shirai.la/goudo</link>
+	<atom:link href="https://new.shirai.la/goudo/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://new.shirai.la/goudo</link>
 	<description>Just another KAIT Shirai Lab Blog Sites site</description>
 	<lastBuildDate>
 	Tue, 29 Jan 2013 09:38:40 +0000	</lastBuildDate>
@@ -21,10 +21,10 @@
 			<item>
 				<title>
 				匿名 より ブログ作成記念 へのコメント				</title>
-				<link>http://blog.shirai.la/goudo/2013/01/29/hello-world/#comment-1</link>
+				<link>https://new.shirai.la/goudo/2013/01/29/hello-world/#comment-1</link>
 		<dc:creator><![CDATA[匿名]]></dc:creator>
 		<pubDate>Tue, 29 Jan 2013 09:38:40 +0000</pubDate>
-		<guid isPermaLink="false">http://blog.shirai.la/goudo/?p=1#comment-1</guid>
+		<guid isPermaLink="false">https://new.shirai.la/goudo/?p=1#comment-1</guid>
 					<description><![CDATA[]]></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 						</item>
