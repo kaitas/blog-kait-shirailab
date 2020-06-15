@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>GoogleChrome &#8211; notepage</title>
+	<atom:link href="http://blog.shirai.la/marika/tag/googlechrome/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/marika</link>
+	<description>◆とある情報学部四年生のノート◆</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:25:01 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>初っ端からPlayCanvasが実行できない時の話</title>
+		<link>http://blog.shirai.la/marika/2017/02/23/semi02/</link>
+				<pubDate>Thu, 23 Feb 2017 06:54:46 +0000</pubDate>
+		<dc:creator><![CDATA[東田 茉莉花]]></dc:creator>
+				<category><![CDATA[ゼミ日報]]></category>
+		<category><![CDATA[トラブルシューティング]]></category>
+		<category><![CDATA[GoogleChrome]]></category>
+		<category><![CDATA[PlayCanvas]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/marika/?p=34</guid>
+				<description><![CDATA[こんにちは東田です． 本日は新四年のゼミ日でした． 全員の進捗報告を行った後に，プロジェクターに接続した途端に &#8230; <a href="http://blog.shirai.la/marika/2017/02/23/semi02/" class="more-link">続きを読む <span class="screen-reader-text">初っ端からPlayCanvasが実行できない時の話</span></a>]]></description>
+								<content:encoded><![CDATA[<p>こんにちは東田です．</p>
+<p>本日は新四年のゼミ日でした．</p>
+<p>全員の進捗報告を行った後に，<del>プロジェクターに接続した途端にPCがブルースクリーンを吐き出した</del>望月くんを中心とし，Playcanvasを用いた多重化のワークショップを行いました．</p>
+<p>基礎的なグラフィクス数学の話から始まり，PlayCanvasを用いた簡単な画像変化デモを作る事になったのですが…</p>
+<p>&nbsp;</p>
+<p>新規作成！NEWを押していざEDIT．</p>
+<p><img class="alignnone size-large wp-image-35" src="http://blog.shirai.la/marika/files/2017/02/0222_01-1024x489.png" alt="" width="660" height="315" srcset="http://blog.shirai.la/marika/files/2017/02/0222_01-1024x489.png 1024w, http://blog.shirai.la/marika/files/2017/02/0222_01-300x143.png 300w, http://blog.shirai.la/marika/files/2017/02/0222_01-768x367.png 768w, http://blog.shirai.la/marika/files/2017/02/0222_01.png 1596w" sizes="(max-width: 660px) 100vw, 660px" /></p>
+<p><strong>この時点でなんかおかしい．</strong></p>
+<p>本来の実行画面ですと真ん中上段にシーンが表示されているはずなのですが…無い．</p>
+<p>おかしいなあ……不安を感じつつ実行してみる．</p>
+<p>&nbsp;</p>
+<p><img class="alignnone size-full wp-image-36" src="http://blog.shirai.la/marika/files/2017/02/0222_02.png" alt="" width="669" height="106" srcset="http://blog.shirai.la/marika/files/2017/02/0222_02.png 669w, http://blog.shirai.la/marika/files/2017/02/0222_02-300x48.png 300w" sizes="(max-width: 669px) 100vw, 669px" /></p>
+<p><strong>なんでや．</strong></p>
+<p>&nbsp;</p>
+<p><span style="color: #ff0000;">Uncaught TypeError:Cannot read property &#8216;applySceneSettings&#8217; of null</span></p>
+<p><strong>……未捕獲のタイプエラー？（違います）</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>applySceneSettingってなんじゃらほい．作成も削除もした覚えはないぞ…？</p>
+<p>プロジェクトの作成に失敗したのか？ともう一度作り直しても，</p>
+<p>まさかメモリが足りないのかと他のアプリケーションを終了してから作り直しても，</p>
+<p>何故か表示されない．おまけにググっても出ない．ちょっとこれはお手上げです…．</p>
+<p>&nbsp;</p>
+<p>ということで，某先輩にお尋ねしてみました．ヘルプミー！</p>
+<p>&nbsp;</p>
+<p><img class="alignnone size-full wp-image-43" src="http://blog.shirai.la/marika/files/2017/02/0222_03-1.png" alt="" width="202" height="105" /></p>
+<p>即答だったよ！わーい！ありがとうございます！</p>
+<p>&nbsp;</p>
+<p>ということで<a href="http://qiita.com/Hiroki_M/items/c93b5b642514cde556d6">こちら</a>を参考に有効化します．</p>
+<p>うろ覚えでは有るのですが，初期設定では有効だったものを自分で切ってしまったのだと思います．（当時，しょっちゅうChromeのメモリ不足が表示されるので，その<a href="http://mazi-affiliate.com/boubiroku/kuromu.html">解決策</a>として設定を変えたのでした）</p>
+<p>&nbsp;</p>
+<p>実行してみると…</p>
+<p><img class="alignnone size-large wp-image-41" src="http://blog.shirai.la/marika/files/2017/02/0222_04-1024x489.png" alt="" width="660" height="315" srcset="http://blog.shirai.la/marika/files/2017/02/0222_04-1024x489.png 1024w, http://blog.shirai.la/marika/files/2017/02/0222_04-300x143.png 300w, http://blog.shirai.la/marika/files/2017/02/0222_04-768x366.png 768w, http://blog.shirai.la/marika/files/2017/02/0222_04.png 1593w" sizes="(max-width: 660px) 100vw, 660px" /></p>
+<p>おっ</p>
+<p><img class="alignnone size-large wp-image-40" src="http://blog.shirai.la/marika/files/2017/02/0222_05-1024x487.png" alt="" width="660" height="314" srcset="http://blog.shirai.la/marika/files/2017/02/0222_05-1024x487.png 1024w, http://blog.shirai.la/marika/files/2017/02/0222_05-300x143.png 300w, http://blog.shirai.la/marika/files/2017/02/0222_05-768x365.png 768w, http://blog.shirai.la/marika/files/2017/02/0222_05.png 1591w" sizes="(max-width: 660px) 100vw, 660px" /><strong>表示された！！！！！！！</strong></p>
+<p>わーい嬉しい．</p>
+<p>前述のようにググっても出なかったので，</p>
+<p>もし自分のように引っかかる人がいてお手上げになった際の道標にしておこうと思います．</p>
+<p><del>……え？そんな間抜けはそうそう居ない？</del></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

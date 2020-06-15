@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Mizuki&#039;s Blog</title>
+	<atom:link href="http://blog.shirai.la/mizuki/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/mizuki</link>
+	<description>Just another KAIT Shirai Lab Blog Sites site</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:24:53 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>ニコニコ動画を再現したいっ！　【Part 1】</title>
+		<link>http://blog.shirai.la/mizuki/2013/04/06/%e3%83%8b%e3%82%b3%e3%83%8b%e3%82%b3%e5%8b%95%e7%94%bb%e3%82%92%e5%86%8d%e7%8f%be%e3%81%97%e3%81%9f%e3%81%84%e3%81%a3%ef%bc%81%e3%80%80%e3%80%90part-1%e3%80%91/</link>
+				<comments>http://blog.shirai.la/mizuki/2013/04/06/%e3%83%8b%e3%82%b3%e3%83%8b%e3%82%b3%e5%8b%95%e7%94%bb%e3%82%92%e5%86%8d%e7%8f%be%e3%81%97%e3%81%9f%e3%81%84%e3%81%a3%ef%bc%81%e3%80%80%e3%80%90part-1%e3%80%91/#respond</comments>
+				<pubDate>Sat, 06 Apr 2013 11:38:23 +0000</pubDate>
+		<dc:creator><![CDATA[mizuki]]></dc:creator>
+				<category><![CDATA[ニコニコ超会議]]></category>
+		<category><![CDATA[開発]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/mizuki/?p=27</guid>
+				<description><![CDATA[約3ヶ月ぶりの更新です(笑) &#160; 今回はニコニコ動画に関するお話。 &#160; 約1ヶ月後に開催さ [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>約3ヶ月ぶりの更新です(笑)</p>
+<p>&nbsp;</p>
+<p>今回はニコニコ動画に関するお話。</p>
+<p>&nbsp;</p>
+<p>約1ヶ月後に開催されるニコニコ超会議にて、私の所属する研究室がニコニコメガネというものを出展します。</p>
+<p>ニコニコメガネとは、メガネをかけてるときのみ動画上を流れるコメントが見れるというもの！(だったはず。。。)</p>
+<p>で、私はそれにつかうニコニコ動画のプレイヤーもどきを絶賛制作中というわけです。</p>
+<p>&nbsp;</p>
+<p>現在の開発状況はといいますと、<br />
+4月5日0時過ぎからカタカタと作り始めてそれっぽいものは出来ました。</p>
+<p><a href="http://blog.shirai.la/mizuki/files/2013/04/4.png"><img src="http://blog.shirai.la/mizuki/files/2013/04/4-300x235.png" alt="4" width="300" height="235" class="alignnone size-medium wp-image-28" srcset="http://blog.shirai.la/mizuki/files/2013/04/4-300x235.png 300w, http://blog.shirai.la/mizuki/files/2013/04/4.png 611w" sizes="(max-width: 300px) 100vw, 300px" /></a>　<a href="http://blog.shirai.la/mizuki/files/2013/04/1.png"><img src="http://blog.shirai.la/mizuki/files/2013/04/1-300x235.png" alt="1" width="300" height="235" class="alignnone size-medium wp-image-30" srcset="http://blog.shirai.la/mizuki/files/2013/04/1-300x235.png 300w, http://blog.shirai.la/mizuki/files/2013/04/1.png 612w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+スクリーンショットするとこんなかんじ。</p>
+<p>開発はXNA4.0、C#。<br />
+コメントはニコニコからxml形式で拾ってきてます。</p>
+<p>当初はコメントの正確なサイズがうまく取れなくてコメントの位置が左右がずれていたものの、</p>
+<p>無事解決し、現在は職人コメもなんとか再現できてます。</p>
+<p><a href="http://blog.shirai.la/mizuki/files/2013/04/3.png"><img src="http://blog.shirai.la/mizuki/files/2013/04/3-300x235.png" alt="3" width="300" height="235" class="alignnone size-medium wp-image-29" srcset="http://blog.shirai.la/mizuki/files/2013/04/3-300x235.png 300w, http://blog.shirai.la/mizuki/files/2013/04/3.png 611w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>&nbsp;</p>
+<p>今はまだ、起動すれば動画とコメントが流れて、動画が終わればループするだけの状態です。</p>
+<p>できれば本家のPlayerのように動画おわったら「提供」みたいなものを表示したいですね。<br />
+(研究室の名前載せたりとか。。。)</p>
+<p>&nbsp;</p>
+<p>しかしまさかニコニコのコメントを観察&amp;考察する日がくるなんて思ってもいませんでした(笑)</p>
+<p>コメントは縦にいくつまで表示されるだとか、<br />
+自動でサイズ調整する機能だとか、<br />
+どんな条件で流れるコメントの縦の位置が決定されてるのか、等など。。。</p>
+<p>良く探せばまだまだ隠された仕様がありそうです(汗)</p>
+<p>&nbsp;</p>
+<p>また開発が進めば、Part 1なんてタイトルにつけてますし、<br />
+Part 2 、Part 3・・・と投稿していくと思います。</p>
+<p>少なくとも今はそのつもりです(汗)</p>
+<p>なんせ文章を書くのが苦手で、正直ブログもできれば書きたくないというのが本心(笑)</p>
+<p>ですが、続けていればもしかしたら自分に何か利があるかもしれないと信じて書いていこうと思います。</p>
+<p>では、今回はこのへんで。</p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;2013/04/05&#8212;&#8212;&#8212;&#8212;&#8212;</p>
+<p>以下はメモ書き的な。</p>
+<p>【今回実装した内容】<br />
+・動画を再生<br />
+・コメントを流す。コメントが長いほど速くながれる(本家参考)<br />
+・コマンドの反映。色とかサイズとか位置とか。(7割くらいかな)<br />
+・流れないタイプのコメント(上とか下の)が画面からはみ出すようだったら収まるようにサイズが自動調整される(本家参考)<br />
+・動画のサイズによってウィンドウのサイズが自動で調整されるように。</p>
+<p>【今後実装したい内容】<br />
+・動画が終わった後の提供もどき<br />
+・一時停止<br />
+・シークバー<br />
+・コメントの表示、非表示<br />
+・このPlayerならではの機能。</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/mizuki/2013/04/06/%e3%83%8b%e3%82%b3%e3%83%8b%e3%82%b3%e5%8b%95%e7%94%bb%e3%82%92%e5%86%8d%e7%8f%be%e3%81%97%e3%81%9f%e3%81%84%e3%81%a3%ef%bc%81%e3%80%80%e3%80%90part-1%e3%80%91/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Global Game Jam 2013</title>
+		<link>http://blog.shirai.la/mizuki/2013/01/29/global-game-jam-2013/</link>
+				<comments>http://blog.shirai.la/mizuki/2013/01/29/global-game-jam-2013/#respond</comments>
+				<pubDate>Tue, 29 Jan 2013 12:20:15 +0000</pubDate>
+		<dc:creator><![CDATA[mizuki]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/mizuki/?p=14</guid>
+				<description><![CDATA[今回初めてGloble Game Jam(GGJ)に参加してきました！ Globale Game Jamとは世 [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>今回初めてGloble Game Jam(GGJ)に参加してきました！</p>
+<p>Globale Game Jamとは世界で同時に行われるイベントで、その内容は各会場に集まった人々でチームを組んで48時間で出題されたテーマに沿ったゲームを作るというもの。</p>
+<p>私が参加した会場は東京工科大学で、GGJ前日に参加締め切られてるにも関わらず東京工科大学の三上先生に無理いってねじ込んでいただきました(汗<br />
+三上先生、ありがとうございました。</p>
+<p>そして今回のGGJのテーマは「心音(音声データ)」。</p>
+<p>私のいたチームでは心音が&#8221;屋根裏を走り回るネズミの音&#8221;に聞こえたという意見から、足元しか見えないような暗い中(屋根裏)で猫を操作し、心音とかすかな光を頼りにネズミをやっつけるというFPS視点のゲームを作ることに決定！</p>
+<p>大まかなゲーム案ができたあとは細かい設定と作業の役割分担をしていざ作業開始。</p>
+<p>プログラマとして参加した私は、ネズミのAIを担当することに。</p>
+<p>Unityはほとんど扱えなかったので、チームのメンバーに教えてもらいながらなんとか作業をすすめ、無事に完成。</p>
+<p>その後、ゲームのタイトルとチーム名を決める段階に入り、いろいろと危ないネーミングを経てゲーム名は「ネコ戦記」、チーム名は「ロシアンブルー」に決定しました。</p>
+<p>&nbsp;</p>
+<p>完成したゲーム「ネコ戦記」はこちらからダウンロードできます。<br />
+<a href="http://globalgamejam.org/2013/nekosenki">globalgamejam.org/2013/nekosenki</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/mizuki/2013/01/29/global-game-jam-2013/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>
