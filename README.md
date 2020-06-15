@@ -228,5 +228,8 @@ https://new.shirai.la/download/4939/webbased.pdf
 
 ### 相対パスの確認
 
+- `a href="http://blog.shirai.la/` to `a href="./` 10000 results in 1764 files
+
+
 ### Google Analytics の置き直し
 
