@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>real baby &#8211; Real Baby &#8211; Real Family</title>
+	<atom:link href="http://blog.shirai.la/baby/tag/real-baby/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/baby</link>
+	<description>IVRC2016にてLavai Virtual Awardを受賞したチーム「明るい家族計画」です。2人の体験者から未来の赤ちゃんの顔を推定し、リアルフェイス育児体験ができるコンテンツ「Real baby / Real family」を制作しています。</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:25:00 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>HTC Vive ゼロレイテンシー通信！？</title>
+		<link>http://blog.shirai.la/baby/baby-project_07/</link>
+				<pubDate>Sat, 17 Sep 2016 16:54:29 +0000</pubDate>
+		<dc:creator><![CDATA[望月 宥冶]]></dc:creator>
+				<category><![CDATA[開発者日記]]></category>
+		<category><![CDATA[IVRC]]></category>
+		<category><![CDATA[IVRC2016]]></category>
+		<category><![CDATA[real baby]]></category>
+		<category><![CDATA[real famliy]]></category>
+		<category><![CDATA[UDP]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[Vive]]></category>
+		<category><![CDATA[VR]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/baby/?p=66</guid>
+				<description><![CDATA[こんにちは。 明るい家族計画の望月です。 HTC ViveのUDP通信に成功しました。 初期の段階では、UNE [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>こんにちは。<br />
+明るい家族計画の望月です。</p>
+<p>HTC ViveのUDP通信に成功しました。</p>
+<p>初期の段階では、UNETを使うのかUDPを使うのか決まらず、どちらも試してみました。</p>
+<p>UNETを試した際に、SteamVR pluginのGameObjectをそのまま生成すると、1つのシーンで2つ以上のSteamVRが存在してしまいます。<br />
+これによりデバイスの取り合いが起こり、そのままでは使用できません。また、この競合を回避しようにも大幅なレイテンシーにより実用とはいきませんでした。</p>
+<p>よって、今回はUNETを使用するのではなくUDP通信によりお互いのViveのpositionとrotationを送りあうようにして解決しました。<br />
+注意しなければならないのが、お互いにデータを送り付けているだけなので、基本的には同期処理はしていません。<br />
+（今回はほとんど同スペックのPCをローカルの有線接続しているので、致命的なエラーは出ないだろうという考えです。ネット経由で使うときにはまた違ったやり方でないとレイテンシー問題があるかもしれません）</p>
+<p>これにより送受信におけるデータ量と、受信のタイミングもこちらでコントロールできるので最終段階では100～120fpsで描画することに成功しました。<br />
+したがって、遅延は10ms以下となるので「ゼロレイテンシー」といえるのではないかと。</p>
+<p>最後にViveコントローラーの位置に手のAssetをつけて、遊んでみました(通称：ゼロレイテンシー芸人)。</p>
+<p>補足として、SteamVRのルームセットアップを的確に行うと、現実での位置とVR空間上の位置が一致するのですが、<br />
+それをしてしまうと、VR空間上で相手に触れたときに現実でも相手に触れてしまい、デバック中に怪我人が出てしまうので、今回はこんな感じで&#8230;.</p>
+<p><iframe width="591" height="443" src="https://www.youtube.com/embed/HJ0FYvjUJfs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>9/19　我妻追記</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>チーム明るい家族計画とは？real//baby real/familyとは</title>
+		<link>http://blog.shirai.la/baby/contents/</link>
+				<pubDate>Sun, 11 Sep 2016 02:00:48 +0000</pubDate>
+		<dc:creator><![CDATA[錦澤 竜也]]></dc:creator>
+				<category><![CDATA[コンテンツ]]></category>
+		<category><![CDATA[IVRC2016]]></category>
+		<category><![CDATA[real baby]]></category>
+		<category><![CDATA[real famliy]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/baby/?p=71</guid>
+				<description><![CDATA[チーム明るい家族計画の錦澤です。チーム明るい家族計画の展示「Real / baby Real / family [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>チーム明るい家族計画の錦澤です。チーム明るい家族計画の展示「Real / baby Real / family」内容について説明します。本コンテンツは、リアルフェイス育児シミュレーターとしています。<img class="wp-image-72 alignright" src="http://blog.shirai.la/baby/files/2016/09/RealBaby-300x212.png" alt="realbaby" width="427" height="302" srcset="http://blog.shirai.la/baby/files/2016/09/RealBaby-300x212.png 300w, http://blog.shirai.la/baby/files/2016/09/RealBaby-768x543.png 768w, http://blog.shirai.la/baby/files/2016/09/RealBaby.png 819w" sizes="(max-width: 427px) 100vw, 427px" /></p>
+<p>(右のはポスターです)</p>
+<p>&nbsp;</p>
+<p>IVRC公式へのリンクはこちらです。→<a href="http://ivrc.net/2016/visitors/#precompe">ivrc.net/2016/visitors/#precompe</a></p>
+<p>&nbsp;</p>
+<p>本体験の見どころは、大きく３つあります。</p>
+<ol>
+<li>体験者の顔画像からその赤ちゃんを予測します。</li>
+<li>体験者は最大２人です。</li>
+<li>体験終了後に母子手帳を発行します。</li>
+</ol>
+<p>&nbsp;</p>
+<h2>未来の赤ん坊予測ーーーー！</h2>
+<p><img class="alignnone size-medium wp-image-73" src="http://blog.shirai.la/baby/files/2016/09/IMG_0858-225x300.jpg" alt="img_0858" width="225" height="300" srcset="http://blog.shirai.la/baby/files/2016/09/IMG_0858-225x300.jpg 225w, http://blog.shirai.la/baby/files/2016/09/IMG_0858-768x1024.jpg 768w" sizes="(max-width: 225px) 100vw, 225px" /><img class="alignnone size-medium wp-image-74" src="http://blog.shirai.la/baby/files/2016/09/IMG_0840-225x300.jpg" alt="img_0840" width="225" height="300" srcset="http://blog.shirai.la/baby/files/2016/09/IMG_0840-225x300.jpg 225w, http://blog.shirai.la/baby/files/2016/09/IMG_0840-768x1024.jpg 768w, http://blog.shirai.la/baby/files/2016/09/IMG_0840.jpg 1224w" sizes="(max-width: 225px) 100vw, 225px" /><img class="alignnone size-medium wp-image-75" src="http://blog.shirai.la/baby/files/2016/09/nisiki_agatuma_baby-300x297.png" alt="nisiki_agatuma_baby" width="300" height="297" srcset="http://blog.shirai.la/baby/files/2016/09/nisiki_agatuma_baby-300x297.png 300w, http://blog.shirai.la/baby/files/2016/09/nisiki_agatuma_baby-150x150.png 150w, http://blog.shirai.la/baby/files/2016/09/nisiki_agatuma_baby.png 405w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>上の画像は二人の顔から生まれた赤ちゃんです！</p>
+<p>キャワワ！（小並感）</p>
+<p>&nbsp;</p>
+<h2>２人プレイーーーー！</h2>
+<p><img class="alignnone size-medium wp-image-76" src="http://blog.shirai.la/baby/files/2016/09/２人体験-300x202.png" alt="%ef%bc%92%e4%ba%ba%e4%bd%93%e9%a8%93" width="300" height="202" srcset="http://blog.shirai.la/baby/files/2016/09/２人体験-300x202.png 300w, http://blog.shirai.la/baby/files/2016/09/２人体験.png 372w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>極低遅延通信(ゼロレイテンシー)!</p>
+<p>２人でVRコンテンツが体験できるとか胸熱だろ！</p>
+<p>パートナーと協力して赤ちゃんをあやそう！</p>
+<p>２人の仲がより深まるかも！？</p>
+<h2></h2>
+<h2>母子手帳ーーーーーー！</h2>
+<p><img class="alignnone size-medium wp-image-77" src="http://blog.shirai.la/baby/files/2016/09/母子手帳-209x300.png" alt="%e6%af%8d%e5%ad%90%e6%89%8b%e5%b8%b3" width="209" height="300" srcset="http://blog.shirai.la/baby/files/2016/09/母子手帳-209x300.png 209w, http://blog.shirai.la/baby/files/2016/09/母子手帳.png 308w" sizes="(max-width: 209px) 100vw, 209px" /></p>
+<p>体験の記念に母子手帳をプレゼントするよ！</p>
+<p>中身は体験してからのO・TA・NO・SHI・MI<img src="https://s.w.org/images/core/emoji/11.2.0/72x72/2764.png" alt="❤" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>&nbsp;</p>
+<p>みなさん「Real / baby Real / family」を是非体験してみてください！</p>
+<p>Twitter[https://twitter.com/IVRC_realbaby]</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Maya迷走中</title>
+		<link>http://blog.shirai.la/baby/baby-project_06/</link>
+				<pubDate>Mon, 29 Aug 2016 21:15:41 +0000</pubDate>
+		<dc:creator><![CDATA[望月 宥冶]]></dc:creator>
+				<category><![CDATA[開発者日記]]></category>
+		<category><![CDATA[IVRC]]></category>
+		<category><![CDATA[IVRC2016]]></category>
+		<category><![CDATA[Maya]]></category>
+		<category><![CDATA[real baby]]></category>
+		<category><![CDATA[real famliy]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VR]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/baby/?p=45</guid>
+				<description><![CDATA[こんにちは。 明るい家族計画の望月です。 2D画像の処理がトントン拍子で進み、平均顔を使ってβ版を作ろうという [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>こんにちは。<br />
+明るい家族計画の望月です。</p>
+<p>2D画像の処理がトントン拍子で進み、平均顔を使ってβ版を作ろうという話になりましたが、ここで問題発生！</p>
+<p>2D画像をどうやって3Dに起こすのか&#8230;</p>
+<p>Kinectで赤ちゃん人形の顔を撮影し、MeshmixerやMeshLabで加工したり、<br />
+<img class="aligncenter size-medium wp-image-47" src="http://blog.shirai.la/baby/files/2016/08/babydoll_mesh-300x259.png" alt="babydoll_mesh" width="300" height="259" srcset="http://blog.shirai.la/baby/files/2016/08/babydoll_mesh-300x259.png 300w, http://blog.shirai.la/baby/files/2016/08/babydoll_mesh.png 650w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>Point Cloud Libraryというライブラリを使い、顔のメッシュを生成したりしました。<br />
+Point Cloud Libraryは点群情報と画像情報の両方を保持できるフォーマット(.ply)を使用できたので少しだけ便利でした。<br />
+<img class="aligncenter size-medium wp-image-49" src="http://blog.shirai.la/baby/files/2016/08/2016-08-18-1-300x188.png" alt="pcl" width="300" height="188" srcset="http://blog.shirai.la/baby/files/2016/08/2016-08-18-1-300x188.png 300w, http://blog.shirai.la/baby/files/2016/08/2016-08-18-1-768x480.png 768w, http://blog.shirai.la/baby/files/2016/08/2016-08-18-1-1024x640.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>最終的にたどり着いたのが、Mayaを使用し、赤ちゃんの正面画像と横画像からメッシュを生成していく方法です。<br />
+<img class="aligncenter size-medium wp-image-52" src="http://blog.shirai.la/baby/files/2016/08/2016-08-19-300x188.png" alt="2016-08-19" width="300" height="188" srcset="http://blog.shirai.la/baby/files/2016/08/2016-08-19-300x188.png 300w, http://blog.shirai.la/baby/files/2016/08/2016-08-19-768x480.png 768w, http://blog.shirai.la/baby/files/2016/08/2016-08-19-1024x640.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+<img class="aligncenter size-medium wp-image-54" src="http://blog.shirai.la/baby/files/2016/08/2016-08-23-300x169.png" alt="2016-08-23" width="300" height="169" srcset="http://blog.shirai.la/baby/files/2016/08/2016-08-23-300x169.png 300w, http://blog.shirai.la/baby/files/2016/08/2016-08-23-768x432.png 768w, http://blog.shirai.la/baby/files/2016/08/2016-08-23-1024x576.png 1024w, http://blog.shirai.la/baby/files/2016/08/2016-08-23.png 1600w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+<img class="aligncenter size-medium wp-image-53" src="http://blog.shirai.la/baby/files/2016/08/2016-08-23-1-300x169.png" alt="2016-08-23 (1)" width="300" height="169" srcset="http://blog.shirai.la/baby/files/2016/08/2016-08-23-1-300x169.png 300w, http://blog.shirai.la/baby/files/2016/08/2016-08-23-1-768x432.png 768w, http://blog.shirai.la/baby/files/2016/08/2016-08-23-1-1024x576.png 1024w, http://blog.shirai.la/baby/files/2016/08/2016-08-23-1.png 1600w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+<img class="aligncenter size-medium wp-image-59" src="http://blog.shirai.la/baby/files/2016/08/2016-08-30-300x167.png" alt="2016-08-30" width="300" height="167" srcset="http://blog.shirai.la/baby/files/2016/08/2016-08-30-300x167.png 300w, http://blog.shirai.la/baby/files/2016/08/2016-08-30-768x428.png 768w, http://blog.shirai.la/baby/files/2016/08/2016-08-30-1024x571.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+<img class="aligncenter size-medium wp-image-58" src="http://blog.shirai.la/baby/files/2016/08/2016-08-30-1-300x168.png" alt="2016-08-30 (1)" width="300" height="168" srcset="http://blog.shirai.la/baby/files/2016/08/2016-08-30-1-300x168.png 300w, http://blog.shirai.la/baby/files/2016/08/2016-08-30-1-768x430.png 768w, http://blog.shirai.la/baby/files/2016/08/2016-08-30-1-1024x573.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>しかし、作成したメッシュをUnityにエクスポートした際にメッシュの情報が欠損し、使い物にならない結果に&#8230;<br />
+<img class="aligncenter size-medium wp-image-61" src="http://blog.shirai.la/baby/files/2016/08/mesh-300x149.png" alt="mesh" width="300" height="149" srcset="http://blog.shirai.la/baby/files/2016/08/mesh-300x149.png 300w, http://blog.shirai.la/baby/files/2016/08/mesh-768x381.png 768w, http://blog.shirai.la/baby/files/2016/08/mesh.png 977w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+どうやら法線が裏返っておかしくなってるようで、手直しに非常に手間がかかり、これ以上はメッシュに時間を割けないので、球体に顔画像を張ることで対処。最初の段階でメッシュに関しては考えていなかったことも非常に時間を取らされてしまった感じがあり、今回のことから、妥協点を見つけるということや、ある程度やってみて、実装が非常に難しい(時間がかかる)と感じたことからは手を引く潔さが大切だと思いました。迷宮入りしそうになったときは、目に見えるタスクから終わらせること、初心に返ることを心がけ、メッシュにとりかかる前の目標であるβ版制作にとりかかろうと思います。<br />
+<img class="aligncenter size-medium wp-image-62" src="http://blog.shirai.la/baby/files/2016/08/2016-08-29-2-300x169.png" alt="2016-08-29 (2)" width="300" height="169" srcset="http://blog.shirai.la/baby/files/2016/08/2016-08-29-2-300x169.png 300w, http://blog.shirai.la/baby/files/2016/08/2016-08-29-2-768x432.png 768w, http://blog.shirai.la/baby/files/2016/08/2016-08-29-2-1024x576.png 1024w, http://blog.shirai.la/baby/files/2016/08/2016-08-29-2.png 1600w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>↑球体を若干潰したオブジェクトに顔画像を張ると、見た目が改善されます！</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>顔の特徴点取得できました！</title>
+		<link>http://blog.shirai.la/baby/project_05/</link>
+				<pubDate>Mon, 29 Aug 2016 18:31:33 +0000</pubDate>
+		<dc:creator><![CDATA[望月 宥冶]]></dc:creator>
+				<category><![CDATA[開発者日記]]></category>
+		<category><![CDATA[dlib]]></category>
+		<category><![CDATA[IVRC]]></category>
+		<category><![CDATA[IVRC2016]]></category>
+		<category><![CDATA[Opencv]]></category>
+		<category><![CDATA[real baby]]></category>
+		<category><![CDATA[real famliy]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VR]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/baby/?p=39</guid>
+				<description><![CDATA[こんにちは。 明るい家族計画の望月です。 今回はdlibというC++のライブラリを使用しました。 dlibは画 [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>こんにちは。<br />
+明るい家族計画の望月です。</p>
+<p>今回はdlibというC++のライブラリを使用しました。<br />
+dlibは画像処理や機械学習などの機能を持ち、顔の特徴点を取得するのに使用しました。</p>
+<p>特徴点取得の参考画像がこちらです。<br />
+<img class="aligncenter size-medium wp-image-42" src="http://blog.shirai.la/baby/files/2016/08/landmark-300x163.png" alt="landmark" width="300" height="163" srcset="http://blog.shirai.la/baby/files/2016/08/landmark-300x163.png 300w, http://blog.shirai.la/baby/files/2016/08/landmark-768x418.png 768w, http://blog.shirai.la/baby/files/2016/08/landmark-1024x557.png 1024w, http://blog.shirai.la/baby/files/2016/08/landmark.png 1158w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>dlibに用意されている学習データを用いることで顔画像領域の切り出し、ランドマークの検出などが行えます。ちなみにOpenCVを用いても顔画像を切り出すことは可能ですが、それよりも精度よく顔画像を切り出すことができます。</p>
+<p>またランドマークはdlibによって、ソートされて出力されるので、モーフィングなどで重要な対応点なども簡単に調べることができます。<img class="alignnone size-medium wp-image-57" src="http://blog.shirai.la/baby/files/2016/08/dlib_face_landmark_point-300x300.png" alt="dlib_face_landmark_point" width="300" height="300" srcset="http://blog.shirai.la/baby/files/2016/08/dlib_face_landmark_point-300x300.png 300w, http://blog.shirai.la/baby/files/2016/08/dlib_face_landmark_point-150x150.png 150w, http://blog.shirai.la/baby/files/2016/08/dlib_face_landmark_point-768x768.png 768w, http://blog.shirai.la/baby/files/2016/08/dlib_face_landmark_point.png 1000w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>こんな感じで対応点をソートしてくれます。</p>
+<p>ただdlibの導入は少し面倒なのでCMakeの使い方には慣れておいたほうが良いかもしれません。</p>
+<p>まだ慣れていないのもありますが構文もかなり難しいです。</p>
+<p>また、特徴点が取得できたので、赤ちゃんの平均顔画像も作成しました。<br />
+平均顔画像の作成にはOpenCVを使用しました。<br />
+<img class="aligncenter size-medium wp-image-43" src="http://blog.shirai.la/baby/files/2016/08/img002-300x251.jpg" alt="baby_face.ave" width="300" height="251" srcset="http://blog.shirai.la/baby/files/2016/08/img002-300x251.jpg 300w, http://blog.shirai.la/baby/files/2016/08/img002.jpg 619w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>平均顔の赤ちゃんは非常に可愛いです。<br />
+この可愛い赤ちゃん画像から若年変化について考えていきたいと思います。</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>ハッカソン2日目「α版製作」</title>
+		<link>http://blog.shirai.la/baby/baby-project_03/</link>
+				<pubDate>Mon, 29 Aug 2016 18:30:15 +0000</pubDate>
+		<dc:creator><![CDATA[望月 宥冶]]></dc:creator>
+				<category><![CDATA[開発者日記]]></category>
+		<category><![CDATA[IVRC]]></category>
+		<category><![CDATA[IVRC2016]]></category>
+		<category><![CDATA[Maya]]></category>
+		<category><![CDATA[real baby]]></category>
+		<category><![CDATA[real famliy]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VR]]></category>
+		<category><![CDATA[wii remote]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/baby/?p=19</guid>
+				<description><![CDATA[こんにちは。 明るい家族計画の望月です。 7月23日、24日に行ったハッカソンの2日目の様子です。2日目の目標 [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>こんにちは。<br />
+明るい家族計画の望月です。</p>
+<p>7月23日、24日に行ったハッカソンの2日目の様子です。2日目の目標は「Wiiリモコンの値で赤ちゃんを制御」、「Mayaで作成したオブジェクトをUnityで読み込み」、「赤ちゃんをViveで制御」です。Mayaで作成したオブジェクトの読み込みは錦澤君が事前にベットのモデルを作成してきてくれていたので、スムーズに行うことができました。球体の読み込みは200*200頂点くらいのものから若干重くなった気がしましたが、許容範囲内でした。<br />
+<a href="http://blog.shirai.la/seminar/files/2016/08/IMG_3175.jpg"><img class="aligncenter size-medium wp-image-874" src="http://blog.shirai.la/seminar/files/2016/08/IMG_3175-300x225.jpg" alt="IMG_3175" width="300" height="225" /></a></p>
+<p>Wiiリモコンによる制御は、加速度センサの値を取得し、そこから角度を割り出し赤ちゃん(Unityちゃん)と同期。赤ちゃん人形の服の中にWiiリモコンを隠し完成。出来上がったのがこちらです。</p>
+<p><iframe width="591" height="332" src="https://www.youtube.com/embed/ZPoX4IVS9js?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Viveによる制御では、素晴らしいものを生み出してしまいました。なにやらサマーレッスン(ロリ)みたいなもので、これを基盤に商品にできそうなイメージでした。プログラム的には、<a href="http://blog.shirai.la/seminar/2016/08/01/1423089-project1/">ハッカソン1日目</a>に行ったSteamVRの応用で、あとはHMDを被ったときに違和感がないかどうか調整して完成です。</p>
+<p><iframe width="591" height="332" src="https://www.youtube.com/embed/q6IJdCWmsiM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>今回のハッカソンでわかったことはViveが凄いということと、赤ちゃんをどう可愛いと思わせるかが大切だと思いました。今回はUnitychanの迫力が強すぎたということもあると思うので、完成品ではUnitychanを上回れるような作品作りをしていきたいと思います。</p>
+<div align="right">© Unity Technologies Japan/UCL</div>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>ハッカソン1日目「Unity勉強会」</title>
+		<link>http://blog.shirai.la/baby/baby-project_02/</link>
+				<pubDate>Mon, 29 Aug 2016 18:30:10 +0000</pubDate>
+		<dc:creator><![CDATA[望月 宥冶]]></dc:creator>
+				<category><![CDATA[開発者日記]]></category>
+		<category><![CDATA[IVRC]]></category>
+		<category><![CDATA[IVRC2016]]></category>
+		<category><![CDATA[Maya]]></category>
+		<category><![CDATA[real baby]]></category>
+		<category><![CDATA[real famliy]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VR]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/baby/?p=14</guid>
+				<description><![CDATA[こんにちは。 明るい家族計画の望月です。 7月23日、24日に行ったハッカソンの1日目の様子です。1日目の目標 [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>こんにちは。<br />
+明るい家族計画の望月です。</p>
+<p>7月23日、24日に行ったハッカソンの1日目の様子です。1日目の目標は「unityを触ること」、「SteamVRの使い方」でしたが、とても良い流れで進んで行き、Kinect v2にも少し触れることができたので、1日目は大成功でした。</p>
+<p>浅野君が作成してきてくれたスライドを元に作業を進めた結果、午後までかかる見通しのブロック崩し完成が午前中で終了してしまったため、その後、一足先に午後のSteamVRを我妻君主導のもと勉強しました。<br />
+<a href="http://blog.shirai.la/seminar/files/2016/08/IMG_3166.jpg"><img class="aligncenter size-medium wp-image-866" src="http://blog.shirai.la/seminar/files/2016/08/IMG_3166-300x225.jpg" alt="IMG_3166" width="300" height="225" /></a><br />
+その後、先ほどUnityで製作したブロック崩しをViveで操作できるようにしたのがこちらです。</p>
+<p><iframe width="591" height="332" src="https://www.youtube.com/embed/wVRdVue1SuQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>一段落したのち、ゲークリで途中抜けしていた浅野君と合流し、来来亭で昼飯兼夕飯を食べ、Kinectを触るはずが、Kinectを動かすために必要なSDK(ver2.0)がWindows7では動かないことが判明し、Windows10にアップグレード。なんとかKinectを動かし、サンプルプログラムから赤ちゃんを3Dスキャンしました。<br />
+<a href="http://blog.shirai.la/seminar/files/2016/08/IMG_3171.jpg"><img class="aligncenter size-medium wp-image-867" src="http://blog.shirai.la/seminar/files/2016/08/IMG_3171-300x225.jpg" alt="IMG_3171" width="300" height="225" /></a><br />
+赤ちゃんの深度がうまく読み取れているのか疑問が生じましたが、隣に移ってる人の深度はしっかり読み取れていたので一安心。人形程度の凹凸だとあまりよくないようですが、人間相手なら十分使い物になると思います。</p>
+<p>ソフトウェア的なことはここまでで終わりですが、夜に合流した武田君とパソコンを組み立てて、1日目は解散しました。余談ですが最近のBIOSがしっかりしすぎていて、すこし驚きました。<br />
+<a href="http://blog.shirai.la/seminar/files/2016/08/IMG_3172.jpg"><img class="aligncenter size-medium wp-image-868" src="http://blog.shirai.la/seminar/files/2016/08/IMG_3172-300x225.jpg" alt="IMG_3172" width="300" height="225" /></a><br />
+<a href="http://blog.shirai.la/seminar/files/2016/08/IMG_3174.jpg"><img class="aligncenter size-medium wp-image-869" src="http://blog.shirai.la/seminar/files/2016/08/IMG_3174-300x225.jpg" alt="IMG_3174" width="300" height="225" /></a></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>ハッカソン発表会とα版レビュー</title>
+		<link>http://blog.shirai.la/baby/baby-project_04/</link>
+				<pubDate>Mon, 29 Aug 2016 18:30:07 +0000</pubDate>
+		<dc:creator><![CDATA[望月 宥冶]]></dc:creator>
+				<category><![CDATA[開発者日記]]></category>
+		<category><![CDATA[IVRC]]></category>
+		<category><![CDATA[IVRC2016]]></category>
+		<category><![CDATA[Maya]]></category>
+		<category><![CDATA[real baby]]></category>
+		<category><![CDATA[real famliy]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VR]]></category>
+		<category><![CDATA[wii remote]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/baby/?p=26</guid>
+				<description><![CDATA[こんにちは。 明るい家族計画の望月です。 前回のハッカソンで作成したwiiリモコンを使った赤ちゃん制御を改良し [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>こんにちは。<br />
+明るい家族計画の望月です。</p>
+<p>前回のハッカソンで作成したwiiリモコンを使った赤ちゃん制御を改良し、HMDで制御できるようにしました。<br />
+発表会の様子も載せておきます。</p>
+<p><iframe width="591" height="332" src="https://www.youtube.com/embed/XBp1lfrLzwY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>ゲームデザインのより深いところを考えられるような発表会になりました。<br />
+「可愛い」についての論文を読みつつ、顔画像についても挑戦していきたいと思います。</p>
+<div align="right">© Unity Technologies Japan/UCL</div>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>赤ちゃんプロジェクト始動</title>
+		<link>http://blog.shirai.la/baby/baby-project_01/</link>
+				<pubDate>Mon, 29 Aug 2016 18:30:03 +0000</pubDate>
+		<dc:creator><![CDATA[望月 宥冶]]></dc:creator>
+				<category><![CDATA[開発者日記]]></category>
+		<category><![CDATA[IVRC]]></category>
+		<category><![CDATA[IVRC2016]]></category>
+		<category><![CDATA[real baby]]></category>
+		<category><![CDATA[real famliy]]></category>
+		<category><![CDATA[VR]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/baby/?p=8</guid>
+				<description><![CDATA[初めまして。 明るい家族計画の望月と申します。 IVRCに応募した企画書が無事当選し、今後はプロトタイプ制作に [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>初めまして。<br />
+明るい家族計画の望月と申します。</p>
+<p>IVRCに応募した企画書が無事当選し、今後はプロトタイプ制作に励みたいと思います。</p>
+<p>今回はチームメンバーと企画について紹介していこうと思います。</p>
+<ul>
+<ul>
+<li><a href="http://blog.shirai.la/seminar/2016/07/20/s1423089-1/">望月 宥冶</a></li>
+</ul>
+</ul>
+<p style="padding-left: 90px">明るい家族計画のリーダーであり、&#8221;Real baby / Real family&#8221;の立案者。Blogの記事は主に私が書いていきます。</p>
+<ul>
+<ul>
+<li><a href="http://blog.shirai.la/seminar/2016/05/06/s1423115_profile/">錦澤 竜也</a></li>
+</ul>
+</ul>
+<p style="padding-left: 90px">顔技術担当。顔に対する情熱が凄まじい。この企画の要。</p>
+<ul>
+<ul>
+<li><a href="http://blog.shirai.la/seminar/2016/05/06/semi2016f-145-01/">浅野 隆也</a></li>
+</ul>
+</ul>
+<p style="padding-left: 90px">コンテンツ担当。企画書制作以降からチームに加わって頂き、Unityを自由に使いこなす。別プロジェクトにも参加しているようで多忙。</p>
+<ul>
+<ul>
+<li>我妻 大樹</li>
+</ul>
+</ul>
+<p style="padding-left: 90px">ハードウェア系、VR技術担当。別学科からの参戦で、上記3人とは持っている技術が違うため、話しているだけでとても勉強になる。</p>
+<p>以上のメンバーでIVRCのプロトタイプ制作に挑んでいきます。</p>
+<p>最後に企画紹介</p>
+<p><em>タイトル</em><br />
+「Real baby / Real family」<br />
+<em>概要</em><br />
+これは新しい家族の愛を体験できるVRです。お友達やカップル、同性のお友達の顔画像を合成し、赤ちゃんの顔画像を生成します。HMDを装着したまま、赤ちゃん人形をあやしてみましょう。きっと、体験者は子供とパートナーをかけがえのない存在として認識することができ、未来のコンピュータと人間の関わりについて深く考えることができるでしょう。</p>
+<p>企画書は<a href="http://blog.shirai.la/baby/files/2016/08/realbaby_realfamily.pdf">こちら</a>から</p>
+<p>赤ちゃんを作るVRです。唯一無二の存在を作り上げれるように頑張っていきたいと思います。</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

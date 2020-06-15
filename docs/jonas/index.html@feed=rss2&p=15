@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Eye morphing	</title>
+	<atom:link href="http://blog.shirai.la/jonas/?feed=rss2&#038;p=15" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/jonas/?p=15</link>
+	<description>Just another KAIT Shirai Lab Blog Sites site</description>
+	<lastBuildDate>
+	Sat, 17 Nov 2012 13:10:48 +0000	</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+			<item>
+				<title>
+				By: admin				</title>
+				<link>http://blog.shirai.la/jonas/?p=15#comment-2</link>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sat, 17 Nov 2012 13:10:48 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=15#comment-2</guid>
+					<description><![CDATA[Jonas, 
+The articles couldn&#039;t show when I clicked.
+I have changed the setting of permalinks, it looks fine.
+
+Thanks to give a good article.
+Aki]]></description>
+		<content:encoded><![CDATA[<p>Jonas,<br />
+The articles couldn&#8217;t show when I clicked.<br />
+I have changed the setting of permalinks, it looks fine.</p>
+<p>Thanks to give a good article.<br />
+Aki</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

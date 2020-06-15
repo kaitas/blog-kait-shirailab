@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	HCG へのコメント	</title>
+	<atom:link href="http://blog.shirai.la/iwadate/?feed=rss2&#038;p=71" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/iwadate/?p=71</link>
+	<description>岩楯のブログだよ</description>
+	<lastBuildDate>
+	Fri, 21 Dec 2012 15:02:47 +0000	</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+			<item>
+				<title>
+				「白井研究室通信」 第28号 &#124; KAIT Shirai Lab より				</title>
+				<link>http://blog.shirai.la/iwadate/?p=71#comment-3</link>
+		<dc:creator><![CDATA[「白井研究室通信」 第28号 &#124; KAIT Shirai Lab]]></dc:creator>
+		<pubDate>Fri, 21 Dec 2012 15:02:47 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.shirai.la/iwadate/?p=71#comment-3</guid>
+					<description><![CDATA[[...] http://blog.shirai.la/iwadate/?p=71 [...]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] <a href="http://blog.shirai.la/iwadate/?p=71" class="autohyperlink">blog.shirai.la/iwadate/?p=71</a> [&#8230;]</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				HCGシンポジウムで発表します &#124; KAIT Shirai Lab より				</title>
+				<link>http://blog.shirai.la/iwadate/?p=71#comment-2</link>
+		<dc:creator><![CDATA[HCGシンポジウムで発表します &#124; KAIT Shirai Lab]]></dc:creator>
+		<pubDate>Sun, 09 Dec 2012 01:28:21 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.shirai.la/iwadate/?p=71#comment-2</guid>
+					<description><![CDATA[[...] http://blog.shirai.la/iwadate/?p=71  [...]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] <a href="http://blog.shirai.la/iwadate/?p=71" class="autohyperlink">blog.shirai.la/iwadate/?p=71</a>  [&#8230;]</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

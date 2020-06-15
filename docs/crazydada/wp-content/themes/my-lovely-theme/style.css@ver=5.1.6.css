@@ -1,0 +1,97 @@
+/*  
+Theme Name: my lovely theme 
+Theme URI: http://mythem.es/item/my-lovely-free-wordpress-theme/
+Description: Free black clean and creative WordPress theme developed by myThem.es. Theme features: internal likes, custom colors, custom background, custom templates, custom logo, custom favicon; additional widgets: social, related posts, newsletter, flickr,  post meta and post categories.
+Tags: black, silver, dark, pink, purple, white, red, two-columns, one-column, right-sidebar, left-sidebar, fixed-layout, custom-menu, threaded-comments, custom-background, featured-images, theme-options, holiday, seasonal, photoblogging
+Version: 2.0.14
+Author: myThem.es
+Author URI: http://mythem.es
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+
+My Lovely Free WordPress Theme, Copyright 2010 myThem.es
+My Lovely Free WordPress Theme is distributed under the terms of the GNU GPL
+
+                     ________________
+                    |_____    _______|
+     ___ ___ ___   __ __  |  |  __       ____   ___ ___ ___       ____   ____ 
+    |   |   |   | |_ |  | |  | |  |___  |  __| |   |   |   |     |  __| |  __|
+    |   |   |   |  | |  | |  | |  __  | |  __| |   |   |   |  _  |  __| |__  |
+    |___|___|___|   |  |  |__| |_ ||_ | |____| |___|___|___| |_| |____| |____|   
+                    |_|
+
+
+*/
+/* EXTERNAL IMPORTS GOOGLE FONTS */
+@import url(http://fonts.googleapis.com/css?family=Syncopate|PT+Sans+Narrow);
+
+/* LOCAL IMPORTS */
+@import url(media/css/my/reset.css);
+@import url(media/css/my/template.css);
+
+@import url(media/css/settings.css);
+@import url(media/css/button.css);
+@import url(media/css/icons.css);
+
+@import url(media/css/widget.css);
+@import url(media/css/blog.css);
+@import url(media/css/comments.css);
+@import url(media/css/forms.css);
+@import url(media/css/main.css);
+@import url(media/css/under-construction.css);
+
+
+/* WORDPRESS */
+.alignleft{
+    float:left;
+    margin:0px 25px 14px 0px;
+}
+.alignright{
+    float:right;
+    margin:0px 0px 14px 25px;
+}
+.aligncenter{
+    clear:both;
+    display: block;
+    margin-left:auto !important;
+    margin-right:auto !important;
+	text-align: center;
+	margin-bottom:15px;
+}
+
+.wp-caption,
+.wp-caption-text,
+.gallery-caption,
+.bypostauthor{}
+
+.sticky{
+    background: rgba( 30,30,30,0.97 );;
+    max-width: 99%;
+    min-width: 220px;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 10px 0px;
+    border-color: rgb( 25, 25, 25) rgb(21, 21, 21) rgb( 21, 21 , 21 );
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 3px;
+    visibility: visible;
+}
+
+/* MY THEMES CLASSES */
+.no-margin-top{
+    margin-top: 0px !important;
+}
+.no-margin-bottom{
+    margin-top: 0px !important;
+}
+.no-margin-right{
+    margin-right: 0px !important;
+}
+.no-margin-left{
+    margin-left: 0px !important;
+}

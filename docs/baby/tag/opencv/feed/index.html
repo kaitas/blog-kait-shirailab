@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Opencv &#8211; Real Baby &#8211; Real Family</title>
+	<atom:link href="http://blog.shirai.la/baby/tag/opencv/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/baby</link>
+	<description>IVRC2016にてLavai Virtual Awardを受賞したチーム「明るい家族計画」です。2人の体験者から未来の赤ちゃんの顔を推定し、リアルフェイス育児体験ができるコンテンツ「Real baby / Real family」を制作しています。</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:25:00 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>dlibでOpenCVが使えるかもしれない件</title>
+		<link>http://blog.shirai.la/baby/dlib%e3%81%a7opencv%e3%81%8c%e4%bd%bf%e3%81%88%e3%82%8b%e3%81%8b%e3%82%82%e3%81%97%e3%82%8c%e3%81%aa%e3%81%84%e4%bb%b6/</link>
+				<pubDate>Tue, 15 Nov 2016 11:51:29 +0000</pubDate>
+		<dc:creator><![CDATA[錦澤 竜也]]></dc:creator>
+				<category><![CDATA[開発者日記]]></category>
+		<category><![CDATA[C++]]></category>
+		<category><![CDATA[dlib]]></category>
+		<category><![CDATA[IVRC]]></category>
+		<category><![CDATA[Opencv]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/baby/?p=146</guid>
+				<description><![CDATA[dlibのメソッド見てたらこんなん見つけた &#160; ・・・これ完全にOpenCVと親和性あるんじゃね？  [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>dlibのメソッド見てたらこんなん見つけた</p>
+<p>&nbsp;</p>
+<p><img class="alignnone size-full wp-image-147" src="http://blog.shirai.la/baby/files/2016/09/dlib.png" alt="dlib" width="1055" height="327" srcset="http://blog.shirai.la/baby/files/2016/09/dlib.png 1055w, http://blog.shirai.la/baby/files/2016/09/dlib-300x93.png 300w, http://blog.shirai.la/baby/files/2016/09/dlib-768x238.png 768w, http://blog.shirai.la/baby/files/2016/09/dlib-1024x317.png 1024w" sizes="(max-width: 1055px) 100vw, 1055px" /></p>
+<p>・・・これ完全にOpenCVと親和性あるんじゃね？</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>試してみたらマジでありました。</p>
+<p>後日コードを載せます。</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>dlibでopencvを使いたい</title>
+		<link>http://blog.shirai.la/baby/opencv_and_dlib/</link>
+				<pubDate>Fri, 21 Oct 2016 12:45:14 +0000</pubDate>
+		<dc:creator><![CDATA[錦澤 竜也]]></dc:creator>
+				<category><![CDATA[開発者日記]]></category>
+		<category><![CDATA[dlib]]></category>
+		<category><![CDATA[IVRC]]></category>
+		<category><![CDATA[Opencv]]></category>
+		<category><![CDATA[real famliy]]></category>
+		<category><![CDATA[realbaby]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/baby/?p=171</guid>
+				<description><![CDATA[dlibをopencvと一緒に使うとき便利なメソッドがあったので、備忘録作成。 &#160; dlibで処理を [&#8230;]]]></description>
+								<content:encoded><![CDATA[<h3>dlibをopencvと一緒に使うとき便利なメソッドがあったので、備忘録作成。</h3>
+<p>&nbsp;</p>
+<p>dlibで処理を行った後、使い慣れたopencvにデータを渡したいなーということがあると思います。</p>
+<p>そのようなときはこうします。</p>
+<h2>１　dlibのデータをopencvに渡したいとき。</h2>
+<p style="padding-left: 30px">dlibで画像を表すクラスはdlib::array2d&lt;dlib::bgr_pixel&gt;です。</p>
+<p style="padding-left: 30px">それをMatクラスに渡すには「dlib/opencv.h」をインクルードして、</p>
+<p style="padding-left: 30px">cv::Mat cvimage = dlib::toMat(dlibimage);</p>
+<p style="padding-left: 30px">みたいに書きます。</p>
+<h2>2　opencvのデータをdlibに渡したいとき。</h2>
+<p style="padding-left: 30px">Matクラスをarray2d&lt;bgr_pixel&gt;に渡すには以下のようにします。</p>
+<p style="padding-left: 30px">「dlib/opencv.h」をインクルードして、</p>
+<p style="padding-left: 30px">dlib::array2d&lt;dlib::bgr_pixel&gt; dlibimage;</p>
+<p style="padding-left: 30px">assign_image(dlibimage, cv_image&lt;bgr_pixel&gt;(cvimage));</p>
+<p style="padding-left: 30px">みたいに書きます。</p>
+<p style="padding-left: 30px">以上備忘録</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>OpenCV　cv::Matとメモリ</title>
+		<link>http://blog.shirai.la/baby/opencv01/</link>
+				<pubDate>Fri, 30 Sep 2016 11:14:37 +0000</pubDate>
+		<dc:creator><![CDATA[錦澤 竜也]]></dc:creator>
+				<category><![CDATA[開発者日記]]></category>
+		<category><![CDATA[IVRC]]></category>
+		<category><![CDATA[Opencv]]></category>
+		<category><![CDATA[画像処理]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/baby/?p=132</guid>
+				<description><![CDATA[OpenCVにおいて画像を格納するクラスはほとんどの方がcv::Matクラスを使用していると思います。Matク [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>OpenCVにおいて画像を格納するクラスはほとんどの方がcv::Matクラスを使用していると思います。Matクラスの振る舞いを理解しておくとコーディングがはかどります。</p>
+<pre><code>
+cv::Mat blue(300,300,CV_8UC3,cv::Scalar(0,0,255));
+cv::Mat copy = blue;
+for(int y = 0;y &lt; copy.rows;++y){
+for(int x = 0;x &lt; copy.cols;++x){
+for(int i = 0;i &lt; 3;++i){
+copy.data[copy.step * y + copy.channels() * x + i] = 255;
+}
+}
+}
+</code>
+</pre>
+<p>みたいなコードがあったときに、変数copyは白一色を表しますが、Mat型では初期化演算子、代入演算子ともに値のコピーを作成するのではなく参照先のコピーを作るだけです。つまりcopyが指しているメモリ空間は変数blueと共用していて、copyの値を書き換えるとblueの値も書き換わってしまいます。この結果blueは白色の画像になります。</p>
+<p>メモリーの共有を防ぐには<br />
+<code>cv::Mat copy = blue.clone();</code><br />
+という様に書きます。</p>
+<p>OpenCVでは前者を浅いコピー、後者を深いコピーといいます。前者のほうが高速にコピーを行えます。</p>
+<p>なぜOpenCVがこのような使用になっているかというと、画像の範囲を指定して処理を行いたいときにこの使用が生きてきます。</p>
+<p>&nbsp;</p>
+<p>例えば画像の中心だけ画像処理させたいとき、このように書けます。<br />
+<code><br />
+cv::Mat white(300,300,CV_8UC3,cv::Scalar(255,255,255));<br />
+cv::Mat roi = white(cv::Rect(150,150,150,150));<br />
+for(int y = 0;y &lt; roi.rows;++y){<br />
+for(int x = 0;x &lt; roi.cols;++x){<br />
+for(int i = 0;i &lt; 3;++i){<br />
+roi.data[roi.step * y + roi.channels() * x + i] = 0;<br />
+}<br />
+}<br />
+}<br />
+</code></p>
+<p>このコードでは白い画像の中心150*150ピクセルが黒色になります。</p>
+<p>このように画像の範囲を指定して処理を行いたいときに、威力を発揮します。（自分はそれしか知りませんが、ほかにも使用用途があれば教えてください…）</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>顔の特徴点取得できました！</title>
+		<link>http://blog.shirai.la/baby/project_05/</link>
+				<pubDate>Mon, 29 Aug 2016 18:31:33 +0000</pubDate>
+		<dc:creator><![CDATA[望月 宥冶]]></dc:creator>
+				<category><![CDATA[開発者日記]]></category>
+		<category><![CDATA[dlib]]></category>
+		<category><![CDATA[IVRC]]></category>
+		<category><![CDATA[IVRC2016]]></category>
+		<category><![CDATA[Opencv]]></category>
+		<category><![CDATA[real baby]]></category>
+		<category><![CDATA[real famliy]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VR]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/baby/?p=39</guid>
+				<description><![CDATA[こんにちは。 明るい家族計画の望月です。 今回はdlibというC++のライブラリを使用しました。 dlibは画 [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>こんにちは。<br />
+明るい家族計画の望月です。</p>
+<p>今回はdlibというC++のライブラリを使用しました。<br />
+dlibは画像処理や機械学習などの機能を持ち、顔の特徴点を取得するのに使用しました。</p>
+<p>特徴点取得の参考画像がこちらです。<br />
+<img class="aligncenter size-medium wp-image-42" src="http://blog.shirai.la/baby/files/2016/08/landmark-300x163.png" alt="landmark" width="300" height="163" srcset="http://blog.shirai.la/baby/files/2016/08/landmark-300x163.png 300w, http://blog.shirai.la/baby/files/2016/08/landmark-768x418.png 768w, http://blog.shirai.la/baby/files/2016/08/landmark-1024x557.png 1024w, http://blog.shirai.la/baby/files/2016/08/landmark.png 1158w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>dlibに用意されている学習データを用いることで顔画像領域の切り出し、ランドマークの検出などが行えます。ちなみにOpenCVを用いても顔画像を切り出すことは可能ですが、それよりも精度よく顔画像を切り出すことができます。</p>
+<p>またランドマークはdlibによって、ソートされて出力されるので、モーフィングなどで重要な対応点なども簡単に調べることができます。<img class="alignnone size-medium wp-image-57" src="http://blog.shirai.la/baby/files/2016/08/dlib_face_landmark_point-300x300.png" alt="dlib_face_landmark_point" width="300" height="300" srcset="http://blog.shirai.la/baby/files/2016/08/dlib_face_landmark_point-300x300.png 300w, http://blog.shirai.la/baby/files/2016/08/dlib_face_landmark_point-150x150.png 150w, http://blog.shirai.la/baby/files/2016/08/dlib_face_landmark_point-768x768.png 768w, http://blog.shirai.la/baby/files/2016/08/dlib_face_landmark_point.png 1000w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>こんな感じで対応点をソートしてくれます。</p>
+<p>ただdlibの導入は少し面倒なのでCMakeの使い方には慣れておいたほうが良いかもしれません。</p>
+<p>まだ慣れていないのもありますが構文もかなり難しいです。</p>
+<p>また、特徴点が取得できたので、赤ちゃんの平均顔画像も作成しました。<br />
+平均顔画像の作成にはOpenCVを使用しました。<br />
+<img class="aligncenter size-medium wp-image-43" src="http://blog.shirai.la/baby/files/2016/08/img002-300x251.jpg" alt="baby_face.ave" width="300" height="251" srcset="http://blog.shirai.la/baby/files/2016/08/img002-300x251.jpg 300w, http://blog.shirai.la/baby/files/2016/08/img002.jpg 619w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>平均顔の赤ちゃんは非常に可愛いです。<br />
+この可愛い赤ちゃん画像から若年変化について考えていきたいと思います。</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

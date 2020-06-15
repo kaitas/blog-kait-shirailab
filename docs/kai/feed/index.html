@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Kai&#039;s Develope Diary</title>
+	<atom:link href="http://blog.shirai.la/kai/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/kai</link>
+	<description>Just another KAIT Shirai Lab Blog Sites site</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:24:58 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>【書評】『ARプログラミング Processingでつくる拡張現実感のレシピ』を読んで</title>
+		<link>http://blog.shirai.la/kai/2016/04/28/arprograming-processing/</link>
+				<comments>http://blog.shirai.la/kai/2016/04/28/arprograming-processing/#respond</comments>
+				<pubDate>Thu, 28 Apr 2016 09:02:47 +0000</pubDate>
+		<dc:creator><![CDATA[kai]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/kai/?p=66</guid>
+				<description><![CDATA[　今日はタイトル通り、『ARプログラミング Pro&#8230;<div class="more-link-wrapper"><a class="more-link" href="http://blog.shirai.la/kai/2016/04/28/arprograming-processing/">Continue reading<span class="screen-reader-text">【書評】『ARプログラミング Processingでつくる拡張現実感のレシピ』を読んで</span></a></div>]]></description>
+								<content:encoded><![CDATA[<p>　今日はタイトル通り、『ARプログラミング Processingでつくる拡張現実感のレシピ』の感想を書きたいと思います。<br />
+　この本は4つのPartで構成されていて、AR（拡張現実）をProcessingを用いて誰でもわかりやすく体験できる内容となっています。<br />
+　筆者は全てやったわけではないのでやった範囲で紹介します。<br />
+　では、詳しく見ていきましょう。</p>
+<h1>1．イントロダクション編</h1>
+<p>　このPartは主に「ARとは」・「ARの歴史」・「ARの事例」などが記載されています。ARの研究は1960年代とかなり前からされており昔からこのような発想があった事にすこし驚きました。<br />　また昔のARはエンターテインメントというよりは仕事の効率化という側面で多く研究されていたこともわかりました。「ARの事例」にはここ最近のARを使った作品が紹介されており、画像とその作品の詳細ページのURLも記載されていたのでとてもわかりいやすかったです。</p>
+<h1>2．準備編</h1>
+<p>　目次通り、このPartでは学習するための道具の準備について説明されています。必要機材・ソフトウェアのセットアップについて書かれています。<br />
+　丁寧に書かれていたので、筆者は何のトラブルもなくセットアップができました。</p>
+<h1>3．ライブラリ編</h1>
+<p>　Processingには様々なライブラリが標準で備えられていますが、このPartではARアプリケーションを作るのに便利な別のライブラリが紹介されています。<br />
+　また、それぞれのライブラリの紹介が8つのChapterで構成されています。</p>
+<h2>Chapter 1 本書の構成と読み方</h2>
+<p>　主に、この本の進め方について記載されています。</p>
+<h2>Chapter 2 外部ライブラリの導入の仕方</h2>
+<p>　先ほど言った通りこのPartでは外部ライブラリを使うので、その導入法が記載されています。ダウンロードしたライブラリのフォルダをどの階層に入れるか図で示されているのでわかりやすいです。</p>
+<h2>Chapter 3 マーカベースのARを作る</h2>
+<p>　ここから本格的にARのプログラムを実行していきます。このChapterではマーカ上にARを表示する最も基本的なことをします。<br />
+下の画像が実際に実行したときの様子です。<br />
+<a href="http://blog.shirai.la/kai/files/2016/04/ARBox.png"><img class="alignnone size-full wp-image-72" src="http://blog.shirai.la/kai/files/2016/04/ARBox.png" alt="ARBox" width="640" height="360" /></a><br />
+　ARプログラミングライブラリとしてARToolKitがありますが、それをProcessing用に対応させた「NyAR4pg」というライブラリを使います。<br />
+　ソースは全て本に書かれておりますが、ここで一つ注意が必要です。<br />
+　この本の当時のProcessingのバージョンがver1.5.1であったため、ver2.0,3.0<br />
+では動きません。もしver1.5.1以外のProcessingをインストールされた方はもう一度ver1.5.1を入れてみてください。<br />
+　ver2.0以降で実行できないのはたぶんCamera関係のエラーだと思います。ver2.0からは「cam.start()」（camはChapture型）をvoid setup()内で入れないとキャプチャが始まらない仕様になっています。しかし、これを入れても筆者は実行できませんでした。<br />
+　「java.lang.NoClassDefFoundError:processing/core/PGraphics3D」というエラーが出てしまい、調べてみましたがよくわからなかったのでver1.5.1で実行することにしました。<br />
+　プログラムを実行するためには「パターンファイル」が必要になってきます。こういうやつです↓<br />
+<a href="http://blog.shirai.la/kai/files/2016/04/nyid-m2_id001.png"><img class="alignnone size-full wp-image-80" src="http://blog.shirai.la/kai/files/2016/04/nyid-m2_id001.png" alt="nyid-m2_id001" width="300" height="300" srcset="http://blog.shirai.la/kai/files/2016/04/nyid-m2_id001.png 300w, http://blog.shirai.la/kai/files/2016/04/nyid-m2_id001-150x150.png 150w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+　自分でパターンファイルをつくる事ができますが、筆者はNyIdマーカを使いました。<br />
+　NyIdマーカは「NyID Marker Maker」に配布されています。ソースを書くときもIDの番号を指定するだけなので簡単です。<br />
+　あと、boxを描画するときに注意点が２つあります。<br />
+　1つ目は、描画するときに透過率を設定しなければなりません。<br />
+　これも考えれば単純な事ですが、透過率を設定しなかった場合boxを描画したときにマーカが隠れてしまうからです。<br />
+　2つ目は、translateでboxの位置をずらしてあげる事です。そのままの位置に描画してしまうとマーカの中心にboxの中心がきてしまうのでboxの辺の半分の長さ上にtranslateすればちょうどマーカの上に描画されるようになります。</p>
+<h2>Chapter 4 メタセコイアで作成した3Dモデルを表示する。</h2>
+<p>　メタセコイアは3Dポリゴンモデルを作るためのソフトウェアです。このChapterではメタセコイアのモデルをProcessingで表示した後にARマーカ上に表示する方法が記載されています。Processingでメタセコイアのモデルを表示させたものと、それをARマーカ上に表示させたものを下に示します。<br />
+<a href="http://blog.shirai.la/kai/files/2016/04/metase.png"><img class="alignnone size-full wp-image-76" src="http://blog.shirai.la/kai/files/2016/04/metase.png" alt="metase" width="640" height="360" /></a></p>
+<p><a href="http://blog.shirai.la/kai/files/2016/04/ARmetase.png"><img class="alignnone size-full wp-image-73" src="http://blog.shirai.la/kai/files/2016/04/ARmetase.png" alt="ARmetase" width="640" height="360" srcset="http://blog.shirai.la/kai/files/2016/04/ARmetase.png 640w, http://blog.shirai.la/kai/files/2016/04/ARmetase-300x169.png 300w" sizes="(max-width: 640px) 100vw, 640px" /></a><br />
+　プログラムソースの解説はされていますが、細かいことが描かれていないことが多いです。「不親切だな」と思うかもしれませんが、あくまでARで活用するためならば光の色・モデルの表示位置などそれらの部分だけおさえておけば大丈夫だと思います。筆者の場合、プログラムのソースを全体的に理解したかったので細かい部分まで書いてほしかったですが&#8230;。</p>
+<h2>Chapter 5 CGに対するマウスの当たり判定を行う</h2>
+<p>　画面に表示されているCGをクリックしてドラッグさせるためには、そのCGに当たり判定をつける必要があります。このChapterではその方法が記載されています。<br />
+　「Picking library」というライブラリを使います。このライブラリは、生成するCGにID番号を付与することができます。ID番号を付与することによってクリックしたときにどのID番号のCGがクリックされたかすぐに判別することができるようになっているので、一からピッキング用のプログラムを書かなくても済むようになります。<br />下に実行結果を載せます。<br />
+<a href="http://blog.shirai.la/kai/files/2016/04/atariCG.png"><img class="alignnone size-full wp-image-75" src="http://blog.shirai.la/kai/files/2016/04/atariCG.png" alt="atariCG" width="640" height="360" /></a><br />
+　しかし、このライブラリで認識できるのはCGやrectなどの図形のみで画像を認識することができません。画像をピッキングしたい場合は、画像の下にrect()関数で画像と同サイズの四角形を書き、四角形の座標と画像の座標を同じ変数にする必要があります。</p>
+<h2>Chapter 6 ポップアップメニューを表示する</h2>
+<p>　ポップアップメニュとはよく右クリックしたときに出てくるメニューのようなものを指します。このChapterではポップアップメニューを簡単に表示できるライブラリの紹介をしています。下の画像がサンプルプログラムの実行結果です。<br />
+<a href="http://blog.shirai.la/kai/files/2016/04/popup.png"><img class="alignnone size-full wp-image-77" src="http://blog.shirai.la/kai/files/2016/04/popup.png" alt="popup" width="640" height="360" /></a><br />
+　ポップアップメニューには「red・green・blue」とあり、描画されているCGの色を変えることができます。このメニューに表示されている項目はそれぞれ色を変える関数となっています。よって、関数の内容を変えてやれば、跳ね上げたり大きさを変えたりなど他の動作を実行することもできるようになります。</p>
+<p>Chapter 7～10はやっていないので割愛します。</p>
+<h1>4.レシピ編</h1>
+<p>　このPartではPart 3で使ったライブラリを利用しARの作品を作る方法が紹介されています。全部で7つのRecipeに分かれています。筆者はこの中のRecipe 2「ARキャンドル」を実践してみました。以下に「ARキャンドル」でできること・詰まったところを挙げながら解説していきたいと思います。</p>
+<h2>(1)ARキャンドルとは？</h2>
+<p>　本文から引用すると「ARキャンドルは「現実に右クリック」を体験できる作品」です。これだけではよくわからないと思うので下に実行したときの画像を示してみます。<br />
+<a href="http://blog.shirai.la/kai/files/2016/04/arcandol.png"><img class="alignnone size-full wp-image-82" src="http://blog.shirai.la/kai/files/2016/04/arcandol.png" alt="arcandol" width="804" height="601" /></a><br />
+　このようにカメラで映し出されたLEDを右クリックしてメニューを表示させ、項目を選択することで点灯・消灯を操作できるものとなっています。</p>
+<h2>(2)できること</h2>
+<p>(1)でいった通り、LEDをARを使って点灯・消灯することができます。基本的にはPart 3のChapter3,5,6を組み合わせればできるようになっています。そのため、新しい知識はいらならいのでわかりやすくてとても良いです。</p>
+<h2>(3)詰まるところ</h2>
+<p>　個人的に詰まったところはLEDの点灯・消灯をする関数の部分です。この本では「２色LEDカソードコモンOSRB5131A」を使っていますが、手元になかったので青色、赤色の１色LEDを使いました。そのためプログラムの修正に少し時間がかかりました。<br />
+　まず、ピンの指定です。２色LEDは足が合計３本ついていますが、１色LEDは２本です。<br />
+<a href="http://blog.shirai.la/kai/files/2016/04/ARCnadolSourcePin.png"><img class="alignnone size-full wp-image-79" src="http://blog.shirai.la/kai/files/2016/04/ARCnadolSourcePin.png" alt="ARCnadolSourcePin" width="402" height="61" srcset="http://blog.shirai.la/kai/files/2016/04/ARCnadolSourcePin.png 402w, http://blog.shirai.la/kai/files/2016/04/ARCnadolSourcePin-300x46.png 300w" sizes="(max-width: 402px) 100vw, 402px" /></a><br />
+　サンプルプログラムのpinRed,pinBlueの配列数を２つに変えます。ここで配列を２つにした理由があります。<br />
+下のソースをみてください。<br />
+<a href="http://blog.shirai.la/kai/files/2016/04/ARcandolsorce3.png"><img class="alignnone size-full wp-image-83" src="http://blog.shirai.la/kai/files/2016/04/ARcandolsorce3.png" alt="ARcandolsorce3" width="444" height="482" srcset="http://blog.shirai.la/kai/files/2016/04/ARcandolsorce3.png 444w, http://blog.shirai.la/kai/files/2016/04/ARcandolsorce3-276x300.png 276w" sizes="(max-width: 444px) 100vw, 444px" /></a><br />
+　ピッキングでやった通り、オブジェクト（LED）にIDを付与します。筆者の環境では赤色が０番、青色が１番で付与されました。selected_idにはマウスのカーソルで合わせたオブジェクトのIDを格納されています。<br />
+そして次のソースです<br />
+<a href="http://blog.shirai.la/kai/files/2016/04/ARCandolSourceMethod.png"><img class="alignnone size-full wp-image-78" src="http://blog.shirai.la/kai/files/2016/04/ARCandolSourceMethod.png" alt="ARCandolSourceMethod" width="377" height="355" srcset="http://blog.shirai.la/kai/files/2016/04/ARCandolSourceMethod.png 377w, http://blog.shirai.la/kai/files/2016/04/ARCandolSourceMethod-300x282.png 300w" sizes="(max-width: 377px) 100vw, 377px" /></a><br />
+　点灯・消灯の関数ですね。pinRed[selected_id]またはpinBlue[selected_id]のピンを点灯・消灯します。先ほども言った通り、筆者の環境では赤色が０番、青色が１番になっています。（なぜそうなるかはよくわからない）<br />
+　赤色LEDはArduinoの6番のポートに、青色は7番のポートにつながっているので、マウスで右クリックされたらそれぞれpin○○○[selected_id]は6か7にななければなりません。赤色はselected_idが0なので6番が指定されますが、青色は1番なのでpinBlueの配列の1番目である7番が指定されなければなりません。そのため、２つの配列を追加しました。つまり、pinRed,pinBlueに含まれる0の要素はただの数合わせになっています。<br />
+　また、マウスカーソルをLEDにおいてメニューを表示するとき、LEDを囲む透明な直方体のCGが表示されていないとうまく実行されません。</p>
+<h1>最後に</h1>
+<p>　この本で学んだことはとてもいい経験になりました。ソースを書いたり、わからないことをネットで調べたり、ソースを書き換えて理解したりなど、試行錯誤することで得られたものは大きかったです。そして、なによりやっていて楽しかったです。この経験を今後の作品作りに活かしていきたいです。</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/kai/2016/04/28/arprograming-processing/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>【C++】簡易的なタイピングソフトをつくろう！</title>
+		<link>http://blog.shirai.la/kai/2016/04/13/ctyping/</link>
+				<comments>http://blog.shirai.la/kai/2016/04/13/ctyping/#respond</comments>
+				<pubDate>Tue, 12 Apr 2016 16:05:38 +0000</pubDate>
+		<dc:creator><![CDATA[kai]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/kai/?p=54</guid>
+				<description><![CDATA[今日の『応用プログラミングA』の授業で一番苦戦した&#8230;<div class="more-link-wrapper"><a class="more-link" href="http://blog.shirai.la/kai/2016/04/13/ctyping/">Continue reading<span class="screen-reader-text">【C++】簡易的なタイピングソフトをつくろう！</span></a></div>]]></description>
+								<content:encoded><![CDATA[<p>今日の『応用プログラミングA』の授業で一番苦戦した課題。<br />
+ソースを書く上で自分がつまずいた事をかいてみる。</p>
+<h1>プログラムの構成</h1>
+<p>構成としては次の通りだ。<br />
+・タイピングで使う単語帳のtxtファイルをつくる（メモ帳などで）<br />
+・ファイルを読み込む<br />
+・読み込んだファイルから日本語とローマ字の情報をそれぞれ変数に格納<br />
+・ランダムでどの単語を入力させるか選び表示させる<br />
+・入力させた後、表示された単語と入力された単語が一致するか確認<br />
+・正しく入力された文字数を記録<br />
+・時間制限の機能も実装<br />
+このような流れになっている。</p>
+<h1>つまずきポイント</h1>
+<p>唯一つまずいたのがファイル読み込み。<br />
+テキストファイルは以下のようになっているが、<br />
+<a href="http://blog.shirai.la/kai/files/2016/04/応用プログラミングAタイピング.png" rel="attachment wp-att-56"><img class="alignnone wp-image-56" src="http://blog.shirai.la/kai/files/2016/04/応用プログラミングAタイピング.png" alt="応用プログラミングAタイピング" width="285" height="308" /></a><br />
+ファイルを読み込むときに空白で区切って単語を読み取ることができるか<br />
+わからなかった。<br />
+実際は簡単なことで<br />
+fopen=(FP,&#8221;%s %s,word1[wc],word2[wc])<br />
+と%sと%sの間に空白を入れて書けばいいだけだった。<br />
+FPファイルポインタの名前、word1とword2はそれぞれ日本語とローマ字<br />
+を格納するための変数<br />
+wcは単語数。上のソースをもう少し書くと<br />
+while (fscanf(FP, &#8220;%s %s&#8221;, word1[wc], word2[wc]) != EOF){<br />
+wc++;<br />
+}<br />
+となっている。1行読み込んだらwc++してまた繰り返し&#8230;<br />
+こうすることで単語数を取得してる。</p>
+<p>ランダムや時間制限などは問題文にヒントがあったのでそこまで苦戦<br />
+しなかった。<br />
+ファイル読み書きは昨年習ってるはずなのに全然覚えてなかったから<br />
+いい復習になった。</p>
+<p>なんか、ほぼ自分の整理のために書いただけの文章になってしまった&#8230;（笑）<br />
+ご朗読ありがとうございました。</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/kai/2016/04/13/ctyping/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>今思った事</title>
+		<link>http://blog.shirai.la/kai/2016/01/10/%e4%bb%8a%e6%80%9d%e3%81%a3%e3%81%9f%e4%ba%8b/</link>
+				<comments>http://blog.shirai.la/kai/2016/01/10/%e4%bb%8a%e6%80%9d%e3%81%a3%e3%81%9f%e4%ba%8b/#respond</comments>
+				<pubDate>Sat, 09 Jan 2016 20:49:22 +0000</pubDate>
+		<dc:creator><![CDATA[kai]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/kai/?p=27</guid>
+				<description><![CDATA[  ネットサーフィンしてて自分が興味を持つのは、C&#8230;<div class="more-link-wrapper"><a class="more-link" href="http://blog.shirai.la/kai/2016/01/10/%e4%bb%8a%e6%80%9d%e3%81%a3%e3%81%9f%e4%ba%8b/">Continue reading<span class="screen-reader-text">今思った事</span></a></div>]]></description>
+								<content:encoded><![CDATA[<p style="text-align: left">  ネットサーフィンしてて自分が興味を持つのは、CG関連の動画作品だなと思う。<br />
+なんでいきなりこんな事を言っているのかというと、<br />
+同世代の人でもプロのような技術を持ってる人がいるってわかったから。<br />
+自分も何か作れるようになりたいと思ったし、<br />
+あと今の気持ちをたぶん明日になると忘れてしまうってのもあるかもしれない。</p>
+<p style="text-align: left">  今まで私はクリエイターはすごいなとしか思っていなかった。<br />
+自分はクリエイターは無理と決めつけていたので、ゲームプログラマーや<br />
+システムエンジニアに将来なるだろうと勝手に考えていた。<br />
+しかし、やっぱり自分はクリエイターには憧れていると思う。<br />
+「Splatoon 2D」なるものを作った結果<br />
+やっぱり、グラフィックの部分も自分で作れるようになりたいと思った。</p>
+<p style="text-align: left">  また、自分はセンス、想像力が欠けていると思う。<br />
+「こんなデザインの素材がほしい」といったイメージがあまりできないからだ。</p>
+<p style="text-align: left">  想像力を鍛えるには、いろんな映像作品をみたり、本を読んだり、絵を描いたり&#8230;<br />
+今まで、全てやってこなかったことだ。<br />
+私は文字を読むことがどうしても苦手で、<br />
+１行文字を読むとき一回では理解できないことが多い。<br />
+だから、読書は好きではなかった。<br />
+それに伴い物語を理解する事も苦手だった。<br />
+映画などは話が理解できなくて、見てこなかったのも<br />
+それが原因だと思う。</p>
+<p>  大学では今まで避けてきたことに挑戦したい。<br />
+むしろチャンスは今しかないと思う。</p>
+<p style="text-align: left">  どうやって技術を鍛えるか考えると、最初は模倣が一番早いしとっかかりやすい。<br />
+とりあえず、比較的簡単なものから地道に難易度を上げていこうと思う。</p>
+<p style="text-align: left">  ブログに書いたから、明日からやるべきことがはっきりした気がする。<br />
+今思えば、整理したかったからブログに書いたんだと思う。</p>
+<p style="text-align: left">最後まで読んでくださった方はありがとうございました。</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/kai/2016/01/10/%e4%bb%8a%e6%80%9d%e3%81%a3%e3%81%9f%e4%ba%8b/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>文字の比較、strcmp()について</title>
+		<link>http://blog.shirai.la/kai/2015/12/04/%e6%96%87%e5%ad%97%e3%81%ae%e6%af%94%e8%bc%83%e3%80%81strcmp%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/</link>
+				<comments>http://blog.shirai.la/kai/2015/12/04/%e6%96%87%e5%ad%97%e3%81%ae%e6%af%94%e8%bc%83%e3%80%81strcmp%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/#respond</comments>
+				<pubDate>Thu, 03 Dec 2015 15:09:23 +0000</pubDate>
+		<dc:creator><![CDATA[kai]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/kai/?p=21</guid>
+				<description><![CDATA[C言語の課題でこんな問題があった。 あらかじめ作成&#8230;<div class="more-link-wrapper"><a class="more-link" href="http://blog.shirai.la/kai/2015/12/04/%e6%96%87%e5%ad%97%e3%81%ae%e6%af%94%e8%bc%83%e3%80%81strcmp%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/">Continue reading<span class="screen-reader-text">文字の比較、strcmp()について</span></a></div>]]></description>
+								<content:encoded><![CDATA[<p>C言語の課題でこんな問題があった。</p>
+<h3>あらかじめ作成したinput3.txtを読み込む。キーボードから英単語を1つ入力し、その単語がinput3.txtに何個含まれるかを出力するプログラムを作成しなさい。</h3>
+<p>input3.txtから読み込んだ文字を格納したchar型変数inputの配列と、入力した文字をstrcmp()で処理すればいいだけじゃん♪</p>
+<p>と考えたので次のようなプログラムを書いた。</p>
+<p>#include&lt;stdio.h&gt;<br />
+#include&lt;string.h&gt;</p>
+<p>int main(){<br />
+FILE *FP;<br />
+int loop;<br />
+<span style="color: #3366ff">char str;</span><br />
+int count = 0;<br />
+char input[81];</p>
+<p><span style="color: #339966">scanf(&#8220;%c&#8221;, &amp;str);</span></p>
+<p>if ((FP = fopen(&#8220;input3.txt&#8221;, &#8220;r&#8221;)) == NULL){<br />
+printf(&#8220;File open error&#8221;);<br />
+return 1;<br />
+}</p>
+<p>while (fscanf(FP, &#8220;%s&#8221;, input) != EOF){<br />
+for (loop = 0; loop &lt; strlen(input); loop++){<br />
+<span style="color: #ff0000">　if (strcmp(input[loop], str) == 0)</span>{<br />
+count++;<br />
+}<br />
+}<br />
+}<br />
+fclose(FP);</p>
+<p>printf(&#8220;%cと同じ単語は%d個あります\n&#8221;,str,count);</p>
+<p>return 0;<br />
+}</p>
+<p>しかし、キーボード入力した後にエラーがででしまった・・・</p>
+<p>&nbsp;</p>
+<p>は？なんでよ？？っと思って調べること数分。</p>
+<p>strcmp()は文字列しか比較できないということが分かった。</p>
+<p>つまり、文字の比較はできないという事だ。</p>
+<p>ということなので赤文字と青文字と緑文字の部分を次のようにかえた。</p>
+<p><span style="color: #3366ff">char str[2];</span></p>
+<p><span style="color: #339966">scanf(&#8220;%s&#8221;, str);</span></p>
+<p><span style="color: #ff0000">if (strcmp(input[loop], str) == 0)</span></p>
+<p>と変えてもできないし！！</p>
+<p>もういいわ。strcmp()使うのやめた（笑）</p>
+<p><span style="color: #3366ff">char str;</span></p>
+<p><span style="color: #339966">scanf(&#8220;%c&#8221;, &amp;str);</span></p>
+<p><span style="color: #ff0000">if(input[loop] == str)</span></p>
+<p>はい、できた（笑）</p>
+<p>この課題だけで2時間持ってかれるとかあほすぎる・・・</p>
+<p>今度からは、しっかり教科書読むようにしよう。</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/kai/2015/12/04/%e6%96%87%e5%ad%97%e3%81%ae%e6%af%94%e8%bc%83%e3%80%81strcmp%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Processing1.5.1で外付けカメラを使うには（内臓カメラ付きPC）</title>
+		<link>http://blog.shirai.la/kai/2015/12/02/processing1-5-1%e3%81%a7%e5%a4%96%e4%bb%98%e3%81%91%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%92%e4%bd%bf%e3%81%86%e3%81%ab%e3%81%af%ef%bc%88%e5%86%85%e8%87%93%e3%82%ab%e3%83%a1%e3%83%a9%e4%bb%98%e3%81%8dpc/</link>
+				<comments>http://blog.shirai.la/kai/2015/12/02/processing1-5-1%e3%81%a7%e5%a4%96%e4%bb%98%e3%81%91%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%92%e4%bd%bf%e3%81%86%e3%81%ab%e3%81%af%ef%bc%88%e5%86%85%e8%87%93%e3%82%ab%e3%83%a1%e3%83%a9%e4%bb%98%e3%81%8dpc/#respond</comments>
+				<pubDate>Wed, 02 Dec 2015 12:35:35 +0000</pubDate>
+		<dc:creator><![CDATA[kai]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/kai/?p=19</guid>
+				<description><![CDATA[Processingでカメラを使うとき、PCの内蔵&#8230;<div class="more-link-wrapper"><a class="more-link" href="http://blog.shirai.la/kai/2015/12/02/processing1-5-1%e3%81%a7%e5%a4%96%e4%bb%98%e3%81%91%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%92%e4%bd%bf%e3%81%86%e3%81%ab%e3%81%af%ef%bc%88%e5%86%85%e8%87%93%e3%82%ab%e3%83%a1%e3%83%a9%e4%bb%98%e3%81%8dpc/">Continue reading<span class="screen-reader-text">Processing1.5.1で外付けカメラを使うには（内臓カメラ付きPC）</span></a></div>]]></description>
+								<content:encoded><![CDATA[<p>Processingでカメラを使うとき、PCの内蔵カメラを使っていたが、AR系のプログラムには少し使い勝手が悪い。</p>
+<p>そこで、USBカメラを使おうと考えたがデバイスをインストールしても内蔵カメラが反応してしまう・・・</p>
+<p>調べたところ、リファレンスにこんなことが書いてあった。　<a href="https://processing.org/reference/libraries/video/Capture.html" target="_blank">リファレンス　サイト</a></p>
+<p>下の方にCapture(<kbd>parent</kbd>, <kbd>requestWidth</kbd>, <kbd>requestHeight</kbd>, <kbd>cameraName</kbd>)とある。このcameraNameにカメラの名前を書けばいいのではないか！</p>
+<p>でも、カメラの名前わかんないじゃん・・・</p>
+<p>と思いきやlist()のページにとんだら、この関数をprintlnで表示させればわかることに気付く。</p>
+<p>やってみたら予想通り、これでできた！！！</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/kai/2015/12/02/processing1-5-1%e3%81%a7%e5%a4%96%e4%bb%98%e3%81%91%e3%82%ab%e3%83%a1%e3%83%a9%e3%82%92%e4%bd%bf%e3%81%86%e3%81%ab%e3%81%af%ef%bc%88%e5%86%85%e8%87%93%e3%82%ab%e3%83%a1%e3%83%a9%e4%bb%98%e3%81%8dpc/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>今週振り返って&#8230;</title>
+		<link>http://blog.shirai.la/kai/2015/10/11/%e4%bb%8a%e9%80%b1%e6%8c%af%e3%82%8a%e8%bf%94%e3%81%a3%e3%81%a6/</link>
+				<comments>http://blog.shirai.la/kai/2015/10/11/%e4%bb%8a%e9%80%b1%e6%8c%af%e3%82%8a%e8%bf%94%e3%81%a3%e3%81%a6/#respond</comments>
+				<pubDate>Sun, 11 Oct 2015 14:57:53 +0000</pubDate>
+		<dc:creator><![CDATA[kai]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/kai/?p=14</guid>
+				<description><![CDATA[今週は、ARの本とTOEICの勉強をやる計画を立て&#8230;<div class="more-link-wrapper"><a class="more-link" href="http://blog.shirai.la/kai/2015/10/11/%e4%bb%8a%e9%80%b1%e6%8c%af%e3%82%8a%e8%bf%94%e3%81%a3%e3%81%a6/">Continue reading<span class="screen-reader-text">今週振り返って&#8230;</span></a></div>]]></description>
+								<content:encoded><![CDATA[<p>今週は、ARの本とTOEICの勉強をやる計画を立ててました。</p>
+<p>しかし、次の日の授業の課題やらバンド練習やらで思っているより上手くいっていない・・・</p>
+<p>今も、明日のReadingの勉強を必死になってやってる始末。</p>
+<p>一日のスケジュールをはっきりさせて時間管理すべきだと改めて感じました。</p>
+<p>明日からは、ARの事も書けるように心がけて行きたいです。</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/kai/2015/10/11/%e4%bb%8a%e9%80%b1%e6%8c%af%e3%82%8a%e8%bf%94%e3%81%a3%e3%81%a6/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>TOEIC!!</title>
+		<link>http://blog.shirai.la/kai/2015/10/08/toeic/</link>
+				<comments>http://blog.shirai.la/kai/2015/10/08/toeic/#respond</comments>
+				<pubDate>Thu, 08 Oct 2015 05:15:54 +0000</pubDate>
+		<dc:creator><![CDATA[kai]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/kai/?p=9</guid>
+				<description><![CDATA[最近、TOEICの勉強を大学に提供してもらったe-&#8230;<div class="more-link-wrapper"><a class="more-link" href="http://blog.shirai.la/kai/2015/10/08/toeic/">Continue reading<span class="screen-reader-text">TOEIC!!</span></a></div>]]></description>
+								<content:encoded><![CDATA[<p>最近、TOEICの勉強を大学に提供してもらったe-Learningシステムで勉強しています。</p>
+<p>TOEICのパートごとに絞った勉強ができるからとても使いやすい！</p>
+<p>まあ、問題を解くと知らない単語が出てきて焦るし、時間制限もあるからなおさら。</p>
+<p>試験もあと１週間ちょいだからできるだけ多く問題を解いて本番に備えたいですね。</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/kai/2015/10/08/toeic/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>はじめまして</title>
+		<link>http://blog.shirai.la/kai/2015/10/03/%e3%81%af%e3%81%98%e3%82%81%e3%81%be%e3%81%97%e3%81%a6/</link>
+				<comments>http://blog.shirai.la/kai/2015/10/03/%e3%81%af%e3%81%98%e3%82%81%e3%81%be%e3%81%97%e3%81%a6/#respond</comments>
+				<pubDate>Sat, 03 Oct 2015 11:31:03 +0000</pubDate>
+		<dc:creator><![CDATA[kai]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/kai/?p=5</guid>
+				<description><![CDATA[今日からブログをはじめました！ このブログには、主&#8230;<div class="more-link-wrapper"><a class="more-link" href="http://blog.shirai.la/kai/2015/10/03/%e3%81%af%e3%81%98%e3%82%81%e3%81%be%e3%81%97%e3%81%a6/">Continue reading<span class="screen-reader-text">はじめまして</span></a></div>]]></description>
+								<content:encoded><![CDATA[<p style="text-align: left">今日からブログをはじめました！</p>
+<p style="text-align: left">このブログには、主に自分の日々の勉強について書いていきたいなと思ってます。</p>
+<p style="text-align: left">最初に言っておきますが、自分は文章書くのが下手です。</p>
+<p style="text-align: left">まあ、このブログで文章力を鍛えて行けたらなとも思います。</p>
+<p style="text-align: left">ということで、気が向いたら是非読んでください！</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/kai/2015/10/03/%e3%81%af%e3%81%98%e3%82%81%e3%81%be%e3%81%97%e3%81%a6/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

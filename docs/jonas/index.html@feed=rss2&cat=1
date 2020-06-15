@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>未分類 &#8211; Jonas&#039;s Blog</title>
+	<atom:link href="http://blog.shirai.la/jonas/?feed=rss2&#038;cat=1" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/jonas</link>
+	<description>Just another KAIT Shirai Lab Blog Sites site</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:24:50 +0000	</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>Singapore</title>
+		<link>http://blog.shirai.la/jonas/?p=52</link>
+				<comments>http://blog.shirai.la/jonas/?p=52#respond</comments>
+				<pubDate>Sat, 08 Dec 2012 18:00:35 +0000</pubDate>
+		<dc:creator><![CDATA[jonas]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=52</guid>
+				<description><![CDATA[I thought that I would write a report of the trip to Singapore and Siggraph Asia. First of I would have to say that the trip to Singapore was a very good experience and I got to meet a lot &#8230; <a href="http://blog.shirai.la/jonas/?p=52">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I thought that I would write a report of the trip to Singapore and Siggraph Asia.</p>
+<p>First of I would have to say that the trip to Singapore was a very good experience and I got to meet a lot of interesting people in the business. I don&#8217;t think I have ever meet that many animators in the same place before.</p>
+<p>The reason for the trip to Singapore was that the lab I&#8217;m in, here at Kanagawa institute of technology, was going to exhibit one of their projects at the emerging technologies. It was the Scritter project, which I have been writing about before, that got the honor of being accepted to Siggraph Asia 2012.<br />
+<img src="https://dl.dropbox.com/u/4559876/Siggraph%20Asia/IMG_3005.JPG" alt="" /></p>
+<p>My job in the team was to create some of the material that was going to be used to showcase the system. That of being able to show stereoscopic and normal 2D film on the same screen at the same time. Since I was eager to try this out on some of my own animations I decided to render out two animation clips using stereo cameras in Maya. After some trials and reading up on stereo camera setup I got some good results that worked really well on the Scritter 2x3D system. We also used filmed material, that we had shoot on the first day in Singapore using a stereo camera from Sony. It was my and Khamlas job to convert the film files into a format that could be used for the 2x3D software.</p>
+<p>Khamla and I also worked in the Scritter booth, to show the system to all the people that visited Siggraph. It was really fun to talk to so many people that were interested in the project. Our lab actually won a prize for our booth at emerging technologies.</p>
+<p>But all of the time was not spent in the booth, we also got the opportunity to go around and see the many different exhibitions and sessions they had. One of the high moments was the recruitment talk that DreamWorks had. It was really interesting to listen to what new things we can expect from them and how their company looks like. I even got the chance to ask them what they look for in an animation reel. They said that what they really wanted to see was good acting in the characters, to give them that special touch that makes them alive. They also talked about the importance of body mechanics, to have some good run or walk cycles in the reel.</p>
+<p>I also attended a session that Pixar had, about their Render Man. It’s so fun to see how many smart solutions they have on how to optimize their rendering process. Like for example how they only calculate the things that can be seen from the camera, but still get a good quality on the light and shadows in the scene without using all the photons of the entire area.<br />
+<img src="https://dl.dropbox.com/u/4559876/Siggraph%20Asia/IMG_3008.JPG" alt="" /><br />
+I was quite late for the session so I had to stand in far back of the room since all the chairs was already occupied.</p>
+<p>At the end of the first day of Siggraph they had a mingle party where every one could walk around and socialize.<br />
+They had food:<br />
+ <img src="https://dl.dropbox.com/u/4559876/Siggraph%20Asia/IMG_3063.JPG" alt="food" /></p>
+<p>We stayed in Singapore for one week, which gave us some extra time to go sightseeing since Siggraph was only held for three days. Singapore is an extremely beautiful city and a place I will definitely go back to.<br />
+<img src="https://dl.dropbox.com/u/4559876/Siggraph%20Asia/IMG_3004.JPG" alt="" /></p>
+<p><img src="https://dl.dropbox.com/u/4559876/Siggraph%20Asia/IMG_3182.JPG" alt="" /><br />
+Singapore skyline.</p>
+<p>Among the things we did was to go to the midnight safari. This was really fun and we saw a lot of exotic animals. But since it was during the night, and no camera flashes was allowed, there is little photos of it. But I did try.<br />
+<img src="https://dl.dropbox.com/u/4559876/Siggraph%20Asia/IMG_3098.JPG" alt="" /><br />
+Some flamingos in the dark.</p>
+<p><img src="https://dl.dropbox.com/u/4559876/Siggraph%20Asia/IMG_3129.JPG" alt="" /><br />
+The jungle.</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/jonas/?feed=rss2&#038;p=52</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Keith Lango</title>
+		<link>http://blog.shirai.la/jonas/?p=40</link>
+				<comments>http://blog.shirai.la/jonas/?p=40#respond</comments>
+				<pubDate>Fri, 07 Dec 2012 06:01:23 +0000</pubDate>
+		<dc:creator><![CDATA[jonas]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=40</guid>
+				<description><![CDATA[Yesterday I bought an animation tutorial set from Keith Lango. He is a highly skilled animator and teacher. I have watched a lot of his tutorials before. But now I decided to buy his entire tutorial collection of 60+ video &#8230; <a href="http://blog.shirai.la/jonas/?p=40">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Yesterday I bought an animation tutorial set from <a href="http://keithlango.blogspot.jp/" title="Keith Lango" target="_blank">Keith Lango</a>. He is a highly skilled animator and teacher. I have watched a lot of his tutorials before. But now I decided to buy his entire tutorial collection of 60+ video hours of animation tutorials. The price was only 99 us$, around 8500 Yen a believe.</p>
+<p>These tutorials will hopefully help my workflow and give me a lot of good tips and tricks in Maya.</p>
+<p>I have also been working on the layout of one of the animation scenes that will be part of my character emotion set.<br />
+I&#8217;m not fully happy with it yet and this planing phase is quite important, because I need to be absolutely certain of what camera angel I want to use ( so that I can create the right <a href="http://johnkstuff.blogspot.jp/2006/05/animation-school-lesson-5-line-of.html" target="_blank">Silhouette and line of action</a>) </p>
+<p>I also want to act it out in front of a camera, to try out different body language technics. Here is one that I filmed the week before we went to Singapore:<br />
+[vimeo]https://vimeo.com/55075089[/vimeo]</p>
+<p>What needs improving is the body language and better line of action. Right now it&#8217;s a little to chaotic and the arms are moving to much. I also want more solid extreme poses that really shows the emotions, going from despair to angry.</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/jonas/?feed=rss2&#038;p=40</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Stereoscopic Animation</title>
+		<link>http://blog.shirai.la/jonas/?p=36</link>
+				<comments>http://blog.shirai.la/jonas/?p=36#respond</comments>
+				<pubDate>Sat, 24 Nov 2012 08:33:15 +0000</pubDate>
+		<dc:creator><![CDATA[jonas]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=36</guid>
+				<description><![CDATA[I&#8217;m working on rendering some of my old animations into stereoscopic film clips that I&#8217;m going to try out with the 2x3D Scritter system. I think the biggest challenge with it is knowing how the 3D effect will look like. &#8230; <a href="http://blog.shirai.la/jonas/?p=36">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I&#8217;m working on rendering some of my old animations into stereoscopic film clips that I&#8217;m going to try out with the 2x3D Scritter system.<br />
+I think the biggest challenge with it is knowing how the 3D effect will look like. The laptop I&#8217;m working with is not supporting stereoscopic effect in maya. So I have to do a lot of test renders with different setups, that I can try out on the 2x3D system, before I know which setup to use.</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/jonas/?feed=rss2&#038;p=36</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>3D film</title>
+		<link>http://blog.shirai.la/jonas/?p=34</link>
+				<comments>http://blog.shirai.la/jonas/?p=34#respond</comments>
+				<pubDate>Fri, 23 Nov 2012 05:45:36 +0000</pubDate>
+		<dc:creator><![CDATA[jonas]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=34</guid>
+				<description><![CDATA[I&#8217;m working on exporting 3D material from the labs 3D camera. We are going to use filmed 3D short clips to show of the 2x3D Scritter system at SIGGRAPH. The problem right now is that the 3D files can&#8217;t be &#8230; <a href="http://blog.shirai.la/jonas/?p=34">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I&#8217;m working on exporting 3D material from the labs 3D camera.<br />
+We are going to use filmed 3D short clips to show of the 2x3D Scritter system at SIGGRAPH.</p>
+<p>The problem right now is that the 3D files can&#8217;t be used strait out of the camera. So I&#8217;m uploading them to Youtube, witch converts them into side by side 3D.<br />
+But the results is not perfect right now because one of the sides becomes very shaky and unwatchable. So I&#8217;m trying to decrees the shakes using Youtubes own anti-shaking solution. So far with no good results.</p>
+<p>//Jonas</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/jonas/?feed=rss2&#038;p=34</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>First month</title>
+		<link>http://blog.shirai.la/jonas/?p=29</link>
+				<comments>http://blog.shirai.la/jonas/?p=29#respond</comments>
+				<pubDate>Thu, 22 Nov 2012 11:20:14 +0000</pubDate>
+		<dc:creator><![CDATA[jonas]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=29</guid>
+				<description><![CDATA[So we&#8217;re half way through our second month, here in Japan, and I thought I would summaries the first month. We arrived here in Japan October 10:e and spent our first 3 days in an hotel near to the Hon-Atsugi &#8230; <a href="http://blog.shirai.la/jonas/?p=29">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>So we&#8217;re half way through our second month, here in Japan, and I thought I would summaries the first month.</p>
+<p>We arrived here in Japan October 10:e and spent our first 3 days in an hotel near to the Hon-Atsugi station. During those first days we had to fix quite a lot of things to get settled in Japan. we looked for an apartment and signed all the needed papers, which was quite a lot. We also opened up a bank account so that we could pay our rent and bills trough a Japanese account.</p>
+<p>On the third day we had all the papers signed, yea it really took that long to sign them all, and we could move in to our apartments. We also had to buy all the needed house equipment, like beds, sheets and kitchenware.</p>
+<p>I think the first week was the one we spent the most amount of money. Roughly around  250´000 yen (ca €2350) was spent. But after that we also had bills like our health insurance, which is obligatory, to pay. The cost for that is 1400 yen a month.</p>
+<p>Then we also had to sign up for a Japanese SIM card, for our phones, and that was a cost of around 4000 yen a month.</p>
+<p>All in all I think I spent around 300´000 yen (ca €2800) my first month.</p>
+<p>So for others planing on becoming an exchange student in Japan I would recommend to have a good budget and be ably to communicate in Japanese, which we had problems with since we hadn&#8217;t studied the languages before we came here.</p>
+<p>All the best,<br />
+Jonas</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/jonas/?feed=rss2&#038;p=29</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Eye morphing</title>
+		<link>http://blog.shirai.la/jonas/?p=15</link>
+				<comments>http://blog.shirai.la/jonas/?p=15#comments</comments>
+				<pubDate>Tue, 13 Nov 2012 03:50:13 +0000</pubDate>
+		<dc:creator><![CDATA[jonas]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=15</guid>
+				<description><![CDATA[I&#8217;m in the rigging phase of the character now. I just finished creating the morph-targets for the right eye and are now working on mirroring it to the left eye. A simple blink: The skin around the eye adapting to the &#8230; <a href="http://blog.shirai.la/jonas/?p=15">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I&#8217;m in the rigging phase of the character now.<br />
+I just finished creating the morph-targets for the right eye and are now working on mirroring it to the left eye.<br />
+A simple blink:<br />
+<img src="http://blog.shirai.la/jonas/wp-content/blogs.dir/9/files/HLIC/512954dbf876cb4db4387b11915a8b48.gif" alt="Eye Blinking" /><br />
+The skin around the eye adapting to the eyes movement:<br />
+<img src="http://blog.shirai.la/jonas/wp-content/blogs.dir/9/files/HLIC/e81eaeba2123ae50af1f6b3a538263c0.gif" alt="" /></p>
+<p>I&#8217;ve also been collecting good dialogue sounds for my animations and are now working on sketching out how I want the animations to be like.</p>
+<p>All the best,<br />
+Jonas<br />
+&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/jonas/?feed=rss2&#038;p=15</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+		<item>
+		<title>Unwraping</title>
+		<link>http://blog.shirai.la/jonas/?p=10</link>
+				<comments>http://blog.shirai.la/jonas/?p=10#respond</comments>
+				<pubDate>Tue, 06 Nov 2012 13:53:42 +0000</pubDate>
+		<dc:creator><![CDATA[jonas]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=10</guid>
+				<description><![CDATA[Finished unwraping one of the character, that I&#8217;m going to animate, today. Next up is planing the rig of the character.]]></description>
+								<content:encoded><![CDATA[
+
+<div id="bx-gallery-0" class="bxslider-gallery adaptive-height-on ">
+    <div class="gallery-wrapper">
+        <div class="bxslider">
+                            <div class="bxslide"><img src="http://blog.shirai.la/jonas/files/2012/11/Mong.jpg" alt="" title="Mong" /></div>
+                            <div class="bxslide"><img src="http://blog.shirai.la/jonas/files/2012/11/Mong_UV.jpg" alt="" title="Mong_UV" /></div>
+                    </div>
+    </div>
+
+    
+        <div class="pager-wrapper">
+            <div class="bxpager">
+                <a data-slide-index="0" href="" title="Mong"><img src="http://blog.shirai.la/jonas/files/2012/11/Mong-150x150.jpg" alt="" title="Mong" /></a><a data-slide-index="1" href="" title="Mong_UV"><img src="http://blog.shirai.la/jonas/files/2012/11/Mong_UV-150x150.jpg" alt="" title="Mong_UV" /></a>            </div>
+        </div>
+
+    
+</div>
+<p>Finished unwraping one of the character, that I&#8217;m going to animate, today.<br />
+Next up is planing the rig of the character.</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/jonas/?feed=rss2&#038;p=10</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Introduction</title>
+		<link>http://blog.shirai.la/jonas/?p=4</link>
+				<comments>http://blog.shirai.la/jonas/?p=4#respond</comments>
+				<pubDate>Wed, 24 Oct 2012 03:28:49 +0000</pubDate>
+		<dc:creator><![CDATA[jonas]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=4</guid>
+				<description><![CDATA[Hello everyone! My name is Jonas Schild. I&#8217;m from Sweden but newly moved to Atsugi to study at Kanagawa institute of technology. In Sweden I studied Computer Graphics &#38; Animation, with a Bachelor degree of Arts in 2012. My goal &#8230; <a href="http://blog.shirai.la/jonas/?p=4">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Hello everyone!<br />
+My name is Jonas Schild. I&#8217;m from Sweden but newly moved to Atsugi to<br />
+study at Kanagawa institute of technology. In Sweden I studied<br />
+Computer Graphics &amp; Animation, with a Bachelor degree of Arts in 2012.<br />
+My goal for the future is to become an animator on a large film<br />
+production team.</p>
+<p>The project I&#8217;m working on right now, which will be for my Master of<br />
+Arts Degree, is to animate human emotions on 3D characters. I&#8217;m also<br />
+looking on capturing human emotions using a 4k resolution camera, this<br />
+to get a better understanding of them.</p>
+<p>All of my projects can be followed through my website<br />
+<a href="http://www.jonasschild.com/" target="_blank">www.jonasschild.com</a></p>
+<p>Thank you.</p>
+<p>Best regards,<br />
+Jonas Schild</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/jonas/?feed=rss2&#038;p=4</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

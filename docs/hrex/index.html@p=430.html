@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>PythonのPIL(Python Imaging Library)で画像を加工します | Rex&#039;s Japan Adventure</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://blog.shirai.la/hrex/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://blog.shirai.la/hrex/wp-content/themes/twentyfourteen/js/html5.js"></script>
+	<![endif]-->
+	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Rex&#039;s Japan Adventure &raquo; Feed" href="feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Rex&#039;s Japan Adventure &raquo; Comments Feed" href="comments/feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/blog.shirai.la\/hrex\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.1.6"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='jquery.bxslider-css'  href='wp-content/plugins/bxslider-integration/assets/css/bxslider-integration.min.css@ver=5.1.6.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='wp-includes/css/dist/block-library/style.min.css@ver=5.1.6.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='wp-includes/css/dist/block-library/theme.min.css@ver=5.1.6.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-member-block-css'  href='wp-content/plugins/buddypress/bp-members/css/blocks/member.min.css@ver=6.0.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-group-block-css'  href='wp-content/plugins/buddypress/bp-groups/css/blocks/group.min.css@ver=6.0.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-legacy-css-css'  href='wp-content/plugins/buddypress/bp-templates/bp-legacy/css/buddypress.min.css@ver=6.0.0.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='bp-twentyfourteen-css'  href='wp-content/plugins/buddypress/bp-templates/bp-legacy/css/twentyfourteen.min.css@ver=6.0.0.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles.css@ver=5.1.9.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dlm-frontend-css'  href='wp-content/plugins/download-monitor/assets/css/frontend.css@ver=5.1.6.css' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfourteen-lato-css'  href='https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='wp-content/themes/twentyfourteen/genericons/genericons.css@ver=3.0.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfourteen-style-css'  href='wp-content/themes/twentyfourteen/style.css@ver=5.1.6.css' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfourteen-block-style-css'  href='wp-content/themes/twentyfourteen/css/blocks.css@ver=20181230.css' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css'  href='http://blog.shirai.la/hrex/wp-content/themes/twentyfourteen/css/ie.css?ver=20131205' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='amazonjs-css'  href='wp-content/plugins/amazonjs/css/amazonjs.css@ver=0.10.css' type='text/css' media='all' />
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.js@ver=1.12.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js@ver=1.4.1'></script>
+<script type='text/javascript' src='wp-content/plugins/bxslider-integration/assets/js/bxslider-integration.min.js@ver=5.1.6'></script>
+<script type='text/javascript' src='wp-content/plugins/buddypress/bp-core/js/confirm.min.js@ver=6.0.0'></script>
+<script type='text/javascript' src='wp-content/plugins/buddypress/bp-core/js/widget-members.min.js@ver=6.0.0'></script>
+<script type='text/javascript' src='wp-content/plugins/buddypress/bp-core/js/jquery-query.min.js@ver=6.0.0'></script>
+<script type='text/javascript' src='wp-content/plugins/buddypress/bp-core/js/vendor/jquery-cookie.min.js@ver=6.0.0'></script>
+<script type='text/javascript' src='wp-content/plugins/buddypress/bp-core/js/vendor/jquery-scroll-to.min.js@ver=6.0.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var BP_DTheme = {"accepted":"Accepted","close":"Close","comments":"comments","leave_group_confirm":"Are you sure you want to leave this group?","mark_as_fav":"Favorite","my_favs":"My Favorites","rejected":"Rejected","remove_fav":"Remove Favorite","show_all":"Show all","show_all_comments":"Show all comments for this thread","show_x_comments":"Show all comments (%d)","unsaved_changes":"Your profile has unsaved changes. If you leave the page, the changes will be lost.","view":"View","store_filter_settings":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/buddypress/bp-templates/bp-legacy/js/buddypress.min.js@ver=6.0.0'></script>
+<link rel='https://api.w.org/' href='http://blog.shirai.la/hrex/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php@rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='第22回日本バーチャルリアリティ学会大会徳島VRSJ展示' href='http://blog.shirai.la/hrex/2017/10/03/%e7%ac%ac22%e5%9b%9e%e6%97%a5%e6%9c%ac%e3%83%90%e3%83%bc%e3%83%81%e3%83%a3%e3%83%ab%e3%83%aa%e3%82%a2%e3%83%aa%e3%83%86%e3%82%a3%e5%ad%a6%e4%bc%9a%e5%a4%a7%e4%bc%9a%e5%be%b3%e5%b3%b6vrsj%e5%b1%95/' />
+<link rel='next' title='Laval Virtual ReVolution 2018&#8243;MasQueRade&#8221;の発表' href='http://blog.shirai.la/hrex/2018/04/17/laval-virtual-revolution-2018masquerade%e3%81%ae%e7%99%ba%e8%a1%a8/' />
+<meta name="generator" content="WordPress 5.1.6" />
+<link rel="canonical" href="http://blog.shirai.la/hrex/2018/01/29/python%e3%81%aepilpython-imaging-library%e3%81%a7%e7%94%bb%e5%83%8f%e3%82%92%e5%8a%a0%e5%b7%a5%e3%81%97%e3%81%be%e3%81%99/" />
+<link rel='shortlink' href='index.html@p=430.html' />
+<link rel="alternate" type="application/json+oembed" href="http://blog.shirai.la/hrex/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fblog.shirai.la%2Fhrex%2F2018%2F01%2F29%2Fpython%25e3%2581%25aepilpython-imaging-library%25e3%2581%25a7%25e7%2594%25bb%25e5%2583%258f%25e3%2582%2592%25e5%258a%25a0%25e5%25b7%25a5%25e3%2581%2597%25e3%2581%25be%25e3%2581%2599%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://blog.shirai.la/hrex/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fblog.shirai.la%2Fhrex%2F2018%2F01%2F29%2Fpython%25e3%2581%25aepilpython-imaging-library%25e3%2581%25a7%25e7%2594%25bb%25e5%2583%258f%25e3%2582%2592%25e5%258a%25a0%25e5%25b7%25a5%25e3%2581%2597%25e3%2581%25be%25e3%2581%2599%2F&#038;format=xml" />
+
+	<script type="text/javascript">var ajaxurl = 'http://blog.shirai.la/hrex/wp-admin/admin-ajax.php';</script>
+
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<script type="text/javascript" src="wp-content/plugins/si-captcha-for-wordpress/captcha/si_captcha.js@ver=1592148168"></script>
+<!-- begin SI CAPTCHA Anti-Spam - login/register form style -->
+<style type="text/css">
+.si_captcha_small { width:175px; height:45px; padding-top:10px; padding-bottom:10px; }
+.si_captcha_large { width:250px; height:60px; padding-top:10px; padding-bottom:10px; }
+img#si_image_com { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_reg { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_log { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_side_login { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_checkout { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_jetpack { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_bbpress_topic { border-style:none; margin:0; padding-right:5px; float:left; }
+.si_captcha_refresh { border-style:none; margin:0; vertical-align:bottom; }
+div#si_captcha_input { display:block; padding-top:15px; padding-bottom:5px; }
+label#si_captcha_code_label { margin:0; }
+input#si_captcha_code_input { width:65px; }
+p#si_captcha_code_p { clear: left; padding-top:10px; }
+.si-captcha-jetpack-error { color:#DC3232; }
+</style>
+<!-- end SI CAPTCHA Anti-Spam - login/register form style -->
+</head>
+
+<body class="bp-legacy post-template-default single single-post postid-430 single-format-standard wp-embed-responsive masthead-fixed full-width singular no-js">
+<div id="page" class="hfeed site">
+	
+	<header id="masthead" class="site-header" role="banner">
+		<div class="header-main">
+			<h1 class="site-title"><a href="../hrex.1.html" rel="home">Rex&#039;s Japan Adventure</a></h1>
+
+			<div class="search-toggle">
+				<a href="http://blog.shirai.la/hrex/2018/01/29/python%E7%B8%BA%EF%BD%AEpilpython-imaging-library%E7%B8%BA%EF%BD%A7%E9%80%95%EF%BD%BB%E8%9C%92%E4%B8%8A%EF%BD%92%E8%9C%89%A0%E8%9F%BE%EF%BD%A5%E7%B8%BA%E5%8A%B1%E2%88%AA%E7%B8%BA%99/#search-container" class="screen-reader-text" aria-expanded="false" aria-controls="search-container">Search</a>
+			</div>
+
+			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+				<button class="menu-toggle">Primary Menu</button>
+				<a class="screen-reader-text skip-link" href="http://blog.shirai.la/hrex/2018/01/29/python%E7%B8%BA%EF%BD%AEpilpython-imaging-library%E7%B8%BA%EF%BD%A7%E9%80%95%EF%BD%BB%E8%9C%92%E4%B8%8A%EF%BD%92%E8%9C%89%A0%E8%9F%BE%EF%BD%A5%E7%B8%BA%E5%8A%B1%E2%88%AA%E7%B8%BA%99/#content">Skip to content</a>
+				<div id="primary-menu" class="nav-menu"><ul>
+<li class="page_item page-item-2"><a href="index.html@p=2.html">About Rex</a></li>
+<li class="page_item page-item-496"><a href="http://blog.shirai.la/hrex/%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%aa%e3%81%97/">アクセスなし</a></li>
+</ul></div>
+			</nav>
+		</div>
+
+		<div id="search-container" class="search-box-wrapper hide">
+			<div class="search-box">
+				<form role="search" method="get" class="search-form" action="../hrex.1.html">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>			</div>
+		</div>
+	</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+			
+<article id="post-430" class="post-430 post type-post status-publish format-standard hentry category-1">
+	
+	<header class="entry-header">
+		<h1 class="entry-title">PythonのPIL(Python Imaging Library)で画像を加工します</h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://blog.shirai.la/hrex/2018/01/29/python%e3%81%aepilpython-imaging-library%e3%81%a7%e7%94%bb%e5%83%8f%e3%82%92%e5%8a%a0%e5%b7%a5%e3%81%97%e3%81%be%e3%81%99/" rel="bookmark"><time class="entry-date" datetime="2018-01-29T11:42:07+09:00">January 29, 2018</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="author/hrex/index.html" rel="author">Rex HSIEH</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>読者様、明けましておめでとうございます。久しぶりです。今回のブログは最近学んでいるPythonの進捗を記録します。現在私はPythonや他のプログラムで画像の認識や色々な変更をしたいです。</p>
+<p>Pythonはオランダ出身のGuido Van Rossumで開発していて、1991年大衆に提供している、汎用なプログラムです。PIL(Python Imaging Library)はPythonに追加して、画像を自由自在に加工したり、変更が出来るの画像のデータベースです。</p>
+<p>Pythonは色んなインストールする方法があります。私が選んでいる方はJetBrains PyCharm Community Editionです。PyCharmはチェコ共和国の会社：JetBrainsでPythonプログラミング言語をプログラミングし、分析するために開発したプラットフォ―ムです。こちらはJetBrains Pycharmのウェブサイトです：https://www.jetbrains.com/pycharm/</p>
+<p>PyCharmをインストールした後に使用者はPythonでプログラミングをできますが、PIL画像データベースはまだ使いません。PILを使いたい場合はpipをパソコンのCommand Promptで使うは必要があります。以下はpipをパソコンで使える方法です。始めてPythonのインストール場所を見つけて、場所のアドレスをコピーします。後でWindowのControl Panelを開いて、システムへ行って、詳細設定（Advanced System Setting）へ入って、環境変数をクリックして、そして新しいPathを新規します。新しいWindowの中に変数値の中にPythonのインストールをする場所を入力します。その後Window Command Promptでpipが使えます。</p>
+<p><a href="files/2018/01/PythonImg2.jpg"><img class="alignnone size-medium wp-image-447" src="files/2018/01/PythonImg2-270x300.jpg" alt="" width="270" height="300" srcset="files/2018/01/PythonImg2-270x300.jpg 270w, files/2018/01/PythonImg2.jpg 476w" sizes="(max-width: 270px) 100vw, 270px" /></a></p>
+<p><a href="files/2018/01/PythonImg1.jpg"><img class="alignnone size-medium wp-image-444" src="files/2018/01/PythonImg1-300x170.jpg" alt="" width="300" height="170" srcset="files/2018/01/PythonImg1-300x170.jpg 300w, files/2018/01/PythonImg1-768x436.jpg 768w, files/2018/01/PythonImg1-1024x582.jpg 1024w, files/2018/01/PythonImg1.jpg 1028w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>以上の手続が終わったらCommand PromptでPipを使えます。現在Windows Command Promptを開いて、pip install Pillowを入力します。その時点でパソコンが自動的にPillowをインストールしています。その後PythonでPillowを使えます。</p>
+<p>今まで私はPillowで画像の色や、解像度の変更をできます。例えば現在画像のRGB値に基づいて変更しました。以下のプログラムは上記の条件を実現します。#の後ろに文章は前にコードの説明です。</p>
+<pre>from PIL import Image <span style="color: #00ccff">#このコードはPILデータベースから、Imageをプログラム中にインポートします。</span>
+
+im = Image.open("画像の位置")<span style="color: #00ccff">＃imの機能は画像を開きます。</span>
+rgb_im = im.convert('RGB') <span style="color: #00ccff">#im画像色のフォーマットはRGB(Red, Green, Blue)に変更します。</span>
+size = rgb_im.size <span style="color: #00ccff">#sizeはrgb_imの大きさを声明します。</span>
+im2 = Image.new('RGBA', size)<span style="color: #00ccff">#im2のフォーマットはRGBA(Red, Green, Blue, Alpha)、そして大きさは先に声明したsizeの同じく大きさです。</span>
+
+for x in range(size[0]):
+    for y in range(size[1]):
+        r,g,b = rgb_im.getpixel((x,y))<span style="color: #00ccff">#画像中にすべてのピクセルの色の資料をもらって、r, g, bに保存します。</span>
+
+        if (r &gt;= 200) and (g &lt;= 100) and (b &lt;= 100):
+            r = 255 - r<span style="color: #00ccff">#Redの値を反転します。</span>
+            g = 255 - g<span style="color: #00ccff">#Greenの値を反転します。</span>
+            b = 255 - b<span style="color: #00ccff">#Blueの値を反転します。</span>
+
+        else:
+            r = 255<span style="color: #00ccff">#Redの値を255になります。</span>
+            g = 255<span style="color: #00ccff">#Greenの値を255になります。</span>
+            b = 255<span style="color: #00ccff">#Blueの値を255になって、色が白になります。</span>
+
+        im2.putpixel((x, y), (r, g, b, 0))<span style="color: #00ccff">#imのサイズをxとyの最大点になります。色をr, g, bの新しい値になります。</span>
+
+im2.save("新しいファイルの位置")<span style="color: #00ccff">#新しく変更された画像を保存します。</span></pre>
+<p>そして以下2枚写真は元の写真と上記プログラムの結果です。</p>
+<p><a href="files/2018/01/Snow.jpg"><img class="alignnone size-medium wp-image-456" src="files/2018/01/Snow-300x225.jpg" alt="" width="300" height="225" srcset="files/2018/01/Snow-300x225.jpg 300w, files/2018/01/Snow-768x576.jpg 768w, files/2018/01/Snow-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p><a href="files/2018/01/SnowChanged1.jpg"><img class="alignnone size-medium wp-image-457" src="files/2018/01/SnowChanged1-300x225.jpg" alt="" width="300" height="225" srcset="files/2018/01/SnowChanged1-300x225.jpg 300w, files/2018/01/SnowChanged1-768x576.jpg 768w, files/2018/01/SnowChanged1-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>他の結果は写真を合わして貼り絵。以下三つの画像はプログラミングと貼り絵です。</p>
+<pre>from PIL import Image
+
+list_im = ['第一画像の位置', '第二画像の位置', '第三画像の位置']<span style="color: #00ccff">#配列の内容は三つの画像の位置</span>
+imgs    = [ Image.open(i) for i in list_im ]<span style="color: #00ccff">#imgsは配列中に三つの画像</span>
+
+<span style="color: #00ccff"># 以下のコードは一番小さい画像を選んで、他の画像のサイズは一番小さい画像サイズになります。</span>
+min_shape = sorted( [(np.sum(i.size), i.size ) for i in imgs])[0][1]
+imgs_comb = np.hstack( (np.asarray( i.resize(min_shape) ) for i in imgs ) )
+
+<span style="color: #00ccff">#横画像を出力します。</span>
+imgs_comb = Image.fromarray( imgs_comb)
+imgs_comb.save( '横の画像の位置' )
+
+<span style="color: #00ccff"># 垂直画像を出力します。</span>
+imgs_comb = np.vstack( (np.asarray( i.resize(min_shape) ) for i in imgs ) )
+imgs_comb = Image.fromarray( imgs_comb)
+imgs_comb.save( '垂直画像の位置' )</pre>
+<p><a href="files/2018/01/HorizBliz.jpg"><img class="alignnone size-medium wp-image-461" src="files/2018/01/HorizBliz-300x75.jpg" alt="" width="300" height="75" srcset="files/2018/01/HorizBliz-300x75.jpg 300w, files/2018/01/HorizBliz-768x192.jpg 768w, files/2018/01/HorizBliz-1024x256.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a><a href="files/2018/01/VertiBliz.jpg"><img class="size-medium wp-image-462 alignleft" src="files/2018/01/VertiBliz-133x300.jpg" alt="" width="133" height="300" srcset="files/2018/01/VertiBliz-133x300.jpg 133w, files/2018/01/VertiBliz-768x1728.jpg 768w, files/2018/01/VertiBliz-455x1024.jpg 455w, files/2018/01/VertiBliz.jpg 1000w" sizes="(max-width: 133px) 100vw, 133px" /> </a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>こちらは画像変更の他の例です：</p>
+<figure id="attachment_465" aria-describedby="caption-attachment-465" style="width: 300px" class="wp-caption alignnone"><a href="files/2018/01/GammaCorrected2.png"><img class="size-medium wp-image-465" src="files/2018/01/GammaCorrected2-300x300.png" alt="" width="300" height="300" srcset="files/2018/01/GammaCorrected2-300x300.png 300w, files/2018/01/GammaCorrected2-150x150.png 150w, files/2018/01/GammaCorrected2-768x768.png 768w, files/2018/01/GammaCorrected2-1024x1024.png 1024w, files/2018/01/GammaCorrected2.png 1200w" sizes="(max-width: 300px) 100vw, 300px" /></a><figcaption id="caption-attachment-465" class="wp-caption-text">Gamma Correction.</figcaption></figure>
+<figure id="attachment_466" aria-describedby="caption-attachment-466" style="width: 300px" class="wp-caption alignnone"><a href="files/2018/01/Equalize.png"><img class="size-medium wp-image-466" src="files/2018/01/Equalize-300x300.png" alt="" width="300" height="300" srcset="files/2018/01/Equalize-300x300.png 300w, files/2018/01/Equalize-150x150.png 150w, files/2018/01/Equalize-768x768.png 768w, files/2018/01/Equalize-1024x1024.png 1024w, files/2018/01/Equalize.png 1200w" sizes="(max-width: 300px) 100vw, 300px" /></a><figcaption id="caption-attachment-466" class="wp-caption-text">Equalize the Colors</figcaption></figure>
+<figure id="attachment_467" aria-describedby="caption-attachment-467" style="width: 300px" class="wp-caption alignnone"><a href="files/2018/01/BlackWhite.png"><img class="size-medium wp-image-467" src="files/2018/01/BlackWhite-300x300.png" alt="" width="300" height="300" srcset="files/2018/01/BlackWhite-300x300.png 300w, files/2018/01/BlackWhite-150x150.png 150w, files/2018/01/BlackWhite-768x768.png 768w, files/2018/01/BlackWhite-1024x1024.png 1024w, files/2018/01/BlackWhite.png 1200w" sizes="(max-width: 300px) 100vw, 300px" /></a><figcaption id="caption-attachment-467" class="wp-caption-text">Black and White</figcaption></figure>
+<figure id="attachment_468" aria-describedby="caption-attachment-468" style="width: 300px" class="wp-caption alignnone"><a href="files/2018/01/GaussianBlur.png"><img class="size-medium wp-image-468" src="files/2018/01/GaussianBlur-300x300.png" alt="" width="300" height="300" srcset="files/2018/01/GaussianBlur-300x300.png 300w, files/2018/01/GaussianBlur-150x150.png 150w, files/2018/01/GaussianBlur-768x768.png 768w, files/2018/01/GaussianBlur-1024x1024.png 1024w, files/2018/01/GaussianBlur.png 1200w" sizes="(max-width: 300px) 100vw, 300px" /></a><figcaption id="caption-attachment-468" class="wp-caption-text">Image Blur</figcaption></figure>
+<figure id="attachment_469" aria-describedby="caption-attachment-469" style="width: 300px" class="wp-caption alignnone"><a href="files/2018/01/Posterize.png"><img class="size-medium wp-image-469" src="files/2018/01/Posterize-300x300.png" alt="" width="300" height="300" srcset="files/2018/01/Posterize-300x300.png 300w, files/2018/01/Posterize-150x150.png 150w, files/2018/01/Posterize-768x768.png 768w, files/2018/01/Posterize-1024x1024.png 1024w, files/2018/01/Posterize.png 1200w" sizes="(max-width: 300px) 100vw, 300px" /></a><figcaption id="caption-attachment-469" class="wp-caption-text">Image Posterization</figcaption></figure>
+	</div><!-- .entry-content -->
+	
+	</article><!-- #post-430 -->
+		<nav class="navigation post-navigation" role="navigation">
+		<h1 class="screen-reader-text">Post navigation</h1>
+		<div class="nav-links">
+			<a href="http://blog.shirai.la/hrex/2017/10/03/%e7%ac%ac22%e5%9b%9e%e6%97%a5%e6%9c%ac%e3%83%90%e3%83%bc%e3%83%81%e3%83%a3%e3%83%ab%e3%83%aa%e3%82%a2%e3%83%aa%e3%83%86%e3%82%a3%e5%ad%a6%e4%bc%9a%e5%a4%a7%e4%bc%9a%e5%be%b3%e5%b3%b6vrsj%e5%b1%95/" rel="prev"><span class="meta-nav">Previous Post</span>第22回日本バーチャルリアリティ学会大会徳島VRSJ展示</a><a href="http://blog.shirai.la/hrex/2018/04/17/laval-virtual-revolution-2018masquerade%e3%81%ae%e7%99%ba%e8%a1%a8/" rel="next"><span class="meta-nav">Next Post</span>Laval Virtual ReVolution 2018&#8243;MasQueRade&#8221;の発表</a>			</div><!-- .nav-links -->
+		</nav><!-- .navigation -->
+				</div><!-- #content -->
+	</div><!-- #primary -->
+
+<div id="secondary">
+		<h2 class="site-description">Rex&#039;s PhD Studies at Shirai Lab</h2>
+	
+	
+		<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+		<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="../hrex.1.html">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h1 class="widget-title">Recent Posts</h1>		<ul>
+											<li>
+					<a href="http://blog.shirai.la/hrex/2018/04/17/laval-virtual-revolution-2018masquerade%e3%81%ae%e7%99%ba%e8%a1%a8/">Laval Virtual ReVolution 2018&#8243;MasQueRade&#8221;の発表</a>
+									</li>
+											<li>
+					<a href="http://blog.shirai.la/hrex/2018/01/29/python%e3%81%aepilpython-imaging-library%e3%81%a7%e7%94%bb%e5%83%8f%e3%82%92%e5%8a%a0%e5%b7%a5%e3%81%97%e3%81%be%e3%81%99/">PythonのPIL(Python Imaging Library)で画像を加工します</a>
+									</li>
+											<li>
+					<a href="http://blog.shirai.la/hrex/2017/10/03/%e7%ac%ac22%e5%9b%9e%e6%97%a5%e6%9c%ac%e3%83%90%e3%83%bc%e3%83%81%e3%83%a3%e3%83%ab%e3%83%aa%e3%82%a2%e3%83%aa%e3%83%86%e3%82%a3%e5%ad%a6%e4%bc%9a%e5%a4%a7%e4%bc%9a%e5%be%b3%e5%b3%b6vrsj%e5%b1%95/">第22回日本バーチャルリアリティ学会大会徳島VRSJ展示</a>
+									</li>
+											<li>
+					<a href="index.html@p=382.html">SIGGRAPH 2017 Overview</a>
+									</li>
+											<li>
+					<a href="http://blog.shirai.la/hrex/2017/07/23/%e3%83%ad%e3%83%bc%e3%82%bf%e3%83%aa%e3%83%bc%e7%b1%b3%e5%b1%b1%e5%a5%a8%e8%a8%98%e5%bf%b5%e5%a5%a8%e5%ad%a6%e4%bc%9a%e3%81%ae%e6%b4%bb%e5%8b%95%e5%a0%b1%e5%91%8a/">ロータリー米山奨記念奨学会の活動報告</a>
+									</li>
+					</ul>
+		</aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h1 class="widget-title">Recent Comments</h1><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='https://vreak.jp/anime-expo-2017-report/' rel='external nofollow' class='url'>Anime Expo 2017 report &#8211; VREAK</a></span> on <a href="index.html@p=349.html#comment-463">Anime Expo 2017 Los Angeles</a></li></ul></aside><aside id="archives-2" class="widget widget_archive"><h1 class="widget-title">Archives</h1>		<ul>
+				<li><a href='2018/04/index.html'>April 2018</a></li>
+	<li><a href='2018/01/index.html'>January 2018</a></li>
+	<li><a href='2017/10/index.html'>October 2017</a></li>
+	<li><a href='2017/08/index.html'>August 2017</a></li>
+	<li><a href='2017/07/index.html'>July 2017</a></li>
+	<li><a href='2017/06/index.html'>June 2017</a></li>
+	<li><a href='2017/05/index.html'>May 2017</a></li>
+	<li><a href='2017/04/index.html'>April 2017</a></li>
+	<li><a href='2017/03/index.html'>March 2017</a></li>
+	<li><a href='2017/02/index.html'>February 2017</a></li>
+	<li><a href='2014/07/index.html'>July 2014</a></li>
+	<li><a href='2014/06/index.html'>June 2014</a></li>
+	<li><a href='2014/05/index.html'>May 2014</a></li>
+	<li><a href='2014/04/index.html'>April 2014</a></li>
+	<li><a href='2014/03/index.html'>March 2014</a></li>
+	<li><a href='2014/02/index.html'>February 2014</a></li>
+	<li><a href='2014/01/index.html'>January 2014</a></li>
+		</ul>
+			</aside><aside id="categories-2" class="widget widget_categories"><h1 class="widget-title">Categories</h1>		<ul>
+				<li class="cat-item cat-item-1"><a href="http://blog.shirai.la/hrex/category/%e6%9c%aa%e5%88%86%e9%a1%9e/" >未分類</a>
+</li>
+		</ul>
+			</aside><aside id="meta-2" class="widget widget_meta"><h1 class="widget-title">Meta</h1>			<ul>
+						<li><a href="wp-login.php.html">Log in</a></li>
+			<li><a href="feed/index.html">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="comments/feed/index.html">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
+			</aside>	</div><!-- #primary-sidebar -->
+	</div><!-- #secondary -->
+
+		</div><!-- #main -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+
+			
+			<div class="site-info">
+												<a href="https://wordpress.org/" class="imprint">
+					Proudly powered by WordPress				</a>
+			</div><!-- .site-info -->
+		</footer><!-- #colophon -->
+	</div><!-- #page -->
+
+	<script type='text/javascript' src='wp-includes/js/comment-reply.min.js@ver=5.1.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/blog.shirai.la\/hrex\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts.js@ver=5.1.9'></script>
+<script type='text/javascript' src='wp-content/themes/twentyfourteen/js/functions.js@ver=20150315'></script>
+<script type='text/javascript' src='wp-includes/js/wp-embed.min.js@ver=5.1.6'></script>
+</body>
+</html>

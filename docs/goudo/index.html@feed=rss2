@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>神戸のブログ</title>
+	<atom:link href="http://blog.shirai.la/goudo/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/goudo</link>
+	<description>Just another KAIT Shirai Lab Blog Sites site</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:24:53 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>卒業研究　WEBインターフェース編</title>
+		<link>http://blog.shirai.la/goudo/2013/12/02/%e5%8d%92%e6%a5%ad%e7%a0%94%e7%a9%b6%e3%80%80web%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%95%e3%82%a7%e3%83%bc%e3%82%b9%e7%b7%a8/</link>
+				<comments>http://blog.shirai.la/goudo/2013/12/02/%e5%8d%92%e6%a5%ad%e7%a0%94%e7%a9%b6%e3%80%80web%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%95%e3%82%a7%e3%83%bc%e3%82%b9%e7%b7%a8/#respond</comments>
+				<pubDate>Mon, 02 Dec 2013 14:25:31 +0000</pubDate>
+		<dc:creator><![CDATA[Masaki Goudo]]></dc:creator>
+				<category><![CDATA[sotuken]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/goudo/?p=115</guid>
+				<description><![CDATA[システム利用回数、在室状態や入退室時間を分かり易く、みんなが見れるようにする為、PHPやjQueryで データ [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>システム利用回数、在室状態や入退室時間を分かり易く、みんなが見れるようにする為、PHPやjQueryで</p>
+<p>データの可視化を行いました。</p>
+<p>まずは研究室の在室状態について</p>
+<p><a href="http://blog.shirai.la/goudo/files/2013/12/Screenshot_2013-11-26-20-35-46.png"><img src="http://blog.shirai.la/goudo/files/2013/12/Screenshot_2013-11-26-20-35-46-296x300.png" alt="Screenshot_2013-11-26-20-35-46" width="296" height="300" class="alignnone size-medium wp-image-113" srcset="http://blog.shirai.la/goudo/files/2013/12/Screenshot_2013-11-26-20-35-46-296x300.png 296w, http://blog.shirai.la/goudo/files/2013/12/Screenshot_2013-11-26-20-35-46.png 355w" sizes="(max-width: 296px) 100vw, 296px" /></a></p>
+<p>この様にPHPプログラムでデータベースから情報をひっぱてくることにより</p>
+<p>在室状態が一目瞭然となりました。</p>
+<p>次はjQueryを使ったグラフ化です</p>
+<p><a href="http://blog.shirai.la/goudo/files/2013/12/jQuery.png"><img src="http://blog.shirai.la/goudo/files/2013/12/jQuery-300x262.png" alt="jQuery" width="300" height="262" class="alignnone size-medium wp-image-116" srcset="http://blog.shirai.la/goudo/files/2013/12/jQuery-300x262.png 300w, http://blog.shirai.la/goudo/files/2013/12/jQuery.png 599w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>だれが何回システムを利用したかがグラフになることによりとても比較しやすくなりました。</p>
+<p>ただまだ使い慣れていないので何日から何日までという処理は行えていません。</p>
+<p>しかし、これを使いこなせればデータの変動をとても比較しやすくなると思います。</p>
+<p>見やすいWebインターフェースを設計してデータ収集を効率的にしていきたいです。</p>
+<p>それでは今回はここまでで</p>
+<p>次もよろしくお願いします。</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/goudo/2013/12/02/%e5%8d%92%e6%a5%ad%e7%a0%94%e7%a9%b6%e3%80%80web%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%95%e3%82%a7%e3%83%bc%e3%82%b9%e7%b7%a8/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>卒業研究</title>
+		<link>http://blog.shirai.la/goudo/2013/12/02/%e5%8d%92%e6%a5%ad%e7%a0%94%e7%a9%b6/</link>
+				<comments>http://blog.shirai.la/goudo/2013/12/02/%e5%8d%92%e6%a5%ad%e7%a0%94%e7%a9%b6/#respond</comments>
+				<pubDate>Mon, 02 Dec 2013 10:05:54 +0000</pubDate>
+		<dc:creator><![CDATA[Masaki Goudo]]></dc:creator>
+				<category><![CDATA[sotuken]]></category>
+		<category><![CDATA[Raspberry Pi]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/goudo/?p=106</guid>
+				<description><![CDATA[今回は私が卒業研究として現在、開発を行なっているシステムを紹介させていただきます。 論文タイトルは 「組込み系 [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>今回は私が卒業研究として現在、開発を行なっているシステムを紹介させていただきます。</p>
+<p>論文タイトルは</p>
+<h3>「組込み系Linuxを用いたノンディスプレイ訪問者対応システム」</h3>
+<p>となります。</p>
+<p>そしてこちらがシステムの実物です。</p>
+<p><img src="http://blog.shirai.la/goudo/files/2013/12/2d46537e724fa604c205eea6cfc26083-300x118.png" alt="研究" width="300" height="118" class="alignnone size-medium wp-image-107" srcset="http://blog.shirai.la/goudo/files/2013/12/2d46537e724fa604c205eea6cfc26083-300x118.png 300w, http://blog.shirai.la/goudo/files/2013/12/2d46537e724fa604c205eea6cfc26083.png 536w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>この画像内には写っていませんがこれらの機器は全て小型PC「Raspberry Pi」に接続されています。</p>
+<p>このシステムはICカードがかざされるとカードのIDを読み取り、Raspberry Pi内部のデータベースに</p>
+<p>アクセスし一致するデータがあるかを検索します。一致データがない場合、音声ナビによりテンキーで</p>
+<p>連絡するための番号の入力を要求します。番号を入力されると入力情報とシステム利用時間を研究室の</p>
+<p>教員に向けメール送信を行います。かざされたICカードと一致するIDがデータベースにある場合、</p>
+<p>つまり２回目以降のシステム利用の場合はデータベースからデータを読み込むことで入力の</p>
+<p>手間を省略させています。</p>
+<p>またこのシステムは出席管理システムとしての運用もさせています。</p>
+<p>研究室のメンバ－のICカードが読み込まれた場合はデータベース内部の在室状態の値を変えることで</p>
+<p>カードをかざすごとに在室しているか不在であるかを切り替えることができます。</p>
+<p>研究室内の在室状態はPHPプログラムによりWebで確認を行うことができるようになっています。</p>
+<p>それでは今回はここらへんで</p>
+<p>また大きなシステム拡張があればブログにて紹介していきます</p>
+<p>ではでは</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/goudo/2013/12/02/%e5%8d%92%e6%a5%ad%e7%a0%94%e7%a9%b6/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Raspberry Piを使ったラジコン、「ラズコン」の紹介</title>
+		<link>http://blog.shirai.la/goudo/2013/12/02/raspberry-pi%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%9f%e3%83%a9%e3%82%b8%e3%82%b3%e3%83%b3%e3%80%81%e3%80%8c%e3%83%a9%e3%82%ba%e3%82%b3%e3%83%b3%e3%80%8d%e3%81%ae%e7%b4%b9%e4%bb%8b/</link>
+				<comments>http://blog.shirai.la/goudo/2013/12/02/raspberry-pi%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%9f%e3%83%a9%e3%82%b8%e3%82%b3%e3%83%b3%e3%80%81%e3%80%8c%e3%83%a9%e3%82%ba%e3%82%b3%e3%83%b3%e3%80%8d%e3%81%ae%e7%b4%b9%e4%bb%8b/#respond</comments>
+				<pubDate>Mon, 02 Dec 2013 10:00:06 +0000</pubDate>
+		<dc:creator><![CDATA[Masaki Goudo]]></dc:creator>
+				<category><![CDATA[Raspberry Pi]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/goudo/?p=108</guid>
+				<description><![CDATA[今回はRaspberry Piを使ったラジコンである、「ラズコン」の紹介をさせていただきます。 紹介の前に軽く [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>今回はRaspberry Piを使ったラジコンである、「ラズコン」の紹介をさせていただきます。</p>
+<p>紹介の前に軽く「Raspberry Pi」とは何?という方のために</p>
+<p>「Raspberry Pi」はLinuxのOSが動作する手乗りサイズのPCの事です。</p>
+<p>こちらにモーター等を接続し、制御することによりラズコンを制作しました。</p>
+<p><a href="http://blog.shirai.la/goudo/files/2013/12/CA3K0059-1.jpg"><img src="http://blog.shirai.la/goudo/files/2013/12/CA3K0059-1-300x150.jpg" alt="CA3K0059" width="300" height="150" class="size-medium wp-image-109 aligncenter" srcset="http://blog.shirai.la/goudo/files/2013/12/CA3K0059-1-300x150.jpg 300w, http://blog.shirai.la/goudo/files/2013/12/CA3K0059-1-1024x512.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>こちらがそのラズコンとなります。</p>
+<p>画面右に写っている小さいPCがRaspberry Piで、モータ－を電子工作により</p>
+<p>Raspberry PiのGPIOポートに接続、電源供給はモバイルバッテリーを使用し、</p>
+<p>Wifi USBアダプタを接続することにより無線化しました。</p>
+<p>また、ラズコンはPHPでGPIOポートを制御できるプログラムを作成することで</p>
+<p>スマートフォンからラズコンを操作できるようにしました。</p>
+<p><a href="http://blog.shirai.la/goudo/files/2013/12/2b530e80c7d0de90885e285c5d798063.png"><img src="http://blog.shirai.la/goudo/files/2013/12/2b530e80c7d0de90885e285c5d798063-288x300.png" alt="図2" width="230" height="240" class="wp-image-110 aligncenter" srcset="http://blog.shirai.la/goudo/files/2013/12/2b530e80c7d0de90885e285c5d798063-288x300.png 288w, http://blog.shirai.la/goudo/files/2013/12/2b530e80c7d0de90885e285c5d798063.png 376w" sizes="(max-width: 230px) 100vw, 230px" /></a></p>
+<p>以上でラズコンの紹介を終わります。</p>
+<p>また何かありましたら更新していきたいと思います。</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/goudo/2013/12/02/raspberry-pi%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%9f%e3%83%a9%e3%82%b8%e3%82%b3%e3%83%b3%e3%80%81%e3%80%8c%e3%83%a9%e3%82%ba%e3%82%b3%e3%83%b3%e3%80%8d%e3%81%ae%e7%b4%b9%e4%bb%8b/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>YouTubeにて動画初投稿</title>
+		<link>http://blog.shirai.la/goudo/2013/11/29/youtube%e3%81%ab%e3%81%a6%e5%8b%95%e7%94%bb%e5%88%9d%e6%8a%95%e7%a8%bf/</link>
+				<comments>http://blog.shirai.la/goudo/2013/11/29/youtube%e3%81%ab%e3%81%a6%e5%8b%95%e7%94%bb%e5%88%9d%e6%8a%95%e7%a8%bf/#respond</comments>
+				<pubDate>Thu, 28 Nov 2013 18:17:09 +0000</pubDate>
+		<dc:creator><![CDATA[Masaki Goudo]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/goudo/?p=105</guid>
+				<description><![CDATA[Youtubeにて過去の作品物の動画投稿を行なってみました。[youtube]https://www.yout [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Youtubeにて過去の作品物の動画投稿を行なってみました。[youtube]https://www.youtube.com/watch?v=IRx7LInpQ5I[/youtube]</p>
+<p>&nbsp;</p>
+<p>初投稿で至らないところがあると思いますがよろしければご視聴ください。</p>
+<p>またこれからも作品を上げていきたいと思います</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/goudo/2013/11/29/youtube%e3%81%ab%e3%81%a6%e5%8b%95%e7%94%bb%e5%88%9d%e6%8a%95%e7%a8%bf/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>PHP学習</title>
+		<link>http://blog.shirai.la/goudo/2013/02/08/php%e5%ad%a6%e7%bf%92/</link>
+				<comments>http://blog.shirai.la/goudo/2013/02/08/php%e5%ad%a6%e7%bf%92/#respond</comments>
+				<pubDate>Thu, 07 Feb 2013 16:37:10 +0000</pubDate>
+		<dc:creator><![CDATA[Masaki Goudo]]></dc:creator>
+				<category><![CDATA[PHP勉強記]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/goudo/?p=77</guid>
+				<description><![CDATA[研究室で研究内容をどうするか迷っていたところ先生のアドバイスを受けひとまずPHPを勉強することになりました。  [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>研究室で研究内容をどうするか迷っていたところ先生のアドバイスを受けひとまずPHPを勉強することになりました。<br />
+PHPに関しての記憶は薄く、勉強経験も覚えている限りでは2年と3年の必修科目で少し学んだ程度。<br />
+あまり知識がないのでとりあえず書籍を１から見ながら進めていくことに<br />
+ちなみに使用する書籍は「10日で覚えるPHP5入門教室」。<br />
+まだ少ししか進めていませんが内容は分かり易いのでサクサク進めていけそうです。</p>
+<p>また、ただ勉強するのもアレなので同じくPHPを勉強し始めた研究生と共に進捗を<br />
+13日にお互い発表することになりました。<br />
+こうして色々と決めて勉強する以上確実に身につけたいと思います。</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/goudo/2013/02/08/php%e5%ad%a6%e7%bf%92/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>２月４日白井研究室3年生ゼミ</title>
+		<link>http://blog.shirai.la/goudo/2013/02/05/%ef%bc%92%e6%9c%88%ef%bc%94%e6%97%a5%e7%99%bd%e4%ba%95%e7%a0%94%e7%a9%b6%e5%ae%a43%e5%b9%b4%e7%94%9f%e3%82%bc%e3%83%9f/</link>
+				<comments>http://blog.shirai.la/goudo/2013/02/05/%ef%bc%92%e6%9c%88%ef%bc%94%e6%97%a5%e7%99%bd%e4%ba%95%e7%a0%94%e7%a9%b6%e5%ae%a43%e5%b9%b4%e7%94%9f%e3%82%bc%e3%83%9f/#respond</comments>
+				<pubDate>Mon, 04 Feb 2013 18:04:31 +0000</pubDate>
+		<dc:creator><![CDATA[Masaki Goudo]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/goudo/?p=71</guid>
+				<description><![CDATA[今日は白井研究室にて3年生のゼミがありました。 内容は研究室での生活やルールについて、研究を何がしたいか、白井 [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>今日は白井研究室にて3年生のゼミがありました。<br />
+内容は研究室での生活やルールについて、研究を何がしたいか、白井研究室にて発行されるメールニュースの作成<br />
+各種イベント紹介と参加意思確認、春休みの予定について等々<br />
+研究内容についても聞かれましたがまだWiiかKinect使って何かやりたいという漠然としたものが決まっている程度<br />
+自分の目的のなさに不安を感じました。</p>
+<p>セミが終わってしばらくするとほとんどの3年生は帰りましたが自分は残って後期で学んだKinectの<br />
+復習を行いました。<br />
+今まで特定のポーズの検知をある部位の座標がある部位より高い等とif文を使っていましたが、なんと<br />
+そんなことをしなくても作れると聞き驚きました。<br />
+説明文とソースコードを見ても方法が理解しきれませんでしたが、今までと違うやり方にとても興味が湧き、<br />
+これからもKinectを学んでいきたいと思いました。<br />
+とりあえず目標ができたと考えて進めていきたいと思います。</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/goudo/2013/02/05/%ef%bc%92%e6%9c%88%ef%bc%94%e6%97%a5%e7%99%bd%e4%ba%95%e7%a0%94%e7%a9%b6%e5%ae%a43%e5%b9%b4%e7%94%9f%e3%82%bc%e3%83%9f/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>GGJ体験記～スキルのない自分が東京工科大学で　　　　チームを組んで48時間でゲームを作ってみた</title>
+		<link>http://blog.shirai.la/goudo/2013/01/30/ggj2013/</link>
+				<comments>http://blog.shirai.la/goudo/2013/01/30/ggj2013/#respond</comments>
+				<pubDate>Wed, 30 Jan 2013 13:06:55 +0000</pubDate>
+		<dc:creator><![CDATA[Masaki Goudo]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/goudo/?p=48</guid>
+				<description><![CDATA[そもそもGGJとは？ GGJ(Global　Game　Jam)とは全国の会場で共通のテーマをもとに足跡のチーム [&#8230;]]]></description>
+								<content:encoded><![CDATA[<h2>そもそもGGJとは？</h2>
+<p>GGJ(Global　Game　Jam)とは全国の会場で共通のテーマをもとに足跡のチームで48時間で一斉にゲームを作るという企画です。</p>
+<h3>GGJ参加～チーム結成</h3>
+<p>自分はゲームが好きでゲーム開発にも興味がありました。GGJの存在を知った時は自分がどこまでできるかというのを一切考えず<br />
+ただ単純に「出てみたい」という考えのもと参加を決めました。<br />
+自分は東京工科大学の会場で参加、チームは8班で8人構成のチームでした。<br />
+今回のGGJのテーマとしては心臓の鼓動音みたいなものを音楽でのみ聞かせられました</p>
+<h3>自己紹介～<strong>衝撃の事実</strong>～</h3>
+<p>チームのところに行き全員が初対面なのでひとまず自己紹介から入りました。<br />
+自分はプログラマーとして動きたいと思ってるとして自己紹介し、その後も一人一人紹介していきましたがここで衝撃の事実が・・・</p>
+<h3><span style="color: #ff0000"><strong>メンバーの大半がプログラマー希望！しかも全員自分より経験豊富！！</strong></span></h3>
+<p>何かいきなり自分の仕事がなくなりそうな気配が、この先が不安でたまりませんでした。<br />
+そうはいってもまずはどんなゲームを作るか決めていないので先のことは後で考えることにして、<br />
+とりあえずテーマから連想できるものを皆でより多く出していくことになりました。<br />
+テーマは心臓の鼓動音(？)でしたがその音やリズムから振動、風の音、雷等数多くのアイディアが上がりました。<br />
+いくつか出たところで使うアイディアをいくつか選択、テーマは決まったものの「どういったゲームか」というのが決まらず<br />
+迷っていたところ白井先生からアドバイスを受けました。</p>
+<h1>飯コミュニケーションの重要性</h1>
+<p>受けたアドバイスは現在のアイディアについてともう一つ初めに飯を食うことの重要性です。<br />
+それまで飯を食わずに作業をしていましたが、先に飯を食べることでコミュニケーションも深まり<br />
+腹も満たされるので作業も進み易くなると聞き、作業を一時中断し夕飯を食べに行くことにしました<br />
+飯を食いながらもう一度軽く自己紹介と、それまでのアイディアについて話し合いましたが<br />
+確かに腹も満たされそれまでより円滑に進むようになりました。<br />
+戻ってからは出たアイディアからどの企画にするかを決定、私たちのチームでは<br />
+「幼女を操作し、巨人の起こす波を避け、巨人の元にたどり着くゲーム」という案で開発を進めていくことになりました。</p>
+<h3>開発開始　～　しかしスキルが足りない</h3>
+<p>ここからは役割を分けて本格的な開発を開始、正直プログラマーとしてしかやることがないと思っていましたが<br />
+実際のところチーム内でのプログラマースキルは低く、役割としてはメインにはプログラムを組まず主に<br />
+ゲームとしてのアイディアや追加案等を出す役となりました。<br />
+他のチームメンバーに比べると地味でやることが少ない役割だと思います。<br />
+ですがこのままスキルがなく何も出来ない人などと思われたくはないので<br />
+アイディアを思い付ける限り、どんどん出し、プログラムの知識もない訳ではないので<br />
+多少なりとも改善点を伝え、色々と周りの手伝いをしていきました。<br />
+どれもやった事としては目立たないかと思いますが、自分のアイディアは採用され<br />
+手伝いも行なったので少なからずは確実に貢献することをやってきました。</p>
+<p><strong>ちなみに開発の流れとしては</strong><br />
+1日目18：00に開発を始めた後2日目の21：00にα番発表3日目12：00にβ版発表、15：00制作終了となっていて<br />
+一応段階ごとにここまでは制作しようと分けられていましたがこの48時間<br />
+<span style="color: #ff0000">なんと<br />
+</span></p>
+<h3><span style="color: #ff0000"><br />
+最後までプログラムはほとんど組みませんでしたし、<br />
+グラフィックを描いたりもしませんでした。</span></h3>
+<p>しかしそんな自分でも、アイディアをより多く出した事でチームに貢献しする事ができました</p>
+<p>GGJは自分の様に何か大きなスキルがなくても構わないのです。<br />
+プログラマー等作っていく人達は主にそちらに集中することが多いので、他の事をやるには限度があります。<br />
+その部分を補うように行動すれば確実に役に立つことができます。<br />
+スキル等なくても積極的に何かをすればそれがチームへの貢献につながります。<br />
+プログラムができなくて・・・という人もGGJに挑戦しても全く問題はありませんので是非挑戦してみてください。</p>
+<p>またこのような皆で一つのものを制作する機会は学生時代はほとんどないと思います。<br />
+GGJであらかじめ経験しておけば将来間違いなく役立ちます。</p>
+<p>ゲームが好きなだけいう人でも構わないので新しい経験のため、新たな興味を見つけるため是非参加してみてください</p>
+<p>興味を持ってもらうためにも以下にUstreamでのα、β及び最終版の発表のリンクを張ります。</p>
+<p><span style="text-decoration: underline"><a href="http://www.ustream.tv/recorded/28816117">お休みα　α版発表</a>　　<a href="http://www.ustream.tv/recorded/28818414">お休みαその２</a></span></p>
+<p><span style="text-decoration: underline"><a href="http://www.ustream.tv/recorded/28839531">こんにちわβ　β版発表</a></span></p>
+<p><span style="text-decoration: underline"><a href="http://www.ustream.tv/recorded/28845171">最終発表</a></span></p>
+<p>以下のリンクが私達のチームが作った作品へのリンクとなります</p>
+<h3><span style="color: #ff0000">ぜひ遊んでみてください</span></h3>
+<p>「Source　File」の「GGJ2013_TUT_Team8.zip」をクリックしダウンロードしてください</p>
+<p><span style="text-decoration: underline"><a href="http://globalgamejam.org/2013/%E3%81%A9%E3%82%93%E3%81%B1%E3%81%A3%E3%81%B1%EF%BC%88push-papa%EF%BC%89">Team8「時間がないから急いでる」の作品「どんぱっぱ」</a></span></p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/goudo/2013/01/30/ggj2013/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>ブログ作成記念</title>
+		<link>http://blog.shirai.la/goudo/2013/01/29/hello-world/</link>
+				<comments>http://blog.shirai.la/goudo/2013/01/29/hello-world/#comments</comments>
+				<pubDate>Tue, 29 Jan 2013 09:38:40 +0000</pubDate>
+		<dc:creator><![CDATA[Masaki Goudo]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/goudo/?p=1</guid>
+				<description><![CDATA[新しくブログを作成したので記念投稿をします これから自分の所属している大学やイベント等で学んだことや 活動記録 [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>新しくブログを作成したので記念投稿をします<br />
+これから自分の所属している大学やイベント等で学んだことや<br />
+活動記録を主にブログを書いていこうと思っています。</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/goudo/2013/01/29/hello-world/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+	</channel>
+</rss>

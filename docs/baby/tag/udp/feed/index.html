@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>UDP &#8211; Real Baby &#8211; Real Family</title>
+	<atom:link href="http://blog.shirai.la/baby/tag/udp/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/baby</link>
+	<description>IVRC2016にてLavai Virtual Awardを受賞したチーム「明るい家族計画」です。2人の体験者から未来の赤ちゃんの顔を推定し、リアルフェイス育児体験ができるコンテンツ「Real baby / Real family」を制作しています。</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:25:00 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>HTC Vive ゼロレイテンシー通信！？</title>
+		<link>http://blog.shirai.la/baby/baby-project_07/</link>
+				<pubDate>Sat, 17 Sep 2016 16:54:29 +0000</pubDate>
+		<dc:creator><![CDATA[望月 宥冶]]></dc:creator>
+				<category><![CDATA[開発者日記]]></category>
+		<category><![CDATA[IVRC]]></category>
+		<category><![CDATA[IVRC2016]]></category>
+		<category><![CDATA[real baby]]></category>
+		<category><![CDATA[real famliy]]></category>
+		<category><![CDATA[UDP]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[Vive]]></category>
+		<category><![CDATA[VR]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/baby/?p=66</guid>
+				<description><![CDATA[こんにちは。 明るい家族計画の望月です。 HTC ViveのUDP通信に成功しました。 初期の段階では、UNE [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>こんにちは。<br />
+明るい家族計画の望月です。</p>
+<p>HTC ViveのUDP通信に成功しました。</p>
+<p>初期の段階では、UNETを使うのかUDPを使うのか決まらず、どちらも試してみました。</p>
+<p>UNETを試した際に、SteamVR pluginのGameObjectをそのまま生成すると、1つのシーンで2つ以上のSteamVRが存在してしまいます。<br />
+これによりデバイスの取り合いが起こり、そのままでは使用できません。また、この競合を回避しようにも大幅なレイテンシーにより実用とはいきませんでした。</p>
+<p>よって、今回はUNETを使用するのではなくUDP通信によりお互いのViveのpositionとrotationを送りあうようにして解決しました。<br />
+注意しなければならないのが、お互いにデータを送り付けているだけなので、基本的には同期処理はしていません。<br />
+（今回はほとんど同スペックのPCをローカルの有線接続しているので、致命的なエラーは出ないだろうという考えです。ネット経由で使うときにはまた違ったやり方でないとレイテンシー問題があるかもしれません）</p>
+<p>これにより送受信におけるデータ量と、受信のタイミングもこちらでコントロールできるので最終段階では100～120fpsで描画することに成功しました。<br />
+したがって、遅延は10ms以下となるので「ゼロレイテンシー」といえるのではないかと。</p>
+<p>最後にViveコントローラーの位置に手のAssetをつけて、遊んでみました(通称：ゼロレイテンシー芸人)。</p>
+<p>補足として、SteamVRのルームセットアップを的確に行うと、現実での位置とVR空間上の位置が一致するのですが、<br />
+それをしてしまうと、VR空間上で相手に触れたときに現実でも相手に触れてしまい、デバック中に怪我人が出てしまうので、今回はこんな感じで&#8230;.</p>
+<p><iframe width="591" height="443" src="https://www.youtube.com/embed/HJ0FYvjUJfs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>9/19　我妻追記</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

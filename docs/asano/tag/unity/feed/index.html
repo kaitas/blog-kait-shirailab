@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Unity &#8211; IQが1あがった</title>
+	<atom:link href="http://blog.shirai.la/asano/tag/unity/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/asano</link>
+	<description>Just another KAIT Shirai Lab Blog Sites site</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:25:00 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>【Unity】外部リソース読み込みのお話</title>
+		<link>http://blog.shirai.la/asano/2017/04/14/unity1/</link>
+				<comments>http://blog.shirai.la/asano/2017/04/14/unity1/#respond</comments>
+				<pubDate>Fri, 14 Apr 2017 03:45:23 +0000</pubDate>
+		<dc:creator><![CDATA[浅野 隆弥]]></dc:creator>
+				<category><![CDATA[Unity]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/asano/?p=49</guid>
+				<description><![CDATA[こんにちは。 最近休日なのに大学に来ることに何の抵抗も感じなくなってきていてやばいと感じている浅野です。 今回 &#8230; <p class="link-more"><a href="http://blog.shirai.la/asano/2017/04/14/unity1/" class="more-link"><span class="screen-reader-text">"【Unity】外部リソース読み込みのお話" の</span>続きを読む</a></p>]]></description>
+								<content:encoded><![CDATA[<p>こんにちは。<br />
+最近休日なのに大学に来ることに何の抵抗も感じなくなってきていてやばいと感じている浅野です。</p>
+<p>今回はフランスで開発してる時に「ぐえっ」ってなったUnityの外部リソース読み込みの話をしたいと思います。</p>
+<h1>ことの成り行き</h1>
+<p>フランスで開発している際にフランス語の音声とテキストデータを現地で調達しようという話になって、そのために外部ファイルからリソースを読み込むように設計する必要がありました。<br />
+そのため、テキストデータはC#のSystem.IOを使ってCSVファイルを読み込み、音声データはResources.Loadを使用して読み込んでいました。<br />
+この時点で何が起きたか分かる方は分かると思うのですが、ビルドして_DataフォルダにResouecesフォルダを作って音声ファイルを放り込んでも再生してくれませんでした。<br />
+しかもそのことに気付いたのが展示中で「フランス語版音声再生されないよ!?どうするの!?」となり、急遽ユニティエディターを立ち上げてなんとか対処しました。</p>
+<h1>原因の考察</h1>
+<p>原因として以下の2つの理由が挙げられます。</p>
+<ul>
+<li>Assetフォルダ内のResourcesファイルの中身と_DataフォルダのResourcesファイルの中身を同じにしていた。</li>
+<li>そもそもResoueces.Loadはビルドインデータからしか読み込まない。</li>
+</ul>
+<p>1つ目のファイルの中身が同じだったというのは確認作業の時に音再生できているしいいだろうとなってしまい、どのフォルダからロードしているのかを確認をしていませんでした。<br />
+2つ目の「Resoueces.Loadはビルドインデータからしか読み込まない」は、公式に記述されていて驚きました。</p>
+<figure id="attachment_69" aria-describedby="caption-attachment-69" style="width: 429px" class="wp-caption alignnone"><img class="wp-image-69 size-full" src="http://blog.shirai.la/asano/files/2017/04/Resources.load1_.png" alt="" width="429" height="81" srcset="http://blog.shirai.la/asano/files/2017/04/Resources.load1_.png 429w, http://blog.shirai.la/asano/files/2017/04/Resources.load1_-300x57.png 300w" sizes="(max-width: 429px) 100vw, 429px" /><figcaption id="caption-attachment-69" class="wp-caption-text">Unityマニュアルより　なってこった！</figcaption></figure>
+<h1>対処法</h1>
+<p>調べてみたら対処法として、バイナリデータとして読み込むやWWWクラスを使うが候補として出てきました。<br />
+バイナリーデータを扱うのは難しそうだったので今回はWWWを使用して実装しました。</p>
+<p>[sourcecode language=&#8221;csharp&#8221;]<br />
+//WWW===================================<br />
+www = new WWW(&quot;file:///&quot; + Application.dataPath + &quot;/Resources/Japan_/&quot; + count.ToString() + &quot;.wav&quot;);<br />
+while (!www.isDone)//ロードが完了するまで次に進んでほしくないため<br />
+{<br />
+Debug.Log(&quot;チョットマッテネ&quot;);<br />
+}<br />
+Narration[count] = www.audioClip;<br />
+Debug.Log(count+&quot; : &quot;+www.isDone);<br />
+/*======================================<br />
+//Resources.Load************************<br />
+Narration[count] = Resources.Load(&quot;Japan_/&quot; + count.ToString());<br />
+if (Narration[count] == null)<br />
+{<br />
+Debug.Log(&quot;ぬるりJ&quot; + count);<br />
+}<br />
+//**************************************<br />
+*/<br />
+[/sourcecode]</p>
+<p>一応比較としてResources.Loadでの実装も並べておきます。<br />
+WWWのほうのWhile文はロードが終わっていないのに再生しようとしていたので、ロードが完了するまで処理を止めるようにしています。</p>
+<p>こんな感じで実装することができました。もうこんな危ない橋を渡ることが無いと思うので、使う機会はないと信じたいですね&#8230;</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/asano/2017/04/14/unity1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>
