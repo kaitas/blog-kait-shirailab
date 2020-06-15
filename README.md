@@ -58,23 +58,20 @@ zipにした段階で2.14GBもある…
 `--convert-links` オプションでダウンロードしなおした素材がどうなるのか確認してから次の作業にしたい。
 
 
-### ドメインの設定(設定保留)
-``githubpages.shirai.la`` というドメインに設定してみたい
+### ドメインの設定
+まずは実験として ``githubpages.shirai.la`` というドメインに設定してみたい
 
 公式資料
 - [GitHub Pages サイトのカスタムドメインを管理する](https://help.github.com/ja/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
 
-- nic.la での設定は終了。digなりnslookupなりで確認できるようにはなっていない。
+- nic.la での設定は終了。
 
-```
-nslookup githubpages.shirai.la
-サーバー:  aterm.me
-Address:  240b:11:7c0:e100:fab7:97ff:fe3d:d770
-*** aterm.me が githubpages.shirai.la を見つけられません: Non-existent domain
-```
+- Githubの[リポジトリ設定](https://github.com/kaitas/blog-kait-shirailab/settings)で実施すると、いきなり反映されてしまうので、しばらく様子見してからもう一度試してみたい。
 
+- その後試して、正常動作確認。
 
-Githubの[リポジトリ設定](https://github.com/kaitas/blog-kait-shirailab/settings)で実施すると、いきなり反映されてしまうので、しばらく様子見してからもう一度試してみたい。
+- `new.shirai.la` で作業中。最終的には `https://blog.shirai.la` でアクセスできるように。
+
 
 
 ### Kagoyaのサーバ情報
@@ -129,3 +126,18 @@ nic.laよりエントリー削除
 - shinken CNAME vps.shirai.la.
 - member CNAME vps.shirai.la.
 - dev CNAME vps.shirai.la.
+
+
+## 20200616の作業
+
+### `wget` ダウンロードファイルの置き直し
+
+`` wget --mirror --page-requisites --html-extension --convert-links http://blog.shirai.la``
+
+
+### `/download` ディレクトリの置き直し
+
+### 相対パスの確認
+
+### Google Analytics の置き直し
+
