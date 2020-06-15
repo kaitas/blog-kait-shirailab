@@ -9,8 +9,8 @@
 
 <channel>
 	<title>iwalog</title>
-	<atom:link href="http://blog.shirai.la/iwadate/?feed=rss2" rel="self" type="application/rss+xml" />
-	<link>http://blog.shirai.la/iwadate</link>
+	<atom:link href="http://new.shirai.la/iwadate/?feed=rss2" rel="self" type="application/rss+xml" />
+	<link>http://new.shirai.la/iwadate</link>
 	<description>岩楯のブログだよ</description>
 	<lastBuildDate>
 	Wed, 28 Feb 2018 23:24:52 +0000	</lastBuildDate>
@@ -22,13 +22,13 @@
 	<generator>https://wordpress.org/?v=5.1.6</generator>
 	<item>
 		<title>2011/08/24　映像情報メディア学会年次大会メモ</title>
-		<link>http://blog.shirai.la/iwadate/?p=103</link>
-				<comments>http://blog.shirai.la/iwadate/?p=103#respond</comments>
+		<link>http://new.shirai.la/iwadate/?p=103</link>
+				<comments>http://new.shirai.la/iwadate/?p=103#respond</comments>
 				<pubDate>Wed, 16 Jan 2013 09:18:38 +0000</pubDate>
 		<dc:creator><![CDATA[iwadate]]></dc:creator>
 				<category><![CDATA[研究室]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/iwadate/?p=103</guid>
+		<guid isPermaLink="false">http://new.shirai.la/iwadate/?p=103</guid>
 				<description><![CDATA[シンポジウム1『体感、インタラクティブメディア』 8月24日（水） 8号館 4F &#8230; <a href="https://new.shirai.la/iwadate/?p=103">続きを読む <span class="meta-nav">&#8594;</span></a>]]></description>
 								<content:encoded><![CDATA[<p><b>シンポジウム1『体感、インタラクティブメディア』</b></p>
 <p align="left"><b>8</b><b>月24日（水） 8号館 4F 第1会場 09:30～12:30</b></p>
@@ -149,18 +149,18 @@
 検出したものから隣り合う画素の変化量をみて、変化が小さいものを繋げて同一物体として認識する</p>
 <p>距離取得回数　30回/秒</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/iwadate/?feed=rss2&#038;p=103</wfw:commentRss>
+							<wfw:commentRss>http://new.shirai.la/iwadate/?feed=rss2&#038;p=103</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>HCGまとめ</title>
-		<link>http://blog.shirai.la/iwadate/?p=82</link>
-				<comments>http://blog.shirai.la/iwadate/?p=82#respond</comments>
+		<link>http://new.shirai.la/iwadate/?p=82</link>
+				<comments>http://new.shirai.la/iwadate/?p=82#respond</comments>
 				<pubDate>Fri, 14 Dec 2012 12:12:15 +0000</pubDate>
 		<dc:creator><![CDATA[iwadate]]></dc:creator>
 				<category><![CDATA[研究室]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/iwadate/?p=82</guid>
+		<guid isPermaLink="false">http://new.shirai.la/iwadate/?p=82</guid>
 				<description><![CDATA[12/10　1日目 セッションⅢ-1：障がい者支援（会議室D） Ⅲ-1-1　「認 &#8230; <a href="https://new.shirai.la/iwadate/?p=82">続きを読む <span class="meta-nav">&#8594;</span></a>]]></description>
 								<content:encoded><![CDATA[<p><strong>12/10　1日目</strong></p>
 <p><strong>セッションⅢ-1：障がい者支援（会議室D）</strong><br />
@@ -317,20 +317,20 @@ Q．サイネージのどこにコードがあるのかを体験者は迷わな�
 Q．？</p>
 <p>意見：フィルタを携帯ストラップにつけることでUbiCodeに使えたり、携帯カメラで逆光のとき撮影するのに使ったりするのもいいかもしれないですね。</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/iwadate/?feed=rss2&#038;p=82</wfw:commentRss>
+							<wfw:commentRss>http://new.shirai.la/iwadate/?feed=rss2&#038;p=82</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>HCG</title>
-		<link>http://blog.shirai.la/iwadate/?p=71</link>
-				<comments>http://blog.shirai.la/iwadate/?p=71#comments</comments>
+		<link>http://new.shirai.la/iwadate/?p=71</link>
+				<comments>http://new.shirai.la/iwadate/?p=71#comments</comments>
 				<pubDate>Sat, 01 Dec 2012 08:33:37 +0000</pubDate>
 		<dc:creator><![CDATA[iwadate]]></dc:creator>
 				<category><![CDATA[研究室]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/iwadate/?p=71</guid>
+		<guid isPermaLink="false">http://new.shirai.la/iwadate/?p=71</guid>
 				<description><![CDATA[自分とこのプログラム セッションIII-2：コンピュータビジョン（12:45-1 &#8230; <a href="https://new.shirai.la/iwadate/?p=71">続きを読む <span class="meta-nav">&#8594;</span></a>]]></description>
-								<content:encoded><![CDATA[<p><a href="https://new.shirai.la/iwadate/files/2012/12/customLogo.png"><img src="http://blog.shirai.la/iwadate/files/2012/12/customLogo.png" alt="" width="799" height="274" class="aligncenter size-full wp-image-76" srcset="http://blog.shirai.la/iwadate/files/2012/12/customLogo.png 799w, http://blog.shirai.la/iwadate/files/2012/12/customLogo-300x102.png 300w, http://blog.shirai.la/iwadate/files/2012/12/customLogo-500x171.png 500w" sizes="(max-width: 799px) 100vw, 799px" /></a></p>
+								<content:encoded><![CDATA[<p><a href="https://new.shirai.la/iwadate/files/2012/12/customLogo.png"><img src="http://new.shirai.la/iwadate/files/2012/12/customLogo.png" alt="" width="799" height="274" class="aligncenter size-full wp-image-76" srcset="http://new.shirai.la/iwadate/files/2012/12/customLogo.png 799w, http://new.shirai.la/iwadate/files/2012/12/customLogo-300x102.png 300w, http://new.shirai.la/iwadate/files/2012/12/customLogo-500x171.png 500w" sizes="(max-width: 799px) 100vw, 799px" /></a></p>
 <p>自分とこのプログラム<br />
 <strong>セッションIII-2：コンピュータビジョン（12:45-14:25＠会場III）</strong><br />
 (III-2-1) 人物が存在し得る部分空間の多重スリット表現による可視化<br />
@@ -439,19 +439,19 @@ Q．？</p>
 未来世代に学ぶ　－被災地の高校生との交流を通じて学んだこと，それを学会の未来につなぐ　　12月12日（水）13:00～14:30<br />
 「未来世代からみたコミュニケーション科学の魅力と学習意欲の向上」第３種研究会は，２０１１年４月に発足し，その最初の活動は，被災地の高校生を支援しながら，彼ら彼女たちが経験し学んだことをいかに未来につなげるかが中心になりました． そこでいったい何が見えてきたのでしょうか．それを電子情報通信分野の将来，そしてこれからの学会へつなげるために，私たちは何をすべきなのでしょうか．そもそも私たちがコミュニケーションするのはなぜなのでしょうか．このパネルでは，それを一緒に考えたいと思います．</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/iwadate/?feed=rss2&#038;p=71</wfw:commentRss>
+							<wfw:commentRss>http://new.shirai.la/iwadate/?feed=rss2&#038;p=71</wfw:commentRss>
 		<slash:comments>2</slash:comments>
 							</item>
 		<item>
 		<title>社会知デザイン</title>
-		<link>http://blog.shirai.la/iwadate/?p=55</link>
-				<comments>http://blog.shirai.la/iwadate/?p=55#respond</comments>
+		<link>http://new.shirai.la/iwadate/?p=55</link>
+				<comments>http://new.shirai.la/iwadate/?p=55#respond</comments>
 				<pubDate>Thu, 15 Nov 2012 09:56:26 +0000</pubDate>
 		<dc:creator><![CDATA[iwadate]]></dc:creator>
 				<category><![CDATA[研究室]]></category>
 		<category><![CDATA[読書]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/iwadate/?p=55</guid>
+		<guid isPermaLink="false">http://new.shirai.la/iwadate/?p=55</guid>
 				<description><![CDATA[読んでて参考になりそうな事の書き連ね 2章ミクロレベルの社会知：コミュニケーショ &#8230; <a href="https://new.shirai.la/iwadate/?p=55">続きを読む <span class="meta-nav">&#8594;</span></a>]]></description>
 								<content:encoded><![CDATA[<iframe src="https://rcm-jp.amazon.co.jp/e/cm?t=jellyunion-22&o=9&p=8&l=as1&asins=4274207218&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 <p>読んでて参考になりそうな事の書き連ね</p>
@@ -472,18 +472,18 @@ Vargus,M.F.：Louder Than Words &#8212; An Introduction to Nonverbal Communicati
 Kendon,A. : The F-Formation System : Spatial-Orientational Relations  in Face to Face Interaction, Man Environment Systems, Vol.6, pp291-296, 1976.</p>
 <p>F陣形には<strong>L字型</strong>（2者の身体方向が直交するような身体配置）、<strong>対面型</strong>（2者が対面するような身体配置）、<strong>並列型</strong>（2者が並んで同じ方向に身体を向けた身体配置）等があるらしい。</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/iwadate/?feed=rss2&#038;p=55</wfw:commentRss>
+							<wfw:commentRss>http://new.shirai.la/iwadate/?feed=rss2&#038;p=55</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>進捗11/6-/13</title>
-		<link>http://blog.shirai.la/iwadate/?p=34</link>
-				<comments>http://blog.shirai.la/iwadate/?p=34#respond</comments>
+		<link>http://new.shirai.la/iwadate/?p=34</link>
+				<comments>http://new.shirai.la/iwadate/?p=34#respond</comments>
 				<pubDate>Tue, 13 Nov 2012 15:00:01 +0000</pubDate>
 		<dc:creator><![CDATA[iwadate]]></dc:creator>
 				<category><![CDATA[研究室]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/iwadate/?p=34</guid>
+		<guid isPermaLink="false">http://new.shirai.la/iwadate/?p=34</guid>
 				<description><![CDATA[・DCEXPOの整理 ・HCGシンポジウムに使う発表パワポ作り ・修論のために今 &#8230; <a href="https://new.shirai.la/iwadate/?p=34">続きを読む <span class="meta-nav">&#8594;</span></a>]]></description>
 								<content:encoded><![CDATA[<h3>・DCEXPOの整理<br />
 ・HCGシンポジウムに使う発表パワポ作り<br />
@@ -494,7 +494,7 @@ Kendon,A. : The F-Formation System : Spatial-Orientational Relations  in Face t
 <h2><strong>DCEXPOの整理</strong></h2>
 <p><strong>写真整理</strong><br />
 一眼で撮っていたブースの様子やIVRC表彰式の写真はFacebook上で研究室メンバーのみに公開中。</p>
-<p><a href="https://new.shirai.la/iwadate/files/2012/11/DSC_0488.jpg"><img src="http://blog.shirai.la/iwadate/files/2012/11/DSC_0488-300x198.jpg" alt="" width="300" height="198" class="aligncenter" /></a></p>
+<p><a href="https://new.shirai.la/iwadate/files/2012/11/DSC_0488.jpg"><img src="http://new.shirai.la/iwadate/files/2012/11/DSC_0488-300x198.jpg" alt="" width="300" height="198" class="aligncenter" /></a></p>
 <p><strong>展示会後考察</strong><br />
 Scritterに関して、「美術館の展示で、手元解説端末に同期して絵の上に解説が見えると面白い」「イベント時に運営情報（タイムスケジュール等）を見えない側に表示するのに良い」「漫画の背景を眼鏡で切り替える」「家の窓にScritterで防犯対策」といった意見をいただいた。最初にある3つは想定できうる使い方であるが、最後の家の窓にScritterで防犯対策という使い方が今回新しく出た利用法となる。しかしこの意見をいただいたのが自分ではないので詳細は不明なのが残念である。「裸眼では2D、眼鏡をかけると3D」がウリの2x3Dは、事例の説明がしやすく、利点も明らかなためとても盛況であった。驚いた表情がよく見られ、小さな子供からの「すごい！面白い！」評価もいただけた。<br />
 UbiCoodeに関しては、「（イベント会場での用途として）フィルタを持っている人だけが広告の裏に見えるクイズに答えられて正解すると待ち受け画像がもらえる」といった事例での食い付きが良かったと感じた。ただ、リアプロがとても明るかったため、カメラ性能の問題でコード認識に多少難が出た場面もみられた。<br />
@@ -542,7 +542,7 @@ UbiCoodeに関しては、「（イベント会場での用途として）フィ
 ・（鼻風邪から体調を整える）</p>
 <p>&nbsp;</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/iwadate/?feed=rss2&#038;p=34</wfw:commentRss>
+							<wfw:commentRss>http://new.shirai.la/iwadate/?feed=rss2&#038;p=34</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 	</channel>

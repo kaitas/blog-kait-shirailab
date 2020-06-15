@@ -9,8 +9,8 @@
 
 <channel>
 	<title>読書 &#8211; iwalog</title>
-	<atom:link href="http://blog.shirai.la/iwadate/?feed=rss2&#038;cat=8" rel="self" type="application/rss+xml" />
-	<link>http://blog.shirai.la/iwadate</link>
+	<atom:link href="http://new.shirai.la/iwadate/?feed=rss2&#038;cat=8" rel="self" type="application/rss+xml" />
+	<link>http://new.shirai.la/iwadate</link>
 	<description>岩楯のブログだよ</description>
 	<lastBuildDate>
 	Wed, 28 Feb 2018 23:24:52 +0000	</lastBuildDate>
@@ -22,14 +22,14 @@
 	<generator>https://wordpress.org/?v=5.1.6</generator>
 	<item>
 		<title>社会知デザイン</title>
-		<link>http://blog.shirai.la/iwadate/?p=55</link>
-				<comments>http://blog.shirai.la/iwadate/?p=55#respond</comments>
+		<link>http://new.shirai.la/iwadate/?p=55</link>
+				<comments>http://new.shirai.la/iwadate/?p=55#respond</comments>
 				<pubDate>Thu, 15 Nov 2012 09:56:26 +0000</pubDate>
 		<dc:creator><![CDATA[iwadate]]></dc:creator>
 				<category><![CDATA[研究室]]></category>
 		<category><![CDATA[読書]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/iwadate/?p=55</guid>
+		<guid isPermaLink="false">http://new.shirai.la/iwadate/?p=55</guid>
 				<description><![CDATA[読んでて参考になりそうな事の書き連ね 2章ミクロレベルの社会知：コミュニケーショ &#8230; <a href="https://new.shirai.la/iwadate/?p=55">続きを読む <span class="meta-nav">&#8594;</span></a>]]></description>
 								<content:encoded><![CDATA[<iframe src="https://rcm-jp.amazon.co.jp/e/cm?t=jellyunion-22&o=9&p=8&l=as1&asins=4274207218&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 <p>読んでて参考になりそうな事の書き連ね</p>
@@ -50,7 +50,7 @@ Vargus,M.F.：Louder Than Words &#8212; An Introduction to Nonverbal Communicati
 Kendon,A. : The F-Formation System : Spatial-Orientational Relations  in Face to Face Interaction, Man Environment Systems, Vol.6, pp291-296, 1976.</p>
 <p>F陣形には<strong>L字型</strong>（2者の身体方向が直交するような身体配置）、<strong>対面型</strong>（2者が対面するような身体配置）、<strong>並列型</strong>（2者が並んで同じ方向に身体を向けた身体配置）等があるらしい。</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/iwadate/?feed=rss2&#038;p=55</wfw:commentRss>
+							<wfw:commentRss>http://new.shirai.la/iwadate/?feed=rss2&#038;p=55</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 	</channel>

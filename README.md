@@ -1,4 +1,4 @@
-# 神奈川工科大学 情報メディア学科 白井研究室 blog.shirai.la アーカイブ
+# 神奈川工科大学 情報メディア学科 白井研究室 new.shirai.la アーカイブ
 
 作業記録
 
@@ -70,7 +70,7 @@ zipにした段階で2.14GBもある…
 
 - その後試して、正常動作確認。
 
-- `new.shirai.la` で作業中。最終的には `https://blog.shirai.la` でアクセスできるように。
+- `new.shirai.la` で作業中。最終的には `https://new.shirai.la` でアクセスできるように。
 
 
 
@@ -83,7 +83,7 @@ zipにした段階で2.14GBもある…
 | インスタンス名 | CPU | メモリ | ストレージ | IP | 状態 | コスト |
 ----|---- 
 | kagoya.shirai.la | 6コア | 2GB | 400GB | 153.127.242.163 | 停止中 | 1760円/月 |
-| new.blog.shirai.la | 6コア | 2GB | 160GB | 133.18.30.222 | 使用中 | 1760円/月 |
+| new.new.shirai.la | 6コア | 2GB | 160GB | 133.18.30.222 | 使用中 | 1760円/月 |
 
 月額3520円
 
@@ -91,7 +91,7 @@ zipにした段階で2.14GBもある…
 ### 153.127.242.163
 
 - 20120824起動
-- kagoya.shirai.la / blog.shirai.laとして長年使用してきたが，2016年初頭からdnsとhttpdの動作が不安定になり，2016/4/1にblog(wordpress)のみ引越し，その後，細かなサービスはインスタンスから復元し，問題ないようならそのまま運用し，本サーバは削除予定．
+- kagoya.shirai.la / new.shirai.laとして長年使用してきたが，2016年初頭からdnsとhttpdの動作が不安定になり，2016/4/1にblog(wordpress)のみ引越し，その後，細かなサービスはインスタンスから復元し，問題ないようならそのまま運用し，本サーバは削除予定．
 - (20190815)ファイル回収作業を開始。終了後は速やかに廃棄。
 - (2020/3/15) /home/aki を F:\WinSCP-backup\kagoya\kagoya.shirai.la-v2824 に移動中
 - いったんファイルのバックアップはおわったようなので削除に向けて電源断。
@@ -101,15 +101,15 @@ nic.laよりエントリー削除
 
 ### 133.18.30.222
 - vps20160401
-- (2019/8/15)現在のblog.shirai.la と思われる。つぶすサーバ(kagoya.shirai.la)のファイルを/home/akiに移動させて、最終的にはこちらも停止に向けて動く。作業開始時のディスク使用量67.23GB。
+- (2019/8/15)現在のnew.shirai.la と思われる。つぶすサーバ(kagoya.shirai.la)のファイルを/home/akiに移動させて、最終的にはこちらも停止に向けて動く。作業開始時のディスク使用量67.23GB。
 - (2020/3/15)調査メモリ使用量1324MB ディスク使用量76.49GB システム負荷0.03,0.08,0.02 →メモリクリア実施して再起動してみた→メモリ539MBディスク使用量76.49GB
-- (2020/3/15)スペック変更で3コア,1 GB / 2 GB,80GB SSDに変更。SSD容量が半分（ギリギリ）になっているが、料金は1760→880円になっているので効果はあると思います。PHPをアップグレードするか、できるだけはやく blog.shirai.la を静的サイトに移行すること。
+- (2020/3/15)スペック変更で3コア,1 GB / 2 GB,80GB SSDに変更。SSD容量が半分（ギリギリ）になっているが、料金は1760→880円になっているので効果はあると思います。PHPをアップグレードするか、できるだけはやく new.shirai.la を静的サイトに移行すること。
 - (2020/3/16) Simply-Staticを使って静的サイトにする見通しはついた。作業ディスクがないので再び160GBに拡張。
 
 ### shirai.la DNS
 - blog A 133.18.30.222
 - githubpages CNAME kaitas.github.io.shirai.la.
-- vps CNAME blog.shirai.la.
+- vps CNAME new.shirai.la.
 
 以下はいらないかもしれないエントリー
 - hayabusa A 153.127.243.78
@@ -228,10 +228,10 @@ https://new.shirai.la/download/4939/webbased.pdf
 
 ### サーバ名の変更
 
-- `a href="http://blog.shirai.la/` to `a href="https://new.shirai.la/` 10000 results in 1764 files
-- `href='http://blog.shirai.la/wp-json/'` to `href='https://new.shirai.la/wp-json/'` 2303 results in 2303 files
+- `a href="http://blog-shirai.la/` to `a href="https://new.shirai.la/` 10000 results in 1764 files
+- `href='http://blog-shirai.la/wp-json/'` to `href='https://new.shirai.la/wp-json/'` 2303 results in 2303 files
 - `http://new.shirai.la` to `https://new.shirai.la` 10004 resulrs in 1256 files
-
+- `blog-shirai.la` to `new.shirai.la` 10009 results in 1807 files.
 
 ### Google Analytics の置き直し
 

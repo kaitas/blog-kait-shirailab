@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	HCG へのコメント	</title>
-	<atom:link href="http://blog.shirai.la/iwadate/?feed=rss2&#038;p=71" rel="self" type="application/rss+xml" />
-	<link>http://blog.shirai.la/iwadate/?p=71</link>
+	<atom:link href="http://new.shirai.la/iwadate/?feed=rss2&#038;p=71" rel="self" type="application/rss+xml" />
+	<link>http://new.shirai.la/iwadate/?p=71</link>
 	<description>岩楯のブログだよ</description>
 	<lastBuildDate>
 	Fri, 21 Dec 2012 15:02:47 +0000	</lastBuildDate>
@@ -21,23 +21,23 @@
 			<item>
 				<title>
 				「白井研究室通信」 第28号 &#124; KAIT Shirai Lab より				</title>
-				<link>http://blog.shirai.la/iwadate/?p=71#comment-3</link>
+				<link>http://new.shirai.la/iwadate/?p=71#comment-3</link>
 		<dc:creator><![CDATA[「白井研究室通信」 第28号 &#124; KAIT Shirai Lab]]></dc:creator>
 		<pubDate>Fri, 21 Dec 2012 15:02:47 +0000</pubDate>
-		<guid isPermaLink="false">http://blog.shirai.la/iwadate/?p=71#comment-3</guid>
-					<description><![CDATA[[...] http://blog.shirai.la/iwadate/?p=71 [...]]]></description>
-		<content:encoded><![CDATA[<p>[&#8230;] <a href="https://new.shirai.la/iwadate/?p=71" class="autohyperlink">blog.shirai.la/iwadate/?p=71</a> [&#8230;]</p>
+		<guid isPermaLink="false">http://new.shirai.la/iwadate/?p=71#comment-3</guid>
+					<description><![CDATA[[...] http://new.shirai.la/iwadate/?p=71 [...]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] <a href="https://new.shirai.la/iwadate/?p=71" class="autohyperlink">new.shirai.la/iwadate/?p=71</a> [&#8230;]</p>
 ]]></content:encoded>
 						</item>
 						<item>
 				<title>
 				HCGシンポジウムで発表します &#124; KAIT Shirai Lab より				</title>
-				<link>http://blog.shirai.la/iwadate/?p=71#comment-2</link>
+				<link>http://new.shirai.la/iwadate/?p=71#comment-2</link>
 		<dc:creator><![CDATA[HCGシンポジウムで発表します &#124; KAIT Shirai Lab]]></dc:creator>
 		<pubDate>Sun, 09 Dec 2012 01:28:21 +0000</pubDate>
-		<guid isPermaLink="false">http://blog.shirai.la/iwadate/?p=71#comment-2</guid>
-					<description><![CDATA[[...] http://blog.shirai.la/iwadate/?p=71  [...]]]></description>
-		<content:encoded><![CDATA[<p>[&#8230;] <a href="https://new.shirai.la/iwadate/?p=71" class="autohyperlink">blog.shirai.la/iwadate/?p=71</a>  [&#8230;]</p>
+		<guid isPermaLink="false">http://new.shirai.la/iwadate/?p=71#comment-2</guid>
+					<description><![CDATA[[...] http://new.shirai.la/iwadate/?p=71  [...]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] <a href="https://new.shirai.la/iwadate/?p=71" class="autohyperlink">new.shirai.la/iwadate/?p=71</a>  [&#8230;]</p>
 ]]></content:encoded>
 						</item>
 			</channel>
