@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>raiden &#8211; RAIDEN BLOGS</title>
+	<atom:link href="http://blog.shirai.la/raiden/archives/author/raiden/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/raiden</link>
+	<description>雷電が日々のゲームや特撮の感想を書き連ねるblog</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:24:53 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>今日の戦隊＆ライダー</title>
+		<link>http://blog.shirai.la/raiden/archives/176</link>
+				<comments>http://blog.shirai.la/raiden/archives/176#respond</comments>
+				<pubDate>Sun, 24 Feb 2013 01:35:30 +0000</pubDate>
+		<dc:creator><![CDATA[raiden]]></dc:creator>
+				<category><![CDATA[特撮]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/raiden/?p=176</guid>
+				<description><![CDATA[獣電戦隊キョウリュウジャー2話と 仮面ライダーウィザード24話の感想！ まずはキョウリュウジャー。 ブルーとピ [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>獣電戦隊キョウリュウジャー2話と<br />
+仮面ライダーウィザード24話の感想！</p>
+<p>まずはキョウリュウジャー。<br />
+ブルーとピンクの正体を明かす葛藤と、その克服は結構リアルで面白かった。<br />
+でもブルー、子供の工作を自ら戦闘に使うのはやめろよ(笑)<br />
+あとキョウリュウジャーは話の流れがすごい早い。<br />
+ジェットコースターの如く、展開が移り変わって<br />
+飽きる時間がなく面白い。このペースで突っ走って欲しい。</p>
+<p>ウィザードはビーストのお婆ちゃんが出る話。<br />
+今まで話にあまり関わらなかったビーストと、<br />
+足手まといな瞬平が、体を張ってがんばってたお話という<br />
+なかなか新鮮な内容だった。<br />
+というか魔法少女ビーストが妙に強くて爆笑した。あれがギャグの強さなのだろうか…？<br />
+最後はお婆ちゃんが自ら「絶望させろ」と言うわ、瞬平お婆ちゃんの身代わりになって人質になるわで来週も目が離せない。</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/raiden/archives/176/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>卒研Web公開その2「研究の背景と目的」</title>
+		<link>http://blog.shirai.la/raiden/archives/138</link>
+				<comments>http://blog.shirai.la/raiden/archives/138#respond</comments>
+				<pubDate>Thu, 21 Feb 2013 10:24:11 +0000</pubDate>
+		<dc:creator><![CDATA[raiden]]></dc:creator>
+				<category><![CDATA[ゲーム研究]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/raiden/?p=138</guid>
+				<description><![CDATA[前回は、最初ということで、DOWNLOADページに、簡略化した研究要旨を公開した。 今回からは研究の中身を少し [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><a style="font-family: Tahoma, Geneva, sans-serif;font-size: 13px" href="http://blog.shirai.la/raiden/archives/115">前回</a><span style="font-family: Tahoma, Geneva, sans-serif;font-size: 13px">は、最初ということで、DOWNLOADページに、簡略化した研究要旨を公開した。</span></p>
+<p>今回からは研究の中身を少しづつ、順に公開していく。</p>
+<p>今回は研究の本題の前に、目的と背景について。<br />
+&nbsp;</p>
+<h2>コンピューターゲームジャンル変容と独立性の可視化</h2>
+<h3>背景</h3>
+<p style="padding-left: 30px">現代のゲームは表現の幅も広く，システムも大規模で開発コストも多く，ユーザーの希望は多様になってしまっている．例えば「デジタルゲームの教科書」[1]にて小山友介氏が「人月」という単位を例にして，開発コストの増加傾向について語っている．</p>
+<p style="text-align: left;padding-left: 30px"><a href="http://blog.shirai.la/raiden/files/2013/02/CGG_Cost.png"><img src="http://blog.shirai.la/raiden/files/2013/02/CGG_Cost-300x225.png" alt="CGG_Cost" width="400" height="" class="size-medium wp-image-146 aligncenter" srcset="http://blog.shirai.la/raiden/files/2013/02/CGG_Cost-300x225.png 300w, http://blog.shirai.la/raiden/files/2013/02/CGG_Cost.png 960w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+また，最近では「Unity」[2]という無料で，手軽にゲーム開発ができるツールも登場し，2012年8月の時点で利用者が世界に100万人以上[3]とも言われている．現代ではゲーム開発が10年前よりも身近なものとなっているといえるだろう．この10年でゲーム産業は，ネットワーク接続やモバイル，ソーシャルゲーム，ARにNUIなど，様々な技術を取り入れ，さらに多様になったといえる．販売形態も，従来の店舗販売から，Web通販やダウンロード販売を利用して購入する，「オンライン形態」に移行している．(下図左は大手通販サイトAmazon，右はSonyの提供するPlaystationStoreの切り抜き)</p>
+<p style="text-align: left;padding-left: 30px"><a href="http://blog.shirai.la/raiden/files/2013/02/CGG_OnMt.png"><img src="http://blog.shirai.la/raiden/files/2013/02/CGG_OnMt-300x225.png" alt="CGG_OnMt" width="400" height="" class="size-medium wp-image-154 aligncenter" srcset="http://blog.shirai.la/raiden/files/2013/02/CGG_OnMt-300x225.png 300w, http://blog.shirai.la/raiden/files/2013/02/CGG_OnMt.png 960w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p style="text-align: left;padding-left: 30px">しかしながら，多様化するゲームタイトルに対し，ゲームプレイヤーがゲームジャンルに抱くイメージはどのように変革してきているのだろうか．本研究では，今後特色ある，新しいゲームを生み出すために必要となるであろう，ゲームプレイヤーの経年的な変化に着目している．</p>
+<h3 style="text-align: left">目的</h3>
+<p style="padding-left: 30px">本研究は10年前に行われた，白井暁彦が行った研究「コンピューターゲームにおける興奮度定量化(1) 主観評価を使用したゲームジャンルの分類」[4]を追従調査し，2001年と2012年現在を比較することで<strong>，ゲームプレイヤーのゲームに対する心境にどのような変化が表れているか</strong>調査することと，<strong>10年でゲームジャンルが多様化している様を明らかにすること</strong>を目的とする．</p>
+<h3>参考</h3>
+<p style="padding-left: 30px">[1] デジタルゲームの教科書制作委員会：デジタルゲームの教科書，ソフトバンククリエイティブ（2010）．<br />
+[2]Unity Technologies社，「Unity &#8211; Game Engine」，http://unity3d.com/．<br />
+[3] 株式会社エンターブレイン，「ファミ通．com」，http://www.famitsu.com/news/201208/23020028.html．<br />
+[4]白井暁彦：コンピューターゲームにおける興奮度定量化(1) 主観評価を使用したゲームジャンルの分類，情報処理学会シンポジウム論文集，2001号，No.14，pp.33-40（2001）．</p>
+<p>&nbsp;</p>
+<p>今回はここまで！次回は先行研究について公開予定。</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/raiden/archives/138/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>開けられないフィギュア</title>
+		<link>http://blog.shirai.la/raiden/archives/134</link>
+				<comments>http://blog.shirai.la/raiden/archives/134#respond</comments>
+				<pubDate>Thu, 21 Feb 2013 08:14:27 +0000</pubDate>
+		<dc:creator><![CDATA[raiden]]></dc:creator>
+				<category><![CDATA[フィギュア]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/raiden/?p=134</guid>
+				<description><![CDATA[前に買ったSICオーズ・タジャドルコンボを、未だに開けていない。 ガラスショーケースがないからフィギュアだけが [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><a href="http://blog.shirai.la/raiden/files/2013/02/DSC_0121.jpg"><img src="http://blog.shirai.la/raiden/files/2013/02/DSC_0121-300x225.jpg" alt="OOO_tjd" width="300" height="225" class="alignnone size-medium wp-image-135" srcset="http://blog.shirai.la/raiden/files/2013/02/DSC_0121-300x225.jpg 300w, http://blog.shirai.la/raiden/files/2013/02/DSC_0121.jpg 948w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>前に買ったSICオーズ・タジャドルコンボを、未だに開けていない。<br />
+ガラスショーケースがないからフィギュアだけが増えてゆく…</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/raiden/archives/134/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>卒業研究のWEB公開</title>
+		<link>http://blog.shirai.la/raiden/archives/115</link>
+				<comments>http://blog.shirai.la/raiden/archives/115#respond</comments>
+				<pubDate>Wed, 20 Feb 2013 09:15:54 +0000</pubDate>
+		<dc:creator><![CDATA[raiden]]></dc:creator>
+				<category><![CDATA[ゲーム研究]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/raiden/?p=115</guid>
+				<description><![CDATA[自分の卒業研究「コンピューターゲームジャンル変容と独立性の可視化」を、 このブログで公開することにする。簡単な [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>自分の卒業研究「コンピューターゲームジャンル変容と独立性の可視化」を、</p>
+<p>このブログで公開することにする。簡単な要旨を<a href="http://blog.shirai.la/raiden/download/">DOWNLOADページ</a>に置いたので、</p>
+<p>興味のある人はどうぞ。</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/raiden/archives/115/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>障害原因</title>
+		<link>http://blog.shirai.la/raiden/archives/60</link>
+				<comments>http://blog.shirai.la/raiden/archives/60#respond</comments>
+				<pubDate>Tue, 19 Feb 2013 02:33:39 +0000</pubDate>
+		<dc:creator><![CDATA[raiden]]></dc:creator>
+				<category><![CDATA[ブログ運営]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/raiden/?p=60</guid>
+				<description><![CDATA[昨日のblog開設時発生した障害についてのメモ。 障害の原因は、現在、このblogに使われているテーマ「Dee [&#8230;]]]></description>
+								<content:encoded><![CDATA[<h3>昨日のblog開設時発生した障害についてのメモ。</h3>
+<p>障害の原因は、現在、このblogに使われているテーマ<strong>「Deep Silent」を適用したこと</strong>でした。</p>
+<p><span id="more-60"></span></p>
+<p>このテーマは、WordPressの標準で用意されていたテーマですが、</p>
+<p>更新がしばらく止まっており、最新版のWordPressには対応されておらず、</p>
+<p>それをそのまま対応した結果、シンタックスエラーが発生→ダッシュボードごと表示されない、</p>
+<p>という障害が発生したようです。現在は修正され、適用されている。<br />
+障害中に、このblogの親ブログの方でライブプレビューしたところ、</p>
+<p>同じエラーの確認が出来たので、テーマ適用前に確認しておけば回避できた障害であったことも判明。</p>
+<p>次も勢いで決めて、障害を起こさないように気を付けなければ…。</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/raiden/archives/60/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>ブログ開設</title>
+		<link>http://blog.shirai.la/raiden/archives/4</link>
+				<comments>http://blog.shirai.la/raiden/archives/4#respond</comments>
+				<pubDate>Mon, 18 Feb 2013 09:26:11 +0000</pubDate>
+		<dc:creator><![CDATA[raiden]]></dc:creator>
+				<category><![CDATA[ブログ運営]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/raiden/?p=4</guid>
+				<description><![CDATA[勉強も兼ねてブログ開設。 Wordpressのエラーで、開設前から躓いたけど頑張る。]]></description>
+								<content:encoded><![CDATA[<p>勉強も兼ねてブログ開設。<br />
+Wordpressのエラーで、開設前から躓いたけど頑張る。</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/raiden/archives/4/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

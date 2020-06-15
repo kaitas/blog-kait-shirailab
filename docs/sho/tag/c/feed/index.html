@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>C++ &#8211; 渡邉翔の研究日誌</title>
+	<atom:link href="http://blog.shirai.la/sho/tag/c/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/sho</link>
+	<description>黒縁メガネによる技術メモや雑談、研究室関係の記録など。</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:25:00 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>ゲームプログラミング #1　プロジェクト作成</title>
+		<link>http://blog.shirai.la/sho/2017/05/12/gameprogramming-1/</link>
+				<comments>http://blog.shirai.la/sho/2017/05/12/gameprogramming-1/#comments</comments>
+				<pubDate>Thu, 11 May 2017 20:55:30 +0000</pubDate>
+		<dc:creator><![CDATA[渡邉 翔]]></dc:creator>
+				<category><![CDATA[ゲームプログラミング]]></category>
+		<category><![CDATA[1423056]]></category>
+		<category><![CDATA[C++]]></category>
+		<category><![CDATA[visual studio]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/sho/?p=65</guid>
+				<description><![CDATA[こんにちは、渡邉です。 それでは始めていきます。 まずは、開発環境の話から。 僕の環境はWindows7(64 &#8230; <p class="link-more"><a href="http://blog.shirai.la/sho/2017/05/12/gameprogramming-1/" class="more-link"><span class="screen-reader-text">"ゲームプログラミング #1　プロジェクト作成" の</span>続きを読む</a></p>]]></description>
+								<content:encoded><![CDATA[<p>こんにちは、渡邉です。</p>
+<p>それでは始めていきます。<br />
+まずは、開発環境の話から。</p>
+<p>僕の環境はWindows7(64-bit)、Visual Studio 2017 Communityです。</p>
+<figure id="attachment_67" aria-describedby="caption-attachment-67" style="width: 640px" class="wp-caption alignnone"><img class="wp-image-67" src="http://blog.shirai.la/sho/files/2017/05/キャプチャ-1-1024x572.png" alt="" width="640" height="357" srcset="http://blog.shirai.la/sho/files/2017/05/キャプチャ-1-1024x572.png 1024w, http://blog.shirai.la/sho/files/2017/05/キャプチャ-1-300x167.png 300w, http://blog.shirai.la/sho/files/2017/05/キャプチャ-1-768x429.png 768w, http://blog.shirai.la/sho/files/2017/05/キャプチャ-1.png 1290w" sizes="(max-width: 640px) 100vw, 640px" /><figcaption id="caption-attachment-67" class="wp-caption-text">visual studio 2017 インストーラースクリーンショットその1</figcaption></figure>
+<p>以下、visual studioを使ってない人向け</p>
+<p><a href="https://www.visualstudio.com/ja/downloads/?rr=https%3A%2F%2Fwww.microsoft.com%2Fja-jp%2Fdev%2Fproducts%2Fcommunity.aspx">MicroSoft Visual Studio 2017 ダウンロード<br />
+</a>このリンク先のページからVisual Studio 2017のインストーラーをダウンロードしてきます。</p>
+<p>そのインストーラーを起動すると以下のようなウィンドウが出てくるので左上の Visual Studio Community 2017 のインストールボタンを押します。</p>
+<p>スクロールして中段あたりにあるC++によるゲーム開発にチェックを入れ、右側にあるWindows 10 SDKにもチェックを入れます。</p>
+<p>その他インストールしたいものがあればチェックを入れて最後に右下のインストールボタンを押します。</p>
+<figure id="attachment_68" aria-describedby="caption-attachment-68" style="width: 724px" class="wp-caption alignnone"><img class="wp-image-68 " src="http://blog.shirai.la/sho/files/2017/05/キャプチャ-2.png" alt="" width="724" height="403" srcset="http://blog.shirai.la/sho/files/2017/05/キャプチャ-2.png 1290w, http://blog.shirai.la/sho/files/2017/05/キャプチャ-2-300x167.png 300w, http://blog.shirai.la/sho/files/2017/05/キャプチャ-2-768x429.png 768w, http://blog.shirai.la/sho/files/2017/05/キャプチャ-2-1024x572.png 1024w" sizes="(max-width: 724px) 100vw, 724px" /><figcaption id="caption-attachment-68" class="wp-caption-text">visual studio 2017 インストーラースクリーンショットその2</figcaption></figure>
+<p>インストールには大分時間がかかると思いますので、お茶でもすすりながら待ちましょう。</p>
+<p>ちなみに、SDKとはSoftware Development Kitの略でソフトウェア開発のためのツールやデータ、技術文書などのことです。<br />
+Windows SDKの8.1以降ではDirectX SDKが統合されています。それ以前でDirectXを使う場合はDirectX SDKを別途インストールする必要があります。</p>
+<p>インストールが終わったらVisual Studio 2017を起動します。</p>
+<p>左上のファイル(F)から新規作成(N) → プロジェクト(P)を押して新しいプロジェクトを作成します。</p>
+<figure id="attachment_69" aria-describedby="caption-attachment-69" style="width: 900px" class="wp-caption alignnone"><img class="size-full wp-image-69" src="http://blog.shirai.la/sho/files/2017/05/プロジェクト作成1.png" alt="" width="900" height="430" srcset="http://blog.shirai.la/sho/files/2017/05/プロジェクト作成1.png 900w, http://blog.shirai.la/sho/files/2017/05/プロジェクト作成1-300x143.png 300w, http://blog.shirai.la/sho/files/2017/05/プロジェクト作成1-768x367.png 768w" sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" /><figcaption id="caption-attachment-69" class="wp-caption-text">プロジェクト作成1</figcaption></figure>
+<p>ここでいうプロジェクトとは企画とかビジネス的なことではなく、プログラムファイルやそれらを動かすために必要なファイルなどをひとまとめにした単位のことです。</p>
+<figure id="attachment_70" aria-describedby="caption-attachment-70" style="width: 955px" class="wp-caption alignnone"><img class="size-full wp-image-70" src="http://blog.shirai.la/sho/files/2017/05/プロジェクト作成2.png" alt="" width="955" height="660" srcset="http://blog.shirai.la/sho/files/2017/05/プロジェクト作成2.png 955w, http://blog.shirai.la/sho/files/2017/05/プロジェクト作成2-300x207.png 300w, http://blog.shirai.la/sho/files/2017/05/プロジェクト作成2-768x531.png 768w" sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" /><figcaption id="caption-attachment-70" class="wp-caption-text">プロジェクト作成2</figcaption></figure>
+<p>新しいプロジェクトを作成するウィンドウが出たら左側のVisual C++を展開してWin32をクリック、中央でWin32プロジェクトを選択します。</p>
+<p>C++言語の勉強でコンソール画面に文字を表示させたりしたことがある人ならWin32コンソールアプリケーション(あるいは空のプロジェクト)でプロジェクトを作ったことがあるかもしれません。</p>
+<p>右下のソリューションのディレクトリを作成のチェックを外し、名前をGameProgrammingとでもしておきましょう。</p>
+<p>ソリューションとは複数のプロジェクトをまとめた単位だと思っといてください。</p>
+<p>次にWin32アプリケーションウィザードが出てきます。<br />
+次へを押して設定画面に行き、アプリケーションの種類が、Windowsアプリケーションになっていることを確認し、空のプロジェクトにチェックを入れます。</p>
+<figure id="attachment_71" aria-describedby="caption-attachment-71" style="width: 795px" class="wp-caption alignnone"><img class="size-full wp-image-71" src="http://blog.shirai.la/sho/files/2017/05/プロジェクト作成3.png" alt="" width="795" height="492" srcset="http://blog.shirai.la/sho/files/2017/05/プロジェクト作成3.png 795w, http://blog.shirai.la/sho/files/2017/05/プロジェクト作成3-300x186.png 300w, http://blog.shirai.la/sho/files/2017/05/プロジェクト作成3-768x475.png 768w" sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" /><figcaption id="caption-attachment-71" class="wp-caption-text">Win32アプリケーションウィザード</figcaption></figure>
+<p>最後に完了ボタンをクリックしてプロジェクトが作成されます。<br />
+次にこのプロジェクトにソースファイルを追加します。</p>
+<p>右側のソリューションエクスプローラーにあるGameProgrammingの中にあるソースファイルを右クリックして追加をクリックし、さらに新しい項目をクリック</p>
+<figure id="attachment_78" aria-describedby="caption-attachment-78" style="width: 761px" class="wp-caption alignnone"><img class="size-full wp-image-78" src="http://blog.shirai.la/sho/files/2017/05/ファイル追加1-1.png" alt="" width="761" height="437" srcset="http://blog.shirai.la/sho/files/2017/05/ファイル追加1-1.png 761w, http://blog.shirai.la/sho/files/2017/05/ファイル追加1-1-300x172.png 300w" sizes="(max-width: 706px) 89vw, (max-width: 767px) 82vw, 740px" /><figcaption id="caption-attachment-78" class="wp-caption-text">ファイル追加1</figcaption></figure>
+<figure id="attachment_76" aria-describedby="caption-attachment-76" style="width: 995px" class="wp-caption alignnone"><img class="wp-image-76 size-full" src="http://blog.shirai.la/sho/files/2017/05/ファイル追加2.png" alt="" width="995" height="700" srcset="http://blog.shirai.la/sho/files/2017/05/ファイル追加2.png 995w, http://blog.shirai.la/sho/files/2017/05/ファイル追加2-300x211.png 300w, http://blog.shirai.la/sho/files/2017/05/ファイル追加2-768x540.png 768w" sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" /><figcaption id="caption-attachment-76" class="wp-caption-text">C++ファイル作成</figcaption></figure>
+<figure id="attachment_77" aria-describedby="caption-attachment-77" style="width: 300px" class="wp-caption alignnone"><img class="wp-image-77 size-medium" src="http://blog.shirai.la/sho/files/2017/05/ファイル追加3-300x127.png" alt="" width="300" height="127" srcset="http://blog.shirai.la/sho/files/2017/05/ファイル追加3-300x127.png 300w, http://blog.shirai.la/sho/files/2017/05/ファイル追加3.png 352w" sizes="(max-width: 300px) 100vw, 300px" /><figcaption id="caption-attachment-77" class="wp-caption-text">追加されました</figcaption></figure>
+<p>&nbsp;</p>
+<p>さて、それではコーディングを始めていきたいところですが、<br />
+その前にプロジェクトの設定をします。</p>
+<p>&nbsp;</p>
+<p>VisualStudioのメニューバーからプロジェクト &gt; プロパティをクリック</p>
+<figure id="attachment_97" aria-describedby="caption-attachment-97" style="width: 720px" class="wp-caption alignnone"><img class="wp-image-97 size-full" src="http://blog.shirai.la/sho/files/2017/05/プロジェクト設定1-1.png" alt="" width="720" height="480" srcset="http://blog.shirai.la/sho/files/2017/05/プロジェクト設定1-1.png 720w, http://blog.shirai.la/sho/files/2017/05/プロジェクト設定1-1-300x200.png 300w" sizes="(max-width: 720px) 100vw, 720px" /><figcaption id="caption-attachment-97" class="wp-caption-text">プロジェクト設定1</figcaption></figure>
+<p>構成をDebugに変更し、<br />
+左側の構成プロパティからC/C++ &gt; コード生成をクリックし、ランタイムライブラリをマルチスレッドデバッグ(/MTd)に変更</p>
+<figure id="attachment_80" aria-describedby="caption-attachment-80" style="width: 905px" class="wp-caption alignnone"><img class="size-full wp-image-80" src="http://blog.shirai.la/sho/files/2017/05/プロジェクト設定2.png" alt="" width="905" height="303" srcset="http://blog.shirai.la/sho/files/2017/05/プロジェクト設定2.png 905w, http://blog.shirai.la/sho/files/2017/05/プロジェクト設定2-300x100.png 300w, http://blog.shirai.la/sho/files/2017/05/プロジェクト設定2-768x257.png 768w" sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" /><figcaption id="caption-attachment-80" class="wp-caption-text">プロジェクト設定2</figcaption></figure>
+<p>右下の適用ボタンを押したら今度は構成をReleaseに変更<br />
+ランタイムライブラリをマルチスレッド(/MT)に変更します。</p>
+<figure id="attachment_81" aria-describedby="caption-attachment-81" style="width: 907px" class="wp-caption alignnone"><img class="size-full wp-image-81" src="http://blog.shirai.la/sho/files/2017/05/プロジェクト設定3.png" alt="" width="907" height="268" srcset="http://blog.shirai.la/sho/files/2017/05/プロジェクト設定3.png 907w, http://blog.shirai.la/sho/files/2017/05/プロジェクト設定3-300x89.png 300w, http://blog.shirai.la/sho/files/2017/05/プロジェクト設定3-768x227.png 768w" sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" /><figcaption id="caption-attachment-81" class="wp-caption-text">プロジェクト設定3</figcaption></figure>
+<p>これらの設定についての解説はMicrosoftの公式サイトをお読みください。<br />
+<a href="https://msdn.microsoft.com/ja-jp/library/2kzt1wy3.aspx">msdn.microsoft.com/ja-jp/library/2kzt1wy3.aspx</a></p>
+<p>他にも変更する部分が出てくるかもしれませんが、その時になったら適宜説明していきます。とりあえず今はこれで適用ボタンを押した後OKボタンを押します。</p>
+<p>これでプログラミングする準備が整いました。<br />
+早速やっていきたいのですが今回はここまでとします。</p>
+<p><a href="http://blog.shirai.la/sho/2017/05/04/gameprogramming-0/">←前に戻る</a>　　次へ進む→</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/sho/2017/05/12/gameprogramming-1/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+	</channel>
+</rss>

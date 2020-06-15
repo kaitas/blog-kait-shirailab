@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Kinect &#8211; 汗を流して飯が旨い</title>
+	<atom:link href="http://blog.shirai.la/tsuda/category/kinect/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/tsuda</link>
+	<description>飯とか技術とかイベントとか</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:24:56 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>Kinect Unityで人物のみ抽出する方法</title>
+		<link>http://blog.shirai.la/tsuda/2015/02/07/kinect-unity/</link>
+				<pubDate>Sat, 07 Feb 2015 10:44:13 +0000</pubDate>
+		<dc:creator><![CDATA[Ryotaro Tsuda]]></dc:creator>
+				<category><![CDATA[Kinect]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[学術関係]]></category>
+		<category><![CDATA[マスク]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/tsuda/?p=286</guid>
+				<description><![CDATA[Unityを利用してkinectから人物のみを切り出す方法をまとめます。ネットで調べたところXNA版とWPF版 [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Unityを利用してkinectから人物のみを切り出す方法をまとめます。ネットで調べたところXNA版とWPF版は多く存在しましたが、Unityでの方法は見つからなかったので。</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/02/kinect1.png"><img class="alignnone size-medium wp-image-287" src="http://blog.shirai.la/tsuda/files/2015/02/kinect1-255x300.png" alt="kinect1" width="255" height="300" /></a></p>
+<p>&nbsp;</p>
+<p>まず初めに開発環境です</p>
+<p>Windows8.1 Enterprise 64bit</p>
+<p>Unity Pro 4.6.1f</p>
+<p><a href="http://wiki.etc.cmu.edu/unity3d/index.php/Microsoft_Kinect_-_Microsoft_SDK#Kinect" target="_blank">wrapper to Kinect SDK 1.7 </a></p>
+<p>&nbsp;</p>
+<p>wrapperPackageをインストールするとAssets&gt;Script&gt;Kinect&gt;KinectImgControllersの中にDisplayColor.csとDisplayDepth.csが作られます。</p>
+<p>このスクリプトをオブジェクトにアタッチすると、DisplayColorからはRGB画像が、DisplayDepthからはDepth画像がテクスチャとしてオブジェクトに貼られます。</p>
+<p>DisplayDepth.csの中を見てみると、Update()の中にコメントアウトされた</p>
+<p><em><strong>tex.SetPixels32(convertPlayersToCutout(dw.segmentations));</strong></em></p>
+<p>があります。これは人がいるところをテクスチャとして吐き出す関数です。それのコメントアウトを外し、tex.SetPixels32(convertDepthToColor(dw.depthImg));をコメントアウトをして無効にします。</p>
+<p>またDisplayDepth.csとDisplayColor.csの両方にrenderer.material.mainTexture = tex;の記述があるのでコメントアウトしてください。これがあるとオブジェクトに画像が張られてしまうためです。</p>
+<p>これでDisplayDepth.csをアタッチされたオブジェクトにプレイヤー部分のみを抽出するテクスチャが貼り付けられるようになりました。</p>
+<p>convertPlayersToCutoutを見てみると人がいるところはアルファチャンネルが255になり、いないところは0になるようです。</p>
+<p>今回引数として使用しているdw.segmentationsはDepthWrapper.csから確認するとpixelを一つ一つ確認してプレイヤーがいたらtrueを返すような仕組みになっていおり、playerは6名まで確認することができるようです。</p>
+<p>&nbsp;</p>
+<p>さて、これでRGB画像と人物情報を持った画像を生成することができました。</p>
+<p>次に適当な背景画像を用意します。</p>
+<p>&nbsp;</p>
+<p>今回は一つシェーダーを用意し、背景画像、RGB画像、人物画像を三つ重ね、人がいる部分はRGB画像を、人がいない部分は背景画像をといった処理を書いていきたいと思います。</p>
+<p>まず実装するために必要なシェーダーMaskingShader.shaderを書きます</p>
+<p>&nbsp;</p>
+<p style="text-align: center">MaskingShader.shader</p>
+<hr />
+<p><em><strong>_BackTex (&#8220;Back&#8221;, 2D) = &#8220;white&#8221; {}</strong></em><br />
+<em><strong> _MaskTex (&#8220;Mask&#8221;, 2D) = &#8220;white&#8221; {}</strong></em><br />
+<em><strong> }</strong></em><br />
+<em><strong> SubShader {</strong></em><br />
+<em><strong> Tags { &#8220;RenderType&#8221;=&#8221;Opaque&#8221; }</strong></em><br />
+<em><strong> LOD 200</strong></em></p>
+<p><em><strong> Pass{</strong></em><br />
+<em><strong> CGPROGRAM</strong></em><br />
+<em><strong> #pragma vertex vert</strong></em><br />
+<em><strong> #pragma fragment frag</strong></em><br />
+<em><strong> #pragma target 3.0</strong></em></p>
+<p><em><strong> //バーテックス用入力</strong></em><br />
+<em><strong> struct vertexInput{</strong></em><br />
+<em><strong> float4 vertex : POSITION;</strong></em><br />
+<em><strong> float2 uv : TEXCOORD0;</strong></em><br />
+<em><strong> };</strong></em></p>
+<p><em><strong> //フラグメント用入力/バーテックス用出力</strong></em><br />
+<em><strong> struct fragmentInput{</strong></em><br />
+<em><strong> float4 position : SV_POSITION;</strong></em><br />
+<em><strong> float2 uv : TEXCOORD0;</strong></em><br />
+<em><strong> };</strong></em></p>
+<p><em><strong> sampler2D _MainTex;</strong></em><br />
+<em><strong> sampler2D _BackTex;</strong></em><br />
+<em><strong> sampler2D _MaskTex;</strong></em></p>
+<p><em><strong> fragmentInput vert(vertexInput v){</strong></em><br />
+<em><strong> fragmentInput o;</strong></em><br />
+<em><strong> o.position = mul(UNITY_MATRIX_MVP, v.vertex);</strong></em><br />
+<em><strong> o.uv = v.uv;</strong></em><br />
+<em><strong> return o;</strong></em><br />
+<em><strong> }</strong></em></p>
+<p><em><strong> float4 frag(fragmentInput i) : COLOR{</strong></em><br />
+<em><strong> float4 maintex = tex2D(_MainTex, i.uv);</strong></em><br />
+<em><strong> float4 backtex = tex2D(_BackTex, i.uv);</strong></em><br />
+<em><strong> float4 masktex = tex2D(_MaskTex, i.uv);</strong></em><br />
+<em><strong> float4 output;</strong></em></p>
+<p><em><strong> if(masktex.a &gt; 0.2f){</strong></em><br />
+<em><strong> output.rgb = maintex.rgb;</strong></em><br />
+<em><strong> }else{</strong></em><br />
+<em><strong> output.rgb = backtex.rgb;</strong></em><br />
+<em><strong> }</strong></em></p>
+<p><em><strong> return float4(output.r,output.g,output.b,1.0);</strong></em><br />
+<em><strong> }</strong></em></p>
+<p><em><strong> ENDCG</strong></em><br />
+<em><strong> }</strong></em><br />
+<em><strong> } </strong></em><br />
+<em><strong> FallBack &#8220;Diffuse&#8221;</strong></em><br />
+<em><strong>}</strong></em></p>
+<hr />
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>3つのテクスチャを格納し、masktexの値でmaintexを出すかbacktexを出すか判断しています。</p>
+<p>またこのシェーダーのためのマテリアルMaskmatも用意しておいてください。</p>
+<p>&nbsp;</p>
+<p>次に、このシェーダーにテクスチャを渡すためのスクリプトMaskScript.csを書きます</p>
+<p>&nbsp;</p>
+<p style="text-align: center">MaskScript.cs</p>
+<hr />
+<p><em><strong>using UnityEngine;</strong></em><br />
+<em><strong>using System.Collections;</strong></em></p>
+<p><em><strong>public class MaskScript : MonoBehaviour {</strong></em><br />
+<em><strong> Texture2D color;</strong></em><br />
+<em><strong> Texture2D depth;</strong></em><br />
+<em><strong> public Texture2D back;</strong></em><br />
+<em><strong> public Material Mat;</strong></em><br />
+<em><strong> DisplayDepth ddepth;</strong></em><br />
+<em><strong> DisplayColor dcolor;</strong></em></p>
+<p><em><strong>void Awake(){</strong></em><br />
+<em><strong> ddepth = this.GetComponent&lt;DisplayDepth&gt; ();</strong></em><br />
+<em><strong> dcolor = this.gameObject.GetComponent&lt;DisplayColor&gt; ();</strong></em><br />
+<em><strong> }</strong></em><br />
+<em><strong> // Use this for initialization</strong></em><br />
+<em><strong> void Start () {</strong></em><br />
+<em><strong> Mat.SetTexture (&#8220;_MainTex&#8221;, color);</strong></em><br />
+<em><strong> Mat.SetTexture (&#8220;_BackTex&#8221;, back);</strong></em><br />
+<em><strong> Mat.SetTexture (&#8220;_MaskTex&#8221;, depth);</strong></em></p>
+<p><em style="line-height: 1.5"><strong>}</strong></em></p>
+<p><em><strong>// Update is called once per frame</strong></em><br />
+<em><strong> void Update () {</strong></em><br />
+<em><strong> color = dcolor.tex;</strong></em><br />
+<em><strong> depth = ddepth.tex;</strong></em></p>
+<p><em><strong>Mat.SetTexture (&#8220;_MainTex&#8221;, color);</strong></em><br />
+<em><strong> Mat.SetTexture (&#8220;_BackTex&#8221;, back);</strong></em><br />
+<em><strong> Mat.SetTexture (&#8220;_MaskTex&#8221;, depth);</strong></em><br />
+<em><strong> }</strong></em></p>
+<p><em><strong>}</strong></em></p>
+<hr />
+<p>&nbsp;</p>
+<p>RGB画像、Depth画像両方が必要なので、双方のtexをpublicに直すことをお忘れなく。</p>
+<p>最後にスクリーンになるオブジェクトに、</p>
+<p><strong>DisplayDepth.cs</strong></p>
+<p><strong>DisplayColor.cs</strong></p>
+<p><strong>MaskScript.cs</strong></p>
+<p><strong>Maskmat</strong></p>
+<p>をすべてアタッチします。MaskScript.csのMatの部分には下にあるMaskmatをアサインしてください。</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/02/kinect3.jpg"><img class="alignnone size-medium wp-image-289" src="http://blog.shirai.la/tsuda/files/2015/02/kinect3-183x300.jpg" alt="kinect3" width="183" height="300" srcset="http://blog.shirai.la/tsuda/files/2015/02/kinect3-183x300.jpg 183w, http://blog.shirai.la/tsuda/files/2015/02/kinect3.jpg 600w" sizes="(max-width: 183px) 100vw, 183px" /></a></p>
+<p>&nbsp;</p>
+<p>そして、Maskmat上にあるBackの項目に背景にしたい画像を用意して格納し、実行すると人物画像だけ切り取ることができます。</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/02/kinect2.jpg"><img class="alignnone size-medium wp-image-288" src="http://blog.shirai.la/tsuda/files/2015/02/kinect2-256x300.jpg" alt="kinect2" width="256" height="300" srcset="http://blog.shirai.la/tsuda/files/2015/02/kinect2-256x300.jpg 256w, http://blog.shirai.la/tsuda/files/2015/02/kinect2-874x1024.jpg 874w, http://blog.shirai.la/tsuda/files/2015/02/kinect2.jpg 952w" sizes="(max-width: 256px) 100vw, 256px" /></a></p>
+<p>&nbsp;</p>
+<p>kinectのRGBカメラとDepthカメラの位置関係から少しずれが出ていますが、スクリプトで修正することはできると思います。</p>
+<p><a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> </p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Lavalvirtual</title>
+		<link>http://blog.shirai.la/tsuda/2015/02/06/lavalvirtual/</link>
+				<pubDate>Thu, 05 Feb 2015 17:46:13 +0000</pubDate>
+		<dc:creator><![CDATA[Ryotaro Tsuda]]></dc:creator>
+				<category><![CDATA[Kinect]]></category>
+		<category><![CDATA[Lavalvirtual]]></category>
+		<category><![CDATA[Realsense]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[LavalVirtual]]></category>
+		<category><![CDATA[LavalVirtual2015]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/tsuda/?p=284</guid>
+				<description><![CDATA[研究室に所属して初めての大きなイベントLavalvirtualのために現在せっせとコンテンツを作っております。 [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>研究室に所属して初めての大きなイベントLavalvirtualのために現在せっせとコンテンツを作っております。</p>
+<p>今はUnityでKinectとIntel RealSenseを同時に動かして、多重化させることに挑戦。たくさんのカメラと向き合う毎日ですが、寒さに負けずに頑張ります。</p>
+<p>&nbsp;</p>
+<p>Unity今までゲームは作ってきたが、外部デバイスとの連携はArduinoのみだったので苦戦。頑張ります。</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

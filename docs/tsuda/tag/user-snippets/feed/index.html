@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>User Snippets &#8211; 汗を流して飯が旨い</title>
+	<atom:link href="http://blog.shirai.la/tsuda/tag/user-snippets/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/tsuda</link>
+	<description>飯とか技術とかイベントとか</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:24:56 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>VSCode 0.7.0での変更点と新機能User SnippetsでUnityのスニペットを有効にする</title>
+		<link>http://blog.shirai.la/tsuda/2015/08/18/20150818/</link>
+				<pubDate>Tue, 18 Aug 2015 12:04:44 +0000</pubDate>
+		<dc:creator><![CDATA[Ryotaro Tsuda]]></dc:creator>
+				<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VSCode]]></category>
+		<category><![CDATA[学術関係]]></category>
+		<category><![CDATA[忘備録]]></category>
+		<category><![CDATA[0.7.0]]></category>
+		<category><![CDATA[User Snippets]]></category>
+		<category><![CDATA[VisualStudioCode]]></category>
+		<category><![CDATA[スニペット]]></category>
+		<category><![CDATA[痛VSCode]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/tsuda/?p=584</guid>
+				<description><![CDATA[こんばんは 最近VSCodeにお熱の津田です。 先日のアップデートでVSCodeのバージョンが0.5.0→0. [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>こんばんは<br />
+最近VSCodeにお熱の津田です。</p>
+<p>先日のアップデートでVSCodeのバージョンが0.5.0→0.7.0となり、<br />
+かなり大きな仕様の変更がありました。</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/08/-2015-08-18-17.37.43-e1439896930307.png"><img class="alignnone size-medium wp-image-585" src="http://blog.shirai.la/tsuda/files/2015/08/-2015-08-18-17.37.43-e1439896930307-300x216.png" alt="スクリーンショット 2015-08-18 17.37.43" width="300" height="216" srcset="http://blog.shirai.la/tsuda/files/2015/08/-2015-08-18-17.37.43-e1439896930307-300x216.png 300w, http://blog.shirai.la/tsuda/files/2015/08/-2015-08-18-17.37.43-e1439896930307.png 610w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+今回のエントリでは<br />
+・0.7.0で痛VSCode化<br />
+・User Snippetsを利用したUnityのスニペット</p>
+<p>について共有します。</p>
+<p>0.7.0では内部のフォルダ構成に大きな変更があったようです。<br />
+今まで<a href="http://anz-note.tumblr.com/post/117784986426/vscode%E7%97%9Bvisual-studio-code%E3%81%AB%E3%81%97%E3%81%A8%E3%81%8F" target="_blank">痛VSCode化</a>して楽しんでいたのですが、変更を記述していた<br />
+native.main.cssがmonacoフォルダごとなくなっており少し手こずりました。</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.10.png"><img class="alignnone size-medium wp-image-586" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.10-300x218.png" alt="スクリーンショット 2015-08-18 17.40.10" width="300" height="218" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.10-300x218.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.10.png 998w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>じゃあ痛VSCode化できないの!?というとそうではありません<br />
+どうやら細分化されたようでしっかりmonacoの機能は生きていました。<br />
+肝心のnative.main.cssの後継者はvs-&gt;workbench-&gt;workbench.main.cssでした。</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.38.png"><img class="alignnone size-medium wp-image-587" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.38-300x204.png" alt="スクリーンショット 2015-08-18 17.40.38" width="300" height="204" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.38-300x204.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.38-1024x695.png 1024w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.38.png 1082w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>あとは以前のように画像を表示するように書き足すと<br />
+こんな風に背景に画像を入れられます。モチベも上がります。</p>
+<p><img class="alignnone size-medium wp-image-588" style="line-height: 1.5" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.31.44-300x219.png" alt="スクリーンショット 2015-08-18 20.31.44" width="300" height="219" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.31.44-300x219.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.31.44-1024x749.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>次にkyusyukeigo氏の<a href="http://qiita.com/kyusyukeigo/items/2d4a961f8f89bd1552ee" target="_blank">Unityで使うためにVidualStudio Code（VSCode）入れてやったこと</a>を参考に<br />
+Unityのスニペットを追加したのですがそこでもまた一悶着あったので共有します</p>
+<p>スニペットとは切れ端とか断面とかいう意味で、プログラミングでは長いコードを少ない単語から貼り付けることができる機能です。それをユーザーが自由に適宜追加、消去できる機能がエディタには有ります。</p>
+<p>具体的に言うとUnityでvoid OnCollisionEnter()とか補完が効かなくてうつのめんどくさいし間違えるリスクも有るところをエディタに記憶させちゃおう的なやつです。</p>
+<p>上記のURLからkyusyukeigo氏がUnityスニペットをjsファイルで提供してくださっていたので、説明にそって導入すると、バージョンの変更からかうまくいかないという問題が有りました。</p>
+<p>調べてみるとVSCode0.5.0以降から新機能でUser Snippetsという機能が追加されておりもっと簡単にスニペットの追加ができるようになったようです。</p>
+<p>今回はUser Snippetsを使ってUnityのスニペットを実装したのでやり方を紹介します。</p>
+<p>1)command + shift + pで機能の検索ウィンドウを表示。「Snippets」と入力して選択します。<br />
+2)言語が聞かれるので今回は「C#」を選択します。</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.47.47.png"><img class="alignnone size-medium wp-image-589" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.47.47-300x156.png" alt="スクリーンショット 2015-08-18 20.47.47" width="300" height="156" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.47.47-300x156.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.47.47-1024x531.png 1024w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.47.47.png 1180w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>&nbsp;</p>
+<p>3)csharp.jsonが表示されます。VSCodeのスニペットはjsonでやる感じですね</p>
+<p>コメントアウトされた例文が最初に載っています。これを参考に適宜追加していくみたいです。<br />
+Unity用のスニペットをがしがし追加していきましょう。</p>
+<p>今回、kyusyukeigo氏がGitで公開されていたjsバージョンを<br />
+僭越ながら私がVSCode jsonバージョンに書き換え、公開させていただきました。(何か問題があれば消去します)</p>
+<p>以下のURLから閲覧、ダウンロード可能です(私のGitページです)<br />
+<a href="https://github.com/TsudaRyotaro/VScode/blob/master/csharp.json" target="_blank">github.com/TsudaRyotaro/VScode/blob/master/csharp.json</a></p>
+<p>4)上記URL先のコードをコピーし、VSCode上のcsharp.jsonに貼り付けます。<br />
+保存して再起動すると、スニペット機能が使えるようになっています。<a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.58.58.png"><img class="alignnone size-medium wp-image-590" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.58.58-300x219.png" alt="スクリーンショット 2015-08-18 20.58.58" width="300" height="219" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.58.58-300x219.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.58.58-1024x749.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>&nbsp;</p>
+<p>ここまでカスタマイズできればだいぶVSCodeに愛着も湧いてきましたね！<br />
+アップデートで非公式カスタマイズは全て上書きされてしまうのでバックアップをしっかり取ることをおすすめします！では！</p>
+<p><a class="twitter-share-button" href="https://twitter.com/share">Tweet</a></p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

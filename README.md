@@ -135,13 +135,13 @@ nic.laよりエントリー削除
 `` wget --mirror --page-requisites --html-extension --convert-links http://blog.shirai.la``
 
 
-### `/download` ディレクトリの置き直し
+### `/download` ディレクトリの置き直し（問題あり）
 
 download　174MB
-
+https://new.shirai.la/download/4939/index.html
 https://new.shirai.la/download/4939/webbased.pdf
-とかにコピーしなおしているけど、読み込まれない。
-しばらく置いてから見てみる。
+とかにコピーしなおしている。
+しばらく置いてから見てみると反映されているが、PDFに戻す作業はせねばなるまい。
 
 
 
@@ -202,11 +202,12 @@ https://new.shirai.la/download/4939/webbased.pdf
 - oumaim
 
 - projects
+- seminar
+
 - raiden
 - ryutake
 - sakakibara
 - semi2015a
-- seminar
 - seya
 - shin
 - shiva

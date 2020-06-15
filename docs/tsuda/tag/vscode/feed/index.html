@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>VSCode &#8211; 汗を流して飯が旨い</title>
+	<atom:link href="http://blog.shirai.la/tsuda/tag/vscode/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/tsuda</link>
+	<description>飯とか技術とかイベントとか</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:24:56 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>VSCode 0.7.0での変更点と新機能User SnippetsでUnityのスニペットを有効にする</title>
+		<link>http://blog.shirai.la/tsuda/2015/08/18/20150818/</link>
+				<pubDate>Tue, 18 Aug 2015 12:04:44 +0000</pubDate>
+		<dc:creator><![CDATA[Ryotaro Tsuda]]></dc:creator>
+				<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VSCode]]></category>
+		<category><![CDATA[学術関係]]></category>
+		<category><![CDATA[忘備録]]></category>
+		<category><![CDATA[0.7.0]]></category>
+		<category><![CDATA[User Snippets]]></category>
+		<category><![CDATA[VisualStudioCode]]></category>
+		<category><![CDATA[スニペット]]></category>
+		<category><![CDATA[痛VSCode]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/tsuda/?p=584</guid>
+				<description><![CDATA[こんばんは 最近VSCodeにお熱の津田です。 先日のアップデートでVSCodeのバージョンが0.5.0→0. [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>こんばんは<br />
+最近VSCodeにお熱の津田です。</p>
+<p>先日のアップデートでVSCodeのバージョンが0.5.0→0.7.0となり、<br />
+かなり大きな仕様の変更がありました。</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/08/-2015-08-18-17.37.43-e1439896930307.png"><img class="alignnone size-medium wp-image-585" src="http://blog.shirai.la/tsuda/files/2015/08/-2015-08-18-17.37.43-e1439896930307-300x216.png" alt="スクリーンショット 2015-08-18 17.37.43" width="300" height="216" srcset="http://blog.shirai.la/tsuda/files/2015/08/-2015-08-18-17.37.43-e1439896930307-300x216.png 300w, http://blog.shirai.la/tsuda/files/2015/08/-2015-08-18-17.37.43-e1439896930307.png 610w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+今回のエントリでは<br />
+・0.7.0で痛VSCode化<br />
+・User Snippetsを利用したUnityのスニペット</p>
+<p>について共有します。</p>
+<p>0.7.0では内部のフォルダ構成に大きな変更があったようです。<br />
+今まで<a href="http://anz-note.tumblr.com/post/117784986426/vscode%E7%97%9Bvisual-studio-code%E3%81%AB%E3%81%97%E3%81%A8%E3%81%8F" target="_blank">痛VSCode化</a>して楽しんでいたのですが、変更を記述していた<br />
+native.main.cssがmonacoフォルダごとなくなっており少し手こずりました。</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.10.png"><img class="alignnone size-medium wp-image-586" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.10-300x218.png" alt="スクリーンショット 2015-08-18 17.40.10" width="300" height="218" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.10-300x218.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.10.png 998w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>じゃあ痛VSCode化できないの!?というとそうではありません<br />
+どうやら細分化されたようでしっかりmonacoの機能は生きていました。<br />
+肝心のnative.main.cssの後継者はvs-&gt;workbench-&gt;workbench.main.cssでした。</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.38.png"><img class="alignnone size-medium wp-image-587" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.38-300x204.png" alt="スクリーンショット 2015-08-18 17.40.38" width="300" height="204" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.38-300x204.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.38-1024x695.png 1024w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-17.40.38.png 1082w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>あとは以前のように画像を表示するように書き足すと<br />
+こんな風に背景に画像を入れられます。モチベも上がります。</p>
+<p><img class="alignnone size-medium wp-image-588" style="line-height: 1.5" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.31.44-300x219.png" alt="スクリーンショット 2015-08-18 20.31.44" width="300" height="219" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.31.44-300x219.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.31.44-1024x749.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>次にkyusyukeigo氏の<a href="http://qiita.com/kyusyukeigo/items/2d4a961f8f89bd1552ee" target="_blank">Unityで使うためにVidualStudio Code（VSCode）入れてやったこと</a>を参考に<br />
+Unityのスニペットを追加したのですがそこでもまた一悶着あったので共有します</p>
+<p>スニペットとは切れ端とか断面とかいう意味で、プログラミングでは長いコードを少ない単語から貼り付けることができる機能です。それをユーザーが自由に適宜追加、消去できる機能がエディタには有ります。</p>
+<p>具体的に言うとUnityでvoid OnCollisionEnter()とか補完が効かなくてうつのめんどくさいし間違えるリスクも有るところをエディタに記憶させちゃおう的なやつです。</p>
+<p>上記のURLからkyusyukeigo氏がUnityスニペットをjsファイルで提供してくださっていたので、説明にそって導入すると、バージョンの変更からかうまくいかないという問題が有りました。</p>
+<p>調べてみるとVSCode0.5.0以降から新機能でUser Snippetsという機能が追加されておりもっと簡単にスニペットの追加ができるようになったようです。</p>
+<p>今回はUser Snippetsを使ってUnityのスニペットを実装したのでやり方を紹介します。</p>
+<p>1)command + shift + pで機能の検索ウィンドウを表示。「Snippets」と入力して選択します。<br />
+2)言語が聞かれるので今回は「C#」を選択します。</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.47.47.png"><img class="alignnone size-medium wp-image-589" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.47.47-300x156.png" alt="スクリーンショット 2015-08-18 20.47.47" width="300" height="156" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.47.47-300x156.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.47.47-1024x531.png 1024w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.47.47.png 1180w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>&nbsp;</p>
+<p>3)csharp.jsonが表示されます。VSCodeのスニペットはjsonでやる感じですね</p>
+<p>コメントアウトされた例文が最初に載っています。これを参考に適宜追加していくみたいです。<br />
+Unity用のスニペットをがしがし追加していきましょう。</p>
+<p>今回、kyusyukeigo氏がGitで公開されていたjsバージョンを<br />
+僭越ながら私がVSCode jsonバージョンに書き換え、公開させていただきました。(何か問題があれば消去します)</p>
+<p>以下のURLから閲覧、ダウンロード可能です(私のGitページです)<br />
+<a href="https://github.com/TsudaRyotaro/VScode/blob/master/csharp.json" target="_blank">github.com/TsudaRyotaro/VScode/blob/master/csharp.json</a></p>
+<p>4)上記URL先のコードをコピーし、VSCode上のcsharp.jsonに貼り付けます。<br />
+保存して再起動すると、スニペット機能が使えるようになっています。<a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.58.58.png"><img class="alignnone size-medium wp-image-590" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.58.58-300x219.png" alt="スクリーンショット 2015-08-18 20.58.58" width="300" height="219" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.58.58-300x219.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-18-20.58.58-1024x749.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>&nbsp;</p>
+<p>ここまでカスタマイズできればだいぶVSCodeに愛着も湧いてきましたね！<br />
+アップデートで非公式カスタマイズは全て上書きされてしまうのでバックアップをしっかり取ることをおすすめします！では！</p>
+<p><a class="twitter-share-button" href="https://twitter.com/share">Tweet</a></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Unity×VisualStudioCodeで煩わしい.metaファイルをエクスプローラーに表示させないようにする</title>
+		<link>http://blog.shirai.la/tsuda/2015/08/16/20150816/</link>
+				<pubDate>Sat, 15 Aug 2015 19:51:15 +0000</pubDate>
+		<dc:creator><![CDATA[Ryotaro Tsuda]]></dc:creator>
+				<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VSCode]]></category>
+		<category><![CDATA[学術関係]]></category>
+		<category><![CDATA[忘備録]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[Visual Studio Code]]></category>
+		<category><![CDATA[消したい]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/tsuda/?p=550</guid>
+				<description><![CDATA[こんばんは。 UnityでVisualStudioCodeを使っていたら エクスプローラーにmetaファイルも [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>こんばんは。</p>
+<p>UnityでVisualStudioCodeを使っていたら<br />
+エクスプローラーにmetaファイルも出てきて煩わしかったので消してみました。<br />
+<a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.18.33.png"><img class="alignnone size-medium wp-image-552" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.18.33-300x217.png" alt="スクリーンショット 2015-08-16 4.18.33" width="300" height="217" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.18.33-300x217.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.18.33-1024x741.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href="http://outofmem.hatenablog.com/entry/2015/07/20/154030" target="_blank">TumblingDice 【VSCode】Visual Studio Code0.5.0の新機能まとめ</a>を参考にさせていただきました</p>
+<p>調べてみると何やらsetting.jsonからいじることが出来そうな予感</p>
+<p>command + shift + pで機能の検索ウィンドウを表示した後 setting と入力しOpen User settingsを選択<br />
+<a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.20.16.png"><img class="alignnone size-medium wp-image-555" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.20.16-300x56.png" alt="スクリーンショット 2015-08-16 4.20.16" width="300" height="56" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.20.16-300x56.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.20.16-1024x192.png 1024w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.20.16.png 1204w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+</a>するとウィンドウが2分割され、左にDefault Settings,右にsetting.jsonが表示されます。<br />
+User settingsは右側、setting.jsonにDefault Settingsを参考に書き足していくという感じです。</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.20.36.png"><img class="alignnone size-medium wp-image-554" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.20.36-293x300.png" alt="スクリーンショット 2015-08-16 4.20.36" width="293" height="300" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.20.36-293x300.png 293w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.20.36-998x1024.png 998w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.20.36.png 1406w" sizes="(max-width: 293px) 100vw, 293px" /><br />
+</a>Default Settingsの75行目付近にファイル表示/非表示関係が書かれています。<em><strong><br />
+</strong></em>パスと名前と拡張子を指定しbooleanで値を指定します。<br />
+trueならば表示されないといった感じです。</p>
+<p>とりあえずsetting.json側にmetaファイルを表示させないよう、おりゃりゃっと書いてみました。</p>
+<p><em><strong>&#8220;files.exclude&#8221;: {</strong></em><br />
+<em><strong> &#8220;*.meta&#8221;: true,</strong></em><br />
+<em><strong> &#8220;**/*.meta&#8221;: true,</strong></em><br />
+<em><strong> &#8220;**/**/*.meta&#8221;: true,</strong></em><br />
+<em><strong> &#8220;**/**/**/*.meta&#8221;: true,</strong></em><br />
+<em><strong> &#8220;**/**/**/**/*.meta&#8221;: true</strong></em><br />
+<em><strong> }</strong></em></p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.21.22.png"><img class="alignnone size-medium wp-image-553" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.21.22-290x300.png" alt="スクリーンショット 2015-08-16 4.21.22" width="290" height="300" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.21.22-290x300.png 290w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.21.22-990x1024.png 990w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.21.22.png 1390w" sizes="(max-width: 290px) 100vw, 290px" /><br />
+</a>保存すると反映され、エクスプローラーからmetaファイルが消えました。</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.41.55.png"><img class="alignnone size-medium wp-image-556" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.41.55-300x214.png" alt="スクリーンショット 2015-08-16 4.41.55" width="300" height="214" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.41.55-300x214.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-16-4.41.55-1024x729.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+</a>おそらくもっと賢い方法があると思いますが、ひとまずはこれで対応できたかなと思います。</p>
+<p>metaファイルが消えてもっさり感もなくなって良い感じ<br />
+ますます捗りますねー</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> </p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>最近のUnity開発事情(Unity×VisualStudioCode×Git)</title>
+		<link>http://blog.shirai.la/tsuda/2015/08/07/20150807/</link>
+				<pubDate>Thu, 06 Aug 2015 16:37:19 +0000</pubDate>
+		<dc:creator><![CDATA[Ryotaro Tsuda]]></dc:creator>
+				<category><![CDATA[Git]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VSCode]]></category>
+		<category><![CDATA[忘備録]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[Github]]></category>
+		<category><![CDATA[VisualStudioCode]]></category>
+		<category><![CDATA[バージョン管理]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/tsuda/?p=535</guid>
+				<description><![CDATA[ここ最近のUnity開発事情について Visual Studio Code　×　Githubの組み合わせをよく [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>ここ最近のUnity開発事情について<br />
+<a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>　×　Githubの組み合わせをよく使っています</p>
+<p>Unity×VisualStudioCode連携はいい感じ<br />
+やり方について軽く解説<br />
+<a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.09.png"><img class="alignnone size-medium wp-image-538" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.09-300x250.png" alt="スクリーンショット 2015-08-07 1.11.09" width="300" height="250" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.09-300x250.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.09.png 1002w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+</a>UnityのPreferencesから使用するエディタをCodeに設定</p>
+<p><img class="alignnone size-medium wp-image-537" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.10.53-300x221.png" alt="スクリーンショット 2015-08-07 1.10.53" width="300" height="221" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.10.53-300x221.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.10.53.png 1000w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+Unityからスクリプトを作成，右クリック-&gt;Sync MonoDevelop Projectを選択</p>
+<p><img class="alignnone size-medium wp-image-539" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.27-300x226.png" alt="スクリーンショット 2015-08-07 1.11.27" width="300" height="226" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.27-300x226.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.27-1024x770.png 1024w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.27-800x600.png 800w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+するとVSCodeが起動．プロジェクトのslnファイルが作られる</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.39.png"><img class="alignnone size-medium wp-image-540" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.39-298x300.png" alt="スクリーンショット 2015-08-07 1.11.39" width="298" height="300" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.39-298x300.png 298w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.39-150x150.png 150w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.39.png 538w" sizes="(max-width: 298px) 100vw, 298px" /></a><br />
+左側のタブからOpen Folderを選択．</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.12.00.png"><img class="alignnone size-medium wp-image-541" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.12.00-300x288.png" alt="スクリーンショット 2015-08-07 1.12.00" width="300" height="288" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.12.00-300x288.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.12.00.png 844w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+起動しているUnityのプロジェクトフォルダを選択．slnが2つ作られていることを確認<br />
+開いた後左下からpick a project-&gt;slnファイルを選択するとUnityの補完が効く</p>
+<p>&nbsp;</p>
+<p>またGitとの連携がいい感じ<br />
+どこにもVSCode×Gitの解説が上がっていなかったので軽く解説</p>
+<p>1)適当にgitリポジトリを作成　ローカルにクローンを作成<br />
+2)VSCodeからローカルリポジトリを開く<br />
+3)もう使える　超簡単(確か初回はgitユーザー名とパスワード聞かれる)</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.13.37.png"><img class="alignnone size-medium wp-image-543" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.13.37-300x52.png" alt="スクリーンショット 2015-08-07 1.13.37" width="300" height="52" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.13.37-300x52.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.13.37.png 442w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+</a>うまくいくとこんな感じ　左下からブランチの切り替えが可能</p>
+<p><img class="alignnone size-medium wp-image-544" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.13.44-300x133.png" alt="スクリーンショット 2015-08-07 1.13.44" width="300" height="133" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.13.44-300x133.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.13.44.png 420w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+ブランチを選択することが可能。新規には切れないのかな？</p>
+<p><img class="alignnone size-medium wp-image-546" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.27.11-300x235.png" alt="スクリーンショット 2015-08-07 1.27.11" width="300" height="235" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.27.11-300x235.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.27.11.png 398w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+変更があるとこんな感じに表示される　あとは適当にメッセージ書いてコミット<br />
+簡単だね</p>
+<p>てなわけで最近は専らUnity, VSCode, Gitで開発。<br />
+Unityでのチーム開発はAssetServer派だけどgitでのバージョン管理もエディタの機能によっては楽になるね。　メモメモ</p>
+<p>&nbsp;</p>
+<p><a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> </p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

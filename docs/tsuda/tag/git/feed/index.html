@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>git &#8211; 汗を流して飯が旨い</title>
+	<atom:link href="http://blog.shirai.la/tsuda/tag/git/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/tsuda</link>
+	<description>飯とか技術とかイベントとか</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:24:56 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>最近のUnity開発事情(Unity×VisualStudioCode×Git)</title>
+		<link>http://blog.shirai.la/tsuda/2015/08/07/20150807/</link>
+				<pubDate>Thu, 06 Aug 2015 16:37:19 +0000</pubDate>
+		<dc:creator><![CDATA[Ryotaro Tsuda]]></dc:creator>
+				<category><![CDATA[Git]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VSCode]]></category>
+		<category><![CDATA[忘備録]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[Github]]></category>
+		<category><![CDATA[VisualStudioCode]]></category>
+		<category><![CDATA[バージョン管理]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/tsuda/?p=535</guid>
+				<description><![CDATA[ここ最近のUnity開発事情について Visual Studio Code　×　Githubの組み合わせをよく [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>ここ最近のUnity開発事情について<br />
+<a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>　×　Githubの組み合わせをよく使っています</p>
+<p>Unity×VisualStudioCode連携はいい感じ<br />
+やり方について軽く解説<br />
+<a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.09.png"><img class="alignnone size-medium wp-image-538" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.09-300x250.png" alt="スクリーンショット 2015-08-07 1.11.09" width="300" height="250" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.09-300x250.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.09.png 1002w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+</a>UnityのPreferencesから使用するエディタをCodeに設定</p>
+<p><img class="alignnone size-medium wp-image-537" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.10.53-300x221.png" alt="スクリーンショット 2015-08-07 1.10.53" width="300" height="221" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.10.53-300x221.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.10.53.png 1000w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+Unityからスクリプトを作成，右クリック-&gt;Sync MonoDevelop Projectを選択</p>
+<p><img class="alignnone size-medium wp-image-539" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.27-300x226.png" alt="スクリーンショット 2015-08-07 1.11.27" width="300" height="226" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.27-300x226.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.27-1024x770.png 1024w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.27-800x600.png 800w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+するとVSCodeが起動．プロジェクトのslnファイルが作られる</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.39.png"><img class="alignnone size-medium wp-image-540" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.39-298x300.png" alt="スクリーンショット 2015-08-07 1.11.39" width="298" height="300" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.39-298x300.png 298w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.39-150x150.png 150w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.11.39.png 538w" sizes="(max-width: 298px) 100vw, 298px" /></a><br />
+左側のタブからOpen Folderを選択．</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.12.00.png"><img class="alignnone size-medium wp-image-541" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.12.00-300x288.png" alt="スクリーンショット 2015-08-07 1.12.00" width="300" height="288" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.12.00-300x288.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.12.00.png 844w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+起動しているUnityのプロジェクトフォルダを選択．slnが2つ作られていることを確認<br />
+開いた後左下からpick a project-&gt;slnファイルを選択するとUnityの補完が効く</p>
+<p>&nbsp;</p>
+<p>またGitとの連携がいい感じ<br />
+どこにもVSCode×Gitの解説が上がっていなかったので軽く解説</p>
+<p>1)適当にgitリポジトリを作成　ローカルにクローンを作成<br />
+2)VSCodeからローカルリポジトリを開く<br />
+3)もう使える　超簡単(確か初回はgitユーザー名とパスワード聞かれる)</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.13.37.png"><img class="alignnone size-medium wp-image-543" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.13.37-300x52.png" alt="スクリーンショット 2015-08-07 1.13.37" width="300" height="52" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.13.37-300x52.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.13.37.png 442w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+</a>うまくいくとこんな感じ　左下からブランチの切り替えが可能</p>
+<p><img class="alignnone size-medium wp-image-544" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.13.44-300x133.png" alt="スクリーンショット 2015-08-07 1.13.44" width="300" height="133" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.13.44-300x133.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.13.44.png 420w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+ブランチを選択することが可能。新規には切れないのかな？</p>
+<p><img class="alignnone size-medium wp-image-546" src="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.27.11-300x235.png" alt="スクリーンショット 2015-08-07 1.27.11" width="300" height="235" srcset="http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.27.11-300x235.png 300w, http://blog.shirai.la/tsuda/files/2015/08/スクリーンショット-2015-08-07-1.27.11.png 398w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+変更があるとこんな感じに表示される　あとは適当にメッセージ書いてコミット<br />
+簡単だね</p>
+<p>てなわけで最近は専らUnity, VSCode, Gitで開発。<br />
+Unityでのチーム開発はAssetServer派だけどgitでのバージョン管理もエディタの機能によっては楽になるね。　メモメモ</p>
+<p>&nbsp;</p>
+<p><a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> </p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

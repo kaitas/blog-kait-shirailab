@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>iOS &#8211; 汗を流して飯が旨い</title>
+	<atom:link href="http://blog.shirai.la/tsuda/tag/ios/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/tsuda</link>
+	<description>飯とか技術とかイベントとか</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:24:56 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>自宅にファイルサーバーを設置してネット機器から接続できるようにしよう！～それ系の知識がないひとのための超初級編～</title>
+		<link>http://blog.shirai.la/tsuda/2016/03/15/fileserver/</link>
+				<pubDate>Tue, 15 Mar 2016 07:03:33 +0000</pubDate>
+		<dc:creator><![CDATA[Ryotaro Tsuda]]></dc:creator>
+				<category><![CDATA[忘備録]]></category>
+		<category><![CDATA[日常]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[ファイルサーバー]]></category>
+		<category><![CDATA[自宅]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/tsuda/?p=928</guid>
+				<description><![CDATA[こんにちは 大学での卒業研究が無事終了し，来年からの社会人生活のため実家に帰ってきました！ そんな折，自分のM [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>こんにちは</p>
+<p>大学での卒業研究が無事終了し，来年からの社会人生活のため実家に帰ってきました！</p>
+<p>そんな折，自分のMacbookProのみだとデータの管理がそろそろ危うくなってきたので</p>
+<ol>
+<li>母艦(メインPC)の調達</li>
+<li>デスクトップPC環境の構築</li>
+<li>NASを買うほどでもないので，自宅のHDDを使ってファイルサーバー化</li>
+<li>データ類を置いて各端末から閲覧・編集可能なように</li>
+</ol>
+<p>と，体制を変えたいなあと思って取り組んでみましたので報告します．</p>
+<h3>1.母艦(メインPC)の調達</h3>
+<p>まずやるにあたって据え置きのPCを購入しました．<br />
+いろいろ考えてたのですが，手ごろなデスクトップPCということでGIGABYTEベアボーンPCKitである<a href="http://www.gigabyte.jp/products/list.aspx?s=47&amp;ck=104&amp;p=367&amp;v=6" target="_blank">Brix</a>を選択．</p>
+<p>私はCore i5-5200U(Broadwell)搭載タイプを選択．<br />
+メモリはMaxの16GB，SSD128GBを積みました．<br />
+OSは以前から持っていたWindows8.1 64bit DSP版を再利用．<br />
+このスペックで61590円だったのでとてもお手軽．</p>
+<p>届いたら後ろのねじを外して，SSDとメモリをカチッとはめて<br />
+市販のDVDドライブをUSBポートに接続し，OSを入れて起動！！<br />
+自動的にインストールが開始されます．とっても簡単</p>
+<blockquote class="twitter-tweet">
+<p lang="ja" dir="ltr">Brix到着したので余ってたWindows8.1をインストール<br />やっぱりBrixいいわあ <a href="https://t.co/l5D5aVmDMW">pic.twitter.com/l5D5aVmDMW</a></p>
+<p>&mdash; 津田 (@utautattaro) <a href="https://twitter.com/utautattaro/status/707774272337367040">2016年3月10日</a></p></blockquote>
+<p>注意，このとき電源が入った後にメディアを挿入してもインストールは開始されませんでした．<br />
+DVDドライブの種類によっては給電がされていない状態ではトレーが開かないタイプのものもありますので，挿入後変化なしならそのまま再起動するのがいいと思います．</p>
+<p>このあとOSをさらにWindows 10にアップデート．<br />
+Windows.oldフォルダをクリーンアップしてwindows 10機として使用しています．</p>
+<h3>2.デスクトップPC環境の構築</h3>
+<p>しばらく使用されていなかった私の部屋は<br />
+物置兼父親のTV部屋となっていたようで，だいぶ荒らされていたので<br />
+暮らせるようにレイアウト変更．<br />
+その際父親が使用していたTVを強奪，モニターとして使用することとしました．<br />
+しかし&#8230;</p>
+<blockquote class="twitter-tweet">
+<p lang="ja" dir="ltr">しかし自宅のTVの解像度がFHDすらなくて驚きを隠しきれない</p>
+<p>&mdash; 津田 (@utautattaro) <a href="https://twitter.com/utautattaro/status/707774428956872704">2016年3月10日</a></p></blockquote>
+<blockquote class="twitter-tweet">
+<p lang="ja" dir="ltr">実家新デスクが構築されようとしている<br />だが悲しいかなモニター解像度が1366&#215;768 <a href="https://t.co/yk78AYqQ1P">pic.twitter.com/yk78AYqQ1P</a></p>
+<p>&mdash; 津田 (@utautattaro) <a href="https://twitter.com/utautattaro/status/709050311965446145">2016年3月13日</a></p></blockquote>
+<p>残念なことに32インチで解像度がHDしかなく<br />
+4K/60fpsが最高出力のBrixは少々役不足&#8230;.<br />
+まあ，贅沢は言ってられないのでとりあえずこれで我慢．<br />
+むりやりFHD画質出力してますがtwitterの文字はぎりぎり読めないです．</p>
+<h3>3.NASを買うほどでもないので，自宅のHDDを使ってファイルサーバー化</h3>
+<p>音楽も増え，画像も増え，書籍の自炊も始めるようになって<br />
+以前からNASがほしいなあと思っていたのですが，そんなお金はない．<br />
+しかし家にHDDが転がっているので，いっそファイルサーバー立ててみるか，と<br />
+何も知識がないところからやってみました．思いのほか簡単でした．</p>
+<p>まずHDDをPC本体に接続，するとドライブとして認識されます．<br />
+<a href="http://blog.shirai.la/tsuda/files/2016/03/1.png" rel="attachment wp-att-932"><img class="alignnone size-full wp-image-932" src="http://blog.shirai.la/tsuda/files/2016/03/1.png" alt="1" width="265" height="122" /></a></p>
+<p>次にプロパティを開き共有タブを選択<br />
+デフォルトだと共有設定はオフになっているので「詳細な共有」を選択します．<br />
+なお，共有の管理についてはネットワークと共有センターから行けるので見てみるといいと思います．</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2016/03/2.png" rel="attachment wp-att-933"><img class="alignnone size-medium wp-image-933" src="http://blog.shirai.la/tsuda/files/2016/03/2-222x300.png" alt="2" width="222" height="300" srcset="http://blog.shirai.la/tsuda/files/2016/03/2-222x300.png 222w, http://blog.shirai.la/tsuda/files/2016/03/2.png 414w" sizes="(max-width: 222px) 100vw, 222px" /></a></p>
+<p>するとこの画面に．<br />
+このフォルダーを共有するにチェックを入れ，共有名を入力します．<br />
+デフォルトだとドライブ名になっていますが，この名前がクライアントで確認できる名前になるのでわかりやすい名前にしましょう．</p>
+<p>その他諸情報を入れて適用，OK</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2016/03/3.png" rel="attachment wp-att-934"><img class="alignnone size-medium wp-image-934" src="http://blog.shirai.la/tsuda/files/2016/03/3-267x300.png" alt="3" width="267" height="300" srcset="http://blog.shirai.la/tsuda/files/2016/03/3-267x300.png 267w, http://blog.shirai.la/tsuda/files/2016/03/3.png 404w" sizes="(max-width: 267px) 100vw, 267px" /></a></p>
+<p>すると，共有されたドライブはこのように共有アイコンが表示されます．<br />
+これでサーバー側の準備は終了．簡単ですね．</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2016/03/4.png" rel="attachment wp-att-935"><img class="alignnone size-medium wp-image-935" src="http://blog.shirai.la/tsuda/files/2016/03/4-300x72.png" alt="4" width="300" height="72" srcset="http://blog.shirai.la/tsuda/files/2016/03/4-300x72.png 300w, http://blog.shirai.la/tsuda/files/2016/03/4.png 518w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>次にクライアントです．<br />
+私の持ち歩き用PCはMacbookProなので今回はOS XからWindowsへアクセスしてみました．</p>
+<p>Macの場合，接続はFinderのみでいけます．</p>
+<p>Finderメニューから<br />
+移動＞サーバへ接続を選択<br />
+<a href="http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.05.53.png" rel="attachment wp-att-938"><img class="alignnone size-medium wp-image-938" src="http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.05.53-300x204.png" alt="スクリーンショット 2016-03-15 15.05.53" width="300" height="204" srcset="http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.05.53-300x204.png 300w, http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.05.53-768x522.png 768w, http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.05.53-1024x696.png 1024w, http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.05.53.png 1200w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>サーバーのipをそのまま入れるか<br />
+アクセス先のPC名をそのまま入力</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.06.42.png" rel="attachment wp-att-939"><img class="alignnone size-medium wp-image-939" src="http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.06.42-300x37.png" alt="スクリーンショット 2016-03-15 15.06.42" width="300" height="37" srcset="http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.06.42-300x37.png 300w, http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.06.42-768x94.png 768w, http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.06.42.png 996w" sizes="(max-width: 300px) 100vw, 300px" /></a> <a href="http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.07.21.png" rel="attachment wp-att-940"><img class="alignnone size-medium wp-image-940" src="http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.07.21-300x36.png" alt="スクリーンショット 2016-03-15 15.07.21" width="300" height="36" srcset="http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.07.21-300x36.png 300w, http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.07.21-768x91.png 768w, http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.07.21.png 978w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>すると初回はパスワードが要求されると思います．<br />
+これ何のパスワード？いつ設定したっけ？？？となりますが<br />
+ここで使用するパスワードはアクセス先PCのアカウント名とそのパスワードです．<br />
+ゲストアカウントが入れるかどうかはサーバー側の設定でいじれます．</p>
+<p>するとこんな画面に．<br />
+ここで出てくる名前が先ほど設定した名前です．</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.07.34-1.png" rel="attachment wp-att-942"><img class="alignnone size-medium wp-image-942" src="http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.07.34-1-300x206.png" alt="スクリーンショット 2016-03-15 15.07.34" width="300" height="206" srcset="http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.07.34-1-300x206.png 300w, http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.07.34-1-768x527.png 768w, http://blog.shirai.la/tsuda/files/2016/03/スクリーンショット-2016-03-15-15.07.34-1.png 822w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>選択すると，そのドライブにアクセスすることが出来るようになります．<br />
+これでPCクライアントから閲覧することが出来ます．</p>
+<h3>データ類を置いて各端末から閲覧・編集可能なように</h3>
+<p>最後に，やはりデータ類はスマホやタブレットから閲覧したい！ということでいろいろ試行錯誤してみました．<br />
+まずiOS用のファイル閲覧アプリをインストールします．<br />
+私は今回<a href="https://itunes.apple.com/jp/app/fileexplorer/id499470113?mt=8" target="_blank">File Explorer</a>を選択．<br />
+とりあえず無料版があったので，今はそれで対応して見ます．</p>
+<p>まず右上の「+」を選択，今回母艦はWindowsなので「Windows」を選択</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2016/03/IMG_6573.png" rel="attachment wp-att-945"><img class="alignnone size-medium wp-image-945" src="http://blog.shirai.la/tsuda/files/2016/03/IMG_6573-169x300.png" alt="IMG_6573" width="169" height="300" srcset="http://blog.shirai.la/tsuda/files/2016/03/IMG_6573-169x300.png 169w, http://blog.shirai.la/tsuda/files/2016/03/IMG_6573-577x1024.png 577w, http://blog.shirai.la/tsuda/files/2016/03/IMG_6573.png 640w" sizes="(max-width: 169px) 100vw, 169px" /></a></p>
+<p>あとは先ほどと同じようにすると，ネットワーク接続時に閲覧できるようになります．</p>
+<p>&nbsp;</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2016/03/IMG_6567-1.png" rel="attachment wp-att-946"><img class="alignnone size-medium wp-image-946" src="http://blog.shirai.la/tsuda/files/2016/03/IMG_6567-1-169x300.png" alt="IMG_6567" width="169" height="300" srcset="http://blog.shirai.la/tsuda/files/2016/03/IMG_6567-1-169x300.png 169w, http://blog.shirai.la/tsuda/files/2016/03/IMG_6567-1-577x1024.png 577w, http://blog.shirai.la/tsuda/files/2016/03/IMG_6567-1.png 640w" sizes="(max-width: 169px) 100vw, 169px" /></a></p>
+<p>しかしフォルダを閲覧しようとしたらエラー<br />
+エラーコード：0xC0000205ということなので少し調べてみます</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2016/03/IMG_6566.png" rel="attachment wp-att-943"><img class="alignnone size-medium wp-image-943" src="http://blog.shirai.la/tsuda/files/2016/03/IMG_6566-169x300.png" alt="IMG_6566" width="169" height="300" srcset="http://blog.shirai.la/tsuda/files/2016/03/IMG_6566-169x300.png 169w, http://blog.shirai.la/tsuda/files/2016/03/IMG_6566-577x1024.png 577w, http://blog.shirai.la/tsuda/files/2016/03/IMG_6566.png 640w" sizes="(max-width: 169px) 100vw, 169px" /></a></p>
+<p>過去に同じ症状が出た方の<a href="http://gameerk.blogspot.jp/2014/05/windows81-tips.html" target="_blank">ブログエントリ</a>を発見<br />
+なになに&#8230;</p>
+<p><em>iOSの「FileExplorer」で「0xC0000205」というエラーが表示されディレクトリすら開けない、</em><br />
+<em>イベントビューアーで母艦のエラーログを確認、「2011」だった場合がこれに該当する。</em><br />
+<em>「<b>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters</b>」</em><br />
+<em>に</em><br />
+<em>DWORD(32ビット)値で「<b>IRPStackSize</b>」を作成（既に存在する場合は流用）。</em><br />
+<em>この値は11～50（10進数）の間で設定でき、無指定の場合15として扱われる。3刻みで増減させると良いらしい。</em><br />
+<em>私の環境では30まで増やしたところでエラーが出なくなった。</em></p>
+<p>ふむふむ．よく知らない単語がたくさん出てきたけどとりあえずやってみよう．</p>
+<p>まず母艦からイベントビューワーを表示<br />
+<a href="http://blog.shirai.la/tsuda/files/2016/03/6.png" rel="attachment wp-att-948"><img class="alignnone size-medium wp-image-948" src="http://blog.shirai.la/tsuda/files/2016/03/6-300x117.png" alt="6" width="300" height="117" srcset="http://blog.shirai.la/tsuda/files/2016/03/6-300x117.png 300w, http://blog.shirai.la/tsuda/files/2016/03/6-590x232.png 590w, http://blog.shirai.la/tsuda/files/2016/03/6.png 597w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>あーーやっぱりエラーログ2011ですわ<br />
+端末からもう一度エラーを起こして確認すると，やはり2011エラーだったので，この対処法を実践</p>
+<p>まずレジストリエディターに入ってみる．<br />
+windows + R で 「regedit」と入力<br />
+<a href="http://blog.shirai.la/tsuda/files/2016/03/7.png" rel="attachment wp-att-949"><img class="alignnone size-medium wp-image-949" src="http://blog.shirai.la/tsuda/files/2016/03/7-300x158.png" alt="7" width="300" height="158" srcset="http://blog.shirai.la/tsuda/files/2016/03/7-300x158.png 300w, http://blog.shirai.la/tsuda/files/2016/03/7.png 407w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>入ってみた．とりあえず所定のディレクトリまで移動．<a href="http://blog.shirai.la/tsuda/files/2016/03/8.png" rel="attachment wp-att-950"><br />
+<img class="alignnone size-medium wp-image-950" src="http://blog.shirai.la/tsuda/files/2016/03/8-300x164.png" alt="8" width="300" height="164" srcset="http://blog.shirai.la/tsuda/files/2016/03/8-300x164.png 300w, http://blog.shirai.la/tsuda/files/2016/03/8-768x420.png 768w, http://blog.shirai.la/tsuda/files/2016/03/8-1024x560.png 1024w, http://blog.shirai.la/tsuda/files/2016/03/8.png 1345w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>到着．<em>「<b>IRPStackSize</b>」</em>はなかった(事後撮影)ので新規作成<br />
+右クリックから新規＞DWORDを選択，名前を「IRPStackSize」とする．<a href="http://blog.shirai.la/tsuda/files/2016/03/11.png" rel="attachment wp-att-953"><br />
+</a><a href="http://blog.shirai.la/tsuda/files/2016/03/10.png" rel="attachment wp-att-952"><img class="alignnone size-medium wp-image-952" src="http://blog.shirai.la/tsuda/files/2016/03/10-300x159.png" alt="10" width="300" height="159" srcset="http://blog.shirai.la/tsuda/files/2016/03/10-300x159.png 300w, http://blog.shirai.la/tsuda/files/2016/03/10-768x407.png 768w, http://blog.shirai.la/tsuda/files/2016/03/10-1024x542.png 1024w, http://blog.shirai.la/tsuda/files/2016/03/10.png 1415w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>とりあえずできた．初期値は0なので右クリックから修正<br />
+値を10進表記にし，とりあえずブログで紹介されていた値の「30」に変更<a href="http://blog.shirai.la/tsuda/files/2016/03/11.png" rel="attachment wp-att-953"><br />
+<img class="alignnone size-medium wp-image-953" src="http://blog.shirai.la/tsuda/files/2016/03/11-300x142.png" alt="11" width="300" height="142" srcset="http://blog.shirai.la/tsuda/files/2016/03/11-300x142.png 300w, http://blog.shirai.la/tsuda/files/2016/03/11-768x364.png 768w, http://blog.shirai.la/tsuda/files/2016/03/11-1024x486.png 1024w, http://blog.shirai.la/tsuda/files/2016/03/11.png 1311w" sizes="(max-width: 300px) 100vw, 300px" /></a><a href="http://blog.shirai.la/tsuda/files/2016/03/9.png" rel="attachment wp-att-951"><img class="alignnone size-medium wp-image-951" src="http://blog.shirai.la/tsuda/files/2016/03/9-300x179.png" alt="9" width="300" height="179" srcset="http://blog.shirai.la/tsuda/files/2016/03/9-300x179.png 300w, http://blog.shirai.la/tsuda/files/2016/03/9.png 377w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>これでレジストリエディターでの作業は完了．とりあえず再起動．</p>
+<p>こんなんで本当にできるようになってんのか&#8230;?<br />
+と疑惑を持ちつつiOSからFile Explorerを起動．<br />
+サーバーに接続し，ドライブを確認&#8230;</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2016/03/IMG_6574.png" rel="attachment wp-att-955"><img class="alignnone size-medium wp-image-955" src="http://blog.shirai.la/tsuda/files/2016/03/IMG_6574-169x300.png" alt="IMG_6574" width="169" height="300" srcset="http://blog.shirai.la/tsuda/files/2016/03/IMG_6574-169x300.png 169w, http://blog.shirai.la/tsuda/files/2016/03/IMG_6574-577x1024.png 577w, http://blog.shirai.la/tsuda/files/2016/03/IMG_6574.png 640w" sizes="(max-width: 169px) 100vw, 169px" /></a></p>
+<p>出来てる〜〜！！<br />
+これでスマホからファイルサーバー内のデータを見ることが出来るようになりました．やったね<br />
+とりあえず自炊したPDFファイルを閲覧しようとしたらダウンロードが開始されたので，自炊ビューワに適しているかどうかはおいおい確かめていくとして，自宅内の機器間でのデータ共有が大変楽になったのでとりあえずこれで良しとします．</p>
+<p><a class="twitter-share-button" href="https://twitter.com/share">Tweet</a></p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

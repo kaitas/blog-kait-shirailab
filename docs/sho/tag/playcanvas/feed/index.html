@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>playcanvas &#8211; 渡邉翔の研究日誌</title>
+	<atom:link href="http://blog.shirai.la/sho/tag/playcanvas/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/sho</link>
+	<description>黒縁メガネによる技術メモや雑談、研究室関係の記録など。</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:25:00 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>藤澤先輩による多重化映像技術ワークショップ前半</title>
+		<link>http://blog.shirai.la/sho/2017/03/01/0-2/</link>
+				<comments>http://blog.shirai.la/sho/2017/03/01/0-2/#respond</comments>
+				<pubDate>Wed, 01 Mar 2017 06:55:23 +0000</pubDate>
+		<dc:creator><![CDATA[渡邉 翔]]></dc:creator>
+				<category><![CDATA[研究引き継ぎ]]></category>
+		<category><![CDATA[1423056]]></category>
+		<category><![CDATA[playcanvas]]></category>
+		<category><![CDATA[シェーダー]]></category>
+		<category><![CDATA[多重化映像技術]]></category>
+		<category><![CDATA[研究日誌]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/sho/?p=9</guid>
+				<description><![CDATA[こんにちは、渡邉です。 今日は藤澤先輩による多重化映像技術のワークショップで多重化の歴史やPlayCanvas &#8230; <p class="link-more"><a href="http://blog.shirai.la/sho/2017/03/01/0-2/" class="more-link"><span class="screen-reader-text">"藤澤先輩による多重化映像技術ワークショップ前半" の</span>続きを読む</a></p>]]></description>
+								<content:encoded><![CDATA[<p>こんにちは、渡邉です。</p>
+<p>今日は藤澤先輩による多重化映像技術のワークショップで多重化の歴史やPlayCanvasについて教わりました。第1回と第2回を終わらせることができました。</p>
+<p>予定では第4回か第5回まで続くようです。</p>
+<p>今までこの目で見てきたExPixelやExField以前のものについても知ることができて、進化の歴史を感じました。</p>
+<p>また、PlayCanvasを久しぶりに触りました。3年前期のゲームプログラミング以来でしょうか。</p>
+<p>アカウント登録すればwebブラウザだけでゲームを作れるお手軽さ</p>
+<p>第1回で多重化映像技術の歴史とPlayCanvasの基本操作、<br />
+第2回でJavaScriptとシェーダーの触りをやりました。と言っても画像をxz平面に広がる板ポリに張り付けて表示させるだけですがね。</p>
+<p><img class="alignnone size-medium wp-image-12" src="http://blog.shirai.la/sho/files/2017/02/result-300x228.png" alt="" width="300" height="228" srcset="http://blog.shirai.la/sho/files/2017/02/result-300x228.png 300w, http://blog.shirai.la/sho/files/2017/02/result-768x584.png 768w, http://blog.shirai.la/sho/files/2017/02/result-1024x778.png 1024w, http://blog.shirai.la/sho/files/2017/02/result.png 1138w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>少し前に適当に作ったおにぎりの画像を適当に選んだので画面サイズにあってませんが、とりあえず表示させることができたので良しとしてます。</p>
+<p>以下、実行結果リンク<br />
+<a href="https://playcanv.as/b/bgUtlMLf/">playcanv.as/b/bgUtlMLf/</a></p>
+<p>&nbsp;</p>
+<p>JavaScriptも久しぶりでした。Unityでもちょっとやったんですけどねぇ。<br />
+先輩のコードを書き写しましたが、スペルミスがいろいろあってちゃんと実行できるまで時間かかりました。</p>
+<p>&nbsp;</p>
+<p>シェーダーの話を聞いたことはありましたが実際に触ってみるのは実はこれが初めてです。今まで何やってたんだ俺&#8230;。</p>
+<p>シェーダーのコードについては先輩の話を聞いて写しただけで詳しくやらなかったので、自分で何をやっているのか考えてみました。</p>
+<p>まずは頂点シェーダー</p>
+<figure id="attachment_10" aria-describedby="caption-attachment-10" style="width: 771px" class="wp-caption aligncenter"><img class="wp-image-10 size-full" src="http://blog.shirai.la/sho/files/2017/02/vtxsdr.png" alt="vertex shader" width="771" height="476" srcset="http://blog.shirai.la/sho/files/2017/02/vtxsdr.png 771w, http://blog.shirai.la/sho/files/2017/02/vtxsdr-300x185.png 300w, http://blog.shirai.la/sho/files/2017/02/vtxsdr-768x474.png 768w" sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" /><figcaption id="caption-attachment-10" class="wp-caption-text">VertexShader</figcaption></figure>
+<p>vertexって頂点ってことですよね（Google翻訳で確認）。<br />
+たぶん板ポリの頂点を使うためのコードだと思います。では読んでいきます。</p>
+<p>attributeは属性という意味（のはず）。変数の種類かな？<br />
+vec3は3次元ベクトル、aPositionは名前からして位置でしょう。3次元ベクトルのx,y,zを使ってる感じか。<br />
+vec2は2次元ベクトル、aUv0はUV座標（画像を張り付ける位置）かな。</p>
+<p>uniformは制服？統一とかって意味もあるそうですがよくわかりません。<br />
+mat4はmatrix（行列）の略で4&#215;4行列だと思います。<br />
+matrix_modelは板ポリゴンのモデル行列、matrix_viewProjectionはビュープロジェクション行列だな。</p>
+<p>varying&#8230;?　わからん。直訳は「変化する」らしいですが&#8230;。<br />
+vUv0、またUV座標ですか。</p>
+<p>で、void main(void)　C言語のmain関数っぽいと思いました。引数なし、と。<br />
+vUv0にaUv0を代入してgl_Positionにビュー行列とモデル行列をかけた位置情報を渡しているんですね。</p>
+<p>gl_Positionというのは調べたところ組み込みの変数で、この変数に情報を渡さなければいけないそうです。</p>
+<p>&nbsp;</p>
+<p>では次にフラグメントシェーダー<br />
+fragmentとは欠片とか断片とかって意味だったか。<br />
+色についてのシェーダーらしいですが、やはりよくわかりません。</p>
+<p>中身を見てみます。</p>
+<figure id="attachment_11" aria-describedby="caption-attachment-11" style="width: 771px" class="wp-caption aligncenter"><img class="wp-image-11 size-full" src="http://blog.shirai.la/sho/files/2017/02/fgmsdr.png" alt="fragment shader" width="771" height="476" srcset="http://blog.shirai.la/sho/files/2017/02/fgmsdr.png 771w, http://blog.shirai.la/sho/files/2017/02/fgmsdr-300x185.png 300w, http://blog.shirai.la/sho/files/2017/02/fgmsdr-768x474.png 768w" sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px" /><figcaption id="caption-attachment-11" class="wp-caption-text">FragmentShader</figcaption></figure>
+<p>uniformまでは頂点シェーダーで出てきました。<br />
+sampler2Dとは何だろうか。おそらく画像データから色情報を抽出したものかなと思います。</p>
+<p>で、main関数</p>
+<p>4次元ベクトル型変数のcolorに画像の色情報を代入<br />
+gl_FragColorにそのcolor変数を代入してますね。</p>
+<p>colorにはたぶんRGBAの4要素が入っていると思います。<br />
+gl_FragColorはやっぱり組み込み変数らしいですが、頂点シェーダーと違って、絶対必要というわけではないそうです。<br />
+ただ、普通は色情報を使うので基本的には使うことになる変数だということみたいです。</p>
+<p>今までゲームエンジンを使って難しいことを全然考えずに画像を表示させてきましたが、見えないところでいろいろやってるんですねぇ。ゲームエンジンの便利さにかまけてこういったところを疎かにしてしまうのは良くないと思いました。（小波感）</p>
+<p>次回はこのシェーダーの詳しい話と多重化のためのコードをやるそうです。<br />
+いやぁ楽しみですなぁ！</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/sho/2017/03/01/0-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

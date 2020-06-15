@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Arduino &#8211; 汗を流して飯が旨い</title>
+	<atom:link href="http://blog.shirai.la/tsuda/category/arduino/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/tsuda</link>
+	<description>飯とか技術とかイベントとか</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:24:56 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>Twitterから自宅の蛍光灯を制御したときのお話</title>
+		<link>http://blog.shirai.la/tsuda/2016/04/03/20160403/</link>
+				<pubDate>Sun, 03 Apr 2016 03:27:45 +0000</pubDate>
+		<dc:creator><![CDATA[Ryotaro Tsuda]]></dc:creator>
+				<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[ライフハック]]></category>
+		<category><![CDATA[忘備録]]></category>
+		<category><![CDATA[日常]]></category>
+		<category><![CDATA[Processing]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/tsuda/?p=965</guid>
+				<description><![CDATA[twitterから自宅の蛍光灯を制御してみました やるに至った背景は， 部屋の模様替えをした際に，配置上壁にあ [&#8230;]]]></description>
+								<content:encoded><![CDATA[<h2>twitterから自宅の蛍光灯を制御してみました</h2>
+<p>やるに至った背景は，<br />
+部屋の模様替えをした際に，配置上壁にある蛍光灯のスイッチにアクセスできなくなってしまいました．</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2016/04/1.png" rel="attachment wp-att-966"><img class="alignnone size-medium wp-image-966" src="http://blog.shirai.la/tsuda/files/2016/04/1-300x205.png" alt="1" width="300" height="205" srcset="http://blog.shirai.la/tsuda/files/2016/04/1-300x205.png 300w, http://blog.shirai.la/tsuda/files/2016/04/1-768x526.png 768w, http://blog.shirai.la/tsuda/files/2016/04/1.png 828w" sizes="(max-width: 300px) 100vw, 300px" /></a> <a href="http://blog.shirai.la/tsuda/files/2016/04/2.png" rel="attachment wp-att-967"><img class="alignnone size-medium wp-image-967" src="http://blog.shirai.la/tsuda/files/2016/04/2-300x205.png" alt="2" width="300" height="205" srcset="http://blog.shirai.la/tsuda/files/2016/04/2-300x205.png 300w, http://blog.shirai.la/tsuda/files/2016/04/2-768x525.png 768w, http://blog.shirai.la/tsuda/files/2016/04/2.png 836w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>蛍光灯はリモコン制御のLED照明なので，部屋中どこからでもリモコンで制御可能ですが，<br />
+その辺に転がって紛失しそうであったため，入口に常設することにしました．</p>
+<p>しかし，これだと<strong>ベッドに寝ころびながら電気を消せない！！</strong></p>
+<p>ということで思い切ってtwitterから制御してみることにしました</p>
+<p>システム構成はこんな感じ</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2016/04/3-1.png" rel="attachment wp-att-978"><img class="alignnone size-medium wp-image-978" src="http://blog.shirai.la/tsuda/files/2016/04/3-1-300x234.png" alt="3" width="300" height="234" srcset="http://blog.shirai.la/tsuda/files/2016/04/3-1-300x234.png 300w, http://blog.shirai.la/tsuda/files/2016/04/3-1-768x599.png 768w, http://blog.shirai.la/tsuda/files/2016/04/3-1.png 792w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>ソフトウェアはProcessingとTwitter APIであるTwitter 4jを利用．<br />
+IRLED制御のための制御基盤にはArduino Uno互換で安価なSainSmart Unoを利用しました．</p>
+<p>ソースコードはこちら<br />
+<a href="https://github.com/TsudaRyotaro/public/blob/master/ControlRoomLight/Processing/ControlRoomLight_Git.pde">Processing</a><br />
+<a href="https://github.com/TsudaRyotaro/public/blob/master/ControlRoomLight/Arduino/RoomControl.ino">Arduino</a></p>
+<p>実行結果はこんな感じ</p>
+<p><iframe width="1180" height="664" src="https://www.youtube.com/embed/HAXWvIXcwJc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<blockquote class="twitter-tweet" data-width="550">
+<p lang="ja" dir="ltr">Twitterから蛍光灯制御出来た！！ <a href="https://t.co/kJN06aEMia">pic.twitter.com/kJN06aEMia</a></p>
+<p>&mdash; Ryla (@utautattaro) <a href="https://twitter.com/utautattaro/status/713912141963616256">March 27, 2016</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<blockquote class="twitter-tweet" data-width="550">
+<p lang="ja" dir="ltr">点灯もいける <a href="https://t.co/jMl7pZBwUl">pic.twitter.com/jMl7pZBwUl</a></p>
+<p>&mdash; Ryla (@utautattaro) <a href="https://twitter.com/utautattaro/status/713912522256949248">March 27, 2016</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>リモコンの主ボタンが<br />
+全灯→常夜灯→消灯　を繰り返す使用になっていたので<br />
+twitterでのつぶやきをそのボタンに割り当てました．</p>
+<p>開発の際にいろいろ起きた問題をまとめます．</p>
+<h3>1.キーワードをツイートして○○する的なTIPSが見つからない</h3>
+<p>Processingからつぶやく類のTIPSは多くの方が先にやられていて<br />
+ノウハウも残されているのに対し，Twitterをトリガーに使う例はなかなか見つかりませんでした&#8230;</p>
+<p>タイムラインを取得するプログラムは発見したので，それを応用してごちゃごちゃやってみました．</p>
+<p>Twitter.getUserTimeline();メソッドで自分自身(consumerKeyの取得元)アカウントのタイムラインを取得します．<br />
+get(N)で上からNつめのツイート情報を取得．<br />
+日時やリンクといった情報も格納されているので，さらにgetText()でストリング型でツイート本体をString型で取得できます．<br />
+それをstring.equals(string)で比較すると，トリガーとして利用可能！</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2016/04/4.png" rel="attachment wp-att-970"><img class="alignnone size-medium wp-image-970" src="http://blog.shirai.la/tsuda/files/2016/04/4-300x120.png" alt="4" width="300" height="120" srcset="http://blog.shirai.la/tsuda/files/2016/04/4-300x120.png 300w, http://blog.shirai.la/tsuda/files/2016/04/4.png 429w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+</a>コードに起こすとこんな感じ<br />
+statusesはListになっています．</p>
+<h3>2.Twitterは連投できない仕様になっている</h3>
+<p><a href="http://blog.shirai.la/tsuda/files/2016/04/6.png" rel="attachment wp-att-972"><img class="alignnone size-medium wp-image-972" src="http://blog.shirai.la/tsuda/files/2016/04/6-300x60.png" alt="6" width="300" height="60" srcset="http://blog.shirai.la/tsuda/files/2016/04/6-300x60.png 300w, http://blog.shirai.la/tsuda/files/2016/04/6.png 450w" sizes="(max-width: 300px) 100vw, 300px" /></a><a href="http://blog.shirai.la/tsuda/files/2016/04/5.png" rel="attachment wp-att-971"><img class="alignnone size-medium wp-image-971" src="http://blog.shirai.la/tsuda/files/2016/04/5-300x162.png" alt="5" width="300" height="162" srcset="http://blog.shirai.la/tsuda/files/2016/04/5-300x162.png 300w, http://blog.shirai.la/tsuda/files/2016/04/5.png 652w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+</a>Twitterは同一ツイートの連投はできない仕様になっています．<br />
+これは，手入力の場合も，システムからつぶやく場合も同じ<br />
+完全一致の場合のみはじかれるようです．<br />
+数十分待つか，<br />
+別のツイートを10回挟むかしなければならないようです．</p>
+<p>この仕様は，ツイートをトリガーとする場合とても面倒！<br />
+トリガーとなるキーワードを数個用意するとか，indexOf()メソッドを使用して<br />
+キーワードを部分一致にするとかいろいろ方法はありますが，スマートではありません．</p>
+<p>そこで今回は，トリガーを検出したら対象のツイートをシステムから削除する方法で解決しました．<br />
+ツイートの削除にはTwitter.destroyStatus()メソッドを利用します．<br />
+引数にはツイートのIDが入ります．ツイートのリンクURLを取得した際に<br />
+最後のほうにある長い数字の羅列です．</p>
+<p>ツイートIDの取得は簡単で，get(N)で目的のツイートを取得，それにgetId()で取得することができます．</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2016/04/7.png" rel="attachment wp-att-973"><img class="alignnone size-medium wp-image-973" src="http://blog.shirai.la/tsuda/files/2016/04/7-300x31.png" alt="7" width="300" height="31" srcset="http://blog.shirai.la/tsuda/files/2016/04/7-300x31.png 300w, http://blog.shirai.la/tsuda/files/2016/04/7.png 425w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+</a>こんな感じ．これをキーワード認識の次の処理に加えることで，認識した瞬間消去する仕様となり，同一ツイートの連投が可能となります．</p>
+<blockquote class="twitter-tweet" data-width="550">
+<p lang="ja" dir="ltr">連続投稿不可の仕様だけど<br />Processingによりツイートを即時削除しているので連投可能<br />削除のスピードにTwitterアプリが追いついていない<br />ちなみにキーワードは#Lightness0326 にした。0326はコード書いた日 <a href="https://t.co/3MV3x9X8ii">pic.twitter.com/3MV3x9X8ii</a></p>
+<p>&mdash; Ryla (@utautattaro) <a href="https://twitter.com/utautattaro/status/713794975729737730">March 26, 2016</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<h3>3.TwitterのAPI制限に引っかかる(Error Code:429)</h3>
+<p>ツイートを検出したら，と処理をするのが理想ですが，<br />
+TwitterAPIの仕様上，タイムラインを取得→処理という仕様ですので，<br />
+システムからアクセスしに行く設計となります．<br />
+その際に気になるのがインターバル．リアルタイムである必要はありませんが，<br />
+比較的即時性が求められると思うので，その辺を調査してみました．<br />
+インターバルを短めに設定すると，こんなエラーが</p>
+<p><a href="http://blog.shirai.la/tsuda/files/2016/04/8.png" rel="attachment wp-att-975"><img class="alignnone size-medium wp-image-975" src="http://blog.shirai.la/tsuda/files/2016/04/8-300x166.png" alt="8" width="300" height="166" srcset="http://blog.shirai.la/tsuda/files/2016/04/8-300x166.png 300w, http://blog.shirai.la/tsuda/files/2016/04/8.png 461w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>エラーコード429　案の定API制限系のエラーっぽいです．</p>
+<blockquote class="twitter-tweet" data-width="550">
+<p lang="ja" dir="ltr">429は更新間隔が短すぎてAPI使い切った場合に出るメッセージです。更新間隔を長くするか、できるだけUserStreamをご利用ください QT <a href="https://twitter.com/naporinokani">@naporinokani</a>  一度TLタブを閉じて再び作成してもリクエストエラー（429）が出て更新しない</p>
+<p>&mdash; もふったー (@mofooter) <a href="https://twitter.com/mofooter/status/341702646698225666">June 3, 2013</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>なるほどなるほど．じゃあその制限ぎりぎりを突いてみましょう．<br />
+<a href="https://dev.twitter.com/rest/public/rate-limiting">TwitterAPI Reference-API Rate Limits-</a>によると</p>
+<h2>15 Minute Windows</h2>
+<p>Rate limits are divided into 15 minute intervals. Additionally, all endpoints require authentication, so there is no concept of unauthenticated calls and rate limits.</p>
+<p>There are two initial buckets available for GET requests: 15 calls every 15 minutes, and 180 calls every 15 minutes.</p>
+<p>だそうです．<br />
+15分で180回ということは，1分に12回，5秒に1回が天井ということだそうです．<br />
+ということでインターバルを5秒に設定することで解決できました～．</p>
+<h3>4.いちいちツイートするのもめんどくさい</h3>
+<p>キーワードは普段使わなそうな長めのものにしたため，いちいち打ち込むのがめんどくさい&#8230;.<br />
+そのためツイートするだけのWebページを作りました．<br />
+当初の目標はGUIでリモコンライクな画面があって，押すとその通りにうごいて&#8230;みたいな感じでしたが<br />
+とりあえずα版ということで本家の<a href="https://about.twitter.com/ja/resources/buttons#hashtag">ツイートボタン作成ページ</a>で作成．1分くらいでできました．</p>
+<blockquote class="twitter-tweet" data-width="550">
+<p lang="ja" dir="ltr">面倒くさかったのでTwitterが提供してるシェアボタンでα版は実装</p>
+<p>&mdash; Ryla (@utautattaro) <a href="https://twitter.com/utautattaro/status/714093831273119745">March 27, 2016</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<blockquote class="twitter-tweet" data-width="550">
+<p lang="ja" dir="ltr">確認画面煩わしいなー <a href="https://t.co/1GVxNPYaQv">pic.twitter.com/1GVxNPYaQv</a></p>
+<p>&mdash; Ryla (@utautattaro) <a href="https://twitter.com/utautattaro/status/714095170338164739">March 27, 2016</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<h3>5.Processing-シリアル通信用パッケージを使用したプロジェクトは64bit版exeがうごかない</h3>
+<p>そのまんま．<br />
+ProcessingにはExPort機能があるのでexeは当然吐けるのですが，<br />
+Arduinoと通信の処理を加えた瞬間64bit版exeが実行不能に．<br />
+おそらくProcessing付属のSerial Libraryが64bit版不対応みたいです．32bit版で動いたからよかった</p>
+<h3>6.いちいち常夜灯になるのが煩わしい</h3>
+<p>リモコンが全灯→常夜灯→消灯となっている仕様上，<br />
+常夜灯を毎回挟み，2回送らねばならなかったのが煩わしかったので，<br />
+SainSmartにcdsセルをつけて，照度を取得，現在の蛍光灯のステータスによって，<br />
+赤外線信号を1回送るか，delay(100)を挟んで2回送るかを切り替え解決．<br />
+全灯時は2回送信して　消灯に<br />
+消灯時は1回送信して　全灯に</p>
+<blockquote class="twitter-tweet" data-width="550">
+<p lang="ja" dir="ltr">cdsセルを買いにきた (@ 秋月電子通商 秋葉原店 in 千代田区, 東京都) <a href="https://t.co/sqYxPIYdnO">t.co/sqYxPIYdnO</a></p>
+<p>&mdash; Ryla (@utautattaro) <a href="https://twitter.com/utautattaro/status/713950061567352832">March 27, 2016</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>はまったところはこのあたりです．<br />
+シリアル通信や学習リモコン等は先駆者の方々がわかりやすいエントリを残してくださったので<br />
+サクサクっとできました．ありがとうございます．</p>
+<p><span style="font-size: 20px">参考サイト</span></p>
+<ul>
+<li><a href="http://eikatou.net/blog/2012/07/1796/">Arduinoでリモコン作成</a></li>
+<li><a href="http://elm-chan.org/docs/ir_format.html">赤外線リモコンの通信フォーマット</a></li>
+</ul>
+<p>最後に，ソースコードはすべて下のGitにあげておきます．<br />
+<a href="https://github.com/TsudaRyotaro/public/tree/master/ControlRoomLight">github.com/TsudaRyotaro/public/tree/master/ControlRoomLight</a><br />
+よきライフハックを！</p>
+<h3>20160815追記</h3>
+<p>ノーメンテだったがまだ生きていた</p>
+<blockquote class="twitter-tweet" data-width="550">
+<p lang="ja" dir="ltr">Twitterから蛍光灯制御、まだ生きていた <a href="https://t.co/mas4evVo18">pic.twitter.com/mas4evVo18</a></p>
+<p>&mdash; Ryla (@utautattaro) <a href="https://twitter.com/utautattaro/status/764860355331764224">August 14, 2016</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><a class="twitter-share-button" href="https://twitter.com/share">Tweet</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

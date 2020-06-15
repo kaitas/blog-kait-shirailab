@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>C# &#8211; R-Diary</title>
+	<atom:link href="http://blog.shirai.la/sakakibara/tag/c/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/sakakibara</link>
+	<description>Diary</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:25:00 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>Unity PlayerPrefsとファイルの書き出しと読み込みを使ったプレイログ取得・利用</title>
+		<link>http://blog.shirai.la/sakakibara/2016/07/07/study1/</link>
+				<comments>http://blog.shirai.la/sakakibara/2016/07/07/study1/#respond</comments>
+				<pubDate>Thu, 07 Jul 2016 06:27:51 +0000</pubDate>
+		<dc:creator><![CDATA[sakakibara]]></dc:creator>
+				<category><![CDATA[研究活動]]></category>
+		<category><![CDATA[1323101]]></category>
+		<category><![CDATA[C#]]></category>
+		<category><![CDATA[PlayerPrefs]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[ログ]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/sakakibara/?p=37</guid>
+				<description><![CDATA[今回私は 作成したゲーム中でプレイのログをとり、そのログを使ってリプレイ機能を実装するために、ファイルの読み書 &#8230; <a href="http://blog.shirai.la/sakakibara/2016/07/07/study1/" class="more-link">続きを読む <span class="screen-reader-text">Unity PlayerPrefsとファイルの書き出しと読み込みを使ったプレイログ取得・利用</span></a>]]></description>
+								<content:encoded><![CDATA[<p>今回私は</p>
+<p>作成したゲーム中でプレイのログをとり、そのログを使ってリプレイ機能を実装するために、ファイルの読み書きとPlayerPrefs機能を利用しました。</p>
+<p>まず、参考にしたサイトはこちらです。</p>
+<p><a href="http://qiita.com/HisatakaSuzuki/items/a97f4ebdd4b89afe3dc4" target="_blank">UnityでCSVを書き出す</a></p>
+<p><a href="http://docs.unity3d.com/ja/current/ScriptReference/PlayerPrefs.html" target="_blank">PlayerPrefsスクリプトリファレンス</a></p>
+<p>使用言語C#</p>
+<p>まずは、Streamwriterを使ってファイルにログを書き出す部分です。</p>
+<p>using System.IO</p>
+<p>public class (クラス名) : MonoBehaviour{</p>
+<p style="padding-left: 30px">StreamWriter sw;<br />
+FileInfo fi;</p>
+<p style="padding-left: 30px">public void start(){</p>
+<p style="padding-left: 60px">fi = new FileInfo(Application.datapath + &#8220;(ファイル名).txt&#8221;);<br />
+sw = fi.AppendText();<br />
+sw.WriteLine(&#8220;書き出し&#8221;);<br />
+sw.Flush();<br />
+sw.Close();</p>
+<p style="padding-left: 30px">}</p>
+<p>}</p>
+<p>Unity C#ではStreamWriterを使用するときはまずFileInfoインスタンスを書き出すファイルのパスを与えて宣言する必要があります。<br />
+その際の&#8221;Application.datapath&#8221;はプロジェクトの&#8221;Asset&#8221;フォルダの直下を指しているので、そこに書き出したtxtファイルが保存されることになります。<br />
+&#8220;Application.datapath&#8221;を書かずに任意のパスに保存することも可能です。</p>
+<p>次にStreamWriterのインスタンスに&#8221;AppendText&#8221;メソッドを適用することでStreamWriterがファイルを書き出す準備ができます。</p>
+<p>その後はC#同様&#8221;WriteLine&#8221;メソッドを使って改行ありで書きだしを行っています。<br />
+改行なしの書き出しを行いたい場合はこの部分を&#8221;Write&#8221;メソッドに変更します。</p>
+<p>最後に大切なのがStreamWriterインスタンスのFlush()とClose()この処理を行うことで、ファイルに書き出しが完了します。</p>
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<p>次に読み込み処理です。</p>
+<p>今回はStreamReaderで読み込んでListに保存して利用するようにしました。<br />
+また私は文字列でなく数字を扱っていたのでListに保存した読み込んだ文字列をそれぞれの型(int,double)に変換して利用しました。</p>
+<p>string line = &#8220;&#8221;;<br />
+List&lt;string&gt; List = new List&lt;string&gt; ();</p>
+<p style="padding-left: 30px">System.IO.StreamReader tReader = (</p>
+<p style="padding-left: 60px">new System.IO.StreamReader (Application.dataPath + &#8220;(ファイル名)&#8221;, System.Text.Encoding.Default)<br />
+);</p>
+<p style="padding-left: 30px">while ((line = tReader.ReadLine ()) != null) {</p>
+<p style="padding-left: 60px">List.Add (line);</p>
+<p style="padding-left: 30px">}</p>
+<p style="padding-left: 30px">tReader.Close ();</p>
+<p>まずグローバルにstring型の変数と空のListを作成します。</p>
+<p>次にStreamReaderでファイルを読み込み、while分で一行ずつ読み込んで配列に入れています。</p>
+<p>最後にStreamReaderを閉じましょう。</p>
+<p>&nbsp;</p>
+<p>これでファイルの書き込み、読み込みはできます。しかし、連続プレイのログをとる場合一プレイごとにログにしたいのです。</p>
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<p>そこで私はPlayerPrefs機能を利用しセーブデータを毎回作成し、それをファイル名につけたすことで、一人ひとりのプレイログをとり、さらにリアルタイムにログを利用することができました。</p>
+<p>&nbsp;</p>
+<p>まずはセーブとロードの関数を作成します。</p>
+<p>&nbsp;</p>
+<p>const string FileNum = &#8220;filenum&#8221;;</p>
+<p>void SaveFile(int file){</p>
+<p style="padding-left: 30px">PlayerPrefs.SetInt (FileNum, file);<br />
+PlayerPrefs.Save ();</p>
+<p>}</p>
+<p>int LoadFile(){</p>
+<p style="padding-left: 30px">return PlayerPrefs.GetInt (FileNum, -1);</p>
+<p>}</p>
+<p>これでPlayerPrefsは利用できるので、次にゲームがスタートしたらセーブデータのカウントを増やすように設定しました。</p>
+<p>SaveFile(LoadFile()+1);</p>
+<p>この処理でセーブファイルの数値が1足されました。</p>
+<p>この後にLoadFileを使ったファイル名のログデータを取ることでそのログを利用するように実装しました。</p>
+<figure id="attachment_43" aria-describedby="caption-attachment-43" style="width: 300px" class="wp-caption aligncenter"><img class="wp-image-43 size-medium" src="http://blog.shirai.la/sakakibara/files/2016/07/図-300x168.png" alt="図" width="300" height="168" srcset="http://blog.shirai.la/sakakibara/files/2016/07/図-300x168.png 300w, http://blog.shirai.la/sakakibara/files/2016/07/図-768x431.png 768w, http://blog.shirai.la/sakakibara/files/2016/07/図-1024x574.png 1024w, http://blog.shirai.la/sakakibara/files/2016/07/図.png 1238w" sizes="(max-width: 300px) 100vw, 300px" /><figcaption id="caption-attachment-43" class="wp-caption-text">図にするとこんな感じです</figcaption></figure>
+<p>&nbsp;</p>
+<p>まずファイルの保存名ですが</p>
+<p>ファイルの指定の部分を</p>
+<p>fi = new FileInfo (Application.dataPath+ &#8220;PlayLog&#8221;+LoadFile()+&#8221;.txt&#8221;);</p>
+<p>このように変更します。こうすることで</p>
+<p>ファイルがPlayLog1 PlayLog2という風に作成されていきます。</p>
+<p>&nbsp;</p>
+<p>読み込み側も同様に</p>
+<p>System.IO.StreamReader uReader = (</p>
+<p style="padding-left: 30px">new System.IO.StreamReader (Application.dataPath + &#8220;PlayLog&#8221; + LoadFile () + &#8220;.txt&#8221;, System.Text.Encoding.Default)</p>
+<p>);</p>
+<p>while ((line = uReader.ReadLine ()) != null) {</p>
+<p style="padding-left: 30px">List.Add (line);<br />
+<span style="color: #ff0000">countmax++;</span></p>
+<p>}</p>
+<p><span style="color: #000000">ここで新たに追加したのがcountmaxという変数です。</span></p>
+<p>こちらはListを利用した際にListの最大値を超えて数値を設定したりするとエラーをはいたりしたので,配列がいくつあるのかをカウントする変数として用意しました。</p>
+<p>これでプレイごとのログを利用できるようになったので配列を利用することでリプレイ機能を実装できました!</p>
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<p>まぁ、最後にString→int,double型に変換したのでそちらも参考までにのせておきます。</p>
+<p>public static int StringToInt(string s){</p>
+<p style="padding-left: 30px">return int.Parse (s);</p>
+<p>}</p>
+<p>public static double StringToDouble(string s){</p>
+<p style="padding-left: 30px">return double.Parse (s);</p>
+<p>}</p>
+<p>List&lt;int&gt; i =List.ConvertAll (new System.Converter&lt;string,int&gt; (StringToInt));<br />
+List&lt;double&gt; d =List.ConvertAll (new System.Converter&lt;string,double&gt; (StringToDouble));</p>
+<p>今回はConverterを利用しましたが、他にもやり方はいろいろあるようです！<br />
+ラムダ式とか&#8230;.数式は難しいです。</p>
+<p>&nbsp;</p>
+<p>それではよかったらPlayerPrefsを使ってみてください！</p>
+<p>サンプル等はGithubで公開するかもしれません!</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/sakakibara/2016/07/07/study1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>
