@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ryo Kashiwagi</title>
+	<atom:link href="http://blog.shirai.la/kashiwagi/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/kashiwagi</link>
+	<description>Just another KAIT Shirai Lab Blog Sites site</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:25:00 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>Unity初心者用ブロック崩し制作 part1</title>
+		<link>http://blog.shirai.la/kashiwagi/2016/08/18/unity1/</link>
+				<comments>http://blog.shirai.la/kashiwagi/2016/08/18/unity1/#respond</comments>
+				<pubDate>Thu, 18 Aug 2016 10:37:23 +0000</pubDate>
+		<dc:creator><![CDATA[柏木 諒]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[初心者]]></category>
+		<category><![CDATA[研究]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/kashiwagi/?p=6</guid>
+				<description><![CDATA[☆シーン遷移図 今回GP2016で制作した課題より、シーン遷移で改良 従来のシーン遷移では、タイトル画面からゲ &#8230; <a href="http://blog.shirai.la/kashiwagi/2016/08/18/unity1/" class="more-link">続きを読む <span class="screen-reader-text">Unity初心者用ブロック崩し制作 part1</span></a>]]></description>
+								<content:encoded><![CDATA[<p>☆シーン遷移図</p>
+<p><img class="alignnone size-medium wp-image-7" src="http://blog.shirai.la/kashiwagi/files/2016/08/IMG_7866-300x225.jpg" alt="IMG_7866" width="300" height="225" srcset="http://blog.shirai.la/kashiwagi/files/2016/08/IMG_7866-300x225.jpg 300w, http://blog.shirai.la/kashiwagi/files/2016/08/IMG_7866-768x576.jpg 768w, http://blog.shirai.la/kashiwagi/files/2016/08/IMG_7866-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>今回GP2016で制作した課題より、シーン遷移で改良</p>
+<p>従来のシーン遷移では、タイトル画面からゲーム画面に飛ぶ仕様(画像,右)</p>
+<p>問題:ゲーム自体を終了できない,ゲームの中断が不可能&#8230;etc といった問題がある</p>
+<p>&nbsp;</p>
+<p>改良フローでは、タイトル→レベルの選択画面→ゲームという形を取り、また、ゲームからの中断や、ゲーム終了までを図に書き起こした(画像,左)</p>
+<p>今回の改良では、ボールの物理処理・ブロック同時消失などのバグから、ゲーム進行に差し支える問題も考慮し、追加を行っていく</p>
+<p><img class="alignnone size-full wp-image-8" src="http://blog.shirai.la/kashiwagi/files/2016/08/キャプチャ.jpg" alt="キャプチャ" width="227" height="90" /></p>
+<p>従来のScenceとは別に、レベル選択のScenceを用意</p>
+<p>そしてScence遷移のパスをmain(ゲームのScence)からselectの変更</p>
+<p>&nbsp;</p>
+<p>using UnityEngine;<br />
+using System.Collections;<br />
+using UnityEngine.SceneManagement;</p>
+<p>public class SceneLoadSelectScript : MonoBehaviour<br />
+{</p>
+<p>public void SceneLoad()<br />
+{<br />
+SceneManager.LoadScene(&#8220;select&#8221;);<br />
+}<br />
+}</p>
+<p>今後はexitとフールプルーフの追加、SE・BGMを追加する予定</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/kashiwagi/2016/08/18/unity1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Unity初心者用ブロック崩し制作 part2</title>
+		<link>http://blog.shirai.la/kashiwagi/2016/08/18/unity2/</link>
+				<comments>http://blog.shirai.la/kashiwagi/2016/08/18/unity2/#respond</comments>
+				<pubDate>Thu, 18 Aug 2016 10:24:30 +0000</pubDate>
+		<dc:creator><![CDATA[柏木 諒]]></dc:creator>
+				<category><![CDATA[未分類]]></category>
+		<category><![CDATA[研究]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[初心者]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/kashiwagi/?p=16</guid>
+				<description><![CDATA[titleとmainの間にレベルの選択が出来るselect scenceを実装。 また、main(game)の &#8230; <a href="http://blog.shirai.la/kashiwagi/2016/08/18/unity2/" class="more-link">続きを読む <span class="screen-reader-text">Unity初心者用ブロック崩し制作 part2</span></a>]]></description>
+								<content:encoded><![CDATA[<p>titleとmainの間にレベルの選択が出来るselect scenceを実装。</p>
+<p>また、main(game)のscenceを2つ追加し、select scenseからEASY・NOMAL・HARDに遷移出来る様に。</p>
+<p><img class="alignnone size-medium wp-image-12" src="http://blog.shirai.la/kashiwagi/files/2016/08/mainの追加-300x79.jpg" alt="mainの追加" width="300" height="79" srcset="http://blog.shirai.la/kashiwagi/files/2016/08/mainの追加-300x79.jpg 300w, http://blog.shirai.la/kashiwagi/files/2016/08/mainの追加-768x201.jpg 768w, http://blog.shirai.la/kashiwagi/files/2016/08/mainの追加-1024x268.jpg 1024w, http://blog.shirai.la/kashiwagi/files/2016/08/mainの追加.jpg 1362w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><img class="alignnone size-medium wp-image-18" src="http://blog.shirai.la/kashiwagi/files/2016/08/レベル遷移-300x186.jpg" alt="レベル遷移" width="300" height="186" srcset="http://blog.shirai.la/kashiwagi/files/2016/08/レベル遷移-300x186.jpg 300w, http://blog.shirai.la/kashiwagi/files/2016/08/レベル遷移-768x477.jpg 768w, http://blog.shirai.la/kashiwagi/files/2016/08/レベル遷移-825x510.jpg 825w, http://blog.shirai.la/kashiwagi/files/2016/08/レベル遷移.jpg 957w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>&nbsp;</p>
+<p>☆バグ、キーの抜け出し機能の実装</p>
+<p>＠実際の画面</p>
+<p><img class="alignnone size-medium wp-image-20" src="http://blog.shirai.la/kashiwagi/files/2016/08/ゲーム内テキスト-300x247.jpg" alt="ゲーム内テキスト" width="300" height="247" srcset="http://blog.shirai.la/kashiwagi/files/2016/08/ゲーム内テキスト-300x247.jpg 300w, http://blog.shirai.la/kashiwagi/files/2016/08/ゲーム内テキスト.jpg 625w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>@ヒエラルキー内</p>
+<p><img class="alignnone size-medium wp-image-21" src="http://blog.shirai.la/kashiwagi/files/2016/08/text-300x62.jpg" alt="text" width="300" height="62" srcset="http://blog.shirai.la/kashiwagi/files/2016/08/text-300x62.jpg 300w, http://blog.shirai.la/kashiwagi/files/2016/08/text.jpg 405w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>ゲーム画面左にて、キー入力による抜け出し指示テキストの作成</p>
+<p>実際のキー入力でscence遷移をracketオブジェクトに追加</p>
+<p>＠追記コード</p>
+<p><img class="alignnone size-full wp-image-25" src="http://blog.shirai.la/kashiwagi/files/2016/08/ラケットに追記.jpg" alt="ラケットに追記" width="249" height="136" /></p>
+<p>(※ブロック同時消失、ボールの軌道がループになるバグ対策)</p>
+<p>・RキーでRetryへ</p>
+<p>・TキーでTitleへ</p>
+<p>&nbsp;</p>
+<p>☆exit機能の実装</p>
+<p>Title scenceにexitボタンを実装し、scenceloadscriptに。</p>
+<p><img class="alignnone size-medium wp-image-22" src="http://blog.shirai.la/kashiwagi/files/2016/08/exit-300x227.jpg" alt="exit" width="300" height="227" srcset="http://blog.shirai.la/kashiwagi/files/2016/08/exit-300x227.jpg 300w, http://blog.shirai.la/kashiwagi/files/2016/08/exit.jpg 557w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>＠追記コード</p>
+<p><img class="alignnone size-full wp-image-23" src="http://blog.shirai.la/kashiwagi/files/2016/08/追記コード.jpg" alt="追記コード" width="127" height="63" /></p>
+<p>＠タイトル画面</p>
+<p><img class="alignnone size-medium wp-image-24" src="http://blog.shirai.la/kashiwagi/files/2016/08/title-300x276.jpg" alt="title" width="300" height="276" srcset="http://blog.shirai.la/kashiwagi/files/2016/08/title-300x276.jpg 300w, http://blog.shirai.la/kashiwagi/files/2016/08/title.jpg 336w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>&nbsp;</p>
+<p>☆レビュー</p>
+<p>Rの長押しでRetryが永遠に続く</p>
+<p>→delta timeを利用し、入力判定にタイム感覚を作る</p>
+<p>ブロックの同時消失を防ぐ</p>
+<p>→Tagを利用し、判定に修正を加える</p>
+<p>&nbsp;</p>
+<p>☆課題</p>
+<p>ブロック崩しのレベル変更</p>
+<p>→工夫を凝らして難しくする。もしくは難易度要因を明確にし、その上でNOMAL/HARDのステージセットをする。</p>
+<p>&nbsp;</p>
+<p>実際のポーズ画面を実装、timescaleを利用して作成(?)</p>
+<p>&nbsp;</p>
+<p>見るだけでブロック崩しが作れるブログ/資料の作成。</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/kashiwagi/2016/08/18/unity2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

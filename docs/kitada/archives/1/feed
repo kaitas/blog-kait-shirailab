@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	blog開設 へのコメント	</title>
+	<atom:link href="http://blog.shirai.la/kitada/archives/1/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/kitada/archives/1</link>
+	<description>ゆるく日々をまとめます</description>
+	<lastBuildDate>
+	Wed, 07 Nov 2012 15:09:12 +0000	</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+			<item>
+				<title>
+				kitada より				</title>
+				<link>http://blog.shirai.la/kitada/archives/1#comment-3</link>
+		<dc:creator><![CDATA[kitada]]></dc:creator>
+		<pubDate>Wed, 07 Nov 2012 15:09:12 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.shirai.la/kitada/?p=1#comment-3</guid>
+					<description><![CDATA[某学習帳っぽいタイトルを目指した結果、これにしました。
+スタイリッシュさを売りにするわけでもなく、単たる思いつきで深い意味はないですが、日々の研究活動の記録として活用していきます。]]></description>
+		<content:encoded><![CDATA[<p>某学習帳っぽいタイトルを目指した結果、これにしました。<br />
+スタイリッシュさを売りにするわけでもなく、単たる思いつきで深い意味はないですが、日々の研究活動の記録として活用していきます。</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				aki より				</title>
+				<link>http://blog.shirai.la/kitada/archives/1#comment-2</link>
+		<dc:creator><![CDATA[aki]]></dc:creator>
+		<pubDate>Wed, 07 Nov 2012 14:54:18 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.shirai.la/kitada/?p=1#comment-2</guid>
+					<description><![CDATA[いいね！名前がいい]]></description>
+		<content:encoded><![CDATA[<p>いいね！名前がいい</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				匿名 より				</title>
+				<link>http://blog.shirai.la/kitada/archives/1#comment-1</link>
+		<dc:creator><![CDATA[匿名]]></dc:creator>
+		<pubDate>Wed, 07 Nov 2012 07:05:18 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.shirai.la/kitada/?p=1#comment-1</guid>
+					<description><![CDATA[]]></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+						</item>
+			</channel>
+</rss>

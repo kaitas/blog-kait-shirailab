@@ -139,6 +139,12 @@ nic.laよりエントリー削除
 
 download　174MB
 
+https://new.shirai.la/download/4939/webbased.pdf
+とかにコピーしなおしているけど、読み込まれない。
+しばらく置いてから見てみる。
+
+
+
 ### ユーザディレクトリの引っ越し
 
 - access
@@ -183,6 +189,7 @@ download　174MB
 - lavalvirtual
 - lecture
 - library
+
 - manga
 - marika
 - mizuki

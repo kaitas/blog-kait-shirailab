@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Web &#8211; スタイリッシュ学習帳</title>
+	<atom:link href="http://blog.shirai.la/kitada/archives/category/web/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/kitada</link>
+	<description>ゆるく日々をまとめます</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:24:51 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>Googleサイト内のコンテンツのエクスポート</title>
+		<link>http://blog.shirai.la/kitada/archives/167</link>
+				<comments>http://blog.shirai.la/kitada/archives/167#respond</comments>
+				<pubDate>Sat, 24 Nov 2012 07:25:10 +0000</pubDate>
+		<dc:creator><![CDATA[north]]></dc:creator>
+				<category><![CDATA[Web]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/kitada/?p=167</guid>
+				<description><![CDATA[研究室のWebサイト移行計画の関係で、Googleサイトで作られた旧Webサイト内のコンテンツをエクスポートす [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>研究室のWebサイト移行計画の関係で、Googleサイトで作られた旧Webサイト内のコンテンツをエクスポートする必要があったので、Googleサイト内のコンテンツのエクスポート方法を調べてみました。</p>
+<p><span id="more-167"></span></p>
+<p>Googleから配布されているGoogleサイトエクスポートツール（<a href="http://code.google.com/p/google-sites-liberation/" target="_blank">google-sites-liberation</a>）を使ったエクスポートの方法があり、このツールを使ってコンテンツのエクスポートを行いました。なお、google-sites-liberationはJava製なので、Javaが動作する環境が必要です。</p>
+<p>使い方としては、Domain名、Webspace名、アカウント情報、エクスポートされたファイルの保存先を設定し、Export from Sitesボタンを押してエクスポート完了まで待つだけです。ひとまず、このツールを使ってエクスポートは簡単にできたので、次は新サイトへのインポートも近日中に行っていきたいと思います。</p>
+<p>&nbsp;</p>
+<p>参考にさせていただいた記事</p>
+<p><a href="http://blog.bitmeister.jp/?p=1256" target="_blank">bitlog, Google Sitesのバックアップメモ（ふたたび）</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/kitada/archives/167/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>iOS &#8211; スタイリッシュ学習帳</title>
+	<atom:link href="http://blog.shirai.la/kitada/archives/category/ios/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.shirai.la/kitada</link>
+	<description>ゆるく日々をまとめます</description>
+	<lastBuildDate>
+	Wed, 28 Feb 2018 23:24:51 +0000	</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.6</generator>
+	<item>
+		<title>ブログでゼミ進捗報告（11月13日）</title>
+		<link>http://blog.shirai.la/kitada/archives/21</link>
+				<comments>http://blog.shirai.la/kitada/archives/21#respond</comments>
+				<pubDate>Tue, 13 Nov 2012 11:32:45 +0000</pubDate>
+		<dc:creator><![CDATA[north]]></dc:creator>
+				<category><![CDATA[iOS]]></category>
+		<category><![CDATA[アプリ]]></category>
+		<category><![CDATA[ゼミ関係]]></category>
+
+		<guid isPermaLink="false">http://blog.shirai.la/kitada/?p=21</guid>
+				<description><![CDATA[今週は研究室内ゼミは実施されず、各自blog内で進捗報告とのことなので、中止になった先週（11月6日）分の内容 [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>今週は研究室内ゼミは実施されず、各自blog内で進捗報告とのことなので、中止になった先週（11月6日）分の内容も含めて報告したいと思います。</p>
+<p><span id="more-21"></span></p>
+<ul>
+<li>iOSアプリケーション開発の学習</li>
+<li>emoconを使ってみた</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>iOSアプリケーション開発の学習</strong></p>
+<p>前回のゼミからデモを含めて進捗を報告しているiOSアプリケーション開発関係ですが、前回のゼミで次の目標にしていた動画再生を実装することが出来ました。</p>
+<p>iOSアプリの動画再生方法について説明しますと、アプリケーション内で描画範囲を指定してその範囲内に動画を再生させる方法とiOSの標準的なUIを使って動画再生を行う方法があり、今回は後者の標準的なUIを使うMediaPlayerフレームワークを使ってipod touch内にある動画ファイル（.mp4ファイル）をフルスクリーン再生を行うプログラムを作成し、iOSアプリケーションでの動画再生処理について学びました。今後は今までに試作しているプログラムの結合とまだ調査の済んでいない研究プロジェクトで使用するアプリ開発に必要な技術調査を行うなど引き続き、学習・開発に取り組んでいきます。</p>
+<p>&nbsp;</p>
+<p><strong>emoconを使ってみた</strong></p>
+<p>感情共有という点に惹かれて、11月7日にiOS,  Android向けにリリースされた<a title="emocon" href="http://emocon.me/" target="_blank">emocon</a>というソーシャルビューイングアプリをダウンロードして使ってみました。</p>
+<p>[youtube]https://www.youtube.com/watch?v=MKDWEMxP2Hs[/youtube]</p>
+<p>このアプリはSNS（GREE, Twitter, Facebookのどれかを指定して連携）の友人間で視聴しているTV番組の共有、感情（エモ）ボタンを通して視聴しているTV番組に対する感情の共有が行えるアプリです。</p>
+<p>先日、手持ちのipod touchにインストールし、Twitterのアカウントと連携してアプリの方を使ってみました。なお、視聴した番組は日曜19時からテレビ東京で放送している「<a title="モヤモヤさまぁ～ず2" href="http://www.tv-tokyo.co.jp/samaazu2/" target="_blank">モヤモヤさまぁ〜ず2</a>」です。</p>
+<p>アプリの基本的な使い方としては、視聴する番組を番組表から選んで番組の視聴をしながら、画面下にある3つの感情ボタンを押して感情の共有を行います。アプリ画面中央ではその番組のタグが付けられたTwitterのソーシャルストリームが流れ、番組に関するツィートもemoconから投稿することが出来ます。</p>
+<div id="attachment_59" style="width: 210px" class="wp-caption aligncenter"><a href="http://blog.shirai.la/kitada/files/2012/11/IMG_0026.png"><img aria-describedby="caption-attachment-59" src="http://blog.shirai.la/kitada/files/2012/11/IMG_0026-200x300.png" alt="" title="IMG_0026" width="200" height="300" class="size-medium wp-image-59" srcset="http://blog.shirai.la/kitada/files/2012/11/IMG_0026-200x300.png 200w, http://blog.shirai.la/kitada/files/2012/11/IMG_0026.png 640w" sizes="(max-width: 200px) 100vw, 200px" /></a><p id="caption-attachment-59" class="wp-caption-text">emoconの基本画面</p></div>
+<p>ボタンを押して投稿を行うとemoconを使っている同じ感情を投稿したユーザーの比率が表示されます。また、emoconを使っているSNSの友人がどの感情で番組を見ているのか画面上部にTwitterアイコンがマッピングされます（周りに使っている方が居なかったので写真ではわからないですが）。</p>
+<div id="attachment_66" style="width: 210px" class="wp-caption aligncenter"><a href="http://blog.shirai.la/kitada/files/2012/11/IMG_0017.png"><img aria-describedby="caption-attachment-66" src="http://blog.shirai.la/kitada/files/2012/11/IMG_0017-200x300.png" alt="" title="IMG_0017" width="200" height="300" class="size-medium wp-image-66" srcset="http://blog.shirai.la/kitada/files/2012/11/IMG_0017-200x300.png 200w, http://blog.shirai.la/kitada/files/2012/11/IMG_0017.png 640w" sizes="(max-width: 200px) 100vw, 200px" /></a><p id="caption-attachment-66" class="wp-caption-text">エモの投稿</p></div>
+<p>また、番組表では各番組のエモの割合を見ることができ、投稿されたエモの量から番組の盛り上がりやアプリユーザーの感情の分布を確認することができます。</p>
+<p><a href="http://blog.shirai.la/kitada/files/2012/11/IMG_0018.png"><img src="http://blog.shirai.la/kitada/files/2012/11/IMG_0018-200x300.png" alt="" title="IMG_0018" width="200" height="300" class="aligncenter size-medium wp-image-67" srcset="http://blog.shirai.la/kitada/files/2012/11/IMG_0018-200x300.png 200w, http://blog.shirai.la/kitada/files/2012/11/IMG_0018.png 640w" sizes="(max-width: 200px) 100vw, 200px" /></a></p>
+<p>実際に触れて見たところ、個人的には番組表で各番組の盛り上がり状況と感情の分布を把握出来るのが面白く、興味深かったです。</p>
+<p>また、自分が探せていないだけかもしれませんが、3つの感情ボタンについて公式サイトとアプリ内にどの感情のときにどのボタンを押せばいいのか説明がなく、赤＝面白い、黄色＝驚き、青＝感動、悲しいという解釈で使いました。ひとまず、今後もこの分野のアプリや技術についても継続してリサーチしていこうと思います。ちなみに余談になりますが、来週、11月18日のモヤさまはSIGGRAPH Asia 2012の開催地シンガポールでモヤモヤするみたいです（<a title="番組内容" href="http://tv.yahoo.co.jp/program/63345148/" target="_blank">番組内容</a>）。</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>http://blog.shirai.la/kitada/archives/21/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

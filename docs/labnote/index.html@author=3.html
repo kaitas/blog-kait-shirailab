@@ -1,0 +1,653 @@
+<!DOCTYPE html><!-- HTML 5 -->
+<html lang="ja">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="pingback" href="http://blog.shirai.la/labnote/xmlrpc.php" />
+	
+	<title>shirai | 白井研ラボノート</title>
+
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="白井研ラボノート &raquo; フィード" href="index.html@feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="白井研ラボノート &raquo; コメントフィード" href="index.html@feed=comments-rss2" />
+<link rel="alternate" type="application/rss+xml" title="白井研ラボノート &raquo; shirai による投稿のフィード" href="index.html@feed=rss2&amp;author=3" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/blog.shirai.la\/labnote\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.1.6"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='jquery.bxslider-css'  href='wp-content/plugins/bxslider-integration/assets/css/bxslider-integration.min.css@ver=5.1.6.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='wp-includes/css/dist/block-library/style.min.css@ver=5.1.6.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-member-block-css'  href='wp-content/plugins/buddypress/bp-members/css/blocks/member.min.css@ver=6.0.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-group-block-css'  href='wp-content/plugins/buddypress/bp-groups/css/blocks/group.min.css@ver=6.0.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-legacy-css-css'  href='wp-content/plugins/buddypress/bp-templates/bp-legacy/css/buddypress.min.css@ver=6.0.0.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles.css@ver=5.1.9.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dlm-frontend-css'  href='wp-content/plugins/download-monitor/assets/css/frontend.css@ver=5.1.6.css' type='text/css' media='all' />
+<link rel='stylesheet' id='zeeBusiness_stylesheet-css'  href='wp-content/themes/zeebusiness/style.css@ver=5.1.6.css' type='text/css' media='all' />
+<link rel='stylesheet' id='zeeBusiness_colorscheme-css'  href='wp-content/themes/zeebusiness/includes/css/colorschemes/standard.css@ver=5.1.6.css' type='text/css' media='all' />
+<link rel='stylesheet' id='themezee_default_font-css'  href='http://fonts.googleapis.com/css?family=Nobile&#038;ver=5.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='amazonjs-css'  href='wp-content/plugins/amazonjs/css/amazonjs.css@ver=0.10.css' type='text/css' media='all' />
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.js@ver=1.12.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js@ver=1.4.1'></script>
+<script type='text/javascript' src='wp-content/plugins/bxslider-integration/assets/js/bxslider-integration.min.js@ver=5.1.6'></script>
+<script type='text/javascript' src='wp-content/plugins/buddypress/bp-core/js/confirm.min.js@ver=6.0.0'></script>
+<script type='text/javascript' src='wp-content/plugins/buddypress/bp-core/js/widget-members.min.js@ver=6.0.0'></script>
+<script type='text/javascript' src='wp-content/plugins/buddypress/bp-core/js/jquery-query.min.js@ver=6.0.0'></script>
+<script type='text/javascript' src='wp-content/plugins/buddypress/bp-core/js/vendor/jquery-cookie.min.js@ver=6.0.0'></script>
+<script type='text/javascript' src='wp-content/plugins/buddypress/bp-core/js/vendor/jquery-scroll-to.min.js@ver=6.0.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var BP_DTheme = {"accepted":"\u627f\u8a8d\u6e08","close":"\u9589\u3058\u308b","comments":"\u30b3\u30e1\u30f3\u30c8","leave_group_confirm":"\u672c\u5f53\u306b\u3053\u306e\u30b0\u30eb\u30fc\u30d7\u304b\u3089\u96e2\u8131\u3057\u307e\u3059\u304b ?","mark_as_fav":"\u304a\u6c17\u306b\u5165\u308a","my_favs":"\u308f\u305f\u3057\u306e\u304a\u6c17\u306b\u5165\u308a","rejected":"\u62d2\u5426\u6e08\u307f","remove_fav":"\u304a\u6c17\u306b\u5165\u308a\u304b\u3089\u524a\u9664","show_all":"\u3059\u3079\u3066\u8868\u793a","show_all_comments":"\u3053\u306e\u30b9\u30ec\u30c3\u30c9\u306e\u3059\u3079\u3066\u306e\u30b3\u30e1\u30f3\u30c8\u3092\u898b\u308b","show_x_comments":"\u3059\u3079\u3066\u306e\u30b3\u30e1\u30f3\u30c8\u3092\u8868\u793a  (%d)","unsaved_changes":"\u30d7\u30ed\u30d5\u30a3\u30fc\u30eb\u306b\u4fdd\u5b58\u3055\u308c\u3066\u3044\u306a\u5909\u66f4\u304c\u3042\u308a\u307e\u3059\u3002\u3053\u306e\u30da\u30fc\u30b8\u304b\u3089\u79fb\u52d5\u3059\u308b\u3068\u3001\u5909\u66f4\u304c\u3059\u3079\u3066\u5931\u308f\u308c\u307e\u3059\u3002","view":"\u8868\u793a","store_filter_settings":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/buddypress/bp-templates/bp-legacy/js/buddypress.min.js@ver=6.0.0'></script>
+<script type='text/javascript' src='wp-content/themes/zeebusiness/includes/js/jquery.cycle.all.min.js@ver=5.1.6'></script>
+<link rel='https://api.w.org/' href='http://blog.shirai.la/labnote/index.php?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php@rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.1.6" />
+
+	<script type="text/javascript">var ajaxurl = 'http://blog.shirai.la/labnote/wp-admin/admin-ajax.php';</script>
+
+<script type="text/javascript">
+				//<![CDATA[
+					jQuery(document).ready(function($) {
+						$('#nav ul').css({display: 'none'}); // Opera Fix
+						$('#nav li').hover(function(){
+							$(this).find('ul:first').css({visibility: 'visible',display: 'none'}).slideDown(350);
+						},function(){
+							$(this).find('ul:first').css({visibility: 'hidden'});
+						});
+						
+						$('#topnav ul').css({display: 'none'}); // Opera Fix
+						$('#topnav li').hover(function(){
+							$(this).find('ul:first').css({visibility: 'visible',display: 'none'}).slideDown(350);
+						},function(){
+							$(this).find('ul:first').css({visibility: 'hidden'});
+						});
+					});
+				//]]>
+				</script><style type="text/css"></style>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<script type="text/javascript" src="wp-content/plugins/si-captcha-for-wordpress/captcha/si_captcha.js@ver=1592153848"></script>
+<!-- begin SI CAPTCHA Anti-Spam - login/register form style -->
+<style type="text/css">
+.si_captcha_small { width:175px; height:45px; padding-top:10px; padding-bottom:10px; }
+.si_captcha_large { width:250px; height:60px; padding-top:10px; padding-bottom:10px; }
+img#si_image_com { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_reg { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_log { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_side_login { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_checkout { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_jetpack { border-style:none; margin:0; padding-right:5px; float:left; }
+img#si_image_bbpress_topic { border-style:none; margin:0; padding-right:5px; float:left; }
+.si_captcha_refresh { border-style:none; margin:0; vertical-align:bottom; }
+div#si_captcha_input { display:block; padding-top:15px; padding-bottom:5px; }
+label#si_captcha_code_label { margin:0; }
+input#si_captcha_code_input { width:65px; }
+p#si_captcha_code_p { clear: left; padding-top:10px; }
+.si-captcha-jetpack-error { color:#DC3232; }
+</style>
+<!-- end SI CAPTCHA Anti-Spam - login/register form style -->
+</head>
+
+<body class="bp-legacy archive author author-shirai author-3 no-js">
+
+<div id="wrapper">
+
+		<div id="header">
+
+		<div id="head">
+			<div id="logo">
+									<a href="index.html"><h1>白井研ラボノート</h1></a>
+							</div>
+			<div id="topnavi">
+				<ul id="nav" class="menu"><li class="page_item page-item-2"><a href="index.html">このBlogについて</a></li>
+<li class="page_item page-item-71"><a href="index.html@p=71.html">アクセスなし</a></li>
+<li class="page_item page-item-19"><a href="index.html@p=19.html">公開中のもくじ</a></li>
+<li class="page_item page-item-26"><a href="index.html@p=26.html">著者略歴</a></li>
+</ul>			</div>
+		</div>
+	</div>
+		
+			<div id="custom_header">
+			<img src="wp-content/themes/zeebusiness/images/default_header.jpg" />
+		</div>
+		
+	<div id="navi">
+		<ul id="nav" class="menu"><li class="page_item page-item-2"><a href="index.html">このBlogについて</a></li>
+<li class="page_item page-item-71"><a href="index.html@p=71.html">アクセスなし</a></li>
+<li class="page_item page-item-19"><a href="index.html@p=19.html">公開中のもくじ</a></li>
+<li class="page_item page-item-26"><a href="index.html@p=26.html">著者略歴</a></li>
+</ul>	</div>
+	<div class="clear"></div>
+	
+	<div id="wrap">
+	<div id="content">
+		
+		<h2 class="arh">Archive for shirai</h2>
+
+				
+			<div id="post-49" class="post-49 post type-post status-publish format-standard hentry category-draft tag-4">
+			
+				<h2 class="post-title"><a href="index.html@p=49.html" rel="bookmark">白のゲーミフィケーション・黒のゲーミフィケーション</a></h2>
+				
+				<div class="postmeta">	<a href="index.html@p=49.html">2013年8月16日</a> / 
+<a href="index.html@author=3.html" title="shirai の投稿" rel="author">shirai</a> / <a href="index.html@p=49.html#respond">No comments</a></div>
+				
+				<div class="entry">
+					<a href="index.html@p=49.html" rel="bookmark"></a>
+					<p>ゲーミフィケーション(Gamification)といえば，ゲームのルールをビジネスや企業活動に持ち込んで，社員のやる気を引き出そう！という事例が多く紹介されております．<br />
+しかし私は，今日的な大学生を相手にする上で，<br />
+「白のゲーミフィケーション・黒のゲーミフィケーション」<br />
+というコミュニケーションテクニックを使っています．</p>
+<blockquote><p>事例： 電源を使いたくてN700の窓側の席をとったのに、乗ってみたら隣の人が電源使用中。ここまではまだいいが、座ろうとする私に「充電させてもらってまーす♪（断言）」と当然のように先手を打たれたこのモヤモヤ感は、どうしたらいいですか･･･とりあえず、名古屋まで様子見かな…。</p></blockquote>
+<p>さてみなさんならどうしますか？<br />
+一般的な方法では，ズバリ「お願いする」ということになると思います．<br />
+「充電したい！そのための窓側の予約だ！」と伝えて、抵抗されたら車掌さんに、場所を変えてもらう…って感じの人もいると思います．<br />
+でもこんな方法はどうでしょう？</p>
+<p>路線１<br />
+(1)まず自分の携帯を電源断<br />
+(2)隣の人の携帯をジッとみます<br />
+(3)「かっこいい携帯ですね…電池の持ちもいいんですよね？」<br />
+(4)「私の携帯，ちょっと古いのか，すぐに電池が切れちゃって困っているんです…このあとも実家が山深いので，この残量だと持ちそうになくて…」</p>
+<p>路線２<br />
+(1)まずケーブルを構える<br />
+(2)隣に向かってニコッ<br />
+(3)「そろそろ満充電ですよね，こちら頂きま～す」</p>
+<p>災害等の非常食を分け合う場合でも同じですよね<br />
+自分のお腹が満たされていれば，分け合う気持ちもおきるというもので…．<br />
+解説すると<br />
+(1)やりたいことを言語以外で示す<br />
+(2)笑顔で接する／褒める／羨む<br />
+(3)Noと言えない言葉でお願いする</p>
+<p>最初から怒号や乱暴な言葉が飛び交うと，そのうち暴動になります．<br />
+相手にYesと言わせる心の準備をさせることが重要ですね．</p>
+<p>元々やらねばならないことがある状況にいる人を，目に見える方法でゲーム化することで人間を動かす，これを「白のゲーミフィケーション」と呼ぶとすると，<br />
+元々やりたいことなんてなくて，自分から動く必要もない人を，暗に動きたくする…これを「黒のゲーミフィケーション」と，私は呼んでいます．</p>
+<p>なぜこれが「ゲーミフィケーション」なのか．<br />
+それは，この「心の動きの設計」が，詰将棋と同じようなルール使っているからです．<br />
+本人が気が付かないうちに，相手を盤面の上に置き，最適戦略を取らせることで，自分の意図する方向に自ら進ませるという高等テクニックです．</p>
+<p>詳しくはいま執筆中の本に書いておきます．</p>
+					<div class="clear"></div>
+									</div>
+				
+				<div class="postinfo">Category: <a href="index.html@cat=1.html" rel="category">草稿</a> / Tags: <a href="http://blog.shirai.la/labnote/?tag=%e3%82%b2%e3%83%bc%e3%83%9f%e3%83%95%e3%82%a3%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3" rel="tag">ゲーミフィケーション</a></div>
+
+			</div>		
+			<div id="post-47" class="post-47 post type-post status-publish format-standard hentry category-draft">
+			
+				<h2 class="post-title"><a href="index.html@p=47.html" rel="bookmark">経済学と生物学が教えてくれる、「生き延びるエンジニアのための多様性」</a></h2>
+				
+				<div class="postmeta">	<a href="index.html@p=47.html">2013年5月25日</a> / 
+<a href="index.html@author=3.html" title="shirai の投稿" rel="author">shirai</a> / <a href="index.html@p=47.html#respond">No comments</a></div>
+				
+				<div class="entry">
+					<a href="index.html@p=47.html" rel="bookmark"></a>
+					<p>技術が生まれてからその技術の意味を考えることには、</p>
+<p>「なんだか後付で卑怯なんじゃないか？」</p>
+<p>という疑問を抱くことがあるかもしれません。</p>
+<p>でもこれは、複合的に絡まる、現代の社会において大変重要なことです。</p>
+<p>また、技術者が技術の意味を考えることに目を向けなければならない理由があります。</p>
+<p>&nbsp;</p>
+<p>ちょっと昔の研究者を紹介しましょう。</p>
+<p>ハーバード・スペンサーの「社会進化論」で唱えられたワード<br />
+適者生存&#8221;survival of the fittest&#8221; と進化&#8221;evolution&#8221;<br />
+です。</p>
+<p>進化といえば生物学者ダーウィンですが、それよりも前に経済学者であるスペンサーが提案した語であることが興味深いです。</p>
+<p>その種が生き残るかどうかは、適応できるかどうかにかかっている、という考え方です。</p>
+<p>技術と違って、生物種などは特に「考えて生まれたもの」という過程は成り立ちません。</p>
+<p>「生物は神様が作ったもの」という考え方だったとしても、「技術は人が作ったもの」であり、「人が使わない技術」は死に絶えます。</p>
+<p>技術が生き延びるためには、技術の利用者にとっての意味とか価値を明らかにすることが必要です。</p>
+<p>&nbsp;</p>
+<p>そして、いま、生物学では「生物多様性の維持」が重要な課題になっています。</p>
+<p>家畜や植林のように、人間の目的で増やした生物ばかりが増えて、多様な生物が存在しなければ、本来の自然の生態系が持っているバランスを維持することが難しくなります。</p>
+<p>それは一体何が、危険なのでしょうか？</p>
+<p>わかり易い例では、ある生物を一定の確率で補食し減らす外敵や、分解者のような「直接見えてこないけれども、絶滅されると困る種」の存在でしょうか。</p>
+<p>生物の専門家によると、以下の3つの多様性に分けて考えられるようです。</p>
+<p>種の多様性：様々な生物種が存在すること<br />
+遺伝子の多様性：同一種であっても種内の個体群や遺伝子が異なっていること<br />
+生態系の多様性：それらの種の生息環境が多様であること</p>
+<p>「種の多様性」だけが目につくわけですが、<br />
+「遺伝子の多様性」は、その生息地に適応した結果生み出せたものであり、その多様性の低下が進むと、気候や病気に対応できなくなり、絶滅の危険性が高まります。<br />
+「生態系の多様性」とは、生物と非生物的要素が作り出す環境で、それらが有機的な関係を保つことにより構成された自然システムの多様性を指します。</p>
+<p>生物種を技術や製品、遺伝子をそれを創りだしたエンジニアや設計思想と考えると、「生態系の多様性」はその製品や技術のニーズを生み出した社会を含めた環境そのものの多様性を指すということになり、納得がいきます。</p>
+<p>日本がガラパゴス製品だらけになってしまうのは当然の結果であり、生態系の多様性や遺伝子の多様性、つまり幅広い社会環境やユーザモデル、幅広い思想のエンジニアを維持しなければ、技術種の多様性は維持できないし、たとえばリサイクル技術のように、使用済み携帯電話からレアメタルを効率よく回収・抽出・再資源化するような技術を考えた製品デザインにはたどり着きません。</p>
+<p>「リサイクル技術？そんなことは私のエンジニアリングには関係ない」</p>
+<p>と考えるかもしれませんが、サステナビリティ（持続可能性）を持ち、連続的な社会の変化に適応して「生き延びるエンジニア」としては重要な視点なのです。</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+					<div class="clear"></div>
+									</div>
+				
+				<div class="postinfo">Category: <a href="index.html@cat=1.html" rel="category">草稿</a> / </div>
+
+			</div>		
+			<div id="post-37" class="post-37 post type-post status-publish format-standard hentry category-3">
+			
+				<h2 class="post-title"><a href="index.html@p=37.html" rel="bookmark">喰える履歴書添削（基礎編）</a></h2>
+				
+				<div class="postmeta">	<a href="index.html@p=37.html">2013年3月3日</a> / 
+<a href="index.html@author=3.html" title="shirai の投稿" rel="author">shirai</a> / <a href="index.html@p=37.html#respond">No comments</a></div>
+				
+				<div class="entry">
+					<a href="index.html@p=37.html" rel="bookmark"></a>
+					<p>ゲーム関係の就職、それも有名企業の企画職に内定するともなると、会社説明会は1万人を超え、送られてくる履歴書は数千通といった規模になります。その中から採用されるのは年間10名以下、せいぜい2～3人といったところです。</p>
+<p>実際にそのような採用試験で最終面接や内定をもらうようになると、各企業がどのような人物を必要としているのかが感じられる能力が必要になります。正直なところ、最終面接は「相性」や「勝負運」も重要なので、攻略法のようなものは掲げませんが、書類審査や一次試験などの予選であれば攻略法はありますし、これは一般的な企業でも共通な点が多いのです。</p>
+<p>さて、ここで研究室のMくんから履歴書添削依頼がありました。</p>
+<p>今年は遅れがちな学生が多い就活戦線ですが、Mくんは就活には積極的に動いている方です。<br />
+普段は先生に報告も相談もせずに「あす受けに行きます！助けてください…」であれば間に合いませんが、2～3日前に持ってきてくれたので、スキャンして添削しています。</p>
+<p>今回はじめて添削した内容ですが、意外にも左側の修正箇所が多い。<br />
+「文字の丁寧さ」、「実績」などは数日で直せるものではありませんので、本来であれば10月ごろから着手しておきたいところです。</p>
+<h1>【履歴書の左側】</h1>
+<p>氏名や住所、学歴などを書くパートです。</p>
+<h2>自分の名前は楷書で丁寧に書こう！</h2>
+<p>名前を大きく書くのは自身がありそうでよい、が、「楷書」とは正方形に近い縦横比で繋げずに書く書体です。<br />
+例えば、名前が「白井 暁彦」であれば、最も字画が多い｢暁」を基準に「彦」や「白井」を書くべきでしょう。<br />
+PC作業に慣れているのであれば、EXCEL版の履歴書サンプルを探してくるか自分で作り、練習します。鉛筆などで正方マスを書いてから書くのも良いでしょう。</p>
+<p>他にもこのパートは「ハンコは最初に押しておけ」とか「ライトボックスか窓を使ってトレス」などいろんな技があります。</p>
+<h2>現住所、地番が入らなくなるのは、練習していない証拠</h2>
+<p>縦横比でいうと楷書を全角とすると半角で書くイメージです。</p>
+<h2>ふりがなはなんのために書くか？</h2>
+<p>漢字の上手い下手は「全体の雰囲気」で、丁寧に書きさえすればフォローすることができるものです。最低でも読むことができますが、「ひらがなが下手」という方は致命的です。「ふりがな」は、機能的には「住所氏名等で読めない漢字を読ませるため」ですが、印象上は「何だ、コイツのこのひらがな、自分の名前や住所でこれかよ…！」という事になります。</p>
+<p>よくある漢字の名前ならまだいいのです、でも最近は「フリガナ無しでは読めない名前」が増えています。よみがなを含めて、「名は体を表わす」ということなので、特に慎重に美しく書く必要があると言えます。</p>
+<p>練習したい人は、50文字しかないので練習しましょう。カタカナ合わせても100文字です。<br />
+もっと時間がない人は、自分の名前と、助詞「て、に、お、は、の、か、よ、り」あたりは出現回数が多いので要注意です。あとは促音「っょ」などは大小の区別が付くように。</p>
+<p>まあ小学校1年生の内容ですけどね…そこを甘く見てはいけません。<br />
+君たちは採用する側から見ると「ゆとり教育世代の子どもたち」なのです。<br />
+「基礎で重要な内容ほど、いい加減にやってきた」、「できなくても厳しく指導されてこなかった」と思われていると考えて対策したほうが良いです。</p>
+<h2>カタカナ、アルファベットも美しく</h2>
+<p>IT全般に言えることですが、実際の業務で使う文字、特にPCではなく、企画書ラフやスケッチ、ホワイトボードで書く文字の殆どはカタカナとアルファベットです。履歴書の右側ならともかく、左側でこれらの文字が光る場所は以下の点でしょう。</p>
+<h3>・学部学科名（カタカナ）</h3>
+<p>特に最近は「情報メディア学科」などカタカナ学科が増えています。クラシックな漢字学科名のほうが印象がいいと思いますが、しかたない。悔いるのはそこではなくて、カタカナ学科名を書く人のカタカナが汚ければ、所詮それまで、ということですね。というわけで自分の学科名ぐらいは美しく書きましょう。特に、「情報学部　情報ネットワーク・コミュニケーション学科」といった長い名前になりがちなので、美しく書くには、縦に長く詰めていくしかないと思います。</p>
+<p>それからカタカナには混同しやすい文字が多いです。「システムデザイン」という文字を書かせてみると、その人の性格や、普段人に見られる文書を書いているかどうか、がよくわかります。</p>
+<p>具体的には「ツ/シ/ラ」、「ス/フ」、「テ/ラ」、「ン/ソ」、そして促音の大小ですね。</p>
+<h3>・メールアドレス（アルファベット）</h3>
+<p>IT関係で仕事をしていると、アルファベットの[o/0][s/S][a/u][1/l][,/.]などを、「判るように書けていない人」が結構いらっしゃいますが、これは致命的です。特にメールアドレスで「a」と「u」を間違えている方は、以後の連絡ももらえない可能性があります。</p>
+<p>ところで「<a href="http://www.shirai.la/call/Calls/toranomaki-20101117" target="_blank">恥ずかしいメールアドレス</a>」使っていませんか？</p>
+<h3>・常識的な語句、フォーマットを間違える</h3>
+<p>履歴書の左側なんて間違えるはずがないと思うのですが、以下の様な間違いを見かけます。</p>
+<p>・「☓卒業予定」→「○卒業見込」<br />
+卒業は「自分の意志だけでできるもの」と思っていませんかね…</p>
+<p>・「以上」「以上、現在に至る」</p>
+<p>どちらかを忘れずに。「以上が右下に書いていない文書を読むと気持ち悪い」という感覚が異常ではなく正常です。</p>
+<p>・資格に取得年月が書いていない</p>
+<p>これは結構忘れがちです。罫線で年月日が入っている履歴書スタイルもありますが、左側に書く場合、資格名の右側に括弧付きで書くと良いと思います。</p>
+<p>（例）　普通自動車運転免許 （平成24年3月取得）</p>
+<h2>その他、左側で常識的に気をつけたいところ</h2>
+<p>・学歴は「高校入学」から書く<br />
+理由は、義務教育ではなく、「試験をして自分の意志で入るから」です。恥ずかしかろうが何だろうが、偽ってはいけません。<br />
+そういう意味では試験をして自分の意志で入るのであれば、私立中学なども書いていいのだと思います。<br />
+ところで私のように、いろんなところに就職して博士まで行くと、普通の履歴書では行が足りなくなりますね。<br />
+新卒ではない人は「業務経歴書」のほうが重視されますので、そちらで頑張って書きましょう。</p>
+<p>・「職歴なし」を記載し忘れる</p>
+<p>これを書くことで本人に利益はない項目ですから、普通は書き忘れてはいけません。新卒の履歴書の場合はこれを書き忘れると「書類不備」になることもあるそうです。<br />
+新卒と既卒、中途採用を同じ枠で採用しているケースなどではプラスに働くこともあるかもしれません。</p>
+<p>&nbsp;</p>
+<h1>【履歴書の右側】</h1>
+<p>実はJIS規格の履歴書では左側しか定められていません。では右側は何なのでしょうか？一般的なコンビニ履歴書の場合は右側に扶養家族や希望などを書く欄がありますが、あれは必ずしも必要ない、ということです。ただ習慣上も皆さんの採用を考えた上でも、ひと通りのスキルが見える項目はあったほうが良いと思います。神奈川工科大学の大学指定履歴書の場合は、右側に卒論や自己PRについての欄があります。</p>
+<h2>「卒論の概要」…面白そうであること</h2>
+<p>新卒で就活中の方は「卒業」ではなく「卒業見込み」であることを忘れてはいけません。</p>
+<p>しかしなぜ、就活しながら卒業研究などしなければならないのでしょうか？<br />
+それは「自分で新しいことを見つけてチャレンジできるかどうか」を見ているのだと思います。</p>
+<p>就職活動は仕事ではありません。仕事を始めるだけの十分なスキルや心構えがあるかどうかを問われています。<br />
+その状況下において、学位取得の条件であり、かつ「研究」という「今まで誰もやっていないこと」を『その分野の専門ではないが何かの専門家』に判断して頂く必要があります。それも短い時間で。</p>
+<p>ゲーム関連やITサービス関連の仕事であれば、まずその内容が「面白そうであること」が重要でしょう。<br />
+・タイトル<br />
+着眼は鋭いか、短い語句で表現できているか、正式タイトルではないなら（仮）なども忘れずに。<br />
+・新規性の調査や市場などの需要は把握できているか？<br />
+他人のテーマのコピーなどであればGoogleに聞けばすぐに分かります。あなたがGoogleに聞いたように。<br />
+・手法としての新しさはあるか？<br />
+「こんな数行で新しさを書くなんて！」と思うかもしれませんが、あなた自身がまだ専門家ではないでしょう。そして読み手も同様に専門家でない人だとおもいます。しかし読み手が「これは新しい！」と思えるような要素に出会えていないなら、それはあなた自身にとっても「面白くないこと」という事ではないでしょうか。<br />
+卒論の場合は先生がテーマを設定する場合もあると思います。しかしその中で「自分なりの面白さ」を見いだせていないのであれば、それはやはり「面白くないこと」であることは間違いありません。ゲームやITサービスにおいて、「面白くないことでも進んでやれます」という才能は『必要がない』とは言いませんが、『面白くないことをそのまま自分の顔にできる人』は採用する理由がないのです。</p>
+<p>そして研究はひとりでやるものではありません。チームである研究室の先輩や先生との歩調をともにしているか、といったことも重要でしょう。</p>
+<h2>どうやってまともな作文をするか</h2>
+<p>まず具体と抽象をとらえ…という話からしても、一朝一夕にはどうにもならないと思いますので要点のみ、まとめます。</p>
+<h2>具体的でない作文の具体例：「得意科目は数学です」</h2>
+<p>数学全般でしょうか？せめて「微分積分学」や「代数学」など、科目の名前を書きましょう。成績証明書で確認してもらえます。「情報・コンピュータ関係」も同じくです。例えばコンピュータサイエンス、データベース、資格系、グラフィックス、プログラミング（各言語）などが書けるはずです。「各言語」とは、C/C++、Java、JavaScript、PHP、Python、といった言語のことです。他に何がありますか？大学で学んだのであれば学習時間、プロジェクトがあるなら、行数ぐらいは書きましょう。</p>
+<h2>具体的には「どうやって？」</h2>
+<p>読後感で「で、どうやって」、「で、どうなるの？」、「で、どんな意味が？」といった感想を抱かないように気をつけて文章を構成しましょう（＝いきなり書かない、構成を考えてから書く）。その中でも特に重要なのは「どうやって(how)」を伝えるための「具体」です。</p>
+<p>例えば、「自治体の公共施設におけるIT活用によるコミュニティ形成支援」という話であれば、<br />
+「Google Apps Scriptを用いた地図情報利用の高齢者向け地域振興ITサービスを相模原市の博物館において実施」と書けば具体的です。短くするにしても、具体的なワードをできるだけ残すべきでしょう。</p>
+<h2>&#8220;あなたの専門用語&#8221;が命取り</h2>
+<p>例えば、学生の作文を直していると、「ネット」「アップしたもの」「プレゼン」など、「意味はわかるが、正確ではない用語」がよく出てきます。これは、「読み手によってゆらぎがある言葉」ですので誤用・慣用をさけるべきです。それ以前に「これは本当に先生と進めているの？」という疑惑が持ち上がります。専門家はそのような誤用・慣用は避けるのが「専門」たる所以なのですから。</p>
+<p>しかし、誤用が少ない単語というものは文章が平易になりがちです。例えば上記のような例で、カッコつけたいなら「GIS」とか「UCG」とか専門用語が出てくるべきでしょう。ただしその場合は、「GIS(Geographic Information System;地理情報システム)」といった表記になり、かなり長くなってしまいます。工夫が必要です。</p>
+<h2>文字の切れ方に配慮がない</h2>
+<p>以下の履歴書作文はいかがでしょうか。</p>
+<p>[TypeA]<br />
+私はプログラミングには自信があります。<br />
+大学1年の頃からすべてのプログラミング科目においてSかAの成績で取得していま<br />
+す。また周囲の学生が課題に詰まっている時も、時間を見て丁寧に教えることで自<br />
+らのスキルとしています。</p>
+<p>[TypeB]<br />
+私はプログラミングには自信があります。大学1年の頃からすべてのプログラミ<br />
+ング科目においてSかAの成績で取得しています。また周囲の学生が課題に詰<br />
+まっている時も、時間を見て丁寧に教えることで自らのスキルとしています。</p>
+<p>[TypeC]<br />
+私はプログラミングには自信があります。大学1年の頃から全てのプログラミング<br />
+科目においてSかAの成績で取得しています。また周囲の学生が課題に詰まって<br />
+いる時も、時間を見て丁寧に教えることで自らのスキルとしています。</p>
+<p>「文字の切れ方」 は気になりませんか？</p>
+<p>特に文字の切れ方「す。」でおわる、無意味な空白。<br />
+これらは「何も考えないで書いている」か、「熱意がない作文」とおもわれる典型です。</p>
+<p>熱意があるなら、各行で8割以上は満たすものです。<br />
+そして推敲もするべきですし、変な改行で変な雰囲気になることも避けるべきです。</p>
+<p>レイアウト感覚や文字の扱いがおかしい人、句読点が正しくない人、これらはすべて『美的感覚』が疑われます。<br />
+美的感覚が低い人は、会社の中でトレーニングしてもなかなか上がりませんし、仕事が遅くなり、周囲にストレスになります。</p>
+<p>逆を言えば、美的感覚が正しければ、美しい履歴書も素早くかけて、<br />
+多少内容が薄かったとしても、読んでもらえるチャンスや、チームに入れてもらえるチャンスが増えるということです。</p>
+<h2>カッコの使い方はカッコよく</h2>
+<p>例えば下の文で読みやすいのはどれでしょう？</p>
+<p>「コミュニティを広げていく」システム<br />
+「コミュニティを広げていくシステム」<br />
+<span style="text-decoration: underline;">コミュニティを広げていく</span>システム</p>
+<p>カギカッコ正しい位置で閉じましょう。そしてアンダーラインや傍点、太字、飾り文字などは、履歴書の左側ならともかく、右側では禁止されていないのではないでしょうか。</p>
+<h2>『Q：履歴書で許されるのはどこまでですか？』</h2>
+<p>「履歴書で許されるのはどこまでですか？」という質問をネットに投げかけるまでもなく、それは「あなた自身の顔である」と思います。グラフィックスや多彩な表現で印象を良くしなければならない業界において、誰が決めたかもわからないルールに従う必要がありますか？そして、「ここまでなら許されるだろう」という基準がない人を採用できますか？これは「服装は自由です」と同じ質問かもしれませんが。</p>
+<p>以下、まとめてみました。間違ってるかもしれません。</p>
+<p>【普通はOK】公務員的なところで通用</p>
+<p>・カギカッコ「」、二重鉤括弧『』<br />
+・太字（力を入れて書く）</p>
+<p>【ボーダーライン】会社によっては問題なし</p>
+<p>・アンダーライン<br />
+・画像入り、張り込み、カラー印刷<br />
+・フリクションペン使用<br />
+・WordやExcelで作成、PDFで送付（陰影のぞく）</p>
+<p>【もしかするとそれが理由で落ちる】世間的な常識でアウト</p>
+<p>・傍点、飾り文字<br />
+・ハンコがシャチハタ、曲がっている<br />
+・印鑑が画像（電子証明書など入っているなら別）<br />
+・文字が汚い、雑な印象<br />
+・その他、この会社の社員としては「ありえないレベル」の美的感覚</p>
+<p>【絶対落ちる】可能ならバイトでも雇いたくないレベル</p>
+<p>・写真がない、印鑑を押す場所が空白<br />
+・明らかに嘘、絶対嘘、おそらくウソ<br />
+・他人の履歴書である（破綻している）<br />
+・文字が読めない</p>
+<p>以上の常識を踏み越えて行くならば、それを埋めるだけの「ちゃんとしているところ」があるべきだと思います。</p>
+<p>たとえば、「この人は文字は荒っぽいけど、内容は明らかに面白い」とか、「画像入りだけど、これ、無ければ伝わらないね」とか、そういったことですね。</p>
+<p><span style="color: #444444; font-size: 1.7em;">【志望動機】</span><span style="color: #444444; font-size: 1.7em;">「御社」ほど重要な漢字はない</span></p>
+<p>就職活動で初めて使う感じかもしれませんが「御社」ほど重要な漢字はありません。</p>
+<p>「御」「社」の字は、PC時代でも封筒など、ビジネス文書の中でも特に直筆で書くことが多く、それでいて客先などに向けて恥をかきやすい文字です。</p>
+<p>「自分は丁寧に書こうと思えば書ける」と思っている人でも、それを示さなければ落とされますし、誰でも同じような漢字を書くのですから書類審査で弾きやすい漢字なのです。</p>
+<p>作文の内容としては、ここは企業研究を書く必要があります。</p>
+<p>『A社でもB社でもC社でもD社でもなく、御社です！』ということを限られた文字数で具体的に書く必要があります。<br />
+そして、この産業にビジネスマンとして関わり、糧を得るという理解と覚悟があることです。</p>
+<p>ゲーム開発企業の場合は特にハードルが高いです。</p>
+<p>「志望理由」は企業研究であり、自己研究は「自己PR」です。これらは連携させて書く必要がありますのでまとめます。</p>
+<p>【落ちるレベル】即断</p>
+<p>・ゲームをしない<br />
+・最後に買ったゲームが3年以上前<br />
+・できれば海外には出たくない</p>
+<p>【文字の無駄】なくてもいいが他にも書くことがあるはず</p>
+<p>・有名タイトルについて「大好きだ」と書きつらねる<br />
+・ゲーム開発と直接関係ない絵師や声優について述べる<br />
+・ゲームの辛辣な批評をする（その振り上げた斧はどこへ下ろすつもり…？）<br />
+・英語が好きだ、読める、TOEIC点数は書けない、そもそもTOEIC受けてない。<br />
+・いい事しか書いてない（苦労してない風味）</p>
+<p>【見てもらえるレベル】ここからプラス評価</p>
+<p>・有名タイトルがなぜおもしろいのか、なぜヒットしているか分析している（データ付き）<br />
+・おもしろいがヒットしなかったゲームについて具体的な改善点が見えている（コストなどを度外視）<br />
+・コンテストや同人販売実績など具体的かつ外部評価可能なスキルがあり、それが業務に関係ある<br />
+・自分が関わりたいタイトルについて、何百時間プレイしたかを列挙できる<br />
+・すぐ現場で使えそうなプログラミングスキルとEXCELスキル、文章力がある<br />
+・「苦労したこと」が書いてある、しかも読み手が共感できる。<br />
+・英語80％の環境でも普通に生きていける</p>
+<p>【面接に呼んでみようと思うレベル】</p>
+<p>・すぐ使えそうな新技術を研究している（儲かりそうなAIとか）<br />
+・アイディアだけでなく、効果とコストを見積もっている<br />
+・有名コンテストで10位以内の実績、しかもメインメンバー<br />
+・「苦労したこと」が共感できる、しかも実戦ですぐ使えそう<br />
+・企画書が国際市場を見極めている<br />
+・英語でドキュメントが書けそう</p>
+<p>これらの「志望理由」がすべて次の「自己PR」につながっていきます。</p>
+<p><span style="color: #444444; font-size: 1.7em;">【自己PR】誰も”自慢話”など聞きたくはない</span></p>
+<p>前項の分類で「自分がなぜこの会社を選んだのか」を明確にしたのであれば、「自己PR」は下の句です。<br />
+逆を言えば、この「志望動機から自己PRの流れ」を「理由→希望」という流れでかけなければ、ただでさえ狭い文字数制限の中で、”読み手の読後感”など設計できません。</p>
+<p>繰り返しになりますが、共通として、<br />
+・文の切り方（句読点・改行）はセンスよく<br />
+・余白は残さない、まとめに1行残しながら考えて書く。<br />
+・ESなどアンダーラインや太字などが許されている場合は積極的に<br />
+・作文はポジティブになるように<br />
+・数字や名称など具体的、客観的にはかれるものを書く<br />
+・嘘になるような書き方は絶対にしない</p>
+<p>といったところでしょうか。</p>
+<p>大学教員をしていると感じることなのですが、「『ゆとり教育世代』における最大の問題」は、マインドにあります。</p>
+<p>「自分で高いハードルを設定しない」というマインドです。</p>
+<p>例えばアクションゲームであれば、EASY→NORMAL→HARD→SUPER HARDといった難易度設定があります。動作が超高速だったり、敵が硬かったり、数が多かったり、という難度です。</p>
+<p>しかし、ゲームを作る側にとって、これは「SUPER HARD」が最大のスペックとして「設計されているもの」なのです。ですから、いちプレイヤーが「SUPER HARD」を選んだとしても、それは『あたりまえ、想定内』の出来事であり、彼がゲームを作る側の素養があるかどうかとは直接関係しません（下手で何時間も遊べるよりは、上手くて効率が良いほうが、ある意味では”良い”のかもしれませんが）。</p>
+<p>逆を言えば、この論理ではいつだってEASYを選べるのです。</p>
+<p>具体的にはこんな日常会話にそんなマインドが現れてきます。</p>
+<p>「先生、～までやればいいですか？」</p>
+<p>そんなマインドで、人々に「このゲームを買いたい、金を払いたい！」と思えるようなアトラクティブな要素を提供できるのでしょうか？君たちの知っているゲームはそんなにユルい？</p>
+<p>『ゲームらしきもの』を作るのであれば、それでいいのかもしれません。<br />
+でもトップメーカーは『ゲームらしきもの』を作りつづけることができますが、本質がないと、あっという間にユーザに飽きられて、大きな損害を出して、いずれは潰れてしまいます。<br />
+しかも有名タイトルで、保守的な要素が重要な仕事であればそれもいいでしょう。でもそれは「次の世代のエンジニアにとって勉強になる」というレベルの話でしかありません。実際には、ものすごいスピードで開発し、品質を上げて、他のタイトルから客を奪っていき、利益を上げて、「新しい軸」を生み出す必要があります。</p>
+<p>またアトラクティブな要素だけでなく、人をもてなす要素、つまり「ENTERTAINMENT」については上限がありません。<br />
+人は、たった一つのマイナス点があっただけでも、それまでのLuxury（豪華さや贅沢さ）を忘れることができます。どんな綺麗なCGが出てきたとしても、主人公の顔のポリゴンが欠ければ、それが気になってしまうものなのです。</p>
+<p>だからこそ、「喰える履歴書」としては、本当に「一部の隙もない。それでいて面白みがある」というラインが重要なのです。</p>
+<p>以上、「基礎編」を終わります。</p>
+					<div class="clear"></div>
+									</div>
+				
+				<div class="postinfo">Category: <a href="index.html@cat=3.html" rel="category">就活</a> / </div>
+
+			</div>		
+			<div id="post-31" class="post-31 post type-post status-publish format-standard hentry category-draft">
+			
+				<h2 class="post-title"><a href="index.html@p=31.html" rel="bookmark">おもしろいことに人は動く</a></h2>
+				
+				<div class="postmeta">	<a href="index.html@p=31.html">2013年2月27日</a> / 
+<a href="index.html@author=3.html" title="shirai の投稿" rel="author">shirai</a> / <a href="index.html@p=31.html#respond">No comments</a></div>
+				
+				<div class="entry">
+					<a href="index.html@p=31.html" rel="bookmark"></a>
+					<p>『面白いことに人は動く』と聞いて皆さんはどう思いますか？</p>
+<p>&nbsp;</p>
+<p>『そりゃそうだ』でしょうか？</p>
+<p>『そんな風に面白いことだけやってたらダメなんだからね！』でしょうか？</p>
+<p>&nbsp;</p>
+<p>――話の核心に入る前に、私自身の少年時代の話をします。</p>
+<p>私、白井暁彦は、大都会・横浜に1973年3月に生まれました。横浜といっても今あるようなお洒落なイメージというよりは、工業が盛んな荒っぽい雰囲気のある「下町」で育ちました。3月生まれということもあり、徒競走をすればいつもビリ、友達は少なく、どちらかというと「いじめられっ子」だったかもしれません。</p>
+<p>父親は石油エンジニアで世界を飛び回っており、合理的で厳格な人物でした。家にいる時は「いつ怒鳴られ、殴られるか」とビクビクしていたものです。<br />
+まあ本人から見れば、&#8220;面白くない&#8221;少年時代ですね。<br />
+そんな自分が「何かしらの才能」を発揮し始めたのは、10歳の頃で、親が買って自由に使えるよう与えていたマイコン（NEC PC-6001mkII）で、ゲームプログラムを書いていた頃です。</p>
+<p>こういう子供は私の世代ではそれほど珍しくありません。『マイコンBASICマガジン』（電波新聞社・1982～2003年）という雑誌があり、毎月ページびっしりのプログラム。2000行ほどのコードを間違いなく打ち込んでいくと、ゲームがタダで遊べます。保存する方法も安定していなかったので、電源を切ると消えてしまう事があります。</p>
+<p>他人の書いたプログラムを2000行も「写経」するなんて、今の人にとっては苦行以外の何物でもないかもしれませんね！　でも当時少年の私は楽しかったのだと思います。5歳ほど年上であれば、毎月常連で掲載されるようなゲームプログラマもいらっしゃいましたし、雑誌の中でキャラクター化している編集者たちの掛け合いが大変おもしろく、時には欄外はゲームブックがあったりと、雑誌なのに勉強になるし、読む人を飽きさせない「作り手の娯楽性」がありました\footnote[1]{マイコンベーシックマガジンはその後、休刊7年後の2010年、「ゲームプログラマーの育成に対する多大なる貢献」としてゲーム開発者会議であるCEDEC AWARDS 2010（プログラミング・開発環境部門）の最優秀賞を受賞した}</p>
+<p>当時のマイコンを扱った雑誌は、コンピュータ・サイエンスを扱った「BIT」（共立出版・1969年3月～2001年4月）、「アイ・オー」（1976年10月～現・工学社から刊行中、『月刊アスキー』（アスキー社・1977年～2006年休刊）などあり、どれも知的探究心や情報収集欲を刺激する「面白い雑誌」でした。マイコン（Micro Computer）からパソコン（Personal Computer）時代、専門家から個人使用・ホビー化へ爆発的な普及が始まった時代で、世の中のコンピュータが「使う側」と「作る側」に分かれていく過程だったとも言えるでしょう。</p>
+<p>この「使う側」とは、ゲームで言えば「遊ぶ側」です。少年時代の私はこの「遊ぶ（だけの）側」と「作る側」の違いを明確に理解していました。</p>
+<p>決定的な決別が『ファミリー・コンピュータ』の登場でした。<br />
+「ゲームセンターでしか遊べない、あの魅力的なゲームが、家庭で遊べる！しかもカセットを差し替えると違うゲームが遊べるんだよ！」……とスネ夫によく似たクラスの「仲間的な友人」が主張しました。彼の家はいつだって、最新の高価な玩具を買ってもらえるのです。飽きるのもその分速い。あるとき、彼は通学途中の道すがら、私に「マイコンとファミコン、どっちがすごいか」について議論を持ちかけたので、次のように反論したことを記憶しています。</p>
+<p>『いいかい、カセットってのはロムカセットのことだろう？ロムってのはROM、リードオンリーメモリー、読むことしかできないってこと！』</p>
+<p>スネ夫によく似た彼は、しばらくキョトンとしていました。<br />
+それは私がリードオンリーメモリー（Read Only Memory）などという英語を使ったからではなかったと思います。</p>
+<p>「でもお前だってマイコンでゲームしてるじゃんよ！」と彼は反論しました。ゲームを作ることと、遊ぶこと。議論そのものの次元が違うことはわかりましたが、その先は泥沼です。「どうやったらこの議論を論破できるのだろうか？」と悩みましたが勝負はつかなかったと記憶しています。<br />
+――面白いことに人は動く。<br />
+この事は、マイコン雑誌でゲームを写し、改造し、オリジナルのゲームを作っているだけでは気が付きませんでした。</p>
+<p>小学生の私は、運動は苦手でしたが、コンピュータに触れているだけではなく、近所の公民館などで遊ぶこともありました。今のように家庭用ゲーム機もなければカードゲームが流行っているわけでもなかったので！</p>
+<p>流行っているものとしては「キン肉マン消しゴム」や「ビックリマンチョコ」といった蒐集もの。これは財力が全てです。野球を代表とする球技やスポーツは、当時テレビで「巨人の星」や「エースをねらえ！」、「あしたのジョー」などが流行っていることもあり、根性！根性！痛いの当然！苦しいの当たり前……！勝利こそがすべて！という世の中でしたので、とにかく苦手でした。</p>
+<p>そんな私でもできる遊びとして、外での遊具や駆けっこ的な遊び、インドアでは縄跳びのようなロープやゴムボールを使った遊びを中心に遊んでいることが多かったように記憶しています。</p>
+<p>しかしボールやロープだけでは遊びに限界があります。当時外で遊ばれていた遊びは「影ふみ」というシンプルなもの、「ケイドロ」という警官と泥棒に分かれて鬼ごっこをするゲーム、それから「ろくむし」という団地で流行っていた野球に似たゲームがありました。この「ろくむし」は、守備側と攻撃側に別れ、2点間を攻撃側プレイヤーが6回往復すれば勝ちで、守備側は軟式テニスボールをぶつけることで攻撃側を撃ち倒すことができます。新しいルールが子供たちによって常に自発的に提案され、時にはゲームバランスを崩しますが、時にはそれで子供たちのグループが真っ二つになることもありました。</p>
+<p>明らかに面白くないルール、誰かにだけ有利なルールを提案しても、子供たちはついて来ません。それが仮にガキ大将であり、喧嘩が強い子供の提案で、強制的に実行されたとします。でも、実際にやってみてもゲームが成立しないか、続かないのです。</p>
+<p>常に重要なルールは「面白いほう」に子供が動く、ということです。私は自分で面白いゲームシステムを提案する才能があったようで、周りの子供を「やってみようよ！」という気持ちにさせる側に立つことが多かったと思います。それが理由でいじめられることもあったかもしれませんが、遊び中として男女問わず友達が増えたり……といったプラスの出来事のほうが記憶には残っています。<br />
+この「面白いことに人は動く」、「面白くないと続かない」というポイントは重要で、次のお話に続きます。</p>
+<p>&nbsp;</p>
+					<div class="clear"></div>
+									</div>
+				
+				<div class="postinfo">Category: <a href="index.html@cat=1.html" rel="category">草稿</a> / </div>
+
+			</div>		
+			<div id="post-29" class="post-29 post type-post status-publish format-standard hentry category-draft">
+			
+				<h2 class="post-title"><a href="index.html@p=29.html" rel="bookmark">おもしろくないと続かない</a></h2>
+				
+				<div class="postmeta">	<a href="index.html@p=29.html">2013年2月27日</a> / 
+<a href="index.html@author=3.html" title="shirai の投稿" rel="author">shirai</a> / <a href="index.html@p=29.html#respond">No comments</a></div>
+				
+				<div class="entry">
+					<a href="index.html@p=29.html" rel="bookmark"></a>
+					<p>&nbsp;</p>
+<p>私が働いている神奈川工科大学・情報メディア学科には「ゲームクリエイタになりたい！」という学生さんがたくさんいらっしゃいます。文系とも理系ともつかない「情報メディア学科」の学生さんを相手に、ゲーム技術やメディアアート、新しい映像技術や、「おもしろさ」を解明する科学の面白さを学ぶ機会をつくり、実際の産業の中で活躍していただけるような「人材」</p>
+<p>この本を使って世界でも珍しい「自分で面白いインタラクションの企画を考えて、それをWiiリモコンで実装し、レポートする」という課題を2年生の演習で毎年200人以上の学生に教えています。</p>
+<p>お絵かきが得意な学生も、プログラミングが得意な学生も、同じ課題に取り組みます。基本的にはひとりで、本とWiiリモコンと格闘しながら『自分の作りたい世界』を作り、発表します。</p>
+<p>多くの学生は最初『任天堂Wiiなんて、最近起動すらしてねーわ』とか『ワタシ、プログラミングとか無理！』という感じの事をおっしゃいます。ですが、実際に作ってみると、これは面白い。そして誰にでもできることの組み合わせで「新しい体験」は生まれてくるのです。</p>
+					<div class="clear"></div>
+									</div>
+				
+				<div class="postinfo">Category: <a href="index.html@cat=1.html" rel="category">草稿</a> / </div>
+
+			</div>		
+			<div id="post-4" class="post-4 post type-post status-publish format-standard hentry category-draft">
+			
+				<h2 class="post-title"><a href="index.html@p=4.html" rel="bookmark">プロローグ：おもしろい話はむずかしい</a></h2>
+				
+				<div class="postmeta">	<a href="index.html@p=4.html">2013年2月27日</a> / 
+<a href="index.html@author=3.html" title="shirai の投稿" rel="author">shirai</a> / <a href="index.html@p=4.html#respond">No comments</a></div>
+				
+				<div class="entry">
+					<a href="index.html@p=4.html" rel="bookmark"></a>
+					<p>&nbsp;</p>
+<p>「――で、白井さんだったら&#8221;おもしろい話&#8221;が書けると思うんですよ」</p>
+<p>小田急線で&#8221;首都圏・西の最果ての地&#8221;である『本厚木』。</p>
+<p>&nbsp;</p>
+<p>その駅ビルでの喫茶店での打ち合わせの最中、<br />
+担当編集者の大内さんは、私の顔をジッと見て、真顔でひとこと、そういいました。</p>
+<p>大内さんは、かわいい猫と同居している小柄な女性で、ガンコな編集者さんです。</p>
+<p>『おもしろい話……って、どうして……大内さん……いつもそうやって、直感で……』</p>
+<p>しどろもどろしながら、私の目の前には、前作『WiiRemoteプログラミング』（オーム社開発局・2009年刊）という書籍を書いた日々が、走馬灯のように駆け巡っていました。</p>
+<p>企画担当者は大内さん。<br />
+この本の企画が持ち上がった当時の私は、フランス西部の小都市Laval在住で、バーチャルリアリティを駆使したエンタテイメント・テーマパークを開発する研究をしていました。</p>
+<p>フランスでの私は日本語が通じない環境で、妻と小さな息子と犬のささやかな家庭で&#8220;貧乏研究者を楽しんでいた&#8221;ので、高価なヘッドマウントディスプレイとか、モーションキャプチャーとか、データグローブとか、そういったヴァーチャル・リアリティによく使われていそうなモノがポンポン買ってもらえる環境ではありませんでした。<br />
+任天堂Wiiの『Wiiリモコン』を使って、様々な作品を開発したり発表したりしていたのは、ひとえに「貧乏だったので、工夫が必要だったから」。モーションキャプチャーや触覚フィードバックデバイスなど、新しいインタラクションのためのデバイスが買えなかったし、そんなお金があったら他の研究のために使いたかったからなのです。</p>
+<p>『Wiiリモコン』を普通にWiiに繋いで遊ぶだけなら、普通の人です。<br />
+実は『Wiiリモコン』はBluetooth通信を使って、PCやMacで接続することができます。でもこれを使うだけではハッカーと呼んでもらえることはあっても、研究にはなりません。<br />
+もともとゲームエンジニアだった私は、その経験を生かして、ゲーム開発者にも、研究者にも面白いであろう論文を書いていました。<br />
+その論文は、SIGGRAPHというCGとインタラクティブ技術の国際会議で発表され、ゲーム開発会議部門で最優秀論文賞を頂きました。</p>
+<p>2007年末、テーマパーク開発のプロジェクトもいったん区切りがついていて、日本への帰国を検討していた時期でした。<br />
+大内さんの熱意もあり、<br />
+世界ではじめてのWiiリモコンに関するまとまった技術書『WiiRemoteプログラミング』を書くことになりました。</p>
+<p>……ですが。<br />
+かねてから書籍を書きたいと思っていた私ではありますが、この本は実に&#8220;難産&#8221;で、執筆に20ヶ月もかかってしまいました。<br />
+途中から入っていただいた小坂崇之先生（妊婦体験システムで有名、当時・金沢工業大）などの共著者のおかげもあって、200ページの企画が、最後には400ページの大作になりました。<br />
+「Wiiリモコンを使って勝手に開発するなんて、訴えられるんじゃないか……」という心配もよそに、任天堂からも「公式にスルー」していただいたこともあり、現在でも多くの大学などでエンタテイメントシステム、インタラクション技術のプログラミング入門書として愛用されています。</p>
+<p>……ですが。<br />
+あの執筆の辛い日々を思い出すと、簡単に「おもしろい話」とはいえません。<br />
+ちょうど2008年から私は、東京お台場にある『日本科学未来館』という国立の科学館で、科学コミュニケーターという職に就いていました。</p>
+<p>日本科学未来館は『科学がわかる・世界が変わる』というスローガンで活動しており、科学コミュニケーターはプロフェッショナルとして、最先端の科学技術について伝えるお仕事です。<br />
+あるときは展示物や企画展の企画をし、またある時は展示フロアで一般のお客様に展示解説をし……1日に3千人以上の来館者も珍しくないミュージアムですから、それはそれは勉強になりました。</p>
+<p>勉強になること、というものは、得てして辛いものです。</p>
+<p>勉強になること、というものは、得てして制約も多いものです。</p>
+<p>朝早くから未来館でのお仕事があり、土日も当然のように仕事があります。クタクタになるまで働き、そこから深夜のマクドナルドで原稿を書き、相模原からお台場の長い通勤の列車の中で、書籍掲載用のサンプルプログラムを書き、そこら中でWiiリモコンを振る日々です。</p>
+<p>『で、大内さん。おもしろい話……って、どうして私が書けると……？』</p>
+<p>大内さんは全く動揺もせずに、</p>
+<p>「白井さんは、いろんなエンタテイメントに関わる仕事をして、何があっても喰って行けているじゃないですか。Twitterも面白いし、エンジニアリングの話ができる。だからみんなの為になる、おもしろい話は書けると思うんです」(意訳)。</p>
+<p>『なるほど、じゃあこの本のタイトルは&#8220;喰えるゲームエンジニアリング&#8221;ですね！』</p>
+<p>――そうしてこの本は始まりました。</p>
+<p>&nbsp;</p>
+					<div class="clear"></div>
+									</div>
+				
+				<div class="postinfo">Category: <a href="index.html@cat=1.html" rel="category">草稿</a> / </div>
+
+			</div>			
+							<div class="more_posts">
+					<span class="post_links"> &nbsp; </span>
+				</div>
+						
+
+					
+	</div>
+		
+	
+<div id="sidebar">
+		<ul>
+
+<li id="search-2" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="index.html">
+				<div>
+					<label class="screen-reader-text" for="s">検索:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="検索" />
+				</div>
+			</form></li>
+		<li id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widgettitle">最近の投稿</h2>
+		<ul>
+											<li>
+					<a href="index.html@p=49.html">白のゲーミフィケーション・黒のゲーミフィケーション</a>
+									</li>
+											<li>
+					<a href="index.html@p=47.html">経済学と生物学が教えてくれる、「生き延びるエンジニアのための多様性」</a>
+									</li>
+											<li>
+					<a href="index.html@p=37.html">喰える履歴書添削（基礎編）</a>
+									</li>
+											<li>
+					<a href="index.html@p=31.html">おもしろいことに人は動く</a>
+									</li>
+											<li>
+					<a href="index.html@p=29.html">おもしろくないと続かない</a>
+									</li>
+					</ul>
+		</li>
+<li id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widgettitle">最近のコメント</h2>
+<ul id="recentcomments"></ul></li>
+<li id="archives-2" class="widget widget_archive"><h2 class="widgettitle">アーカイブ</h2>
+		<ul>
+				<li><a href='index.html@m=201308.html'>2013年8月</a></li>
+	<li><a href='index.html@m=201305.html'>2013年5月</a></li>
+	<li><a href='index.html@m=201303.html'>2013年3月</a></li>
+	<li><a href='index.html@m=201302.html'>2013年2月</a></li>
+		</ul>
+			</li>
+<li id="categories-2" class="widget widget_categories"><h2 class="widgettitle">カテゴリー</h2>
+		<ul>
+				<li class="cat-item cat-item-3"><a href="index.html@cat=3.html" >就活</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="index.html@cat=1.html" >草稿</a>
+</li>
+		</ul>
+			</li>
+<li id="meta-2" class="widget widget_meta"><h2 class="widgettitle">メタ情報</h2>
+			<ul>
+						<li><a href="wp-login.php.html">ログイン</a></li>
+			<li><a href="index.html@feed=rss2">投稿の <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="index.html@feed=comments-rss2">コメントの <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://ja.wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
+			</li>
+	
+	</ul>
+	</div>	<div class="clear"></div>
+	</div><!-- end #wrap -->
+				
+				<div id="footer">
+			(C) 2013 Akihiko SHIRAI, All Rights Reserved.			<div id="foot_navi">
+							</div>
+		</div>
+		<div class="clear"></div>
+				
+</div><!-- end #wrapper -->
+
+	<div class="credit_link">	<a href="http://themezee.com/">Wordpress Theme by ThemeZee</a>
+</div>
+	<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/blog.shirai.la\/labnote\/index.php?rest_route=\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts.js@ver=5.1.9'></script>
+<script type='text/javascript' src='wp-includes/js/wp-embed.min.js@ver=5.1.6'></script>
+</body>
+</html>	
