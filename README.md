@@ -137,6 +137,86 @@ nic.laよりエントリー削除
 
 ### `/download` ディレクトリの置き直し
 
+download　174MB
+
+### ユーザディレクトリの引っ越し
+
+- access
+- activity
+- agaz
+- asano
+- baby
+- blog
+- comments
+- contact
+- crasydada
+
+- events
+- feed
+- fmao
+- fujikura
+- fujimura
+- genki
+- goudo
+- groups
+- hisataka
+- home
+- hrex
+- ishikawa
+- ivrc2012
+- iwadate
+- jonas
+- juten
+- kai
+- kame
+
+- kashiwagi
+- khamla
+- kikuzaki
+- kimiya
+- kingslot
+- kitada
+- koide
+- koike
+- kose
+- labnote
+- lavalvirtual
+- lecture
+- library
+- manga
+- marika
+- mizuki
+- mochi
+- news
+- nine
+- nomura
+- ogawa
+- ohta
+- oumaim
+- projects
+- raiden
+- ryutake
+- sakakibara
+- semi2015a
+- seminar
+- seya
+- shin
+- shiva
+- sho
+- shop
+- sitemap
+- sown2013
+- suyong
+- taguchi
+- takaaki
+- tsuda
+- yannick
+- yasu
+- yoshiki
+- yuta
+- yuzen
+
+
 ### 相対パスの確認
 
 ### Google Analytics の置き直し
