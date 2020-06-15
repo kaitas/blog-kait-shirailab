@@ -1,0 +1,483 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="ja">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+		<meta name="generator" content="Adobe Dreamweaver CS3, NOT Academic Edition">
+		<meta name="author" content="Team Tsujioka, Osaka City University">
+		<meta name="robots" content="">
+		<meta name="keywords" content="電子,情報,通信,学会,研究会">
+		<title>研究会 - 測域センサデータの可視化</title>
+		<style type="text/css">body,td,th,input,textarea {font-family: 'MS PGothic',Osaka,Arial,Sans-Serif;}</style>
+		<!-- <style type="text/css">body,td,th,input,textarea {font-family: Osaka,'ＭＳ Ｐゴシック','MS PGothic',Sans-Serif;}</style> --> <!-- ORG -->
+		<!-- <style type="text/css">body,td,th,input,textarea {font-family: 'メイリオ','Meiryo','ＭＳ Ｐゴシック','MS PGothic',Sans-Serif;}</style> --><!-- Osakaの代わりにメイリオ -->
+		<!-- <style type="text/css">body,td,th,input,textarea {font-family: 'ＭＳ Ｐゴシック','MS PGothic',Sans-Serif;}</style> --> <!-- Osaka抜き -->
+		<!-- <style type="text/css">body,td,th,input,textarea {font-family: '游ゴシック体',YuGothic,'Yu Gothic','游ゴシック体 Medium','Yu Gothic M','Yu Gothic Medium','ＭＳ Ｐゴシック','MS PGothic',Sans-Serif;}</style> --> <!-- Osakaの代わりに游ゴシック体 -->
+<!-- Deblin Core -->
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.title" content="測域センサデータの可視化" />
+<meta name="DC.creator" content="佐藤,充; 白井,暁彦; 大塚,真吾" />
+<meta name="DC.date.issued" scheme="DCTERMS.W3CDTF" content="" />
+<meta name="DC.publisher" content="電子情報通信学会" />
+<meta name="DC.relation.ispartof" content="電子情報通信学会技術研究報告; 信学技報" />
+<meta name="DC.citation.issn" content="0913-5685; 2432-6380" />
+<meta name="DC.citation.volume" content="" />
+<meta name="DC.citation.issue" content="" />
+<meta name="DC.citation.spage" content="" />
+<meta name="DC.citation.epage" content="" />
+<meta name="DC.identifier" content="https://www.ieice.org/ken/download/20131218BB6s/" />
+<meta name="DC.language" content="ja" />
+<!-- Google Scholar -->
+<meta name="citation_title" content="測域センサデータの可視化" />
+<meta name="citation_author" content="佐藤,充; 白井,暁彦; 大塚,真吾" />
+<meta name="citation_date" content="" />
+<meta name="citation_publisher" content="電子情報通信学会" />
+<meta name="citation_journal_title" content="電子情報通信学会技術研究報告; 信学技報" />
+<meta name="citation_issn" content="0913-5685; 2432-6380" />
+<meta name="citation_volume" content="" />
+<meta name="citation_issue" content="" />
+<meta name="citation_firstpage" content="" />
+<meta name="citation_lastpage" content="" />
+<!-- <meta name="citation_pdf_url" content="https://www.ieice.org/ken/download/20131218BB6s/" /> -->
+<meta name="citation_abstract_html_url" content="https://www.ieice.org/ken/paper/20131218BB6s/" />
+<meta name="citation_keywords" content="測域センサ; 可視化; Scanning Laser Rangefinder; Visualization" />
+<!-- <meta name="citation_technical_report_number" content="" /> -->
+<!-- <meta name="citation_language" content="ja" /> -->
+
+	</head>
+
+        <!-- FOR DEBUG: <body bgcolor="#ffffff" onload=send_load_otani_server("","","","","","")> -->
+	<body bgcolor="#ffffff">
+		<b><font color="red">お知らせ <a href="https://www.ieice.org/ken/documents/ieice-announcement-2020may.pdf" target="_blank">研究会の開催と会場に参加される皆様へのお願い（2020年6月開催）</a></font></b>
+<script type="text/javascript">
+<!--
+/*
+FOR DEBUG:
+*/
+//-->
+</script>
+<script type="text/javascript">
+<!--
+function download_confirm(url,caption)
+{
+  // program, form1, search
+  yesno = confirm("このファイルをダウンロードしてもよろしいですか？" + "\n" + caption);
+  if (yesno == true) {
+    location.href = url;
+  }
+}
+//-->
+</script>
+		<table width="840" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+				<td bgcolor="#ffff6f" height="80">
+				<table width="100%"><tr><td align="center"><font size="+3" color="blue">電子情報通信学会 研究会発表申込システム</font><br>
+				<font size="+3" color="green">講演論文 詳細</font></td>
+				<td>					<font color="red">技報閲覧サービス</font><br>
+                                        <a href="https://www.ieice.org/ken/user/index.php?cmd=login&amp;back_url=https%3A%2F%2Fwww.ieice.org%2Fken%2Fpaper%2F20131218BB6s%2F&amp;lang=">[ログイン]</a><!-- <br /><font color="red" size="-2">‥‥ (ESS/通ソ/エレソ/ISS)</font> -->
+                                        <br><a href="https://www.ieice.org/ken/user/index.php?cmd=techreparchive&amp;lang=">技報アーカイブ</a> <font color="red" size="-2"><!-- <br />‥‥ (エレソ/通ソ)</font> -->
+
+</td></tr></table>
+				</td>
+			</tr>
+			
+			<tr><td>
+				<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+			<td bgcolor="#e9ffff">&nbsp;<a href="https://www.ieice.org/ken/program/index.php?layout=&amp;lang=">トップに戻る</a></td>
+			<td bgcolor="#ffffff" width="1"></td>
+			<td bgcolor="#e9ffff"><a href="javascript:history.back()">前のページに戻る</a></td>
+			<td bgcolor="#ffffff" width="1"></td>
+			<td align="right" bgcolor="#e9ffff">&nbsp; <a href="https://www.ieice.org/ken/paper/20131218BB6s/">[Japanese]</a> / <a href="https://www.ieice.org/ken/paper/20131218BB6s/eng/">[English]</a>&nbsp;</td>
+			</tr>
+			</table>
+			</td></tr>
+			<tr>
+				<td><br>
+					<table width="650" border="1" cellspacing="0" cellpadding="2">
+						<tr>
+							<td colspan="3" bgcolor="#e9ffbe">講演抄録／キーワード</td>
+						</tr>
+						<tr>
+							<td colspan="2" nowrap bgcolor="#fcfff3">講演名</td>
+							<td bgcolor="#fcfff3">2013-12-18 16:10<br>
+								
+								測域センサデータの可視化<br>○<a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=author%3A%22%E4%BD%90%E8%97%A4+%E5%85%85%22&amp;ps2=1&amp;layout=&amp;lang=&amp;term=AUTHOR" target="">佐藤　充</a>・<a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=author%3A%22%E7%99%BD%E4%BA%95+%E6%9A%81%E5%BD%A6%22&amp;ps2=1&amp;layout=&amp;lang=&amp;term=AUTHOR" target="">白井暁彦</a>・<a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=author%3A%22%E5%A4%A7%E5%A1%9A+%E7%9C%9F%E5%90%BE%22&amp;ps2=1&amp;layout=&amp;lang=&amp;term=AUTHOR" target="">大塚真吾</a>（<a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=aff%3A%E7%A5%9E%E5%A5%88%E5%B7%9D%E5%B7%A5%E7%A7%91%E5%A4%A7&amp;ps3=1&amp;layout=&amp;lang=jpn&amp;term=AFFILIATION" target="">神奈川工科大</a>）  </td>
+						</tr>
+						<tr>
+							<td rowspan="2" nowrap bgcolor="#fcfff3">抄録</td>
+							<td nowrap bgcolor="#fcfff3">（和）</td>
+							<td bgcolor="#fcfff3">コミュニケーションロボットやデジタルサイネージといったデジタルコンテンツを体験しているユーザに対して物理的な評価を行うことで，システムの質的向上や工学的なコンテンツ開発ノウハウを蓄積できる．そこで非接触でユーザ属性を測ることが可能な測域センサを用いてユーザの動作を可視化した．&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">（英）</td>
+							<td bgcolor="#fcfff3">Recently, a trial to accumulate know-how of the qualitative improvement of the system and the engineering-like contents development using physical evaluation is carried out for users who experienced digital content such as communication robot and digital signage. Therefore we visualized the users’ behavior using the scanning laser rangefinder that could measure positional information of the user by non-contact.</td>
+						</tr>
+						<tr>
+							<td rowspan="2" nowrap bgcolor="#fcfff3">キーワード</td>
+							<td nowrap bgcolor="#fcfff3">（和）</td>
+							<td bgcolor="#fcfff3"><a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=keyword%3A%E6%B8%AC%E5%9F%9F%E3%82%BB%E3%83%B3%E3%82%B5&amp;ps1=1&amp;ps4=1&amp;ps5=1&amp;layout=&amp;lang=&amp;term=KEYWORD" target="">測域センサ</a>  / <a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=keyword%3A%E5%8F%AF%E8%A6%96%E5%8C%96&amp;ps1=1&amp;ps4=1&amp;ps5=1&amp;layout=&amp;lang=&amp;term=KEYWORD" target="">可視化</a>  /   /   /   /   /   /  &nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">（英）</td>
+							<td bgcolor="#fcfff3"><a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=keyword%3AScanning+Laser+Rangefinder&amp;ps1=1&amp;ps4=1&amp;ps5=1&amp;layout=&amp;lang=&amp;term=KEYWORD" target="">Scanning Laser Rangefinder</a>  / <a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=keyword%3AVisualization&amp;ps1=1&amp;ps4=1&amp;ps5=1&amp;layout=&amp;lang=&amp;term=KEYWORD" target="">Visualization</a>  /   /   /   /   /   /  &nbsp;</td>
+						</tr>
+						<tr>
+							<td colspan="2" nowrap bgcolor="#fcfff3">文献情報</td>
+							<td bgcolor="#fcfff3">信学技報</td>
+						</tr>
+						<tr>
+							<td colspan="2" nowrap bgcolor="#fcfff3">資料番号</td>
+							<td bgcolor="#fcfff3">&nbsp;</td>
+						</tr>
+						<tr>
+							<td colspan="2" nowrap bgcolor="#fcfff3">発行日</td>
+							<td bgcolor="#fcfff3">&nbsp;</td>
+						</tr>
+						<tr>
+							<td colspan="2" nowrap bgcolor="#fcfff3">ISSN</td>
+							<td bgcolor="#fcfff3">Print edition: ISSN 0913-5685&nbsp;&nbsp;Online edition: ISSN 2432-6380</td>
+						</tr>
+						<tr>
+							<td colspan="2" nowrap bgcolor="#fcfff3">PDFダウンロード</td>
+							<td bgcolor="#fcfff3"></td>
+						</tr>
+					</table>
+					<br>
+					<table width="650" border="1" cellspacing="0" cellpadding="2">
+						<tr>
+							<td colspan="2" bgcolor="#e9ffbe">研究会情報</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">研究会</td>
+							<td bgcolor="#fcfff3">HCGSYMPO       &nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">開催期間</td>
+							<td bgcolor="#fcfff3">2013-12-18 - 2013-12-20&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">開催地（和）</td>
+							<td bgcolor="#fcfff3"><a href="https://www.ieice.org/ken/program/index.php?year=39&amp;psort=1&amp;schkey=place%3A%E6%9D%BE%E5%B1%B1%E5%B8%82%E7%B7%8F%E5%90%88%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&amp;sch1=1&amp;layout=&amp;lang=jpn">松山市総合コミュニティセンター</a>&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">開催地（英）</td>
+							<td bgcolor="#fcfff3"><a href="https://www.ieice.org/ken/program/index.php?year=39&amp;psort=1&amp;schkey=place%3AMatsuyama+Multi-Purpose+Community+Cente&amp;sch1=1&amp;layout=&amp;lang=eng">Matsuyama Multi-Purpose Community Cente</a>&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">テーマ（和）</td>
+							<td bgcolor="#fcfff3">HCGシンポジウム2013 ～ 人々の生活を幸せで豊かにしていくICTとコミュニケーション ～&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">テーマ（英）</td>
+							<td bgcolor="#fcfff3">Human communication, etc.&nbsp;</td>
+						</tr>
+						<tr>
+							<td colspan="2" bgcolor="#e9ffbe">講演論文情報の詳細</td>
+						</tr>
+						<tr><td nowrap bgcolor="#fcfff3">申込み研究会</td>
+							<td bgcolor="#fcfff3"><a href="https://www.ieice.org/ken/program/index.php?tgid=IEICE-HCGSYMPO">HCGSYMPO</a>&nbsp;</td>
+						
+						<tr>
+							<td nowrap bgcolor="#fcfff3">会議コード</td>
+							<td bgcolor="#fcfff3"><a href="https://www.ieice.org/ken/program/index.php?tgs_regid=0f2342799733c93229f3f6d579605f9e375104f56cbd9566652e7d9c44472c0f&tgid=IEICE-HCGSYMPO" title="開催プログラム">2013-12-HCGSYMPO</a>&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">本文の言語</td>
+							<td bgcolor="#fcfff3">日本語&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">タイトル（和）</td>
+							<td bgcolor="#fcfff3">測域センサデータの可視化&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">サブタイトル（和）</td>
+							<td bgcolor="#fcfff3">&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">タイトル（英）</td>
+							<td bgcolor="#fcfff3">Visualization of Range Sensor Data&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">サブタイトル（英）</td>
+							<td bgcolor="#fcfff3">&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">キーワード(1)（和/英）</td>
+							<td bgcolor="#fcfff3"><a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=keyword%3A%E6%B8%AC%E5%9F%9F%E3%82%BB%E3%83%B3%E3%82%B5&amp;ps1=1&amp;ps4=1&amp;ps5=1&amp;layout=&amp;lang=&amp;term=KEYWORD" target="">測域センサ</a>  / <a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=keyword%3AScanning+Laser+Rangefinder&amp;ps1=1&amp;ps4=1&amp;ps5=1&amp;layout=&amp;lang=&amp;term=KEYWORD" target="">Scanning Laser Rangefinder</a> &nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">キーワード(2)（和/英）</td>
+							<td bgcolor="#fcfff3"><a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=keyword%3A%E5%8F%AF%E8%A6%96%E5%8C%96&amp;ps1=1&amp;ps4=1&amp;ps5=1&amp;layout=&amp;lang=&amp;term=KEYWORD" target="">可視化</a>  / <a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=keyword%3AVisualization&amp;ps1=1&amp;ps4=1&amp;ps5=1&amp;layout=&amp;lang=&amp;term=KEYWORD" target="">Visualization</a> &nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">キーワード(3)（和/英）</td>
+							<td bgcolor="#fcfff3">  /  &nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">キーワード(4)（和/英）</td>
+							<td bgcolor="#fcfff3">  /  &nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">キーワード(5)（和/英）</td>
+							<td bgcolor="#fcfff3">  /  &nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">キーワード(6)（和/英）</td>
+							<td bgcolor="#fcfff3">  /  &nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">キーワード(7)（和/英）</td>
+							<td bgcolor="#fcfff3">  /  &nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">キーワード(8)（和/英）</td>
+							<td bgcolor="#fcfff3">  /  &nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第1著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3"><a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=author%3A%22%E4%BD%90%E8%97%A4+%E5%85%85%22&amp;ps2=1&amp;layout=&amp;lang=&amp;term=AUTHOR" target="">佐藤 充</a>  / <a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=author%3A%22Makoto+Sato%22&amp;ps2=1&amp;layout=&amp;lang=&amp;term=AUTHOR" target="">Makoto Sato</a> / <a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=author%3A%22%E3%82%B5%E3%83%88%E3%82%A6+%E3%83%9E%E3%82%B3%E3%83%88%22&amp;ps2=1&amp;layout=&amp;lang=&amp;term=AUTHOR" target="">サトウ マコト</a></td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第1著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"><a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=aff%3A%E7%A5%9E%E5%A5%88%E5%B7%9D%E5%B7%A5%E7%A7%91%E5%A4%A7%E5%AD%A6&amp;ps3=1&amp;layout=&amp;lang=&amp;term=AFFILIATION" target="">神奈川工科大学</a> (略称： <a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=aff%3A%E7%A5%9E%E5%A5%88%E5%B7%9D%E5%B7%A5%E7%A7%91%E5%A4%A7&amp;ps3=1&amp;layout=&amp;lang=&amp;term=AFFILIATION" target="">神奈川工科大</a>)<br>
+								<a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=aff%3A%22kanagawa+institute+of+technology%22&amp;ps3=1&amp;layout=&amp;lang=&amp;term=AFFILIATION" target="">kanagawa institute of technology</a> (略称： <a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=aff%3A%22kanagawa+institute+of+technology%22&amp;ps3=1&amp;layout=&amp;lang=&amp;term=AFFILIATION" target="">kanagawa institute of technology</a>)</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第2著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3"><a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=author%3A%22%E7%99%BD%E4%BA%95+%E6%9A%81%E5%BD%A6%22&amp;ps2=1&amp;layout=&amp;lang=&amp;term=AUTHOR" target="">白井 暁彦</a>  / <a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=author%3A%22Akihiko+Shirai%22&amp;ps2=1&amp;layout=&amp;lang=&amp;term=AUTHOR" target="">Akihiko Shirai</a> / <a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=author%3A%22%E3%82%B7%E3%83%A9%E3%82%A4+%E3%82%A2%E3%82%AD%E3%83%92%E3%82%B3%22&amp;ps2=1&amp;layout=&amp;lang=&amp;term=AUTHOR" target="">シライ アキヒコ</a></td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第2著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"><a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=aff%3A%E7%A5%9E%E5%A5%88%E5%B7%9D%E5%B7%A5%E7%A7%91%E5%A4%A7%E5%AD%A6&amp;ps3=1&amp;layout=&amp;lang=&amp;term=AFFILIATION" target="">神奈川工科大学</a> (略称： <a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=aff%3A%E7%A5%9E%E5%A5%88%E5%B7%9D%E5%B7%A5%E7%A7%91%E5%A4%A7&amp;ps3=1&amp;layout=&amp;lang=&amp;term=AFFILIATION" target="">神奈川工科大</a>)<br>
+								<a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=aff%3A%22kanagawa+institute+of+technology%22&amp;ps3=1&amp;layout=&amp;lang=&amp;term=AFFILIATION" target="">kanagawa institute of technology</a> (略称： <a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=aff%3A%22kanagawa+institute+of+technology%22&amp;ps3=1&amp;layout=&amp;lang=&amp;term=AFFILIATION" target="">kanagawa institute of technology</a>)</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第3著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3"><a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=author%3A%22%E5%A4%A7%E5%A1%9A+%E7%9C%9F%E5%90%BE%22&amp;ps2=1&amp;layout=&amp;lang=&amp;term=AUTHOR" target="">大塚 真吾</a>  / <a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=author%3A%22Shingo+Otsuka%22&amp;ps2=1&amp;layout=&amp;lang=&amp;term=AUTHOR" target="">Shingo Otsuka</a> / <a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=author%3A%22%E3%82%AA%E3%82%AA%E3%83%84%E3%82%AB+%E3%82%B7%E3%83%B3%E3%82%B4%22&amp;ps2=1&amp;layout=&amp;lang=&amp;term=AUTHOR" target="">オオツカ シンゴ</a></td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第3著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"><a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=aff%3A%E7%A5%9E%E5%A5%88%E5%B7%9D%E5%B7%A5%E7%A7%91%E5%A4%A7%E5%AD%A6&amp;ps3=1&amp;layout=&amp;lang=&amp;term=AFFILIATION" target="">神奈川工科大学</a> (略称： <a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=aff%3A%E7%A5%9E%E5%A5%88%E5%B7%9D%E5%B7%A5%E7%A7%91%E5%A4%A7&amp;ps3=1&amp;layout=&amp;lang=&amp;term=AFFILIATION" target="">神奈川工科大</a>)<br>
+								<a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=aff%3A%22kanagawa+institute+of+technology%22&amp;ps3=1&amp;layout=&amp;lang=&amp;term=AFFILIATION" target="">kanagawa institute of technology</a> (略称： <a href="https://www.ieice.org/ken/search/index.php?search_mode=form&amp;year=39&amp;psort=1&amp;pskey=aff%3A%22kanagawa+institute+of+technology%22&amp;ps3=1&amp;layout=&amp;lang=&amp;term=AFFILIATION" target="">kanagawa institute of technology</a>)</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第4著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3">  /  / </td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第4著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"> (略称： )<br>
+								 (略称： )</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第5著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3">  /  / </td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第5著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"> (略称： )<br>
+								 (略称： )</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第6著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3">  /  / </td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第6著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"> (略称： )<br>
+								 (略称： )</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第7著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3">  /  / </td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第7著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"> (略称： )<br>
+								 (略称： )</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第8著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3">  /  / </td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第8著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"> (略称： )<br>
+								 (略称： )</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第9著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3">  /  / </td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第9著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"> (略称： )<br>
+								 (略称： )</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第10著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3">  /  / </td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第10著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"> (略称： )<br>
+								 (略称： )</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第11著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3">  /  / </td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第11著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"> (略称： )<br>
+								 (略称： )</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第12著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3">  /  / </td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第12著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"> (略称： )<br>
+								 (略称： )</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第13著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3">  /  / </td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第13著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"> (略称： )<br>
+								 (略称： )</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第14著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3">  /  / </td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第14著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"> (略称： )<br>
+								 (略称： )</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第15著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3">  /  / </td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第15著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"> (略称： )<br>
+								 (略称： )</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第16著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3">  /  / </td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第16著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"> (略称： )<br>
+								 (略称： )</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第17著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3">  /  / </td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第17著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"> (略称： )<br>
+								 (略称： )</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第18著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3">  /  / </td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">第18著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"> (略称： )<br>
+								 (略称： )</td>
+						</tr>
+						<tr style="display:none;">
+							<td nowrap bgcolor="#fcfff3">第19著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3">  /  / </td>
+						</tr>
+						<tr style="display:none;">
+							<td nowrap bgcolor="#fcfff3">第19著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"> (略称： )<br>
+								 (略称： )</td>
+						</tr>
+						<tr style="display:none;">
+							<td nowrap bgcolor="#fcfff3">第20著者 氏名（和/英/ヨミ）</td>
+							<td bgcolor="#fcfff3">  /  / </td>
+						</tr>
+						<tr style="display:none;">
+							<td nowrap bgcolor="#fcfff3">第20著者 所属（和/英）</td>
+							<td bgcolor="#fcfff3"> (略称： )<br>
+								 (略称： )</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">講演者</td>
+							<td bgcolor="#fcfff3">1&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">発表日時</td>
+							<td bgcolor="#fcfff3">2013-12-18 16:10:00&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">発表時間</td>
+							<td bgcolor="#fcfff3">20&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">申込先研究会</td>
+							<td bgcolor="#fcfff3"><a href="https://www.ieice.org/ken/program/index.php?tgid=IEICE-HCGSYMPO">HCGSYMPO</a>&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">資料番号</td>
+							<td bgcolor="#fcfff3">&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">巻番号（vol）</td>
+							<td bgcolor="#fcfff3">&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">号番号（no）</td>
+							<td bgcolor="#fcfff3">&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">ページ範囲</td>
+							<td bgcolor="#fcfff3">&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">ページ数</td>
+							<td bgcolor="#fcfff3">&nbsp;</td>
+						</tr>
+						<tr>
+							<td nowrap bgcolor="#fcfff3">発行日</td>
+							<td bgcolor="#fcfff3">&nbsp;</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+																																																															<tr>
+				<td><br>
+					<hr>
+					<a href="https://www.ieice.org/ken/index.php?layout=&amp;lang=">[研究会発表申込システムのトップページに戻る]</a>
+					<p><a href="https://www.ieice.org/jpn/">[電子情報通信学会ホームページ]</a></p>
+				</td>
+			</tr>
+		</table>
+		<hr>
+		<address>IEICE / 電子情報通信学会</address>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-46678549-1', 'ieice.org');
+  ga('send', 'pageview');
+</script>
+
+	</body>
+</html>
+
