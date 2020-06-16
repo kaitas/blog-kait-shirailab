@@ -232,6 +232,7 @@ https://new.shirai.la/download/4939/webbased.pdf
 - `href='http://blog-shirai.la/wp-json/'` to `href='https://new.shirai.la/wp-json/'` 2303 results in 2303 files
 - `http://new.shirai.la` to `https://new.shirai.la` 10004 resulrs in 1256 files
 - `blog-shirai.la` to `new.shirai.la` 10009 results in 1807 files.
+- `http://ingress.sagamiharacitymuseum.jp/` to `https://kaitas.github.io/sagami-ingress/` 150 results in 27 files
 
 ### Google Analytics の置き直し
 
