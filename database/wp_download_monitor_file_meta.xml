@@ -1,0 +1,3525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.9.1
+- https://www.phpmyadmin.net
+-
+- ホスト: localhost
+- 生成日時: 2020 年 6 月 21 日 18:21
+- サーバのバージョン： 5.7.27-log
+- PHP のバージョン: 7.2.24
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="xcj1p_lab" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="wp_download_monitor_file_meta">
+                CREATE TABLE `wp_download_monitor_file_meta` (
+                  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                  `meta_name` longtext NOT NULL,
+                  `meta_value` longtext NOT NULL,
+                  `download_id` int(12) unsigned NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=1190 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - データベース: 'xcj1p_lab'
+    -->
+    <database name="xcj1p_lab">
+        <!-- テーブル wp_download_monitor_file_meta -->
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">26</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">369.97 kB</column>
+            <column name="download_id">1</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">25</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">1</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">121</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">ACM SIGGRAPH ASIA 2012 Emerging Technologies, Singapore, 2012</column>
+            <column name="download_id">2</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">122</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Wataru FUJIMURA, Yukua KOIDE, Robert SONGER, Takahiro HAYAKAWA, Akihiko SHIRAI, Kazuhisa YANAKA</column>
+            <column name="download_id">2</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">179</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第17回日本バーチャルリアリティ学会大会論文集, 2012年9月 </column>
+            <column name="download_id">3</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">180</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">藤村航，小出雄空明，早川貴奉，谷中一寿，白井暁彦</column>
+            <column name="download_id">3</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">178</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">3</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">124</column>
+            <column name="meta_name">youtube</column>
+            <column name="meta_value">http://www.youtube.com/watch?v=8UMpx56lMT8</column>
+            <column name="download_id">2</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">320</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2012年9月12～14日</column>
+            <column name="download_id">20</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">177</column>
+            <column name="meta_name">thumbnail</column>
+            <column name="meta_value">http://blog.shirai.la/wp-content/uploads/downloads/thumbnails/2012/11/2X3DTopImage4.png</column>
+            <column name="download_id">3</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">125</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">2.15 MB</column>
+            <column name="download_id">2</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">29</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">4</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">30</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">5</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">31</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">6</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">34</column>
+            <column name="meta_name">thumbnail</column>
+            <column name="meta_value">http://blog.shirai.la/wp-content/uploads/downloads/thumbnails/2012/11/AccuMotionLib.png</column>
+            <column name="download_id">7</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">35</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">7</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">36</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">458 kB</column>
+            <column name="download_id">7</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">37</column>
+            <column name="meta_name">thumbnail</column>
+            <column name="meta_value">http://blog.shirai.la/wp-content/uploads/downloads/thumbnails/2012/11/ErikGeslin.jpg</column>
+            <column name="download_id">8</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">38</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">8</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">39</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">176.96 kB</column>
+            <column name="download_id">8</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">40</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">9</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">41</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">48.49 kB</column>
+            <column name="download_id">9</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">42</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">10</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">43</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">2.15 MB</column>
+            <column name="download_id">10</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">44</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">11</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">45</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">1.63 MB</column>
+            <column name="download_id">11</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">46</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">12</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">47</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">13</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">48</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">14</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">49</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">15</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">50</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">16</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">51</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">17</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">52</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">18</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">53</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">19</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">184</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">21</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">199</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">27</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">202</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">28</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">210</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">小出 雄空明，小熊 遼，坂井 拓也，白井 暁彦</column>
+            <column name="download_id">29</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">211</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">30</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">157</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">31</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">217</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">32</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">220</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">33</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">223</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">34</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">226</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">35</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">229</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">36</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">241</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">37</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">244</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">38</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">247</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">39</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">250</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">40</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">214</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">41</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">253</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">42</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">235</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">44</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">149</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">45</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">145</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">46</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">81</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">47</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">137</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">48</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">83</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">49</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">153</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">50</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">141</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">51</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">86</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">52</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">259</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">53</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">262</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">54</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">265</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">55</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">268</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">56</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">271</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">57</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">256</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">58</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">94</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">60</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">169</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">61</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">96</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">62</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">97</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">63</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">98</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">64</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">99</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">65</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">100</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">66</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">101</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">67</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">119</column>
+            <column name="meta_name">thumbnail</column>
+            <column name="meta_value">http://blog.shirai.la/wp-content/uploads/downloads/thumbnails/2012/11/sBestShot2D3D.png</column>
+            <column name="download_id">2</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">123</column>
+            <column name="meta_name">url</column>
+            <column name="meta_value">http://www.siggraph.org/asia2012/emergin-technologies-detail?id=100-868&amp;session=etech&amp;event=200-742</column>
+            <column name="download_id">2</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">120</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">2</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">131</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Wataru Fujimura, Yukua Koide, Takuya Sakai, Songer Robert, Takayuki Kosaka and Akihiko Shirai</column>
+            <column name="download_id">25</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">129</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">25</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">130</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">NICOGRAPH International 2012, Bali Indonesia, July 3rd 2012</column>
+            <column name="download_id">25</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">132</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">1.06 MB</column>
+            <column name="download_id">25</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">726</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Takuya SAKAI, Wataru FUJIMURA, Songer ROBERT, Takayuki KOSAKA, Akihiko SHIRAI</column>
+            <column name="download_id">26</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">725</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">VRIC ’12 Proceedings of the 2012 Virtual Reality International Conference</column>
+            <column name="download_id">26</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">724</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">26</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">138</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">SIGGRAPH ASIA 2011 Posters</column>
+            <column name="download_id">48</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">139</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Noriyuki Yamamoto, Nahomi Maki, Akihiko Shirai</column>
+            <column name="download_id">48</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">140</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">422.84 kB</column>
+            <column name="download_id">48</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">142</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">SIGGRAPH ASIA 2011 Technical Sketches &amp; Posters</column>
+            <column name="download_id">51</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">143</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Koki Nagano, Takeru Utsugi, Kazuhisa Yanaka, Akihiko Shirai, Masayuki Nakajima</column>
+            <column name="download_id">51</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">144</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">3.63 MB</column>
+            <column name="download_id">51</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">146</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">ACM SIGGRAPH 2011, Vancouver, Canada, (2011.8.7)</column>
+            <column name="download_id">46</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">147</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Hajime Misumi, Wataru Fujimura, Takayuki Kosaka, Motofumi Hattori, Akihiko Shirai</column>
+            <column name="download_id">46</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">148</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">378.11 kB</column>
+            <column name="download_id">46</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">150</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">NICOGRAPH International 2011, 10-11 June 2011</column>
+            <column name="download_id">45</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">151</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Wataru FUJIMURA, Yukua KOIDE, Robert SONGER, Takahiro HAYAKAWA, Akihiko SHIRAI, Kazuhisa YANAKA</column>
+            <column name="download_id">45</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">152</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">8.32 MB</column>
+            <column name="download_id">45</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">154</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">NICOGRAPH International 2011(2011/6/10-11)</column>
+            <column name="download_id">50</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">155</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Taisuke YAMASHITA, Akihiko SHIRAI, Motofumi HATTORI</column>
+            <column name="download_id">50</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">156</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">2.29 MB</column>
+            <column name="download_id">50</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">158</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">Proceedings of Virtual Reality International Conference (VRIC 2011), 6-8 April 2011, Laval, France</column>
+            <column name="download_id">31</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">159</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">FUJIMURA Wataru, IWDATE Shoto, SHIRAI Akihiko</column>
+            <column name="download_id">31</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">160</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">647.13 kB</column>
+            <column name="download_id">31</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">167</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Koki Nagano, Takeru Utsugi, Mika Hirano, Takeo Hamada, Akihiko Shirai, Masayuki Nakajima</column>
+            <column name="download_id">59</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">166</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">SIGGRAPH ’10 ACM SIGGRAPH 2010 Posters (2010) </column>
+            <column name="download_id">59</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">165</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">59</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">168</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">788.38 kB</column>
+            <column name="download_id">59</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">170</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">Proceedings of Virtual Reality International Conference (VRIC 2010), 7-9 April 2010, Laval, France, pp.76–78 (2010.4.7)</column>
+            <column name="download_id">61</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">171</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Takeo HAMADA, Koki NAGANO, Takeru UTSUGI, Mika HIRANO, Akihiko SHIRAI</column>
+            <column name="download_id">61</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">172</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">156.9 kB</column>
+            <column name="download_id">61</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">314</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">岩楯翔仁, 小出雄空明, 大塚真吾, 白井暁彦</column>
+            <column name="download_id">24</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">313</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">HCGシンポジウム2012</column>
+            <column name="download_id">24</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">312</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">24</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">319</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">小出雄空明，奈良優斗，藤村航，白井暁彦</column>
+            <column name="download_id">20</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">185</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第17回日本バーチャルリアリティ学会大会</column>
+            <column name="download_id">21</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">186</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">藤村航，小出雄空明，早川貴奉，谷中一寿，白井暁彦</column>
+            <column name="download_id">21</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">188</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">2.39 MB</column>
+            <column name="download_id">21</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">195</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">北田 大樹，和田 孝志，白井 暁彦</column>
+            <column name="download_id">22</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">193</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">22</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">194</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">エンタテインメントコンピューティング2012</column>
+            <column name="download_id">22</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">327</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">奈良優斗，藤村航，小出雄空明，白井暁彦</column>
+            <column name="download_id">23</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">326</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">エンタテインメントコンピューティング2012</column>
+            <column name="download_id">23</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">200</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">ITを活用した教育シンポジウム2011</column>
+            <column name="download_id">27</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">201</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">小出雄空明，小熊遼，坂井拓也，白井暁彦</column>
+            <column name="download_id">27</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">203</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value"> ITを活用した教育シンポジウム2011</column>
+            <column name="download_id">28</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">204</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">北田大樹，白井暁彦，鈴木孝幸</column>
+            <column name="download_id">28</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">208</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">29</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">209</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">芸術科学フォーラム2012</column>
+            <column name="download_id">29</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">212</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">芸術科学フォーラム2012</column>
+            <column name="download_id">30</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">213</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">北田大樹，白井暁彦，鈴木考幸</column>
+            <column name="download_id">30</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">215</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">KAITシンポジウム2011</column>
+            <column name="download_id">41</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">216</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">北田大樹，白井暁彦，鈴木孝幸</column>
+            <column name="download_id">41</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">218</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">エンタテインメントコンピューティング2011</column>
+            <column name="download_id">32</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">219</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">加藤 匠，山下 泰介，田中 健司，早川 貴泰，白井 暁彦</column>
+            <column name="download_id">32</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">221</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第16回日本バーチャルリアリティ学会大会</column>
+            <column name="download_id">33</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">222</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">岩楯翔仁，藤村航，三角甫，小坂崇之，白井暁彦</column>
+            <column name="download_id">33</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">224</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第16回日本バーチャルリアリティ学会大会</column>
+            <column name="download_id">34</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">225</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">藤村航，三角甫，小坂崇之，白井暁彦</column>
+            <column name="download_id">34</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">227</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第27回NICOGRAPH論文コンテストポスター</column>
+            <column name="download_id">35</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">228</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">北田大樹，白井暁彦</column>
+            <column name="download_id">35</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">230</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">2011年映像情報メディア学会年次大会</column>
+            <column name="download_id">36</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">231</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">白井暁彦</column>
+            <column name="download_id">36</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">239</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">ITを活用した教育シンポジウム講演論文集</column>
+            <column name="download_id">43</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">238</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">43</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">236</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">ITを活用した教育シンポジウム講演論文集</column>
+            <column name="download_id">44</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">237</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">加藤匠，白井暁彦，田中健司，早川貴泰，服部元史</column>
+            <column name="download_id">44</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">240</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">岩楯翔仁，白井暁彦</column>
+            <column name="download_id">43</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">242</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第10回NICOGRAPH2011春季大会</column>
+            <column name="download_id">37</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">243</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">加藤匠，白井暁彦，田中健司，早川貴泰，服部元史</column>
+            <column name="download_id">37</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">245</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">NICOGRAPH2011春季大会</column>
+            <column name="download_id">38</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">246</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">山下泰介，白井暁彦，服部元史</column>
+            <column name="download_id">38</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">248</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">NICOGRAPH2011春季大会</column>
+            <column name="download_id">39</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">249</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">山本倫之，白井暁彦，服部元史</column>
+            <column name="download_id">39</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">251</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">NICOGRAPH2011春季大会</column>
+            <column name="download_id">40</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">252</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">荒原一成，白井暁彦</column>
+            <column name="download_id">40</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">254</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">インタラクション2011</column>
+            <column name="download_id">42</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">255</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">山下泰介，加藤匠，山本倫之，白井暁彦，服部元史</column>
+            <column name="download_id">42</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">257</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">エンタテイメントコンピューティング2010</column>
+            <column name="download_id">58</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">258</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">白井暁彦，岩楯翔仁，瀬口慎人，鈴木真一朗，長谷川晶一</column>
+            <column name="download_id">58</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">260</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第15 回日本バーチャルリアリティ学会大会論文集</column>
+            <column name="download_id">53</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">261</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">荒原一成，横田真明，山下泰介，服部元史，白井暁彦</column>
+            <column name="download_id">53</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">263</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第15回日本バーチャルリアリティ学会大会論文集</column>
+            <column name="download_id">54</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">264</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">加藤匠，横田真明，山下泰介，服部元史，白井暁彦</column>
+            <column name="download_id">54</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">266</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第15回日本バーチャルリアリティ学会大会論文集</column>
+            <column name="download_id">55</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">267</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">岩楯翔仁，荒原一成，周立，白井暁彦</column>
+            <column name="download_id">55</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">269</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第15回日本バーチャルリアリティ学会大会論文集</column>
+            <column name="download_id">56</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">270</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">宇津木健，長野光希，谷中一寿，白井暁彦，山口雅浩</column>
+            <column name="download_id">56</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">272</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第15回日本バーチャルリアリティ学会大会論文集</column>
+            <column name="download_id">57</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">273</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">長野光希，宇津木健，山本倫行，白井暁彦，中嶋正之</column>
+            <column name="download_id">57</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">274</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">803.66 kB</column>
+            <column name="download_id">22</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">325</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">23</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">276</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">579.13 kB</column>
+            <column name="download_id">28</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">277</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">202.07 kB</column>
+            <column name="download_id">29</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">278</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">365.61 kB</column>
+            <column name="download_id">30</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">279</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">572.47 kB</column>
+            <column name="download_id">41</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">280</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">348.55 kB</column>
+            <column name="download_id">32</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">281</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">1.78 MB</column>
+            <column name="download_id">33</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">282</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">4.99 MB</column>
+            <column name="download_id">34</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">283</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">372.05 kB</column>
+            <column name="download_id">35</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">284</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">817.01 kB</column>
+            <column name="download_id">36</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">285</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">708.06 kB</column>
+            <column name="download_id">43</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">286</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">312.41 kB</column>
+            <column name="download_id">44</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">287</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">163.49 kB</column>
+            <column name="download_id">37</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">288</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">1 MB</column>
+            <column name="download_id">38</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">289</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">540.35 kB</column>
+            <column name="download_id">39</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">290</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">634.5 kB</column>
+            <column name="download_id">40</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">291</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">514.1 kB</column>
+            <column name="download_id">42</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">292</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">5.89 MB</column>
+            <column name="download_id">58</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">293</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">556.13 kB</column>
+            <column name="download_id">53</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">294</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">887.5 kB</column>
+            <column name="download_id">54</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">295</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">4.95 MB</column>
+            <column name="download_id">55</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">296</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">500.72 kB</column>
+            <column name="download_id">56</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">297</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">10.76 MB</column>
+            <column name="download_id">57</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">298</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">2.39 MB</column>
+            <column name="download_id">3</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">299</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">346.78 kB</column>
+            <column name="download_id">27</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">318</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第17回日本バーチャルリアリティ学会大会</column>
+            <column name="download_id">20</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">317</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">20</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">308</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">68</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">309</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">情報処理学会 第75回全国大会</column>
+            <column name="download_id">68</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">310</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">小出雄空明，白井暁彦</column>
+            <column name="download_id">68</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">311</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年3月6日～8日</column>
+            <column name="download_id">68</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">315</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2012年12月10～12日</column>
+            <column name="download_id">24</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">316</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">1.43 MB</column>
+            <column name="download_id">24</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">321</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">236.4 kB</column>
+            <column name="download_id">20</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">322</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">327.11 kB</column>
+            <column name="download_id">68</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">323</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">327.11 kB</column>
+            <column name="download_id">68</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">324</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">327.11 kB</column>
+            <column name="download_id">68</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">328</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2012/11/28-30</column>
+            <column name="download_id">23</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">329</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">1.01 MB</column>
+            <column name="download_id">23</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">330</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">69</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">331</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">70</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">332</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">71</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">333</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">72</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">334</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">73</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">684</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年3月15日</column>
+            <column name="download_id">74</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">683</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">北田大樹,奈良優斗,和田孝志,白井暁彦</column>
+            <column name="download_id">74</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">682</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">映像情報メディア学会 映像表現・芸術科学フォーラム2013 </column>
+            <column name="download_id">74</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">681</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">74</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">340</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">75</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">341</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">映像表現・芸術科学フォーラム2013</column>
+            <column name="download_id">75</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">342</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">奈良優斗, 小出雄空明, 藤村航, 白井暁彦</column>
+            <column name="download_id">75</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">343</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年3月15日</column>
+            <column name="download_id">75</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">344</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">960.1 kB</column>
+            <column name="download_id">75</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">345</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">76</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">346</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">Laval Virtual 2013 Virtual Reality International Conference, Laval France, March 2013</column>
+            <column name="download_id">76</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">347</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Yuto NARA, Genki KUNITOMI, Yukua KOIDE, Wataru FUJIMURA, Akihiko SHIRAI</column>
+            <column name="download_id">76</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">348</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">6.97 MB</column>
+            <column name="download_id">76</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">722</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年9月18日</column>
+            <column name="download_id">77</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">718</column>
+            <column name="meta_name">no.</column>
+            <column name="meta_value"></column>
+            <column name="download_id">77</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">719</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">http://conference.vrsj.org/ac2013/program/86/</column>
+            <column name="download_id">77</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">721</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">pp. 162-165</column>
+            <column name="download_id">77</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">758</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">pp.552-555</column>
+            <column name="download_id">78</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">759</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">http://ci.nii.ac.jp/naid/40019859114</column>
+            <column name="download_id">78</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">756</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">小出雄空明,國富彦岐, 藤村航, 奈良優斗, 白井暁彦</column>
+            <column name="download_id">78</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">744</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第18回日本バーチャルリアリティ学会大会 </column>
+            <column name="download_id">79</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">743</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">藤村航,小出雄空明,奈良優斗,白井暁彦</column>
+            <column name="download_id">79</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">742</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年9月18日</column>
+            <column name="download_id">79</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">757</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年9月20日</column>
+            <column name="download_id">78</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">741</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">79</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">798</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">エンタテインメントコンピューティングシンポジウム2013論文集</column>
+            <column name="download_id">80</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">796</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年10月4日(発行:2013-09-27)</column>
+            <column name="download_id">80</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">797</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">北田大樹,白井暁彦</column>
+            <column name="download_id">80</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">811</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">石川晃,小西瑞輝,國富彦岐,田所康隆,白井暁彦</column>
+            <column name="download_id">81</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">810</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">エンタテインメントコンピューティングシンポジウム2013論文集</column>
+            <column name="download_id">81</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">809</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">81</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">802</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value"> エンタテイメントコンピューティング2013</column>
+            <column name="download_id">82</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">801</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">田所康隆,藤村 航,北田大樹,白井暁彦</column>
+            <column name="download_id">82</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">771</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">エンタテインメントコンピューティングシンポジウム2013論文集</column>
+            <column name="download_id">83</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">770</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">國富彦岐,石川 晃,田所 康隆,白井 暁彦</column>
+            <column name="download_id">83</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">769</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">83</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">800</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">82</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">413</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">白井 暁彦, 小出 雄空明, 奈良 優斗, 藤村 航</column>
+            <column name="download_id">84</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">411</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年8月21日</column>
+            <column name="download_id">84</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">412</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">CEDEC2013</column>
+            <column name="download_id">84</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">808</column>
+            <column name="meta_name">thumbnail</column>
+            <column name="meta_value">http://blog.shirai.la/wp-content/uploads/downloads/thumbnails/2013/10/ec2013ishikawa.png</column>
+            <column name="download_id">81</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">410</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">84</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">414</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">85</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">415</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">李 樹英，小池 智之，白井 暁彦</column>
+            <column name="download_id">85</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">416</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">NICOGRAPH2013</column>
+            <column name="download_id">85</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">417</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年11月8日</column>
+            <column name="download_id">85</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">418</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">329.99 kB</column>
+            <column name="download_id">85</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">419</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">2.09 MB</column>
+            <column name="download_id">84</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">443</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年11月9日(土) </column>
+            <column name="download_id">86</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">442</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">NICOGRAPH2013</column>
+            <column name="download_id">86</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">441</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">小池 智之，李 樹英，白井 暁彦</column>
+            <column name="download_id">86</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">440</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">86</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">780</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">ACM SIGGRAPH 2013 Posters</column>
+            <column name="download_id">87</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">779</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Yuto NARA, Wataru FUJIMURA, Yukua KOIDE, Genki KUNITOMI, Akihiko SHIRAI</column>
+            <column name="download_id">87</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">778</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">87</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">430</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">88</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">431</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Yuto NARA Wataru FUJIMURA Yukua KOIDE Genki KUNITOMI Akihiko SHIRAI</column>
+            <column name="download_id">88</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">432</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">SIGGRAPH 2013 Posters</column>
+            <column name="download_id">88</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">777</column>
+            <column name="meta_name">thumbnail</column>
+            <column name="meta_value">http://blog.shirai.la/wp-content/uploads/downloads/thumbnails/2013/10/c103-f103_3992-a14-final_rep_image-v1.jpg</column>
+            <column name="download_id">87</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">434</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">2.06 MB</column>
+            <column name="download_id">88</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">819</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">電子情報通信学会ヒューマンコミュニケーショングループ HCGシンポジウム2013</column>
+            <column name="download_id">89</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">444</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">90</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">445</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">向井優善，美濃部久美子，小出雄空明，田所康隆，白井暁彦</column>
+            <column name="download_id">90</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">446</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">相模原市立博物館 学びの収穫祭 2013</column>
+            <column name="download_id">90</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">447</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年11月16日</column>
+            <column name="download_id">90</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">448</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">14.43 MB</column>
+            <column name="download_id">90</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">449</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">794.35 kB</column>
+            <column name="download_id">86</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">463</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年12月21日</column>
+            <column name="download_id">91</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">462</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第5回横幹連合コンファレンス</column>
+            <column name="download_id">91</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">461</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">小出 雄空明, 國富 彦岐, 藤村 航, 奈良 優斗, 白井 暁彦</column>
+            <column name="download_id">91</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">460</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">91</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">464</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">270.64 kB</column>
+            <column name="download_id">91</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">468</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">274.51 kB</column>
+            <column name="download_id">92</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">467</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">92</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">470</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">93</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">475</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">94</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">474</column>
+            <column name="meta_name">thumbnail</column>
+            <column name="meta_value">http://blog.shirai.la/wp-content/uploads/downloads/thumbnails/2014/03/5621deba8a18b839c7a4321764bb05e8.png</column>
+            <column name="download_id">94</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">525</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">白井研究室（編集担当）</column>
+            <column name="download_id">95</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">526</column>
+            <column name="meta_name">vol</column>
+            <column name="meta_value">33</column>
+            <column name="download_id">95</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">527</column>
+            <column name="meta_name">title</column>
+            <column name="meta_value">芸術科学会 学会誌「DiVA」第33号（2013年夏号）</column>
+            <column name="download_id">95</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">529</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年5月31日</column>
+            <column name="download_id">95</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">520</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年11月7日</column>
+            <column name="download_id">96</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">518</column>
+            <column name="meta_name">vol</column>
+            <column name="meta_value">34</column>
+            <column name="download_id">96</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">519</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">芸術科学会</column>
+            <column name="download_id">96</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">528</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">芸術科学会</column>
+            <column name="download_id">95</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">524</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">95</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">523</column>
+            <column name="meta_name">thumbnail</column>
+            <column name="meta_value">http://www.art-science.org/diva/diva33.jpg</column>
+            <column name="download_id">95</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">517</column>
+            <column name="meta_name">title</column>
+            <column name="meta_value">芸術科学会 学会誌「DiVA」</column>
+            <column name="download_id">96</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">516</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">96</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">515</column>
+            <column name="meta_name">thumbnail</column>
+            <column name="meta_value">http://www.art-science.org/diva/diva34.jpg</column>
+            <column name="download_id">96</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">521</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">白井研究室（編集担当）</column>
+            <column name="download_id">96</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">522</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">96</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">530</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">95</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">533</column>
+            <column name="meta_name">thumbnail</column>
+            <column name="meta_value">http://blog.shirai.la/wp-content/uploads/downloads/thumbnails/2014/04/Amyu_PosterForAmyu.png</column>
+            <column name="download_id">97</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">534</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">97</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">535</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">3.49 MB</column>
+            <column name="download_id">97</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">536</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">98</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">537</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">620.5 kB</column>
+            <column name="download_id">98</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">541</column>
+            <column name="meta_name">thumbnail</column>
+            <column name="meta_value">http://blog.shirai.la/wp-content/uploads/downloads/thumbnails/2014/04/PressRelease-TEPIA.png</column>
+            <column name="download_id">99</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">542</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">99</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">543</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">9.74 MB</column>
+            <column name="download_id">99</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">544</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">9.74 MB</column>
+            <column name="download_id">99</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">545</column>
+            <column name="meta_name">thumbnail</column>
+            <column name="meta_value">http://blog.shirai.la/wp-content/uploads/downloads/thumbnails/2014/05/Scritter4FamilinkTV.jpg</column>
+            <column name="download_id">100</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">546</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">100</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">547</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">8.36 MB</column>
+            <column name="download_id">100</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">567</column>
+            <column name="meta_name">title</column>
+            <column name="meta_value">FamiLinkTV: Expanding the Social Value of the Living Room with Multiplex Imaging Technology</column>
+            <column name="download_id">101</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">566</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">Virtual Reality International Conference - Laval Virtual 2014 Proceedings</column>
+            <column name="download_id">101</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">565</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value"></column>
+            <column name="download_id">101</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">564</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Hisataka Suzuki, Yannick Littfass, Rex Hsieh, Hiroki Taguchi Fujimura, Wataru, Yukua Koide, Akihiko Shirai</column>
+            <column name="download_id">101</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">563</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">101</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">579</column>
+            <column name="meta_name">title</column>
+            <column name="meta_value">“Scritter” to “1p2x3D”: application development using multiplex hiding imaging technology</column>
+            <column name="download_id">102</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">577</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value"></column>
+            <column name="download_id">102</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">578</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">Virtual Reality International Conference - Laval Virtual 2014 Proceedings </column>
+            <column name="download_id">102</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">576</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Yannick Littfass, Hisataka Suzuki, Yukua Koide, Akihiko Shirai</column>
+            <column name="download_id">102</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">575</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">102</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">574</column>
+            <column name="meta_name">thumbnail</column>
+            <column name="meta_value">http://dx.doi.org/10.1145/2617841.2620709 </column>
+            <column name="download_id">102</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">568</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">8.24 MB</column>
+            <column name="download_id">101</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">582</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">18.6 MB</column>
+            <column name="download_id">102</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">580</column>
+            <column name="meta_name">url</column>
+            <column name="meta_value">http://dx.doi.org/10.1145/2617841.2620709 </column>
+            <column name="download_id">102</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">581</column>
+            <column name="meta_name">doi</column>
+            <column name="meta_value">http://dx.doi.org/10.1145/2617841.2620709 </column>
+            <column name="download_id">102</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">583</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">104</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">584</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">190.72 kB</column>
+            <column name="download_id">104</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">818</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">小出 雄空明, 國富 彦岐, 藤村 航, 奈良 優斗, 白井 暁彦</column>
+            <column name="download_id">89</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">817</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">89</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">591</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">105</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">598</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">ACM SIGGRAPH 2014 Posters</column>
+            <column name="download_id">106</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">597</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Hisataka SUZUKI, Rex HSIEH , Akihiko SHIRAI</column>
+            <column name="download_id">106</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">596</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">106</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">599</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2014/08/12</column>
+            <column name="download_id">106</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">600</column>
+            <column name="meta_name">pages</column>
+            <column name="meta_value">pp 63:1--63:1</column>
+            <column name="download_id">106</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">601</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">106</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">602</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">689.17 kB</column>
+            <column name="download_id">105</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">888</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">映像情報メディア学会技術報告 立体映像における人間工学的研究，及び立体映像技術一般（ヒューマンインフォメーション研究会共催） </column>
+            <column name="download_id">107</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">889</column>
+            <column name="meta_name">vol.</column>
+            <column name="meta_value">vol. ITE-38</column>
+            <column name="download_id">107</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">890</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2014.2.27 </column>
+            <column name="download_id">107</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">907</column>
+            <column name="meta_name">vol.</column>
+            <column name="meta_value">vol. ITE-38</column>
+            <column name="download_id">108</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">908</column>
+            <column name="meta_name">no.</column>
+            <column name="meta_value">no. 11</column>
+            <column name="download_id">108</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">905</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">小出雄空明，藤村航，國富彦岐，田口裕起，鈴木久貴，白井暁彦</column>
+            <column name="download_id">108</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">906</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">pp. 39-40</column>
+            <column name="download_id">108</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">884</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">http://ci.nii.ac.jp/naid/110009807451</column>
+            <column name="download_id">109</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">883</column>
+            <column name="meta_name">no.</column>
+            <column name="meta_value">no.10</column>
+            <column name="download_id">109</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">880</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">田口裕起，鈴木久貴，小川耕作，白井暁彦</column>
+            <column name="download_id">109</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">881</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">映像情報メディア学会技術報告 ヒューマンインフォメーション研究会「視聴覚技術，ヒューマンインタフェースおよび一般」</column>
+            <column name="download_id">109</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">882</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2014年3月4日</column>
+            <column name="download_id">109</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">879</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">pp. 9-11</column>
+            <column name="download_id">109</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">892</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">http://ci.nii.ac.jp/naid/110009809731</column>
+            <column name="download_id">107</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">646</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">110</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">647</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2014/03/09</column>
+            <column name="download_id">110</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">648</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">日本デジタルゲーム学会 デジタルゲーム学研究</column>
+            <column name="download_id">110</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">649</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">中村隆之, 川井高浩, 堀雄武, 田口裕起, 白井暁彦, 佐藤尚</column>
+            <column name="download_id">110</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">650</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">9pages</column>
+            <column name="download_id">110</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">651</column>
+            <column name="meta_name">vol.</column>
+            <column name="meta_value"></column>
+            <column name="download_id">110</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">652</column>
+            <column name="meta_name">no.</column>
+            <column name="meta_value"></column>
+            <column name="download_id">110</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">653</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">http://digrajapan.org/conf2013/assets/files/schedule.pdf</column>
+            <column name="download_id">110</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">654</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">433.1 kB</column>
+            <column name="download_id">110</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">898</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">http://www.comemoc.com/mo131prg.pdf</column>
+            <column name="download_id">111</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">897</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">6pages</column>
+            <column name="download_id">111</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">896</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">白井暁彦</column>
+            <column name="download_id">111</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">895</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">応用物理学会・日本光学会・微小光学研究グループ 第131回微小光学研究会招待講演</column>
+            <column name="download_id">111</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">894</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2014年3月5日</column>
+            <column name="download_id">111</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">893</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">111</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">676</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">佐藤充,白井暁彦,大塚真吾</column>
+            <column name="download_id">112</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">675</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">電子情報通信学会 信学技報 HCGシンポジウム2013 ～ 人々の生活を幸せで豊かにしていくICTとコミュニケーション ～ </column>
+            <column name="download_id">112</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">674</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013-12-18</column>
+            <column name="download_id">112</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">673</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">112</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">677</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value"></column>
+            <column name="download_id">112</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">678</column>
+            <column name="meta_name">vol.</column>
+            <column name="meta_value"></column>
+            <column name="download_id">112</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">679</column>
+            <column name="meta_name">no.</column>
+            <column name="meta_value"></column>
+            <column name="download_id">112</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">680</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">http://www.ieice.org/ken/paper/20131218BB6s/</column>
+            <column name="download_id">112</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">685</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">pp. 219-222
+</column>
+            <column name="download_id">74</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">686</column>
+            <column name="meta_name">vol.</column>
+            <column name="meta_value">37</column>
+            <column name="download_id">74</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">687</column>
+            <column name="meta_name">no.</column>
+            <column name="meta_value">17</column>
+            <column name="download_id">74</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">688</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">http://ci.nii.ac.jp/naid/110009598209</column>
+            <column name="download_id">74</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">689</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">112</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">690</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">934.28 kB</column>
+            <column name="download_id">74</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">720</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第18回 日本バーチャルリアリティ学会大会論文集</column>
+            <column name="download_id">77</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">717</column>
+            <column name="meta_name">vol.</column>
+            <column name="meta_value"></column>
+            <column name="download_id">77</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">716</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">北田大樹,白井暁彦</column>
+            <column name="download_id">77</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">715</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">77</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">723</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">2.67 MB</column>
+            <column name="download_id">77</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">727</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">March 2012</column>
+            <column name="download_id">26</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">728</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value"></column>
+            <column name="download_id">26</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">729</column>
+            <column name="meta_name">vol.</column>
+            <column name="meta_value"></column>
+            <column name="download_id">26</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">730</column>
+            <column name="meta_name">no.</column>
+            <column name="meta_value">5</column>
+            <column name="download_id">26</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">731</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">http://dl.acm.org/authorize?6718885</column>
+            <column name="download_id">26</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">732</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">2.21 MB</column>
+            <column name="download_id">26</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">733</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">113</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">734</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">Laval Virtual VRIC ’14 Posters</column>
+            <column name="download_id">113</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">735</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Hiroki Taguchi, Hisataka Suzuki, Yannick Littfass, Akihiko Shirai</column>
+            <column name="download_id">113</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">736</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">April 9-11, 2014</column>
+            <column name="download_id">113</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">737</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">2pages</column>
+            <column name="download_id">113</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">738</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">114</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">739</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">461.08 kB</column>
+            <column name="download_id">113</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">740</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">555.32 kB</column>
+            <column name="download_id">114</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">745</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">pp.216-219</column>
+            <column name="download_id">79</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">746</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">http://ci.nii.ac.jp/naid/40019843440</column>
+            <column name="download_id">79</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">747</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">2.63 MB</column>
+            <column name="download_id">79</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">755</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第18回日本バーチャルリアリティ学会大会</column>
+            <column name="download_id">78</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">754</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">78</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">760</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">865.48 kB</column>
+            <column name="download_id">78</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">792</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">80</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">793</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">pp.117 - 122
+</column>
+            <column name="download_id">80</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">794</column>
+            <column name="meta_name">vol.</column>
+            <column name="meta_value">2013</column>
+            <column name="download_id">80</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">795</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&amp;item_id=95983&amp;item_no=1&amp;page_id=13&amp;block_id=8</column>
+            <column name="download_id">80</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">772</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年10月4日(公開：2013-09-27)</column>
+            <column name="download_id">83</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">773</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">pp.111 - 116</column>
+            <column name="download_id">83</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">774</column>
+            <column name="meta_name">vol.</column>
+            <column name="meta_value">2013</column>
+            <column name="download_id">83</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">775</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&amp;item_id=95982&amp;item_no=1&amp;page_id=13&amp;block_id=8</column>
+            <column name="download_id">83</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">776</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">83</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">781</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013/7/21</column>
+            <column name="download_id">87</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">782</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">pp.75</column>
+            <column name="download_id">87</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">783</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">http://dl.acm.org/citation.cfm?id=2503467</column>
+            <column name="download_id">87</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">784</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">87</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">799</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">80</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">803</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年10月4日</column>
+            <column name="download_id">82</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">804</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">pp.107 - 110</column>
+            <column name="download_id">82</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">805</column>
+            <column name="meta_name">vol.</column>
+            <column name="meta_value">2013</column>
+            <column name="download_id">82</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">806</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&amp;item_id=95981&amp;item_no=1&amp;page_id=13&amp;block_id=8</column>
+            <column name="download_id">82</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">807</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">82</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">812</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年10月4日</column>
+            <column name="download_id">81</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">813</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">pp.103 - 106</column>
+            <column name="download_id">81</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">814</column>
+            <column name="meta_name">vol.</column>
+            <column name="meta_value">2013</column>
+            <column name="download_id">81</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">815</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&amp;active_action=repository_view_main_item_detail&amp;item_id=95980&amp;item_no=1&amp;page_id=13&amp;block_id=8</column>
+            <column name="download_id">81</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">816</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">81</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">820</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2013年12月18日(水) - 20日(金)</column>
+            <column name="download_id">89</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">821</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">pp.208--211</column>
+            <column name="download_id">89</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">822</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value"></column>
+            <column name="download_id">89</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">823</column>
+            <column name="meta_name">note</column>
+            <column name="meta_value">電子情報通信学会ヒューマンコミュニケーショングループ HCGシンポジウム「最優秀インタラクティブ発表賞」受賞</column>
+            <column name="download_id">89</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">824</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">744.12 kB</column>
+            <column name="download_id">89</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">891</column>
+            <column name="meta_name">no.</column>
+            <column name="meta_value">no. 11</column>
+            <column name="download_id">107</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">887</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">藤村　航, 小出雄空明, 國富彦岐, 田口裕起, 鈴木久貴, 白井暁彦</column>
+            <column name="download_id">107</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">909</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">http://ci.nii.ac.jp/naid/110009809732</column>
+            <column name="download_id">108</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">904</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">映像情報メディア学会技術報告 - 立体映像における人間工学的研究,及び立体映像技術一般</column>
+            <column name="download_id">108</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">903</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2014-02-27</column>
+            <column name="download_id">108</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">886</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">pp.35-38</column>
+            <column name="download_id">107</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">885</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">107</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">902</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">108</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">878</column>
+            <column name="meta_name">vol.</column>
+            <column name="meta_value">vol.38</column>
+            <column name="download_id">109</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">877</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">109</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">874</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">http://sagamiharacitymuseum.jp/kankoubutsu/hakubutsukan_hakkou/</column>
+            <column name="download_id">115</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">872</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">平成26年3月31日(2014)</column>
+            <column name="download_id">115</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">873</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">pp.73-76</column>
+            <column name="download_id">115</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">871</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">相模原市立博物館研究報告</column>
+            <column name="download_id">115</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">870</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">向井 優善, 美濃部 久美子, 小出 雄空明, 田所 康隆, 白井 暁彦, 木村知之</column>
+            <column name="download_id">115</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">869</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">115</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">875</column>
+            <column name="meta_name">no.</column>
+            <column name="meta_value">第22集</column>
+            <column name="download_id">115</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">876</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">48.72 MB</column>
+            <column name="download_id">115</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">899</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">669.76 kB</column>
+            <column name="download_id">111</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">900</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">107</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">901</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">109</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">910</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">7.44 MB</column>
+            <column name="download_id">108</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">911</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">116</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">912</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">上石 悠樹 , 岡本 遼 , 小瀬 由樹 , 三上 雄太 , 白井 暁彦 </column>
+            <column name="download_id">116</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">913</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">エンタテインメントコンピューティングシンポジウム2014論文集</column>
+            <column name="download_id">116</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">914</column>
+            <column name="meta_name">pages</column>
+            <column name="meta_value">pp.,235-243</column>
+            <column name="download_id">116</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">915</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value"> (2014-09-12) </column>
+            <column name="download_id">116</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">916</column>
+            <column name="meta_name">url</column>
+            <column name="meta_value">https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&amp;active_action=repository_view_main_item_detail&amp;item_id=102966&amp;item_no=1&amp;page_id=13&amp;block_id=8</column>
+            <column name="download_id">116</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">917</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">116</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">921</column>
+            <column name="meta_name">thumbnail</column>
+            <column name="meta_value">http://blog.shirai.la/wp-content/uploads/downloads/thumbnails/2014/10/MultiplexCreathonF02s.png</column>
+            <column name="download_id">117</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">922</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">117</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">923</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">32.61 MB</column>
+            <column name="download_id">117</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">924</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">118</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">925</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">119</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">926</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">白井暁彦，鈴木久貴，田口裕起</column>
+            <column name="download_id">119</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">927</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">コンピュータエンターテインメントデベロッパーズカンファレンス2014(CEDEC2014)</column>
+            <column name="download_id">119</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">928</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value"> (2014-09-02) </column>
+            <column name="download_id">119</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">929</column>
+            <column name="meta_name">url</column>
+            <column name="meta_value">http://cedec.cesa.or.jp/2014/session/AC/5423.html</column>
+            <column name="download_id">119</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">930</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">119</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">931</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">120</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">932</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">田口 裕起，鈴木 久貴， 白井 暁彦</column>
+            <column name="download_id">120</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">933</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">一般社団法人 電子情報通信学会 信学技報 SIS2014</column>
+            <column name="download_id">120</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">934</column>
+            <column name="meta_name">pages</column>
+            <column name="meta_value">pp.,69-74</column>
+            <column name="download_id">120</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">935</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">(2014-12-18)</column>
+            <column name="download_id">120</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">936</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">1.04 MB</column>
+            <column name="download_id">120</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">946</column>
+            <column name="meta_name">pages</column>
+            <column name="meta_value">pp.,414-418</column>
+            <column name="download_id">121</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">945</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">一般社団法人 電子情報通信学会 HCGシンポジウム2014</column>
+            <column name="download_id">121</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">944</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">小川 耕作，國富 彦岐，伊藤 諒汰，白井 暁彦</column>
+            <column name="download_id">121</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">943</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">121</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">947</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value"> (2014-12-18) </column>
+            <column name="download_id">121</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">948</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">878.54 kB</column>
+            <column name="download_id">121</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">968</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2015/3/5</column>
+            <column name="download_id">122</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">967</column>
+            <column name="meta_name">pages</column>
+            <column name="meta_value">4 pages</column>
+            <column name="download_id">122</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">966</column>
+            <column name="meta_name">title</column>
+            <column name="meta_value">フィールドミュージアム構築における代替現実ゲーム「Ingress」の活用</column>
+            <column name="download_id">122</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">965</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">ITを活用した教育シンポジウム2014</column>
+            <column name="download_id">122</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">964</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">小瀬由樹，上石悠樹，長澤奏美，美濃部久美子，木村知之，白井暁彦</column>
+            <column name="download_id">122</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">963</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">122</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">957</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">123</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">958</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">松下 公輝，伊藤 嘉洋，白井 暁彦</column>
+            <column name="download_id">123</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">959</column>
+            <column name="meta_name">pages</column>
+            <column name="meta_value">4 pages</column>
+            <column name="download_id">123</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">960</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2015/3/5</column>
+            <column name="download_id">123</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">961</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">ITを活用した教育シンポジウム2014 </column>
+            <column name="download_id">123</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">962</column>
+            <column name="meta_name">title</column>
+            <column name="meta_value">無料クラウドサービスを用いたアクティブラーニング支援ツールの開発</column>
+            <column name="download_id">123</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">969</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">http://www.slideshare.net/aquihiko/ingress-45457753</column>
+            <column name="download_id">122</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">970</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">124</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">971</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">安藤歩美，中澤遥，國富彦岐，小川耕作，白井暁彦</column>
+            <column name="download_id">124</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">972</column>
+            <column name="meta_name">pages</column>
+            <column name="meta_value">4 pages</column>
+            <column name="download_id">124</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">973</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2015/3/5</column>
+            <column name="download_id">124</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">974</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">ITを活用した教育シンポジウム2014 </column>
+            <column name="download_id">124</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">975</column>
+            <column name="meta_name">title</column>
+            <column name="meta_value">マンガ没入型エンタテイメントシステムのためのコンテンツ製作支援ツールの開発</column>
+            <column name="download_id">124</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">976</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">796.83 kB</column>
+            <column name="download_id">124</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">977</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">584.13 kB</column>
+            <column name="download_id">123</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">978</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">715.56 kB</column>
+            <column name="download_id">122</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1035</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">相模原市立博物館研究報告, ISSN 1346-3683</column>
+            <column name="download_id">125</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1036</column>
+            <column name="meta_name">title</column>
+            <column name="meta_value">博物館ネットワーク事業：特殊映像を使った展示物の開発</column>
+            <column name="download_id">125</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1034</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">pp.62-66</column>
+            <column name="download_id">125</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1033</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2015/3/31</column>
+            <column name="download_id">125</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1032</column>
+            <column name="meta_name">no.</column>
+            <column name="meta_value">第23集</column>
+            <column name="download_id">125</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1018</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">http://ingress.sagamiharacitymuseum.jp/</column>
+            <column name="download_id">126</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1014</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">相模原市立博物館研究報告, ISSN 1346-3683</column>
+            <column name="download_id">126</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1015</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">pp.57-61</column>
+            <column name="download_id">126</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1016</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">小瀬 由樹, 美濃部 久美子, 白井 暁彦, 木村 知之</column>
+            <column name="download_id">126</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1013</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2015/3/31</column>
+            <column name="download_id">126</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1031</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">上石 悠樹, 小瀬 由樹, 三上 雄太, 美濃部 久美子, 白井 暁彦, 木村 知之, 山田 陽志郎</column>
+            <column name="download_id">125</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1017</column>
+            <column name="meta_name">no.</column>
+            <column name="meta_value">第23集</column>
+            <column name="download_id">126</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1012</column>
+            <column name="meta_name">title</column>
+            <column name="meta_value">博物館ネットワーク事業：Ingressを用いたフィールドミュージアムの開発</column>
+            <column name="download_id">126</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1011</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">126</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1030</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">http://blog.shirai.la/projects/sumaho/</column>
+            <column name="download_id">125</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1019</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">1.14 MB</column>
+            <column name="download_id">126</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1029</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">125</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1037</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">1.69 MB</column>
+            <column name="download_id">125</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1038</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">127</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1039</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">32.43 kB</column>
+            <column name="download_id">127</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1050</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">128</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1045</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">129</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1046</column>
+            <column name="meta_name">youtube</column>
+            <column name="meta_value">https://www.youtube.com/watch?v=gB4iHLstMck</column>
+            <column name="download_id">129</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1047</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">129</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1051</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">6.73 MB</column>
+            <column name="download_id">128</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1104</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">182</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1112</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">190</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1103</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">181</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1136</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2016/6/19</column>
+            <column name="download_id">192</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1137</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">4 pages</column>
+            <column name="download_id">192</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1135</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">藤倉 伊織, 柿崎 俊道, 舛本 和也, 白井 暁彦</column>
+            <column name="download_id">192</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1134</column>
+            <column name="meta_name">web</column>
+            <column name="meta_value">http://cgvi.jp/gcad/vc2016/Program.html</column>
+            <column name="download_id">192</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1133</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第44 回画像電子学会年次大会</column>
+            <column name="download_id">192</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1132</column>
+            <column name="meta_name">title</column>
+            <column name="meta_value">紙と鉛筆による手描きを中心としたアニメーション制作のためのスキャナ特性評価</column>
+            <column name="download_id">192</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1131</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">192</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1149</column>
+            <column name="meta_name">title</column>
+            <column name="meta_value">紙と鉛筆による手描きを中心としたアニメーション制作のためのスキャナ特性評価</column>
+            <column name="download_id">193</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1148</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2016/6/19</column>
+            <column name="download_id">193</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1147</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">第44回画像電子学会年次大会</column>
+            <column name="download_id">193</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1146</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">4 pages</column>
+            <column name="download_id">193</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1144</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">193</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1145</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">藤倉 伊織, 柿崎 俊道, 舛本 和也, 白井 暁彦</column>
+            <column name="download_id">193</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1150</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">2.06 MB</column>
+            <column name="download_id">192</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1151</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">815.99 kB</column>
+            <column name="download_id">193</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1152</column>
+            <column name="meta_name">thumbnail</column>
+            <column name="meta_value">http://dl.acm.org/imagetypes/pdf_logo.gif</column>
+            <column name="download_id">194</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1153</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">194</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1154</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Akihiko SHIRAI</column>
+            <column name="download_id">194</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1155</column>
+            <column name="meta_name">doi</column>
+            <column name="meta_value">https://doi.org/10.1145/3011549.3015156</column>
+            <column name="download_id">194</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1156</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">5 pages</column>
+            <column name="download_id">194</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1157</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value"></column>
+            <column name="download_id">194</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1158</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">MANPU ’16 Proceedings of the 1st International Workshop on coMics ANalysis, Processing and Understanding</column>
+            <column name="download_id">194</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1159</column>
+            <column name="meta_name">title</column>
+            <column name="meta_value">Manga Generator, a future of interactive manga media : Invited Talk Paper</column>
+            <column name="download_id">194</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1160</column>
+            <column name="meta_name">no.</column>
+            <column name="meta_value">13</column>
+            <column name="download_id">194</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1161</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">194</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1162</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">195</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1163</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">195</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1164</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">196</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1166</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">196</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1188</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">197</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1186</column>
+            <column name="meta_name">title</column>
+            <column name="meta_value">Web-based multiplex image synthesis for digital signage</column>
+            <column name="download_id">198</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1183</column>
+            <column name="meta_name">pubdate</column>
+            <column name="meta_value">2017/1/7</column>
+            <column name="download_id">198</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1184</column>
+            <column name="meta_name">page</column>
+            <column name="meta_value">3 pages</column>
+            <column name="download_id">198</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1185</column>
+            <column name="meta_name">authors</column>
+            <column name="meta_value">Fujisawa Yoshiki, Hisataka Suzuki, Rex Hsieh and Akihiko Shirai</column>
+            <column name="download_id">198</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1182</column>
+            <column name="meta_name">publication</column>
+            <column name="meta_value">Proceedings of the 20th International Workshop on Advanced Image Technology 2017 (IWAIT 2017)</column>
+            <column name="download_id">198</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1181</column>
+            <column name="meta_name">force</column>
+            <column name="meta_value">0</column>
+            <column name="download_id">198</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1187</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value">439.72 kB</column>
+            <column name="download_id">198</column>
+        </table>
+        <table name="wp_download_monitor_file_meta">
+            <column name="id">1189</column>
+            <column name="meta_name">filesize</column>
+            <column name="meta_value"></column>
+            <column name="download_id">197</column>
+        </table>
+    </database>
+</pma_xml_export>

@@ -362,7 +362,12 @@ Googleへの申請も行わない。
 [ダウンロード](http://blog.shirai.la/wp-admin/post.php?post=4939&action=edit)
 > Fujisawa Yoshiki, Hisataka Suzuki, Rex Hsieh and Akihiko Shirai, “Web-based multiplex image synthesis for digital signage”, Proceedings of the 20th International Workshop on Advanced Image Technology 2017 (IWAIT 2017), 3 pages. 2017.
 
-という文字列
+という文字列をたよりに発掘。幸いにして最後のほうにありました。
+`wp_download_monitor_files` というテーブル。
+`download.sql` というファイルで回収済み。
+
+せっかくなので[Conoha Wing のコントロールパネル](https://phpmyadmin22.conoha.ne.jp/index.php)から、`download_monitor_file_meta` とともに各種ファイルフォーマットでダウンロードした。
+
 
 ### コメントがあいているページを塞ぐ
 
