@@ -246,6 +246,17 @@ WinSCPでダウンロードしてきた画像とDownloadsをリポジトリに�
 
 とりあえずデータベース等全部バックアップとれるならやっておく。
 
+`20200621-fullbackup_blog.zip` というファイルが 旧サイトのフルバックアップ。1GBぐらいあった。
+各サイトのcommentやcomment_metaなどを削除して、
+`ForImport20200621.zip` という5つのファイルに分解してConoha-wingに取り込み。そのままでは動かなかったが、
+
+> http://aki2020.conohawing.com/blog.shirai.la/wordpress/
+
+で、トップページが見れるぐらいまでは復活した。管理画面には入れない。
+というかコンテンツを全面的に書き換えしないと無理かも。
+
+データベース接続情報（`xcj1p_45arbf6w`）は `wp-config.php` に書いてあります。
+
 
 
 ### Google Analytics の置き直し
@@ -294,3 +305,67 @@ WinSCPでダウンロードしてきた画像とDownloadsをリポジトリに�
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 ```
 に置換。
+
+### 旧サイトへのリダイレクト設定
+[参考](https://keywordfinder.jp/blog/seo/301-redirect/)
+
+旧サイト `/var/www/wordpress/.htaccess` に書かれていたこのパートをざっくり削除
+(Redirectionというサポート外プラグインによるもの)
+```
+# Created by Redirection Module: Apache
+# Mon, 11 Nov 2013 17:15:46 +0000
+# Redirection 2.3.4 - http://urbangiraffe.com/plugins/redirection/
+
+<Files .htaccess,.svn>
+order allow,deny
+deny from all
+</Files>
+Options +FollowSymlinks
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.blog\.shirai\.la$ [NC]
+RewriteRule ^(.*)$ http://blog.shirai.la/$1 [R=301,L]
+</IfModule>
+# End of Redirection
+```
+Redirect permanent / https://new.shirai.la/
+とするときれいに転送されるので、ドメイン構成考えてから動こう。
+いったん、この new に移動してから、最終的に https://blog にすればいい気もする→やめといたほうがいい。
+今回はコメントアウトにしておく。
+Googleへの申請も行わない。
+
+## 次回作業のためのメモ
+
+### ドメイン維持方針
+
+- 今回はリダイレクトを実施しない（最終着地点を決定するべき）
+- shirai.la をどこまで生かすのか？
+- www : Google Sites なので消さない限り残る（APIも使える）
+- メール関係: 同上
+- Google Drive がストレージ分だけ少し維持費かかっているかも
+- Googleがサービス止めない限り維持費はかからない
+- なので blog.shirai.la が残っているのは問題なし。
+- kaitas.github.io/kait といった収容にするとしてもこのリポジトリを複製して始めるべき
+- .htaccess による 301 リダイレクトが以外にも簡単だった、ただし
+- [Github Pagesは .htaccess をサポートしない](https://help.github.com/ja/enterprise/2.14/user/articles/redirects-on-github-pages)のでリダイレクトのリダイレクトはできないと考えよう
+
+### ダウンロードの書き換え
+
+- 単純に index.html となっているところをファイルへのリダイレクトにするか
+- ダウンロードディレクトリへのリンクをすべて 論文系の置き場を作って集計するか
+
+論文系の置き場は作りたい気もするのでしばらく考えよう。
+
+ よく考えたらデータベースから拾えばいいのかもしれない
+
+[ダウンロード](http://blog.shirai.la/wp-admin/post.php?post=4939&action=edit)
+> Fujisawa Yoshiki, Hisataka Suzuki, Rex Hsieh and Akihiko Shirai, “Web-based multiplex image synthesis for digital signage”, Proceedings of the 20th International Workshop on Advanced Image Technology 2017 (IWAIT 2017), 3 pages. 2017.
+
+という文字列
+
+### コメントがあいているページを塞ぐ
+
+特に影響はないが
+[Kai's Develope Diary](http://new.shirai.la/kai/index.html@p=66.html)
+
