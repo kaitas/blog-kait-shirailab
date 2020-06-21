@@ -234,5 +234,63 @@ https://new.shirai.la/download/4939/webbased.pdf
 - `blog-shirai.la` to `new.shirai.la` 10009 results in 1807 files.
 - `http://ingress.sagamiharacitymuseum.jp/` to `https://kaitas.github.io/sagami-ingress/` 150 results in 27 files
 
+## 20200621
+
+### 画像とDownloadの置き換え作業
+WinSCPでダウンロードしてきた画像とDownloadsをリポジトリに保管。
+
+- 画像 wp-content\uploads (前回のWgetの結果とあまり変わらない)
+- ファイル \wp-content\uploads\downloads
+
+### conoha-wingへのバックアップ
+
+とりあえずデータベース等全部バックアップとれるならやっておく。
+
+
+
 ### Google Analytics の置き直し
 
+現状はタグがなさそうなので
+トラッキング ID
+
+- shirai.la - UA-15889025-1
+- kaitas.github.io - UA-168023643-1
+
+とりあえず shirai.la のほうでいきたいが、そのうちgithubで統合するかもしれない。
+
+> このプロパティで使用できる Global Site Tag（gtag.js）トラッキング コードです。このコードをコピーして、トラッキングするすべてのウェブページの 内の最初の要素として貼り付けてください。ページにすでに Global Site Tag が配置されている場合は、以下のスニペットの config 行のみを既存の Global Site Tag に追加してください。
+```
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-15889025-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-15889025-1');
+</script>
+```
+なおwww.shirai.la（google sites）には
+`UA-21744908-1`
+というコードが張られていたので
+`UA-15889025-1`
+に起きなおした
+
+```
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+```
+を
+```
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-15889025-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-15889025-1');
+</script>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+```
+に置換。
