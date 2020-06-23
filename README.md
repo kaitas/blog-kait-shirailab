@@ -487,7 +487,7 @@ Sitemap: https://blog.shirai.la/sitemap/sitemap.xml
 
 ```
 <li>
-	<a class="download-link" href=https://art-science.org/diva/pdf/diva35-hq.pdf” onclick=“ga(‘send’, ‘event’, ‘pdf’, ‘click’, ‘芸術科学会誌「DiVA」第34号’,1);”>芸術科学会誌「DiVA」第34号</a>
+	<a class="download-link" href="https://art-science.org/diva/pdf/diva35-hq.pdf" onclick=“ga(‘send’, ‘event’, ‘pdf’, ‘click’, ‘芸術科学会誌「DiVA」第34号’,1);”>芸術科学会誌「DiVA」第34号</a>
 (688+ ダウンロード)
 </li>
 ```
