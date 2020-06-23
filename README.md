@@ -26,7 +26,7 @@ zipにした段階で2.14GBもある…
 ### 画像の移植
 
 たとえば
-``https://new.shirai.la/wp-content/uploads/2017/08/SIGGRAPH2017%E6%97%85%E3%81%AE%E3%81%97%E3%81%8A%E3%82%8A-225x158.png``
+``https://blog.shirai.la/wp-content/uploads/2017/08/SIGGRAPH2017%E6%97%85%E3%81%AE%E3%81%97%E3%81%8A%E3%82%8A-225x158.png``
 といった形で `/uploads` に画像がいるので、年ごとなど細かい単位で移植していく。新しい順にやってみる。
 
 - 2018 : 8.47MB ファイル数: 11、フォルダー数: 2
@@ -138,8 +138,8 @@ nic.laよりエントリー削除
 ### `/download` ディレクトリの置き直し（問題あり）
 
 download　174MB
-https://new.shirai.la/download/4939/index.html
-https://new.shirai.la/download/4939/webbased.pdf
+https://blog.shirai.la/download/4939/index.html
+https://blog.shirai.la/download/4939/webbased.pdf
 とかにコピーしなおしている。
 しばらく置いてから見てみると反映されているが、PDFに戻す作業はせねばなるまい。
 
@@ -228,8 +228,8 @@ https://new.shirai.la/download/4939/webbased.pdf
 
 ### サーバ名の変更
 
-- `a href="https://blog-shirai.la/` to `a href="https://new.shirai.la/` 10000 results in 1764 files
-- `href='https://blog-shirai.la/wp-json/'` to `href='https://new.shirai.la/wp-json/'` 2303 results in 2303 files
+- `a href="https://blog-shirai.la/` to `a href="https://blog.shirai.la/` 10000 results in 1764 files
+- `href='https://blog-shirai.la/wp-json/'` to `href='https://blog.shirai.la/wp-json/'` 2303 results in 2303 files
 - `https://new.shirai.la` to `https://new.shirai.la` 10004 resulrs in 1256 files
 - `blog-shirai.la` to `new.shirai.la` 10009 results in 1807 files.
 - `https://ingress.sagamiharacitymuseum.jp/` to `https://kaitas.github.io/sagami-ingress/` 150 results in 27 files
@@ -329,7 +329,7 @@ RewriteRule ^(.*)$ https://blog.shirai.la/$1 [R=301,L]
 </IfModule>
 # End of Redirection
 ```
-Redirect permanent / https://new.shirai.la/
+Redirect permanent / https://blog.shirai.la/
 とするときれいに転送されるので、ドメイン構成考えてから動こう。
 いったん、この new に移動してから、最終的に https://blog にすればいい気もする→やめといたほうがいい。
 今回はコメントアウトにしておく。
@@ -350,29 +350,6 @@ Googleへの申請も行わない。
 - .htaccess による 301 リダイレクトが以外にも簡単だった、ただし
 - [Github Pagesは .htaccess をサポートしない](https://help.github.com/ja/enterprise/2.14/user/articles/redirects-on-github-pages)のでリダイレクトのリダイレクトはできないと考えよう
 
-### ダウンロードの書き換え
-
-- 単純に index.html となっているところをファイルへのリダイレクトにするか
-- ダウンロードディレクトリへのリンクをすべて 論文系の置き場を作って集計するか
-
-論文系の置き場は作りたい気もするのでしばらく考えよう。
-
- よく考えたらデータベースから拾えばいいのかもしれない
-
-[ダウンロード](https://blog.shirai.la/wp-admin/post.php?post=4939&action=edit)
-> Fujisawa Yoshiki, Hisataka Suzuki, Rex Hsieh and Akihiko Shirai, “Web-based multiplex image synthesis for digital signage”, Proceedings of the 20th International Workshop on Advanced Image Technology 2017 (IWAIT 2017), 3 pages. 2017.
-
-という文字列をたよりに発掘。幸いにして最後のほうにありました。
-`wp_download_monitor_files` というテーブル。
-`download.sql` というファイルで回収済み。
-
-せっかくなので[Conoha Wing のコントロールパネル](https://phpmyadmin22.conoha.ne.jp/index.php)から、`download_monitor_file_meta` とともに各種ファイルフォーマットでダウンロードした。
-
-
-### コメントがあいているページを塞ぐ
-
-特に影響はないが
-[Kai's Develope Diary](https://new.shirai.la/kai/index.html@p=66.html)
 
 
 ## 20200623
@@ -395,6 +372,8 @@ vps20160401 (https://blog.shirai.la) 停止
 - https://fonts.googleapis.com/ 2953 files
 - https://themefurnace.com/ 2306 files
 - `http:` 10024 results in 1045 files
+- http://blog.shirai.la/ 10543 in 803 files
+- https://new.shirai.la/ → https://blog.shirai.la/ 10006 in 1111 files
 
 - wordpress 2304 files
 ```
@@ -409,7 +388,7 @@ vps20160401 (https://blog.shirai.la) 停止
 ### 不要なリンク削除
 
 - <link rel="profile" href="https://gmpg.org/xfn/11" /> 削除 2653 files
-- <link rel="pingback" href="https://new.shirai.la/xmlrpc.php" /> 削除 867 files
+- <link rel="pingback" href="https://blog.shirai.la/xmlrpc.php" /> 削除 867 files
 - <link rel='dns-prefetch' href='https://s.w.org/' /> wordpress へのプリフェッチ、不要っぽいので削除。 4317 files
 
 
@@ -432,28 +411,7 @@ Shirai Lab <br />
 以上のコンテンツ書き換えはデータベース（download_monitor）のほうには実施しない（discard）。
 
 
-### ドメイン維持方針 https://blog.shirai.la に移動
-
-
-- 今回はリダイレクトを実施しない：単にHTTPをHTTPSにする
-- shirai.la をどこまで生かすのか？
-- www : Google Sites なので消さない限り残る（APIも使える）
-- メール関係: 同上
-- Google Drive がストレージ分だけ少し維持費かかっているかも
-- Googleがサービス止めない限り維持費はかからない
-- なので blog.shirai.la が残っているのは問題なし。
-- kaitas.github.io/kait といった収容にするとしてもこのリポジトリを複製して始めるべき
-- .htaccess による 301 リダイレクトが以外にも簡単だった、ただし
-- [Github Pagesは .htaccess をサポートしない](https://help.github.com/ja/enterprise/2.14/user/articles/redirects-on-github-pages)のでリダイレクトのリダイレクトはできないと考えよう
-
-- 参考
-  https://www.idcf.jp/rentalserver/aossl/operation/unify-access/
-<link rel="canonical" href="(常時SSL化後のHTTPSのURL)">
-→httpで書いている例はなかった（wgetのおかげ？)
-
-- robots.txt
-
-sitemap.xmlがないので生成する
+### sitemap.xmlがないので生成する
 - https://www.xml-sitemaps.com/ : 500URLまでしか処理できなかった
 - https://seo.fc2.com/sitemap/url.php : 1001URL  ``/sitemap/sitemap.xml`` においておきます
 
@@ -461,7 +419,7 @@ sitemap.xmlがないので生成する
 User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
-Sitemap: https://new.shirai.la/sitemap.xml
+Sitemap: https://blog.shirai.la/sitemap.xml
 ```
 ↓
 修正
@@ -471,8 +429,29 @@ Sitemap: https://blog.shirai.la/sitemap/sitemap.xml
 ```
 
 
-<meta name="robots" content="noindex"> などになっていると、そのページはインデックスされないので注意してください。
+`<meta name="robots" content="noindex">` などになっていると、そのページはインデックスされないので注意してください。
 →なっていない
+
+### ドメイン維持方針 https://blog.shirai.la に移動
+
+
+- 今回はリダイレクトを実施しない：単にHTTPをHTTPSにする
+- shirai.la をどこまで生かすのか？ → ドメイン維持を大幅見直しするまで（github.ioが時代遅れになるまで）
+- kaitas.github.io/kait といった収容にするとしてもこのリポジトリを複製して始めるべき
+- [Github Pagesは .htaccess をサポートしない](https://help.github.com/ja/enterprise/2.14/user/articles/redirects-on-github-pages)のでリダイレクトのリダイレクトはできないと考える
+
+
+
+### コメントがあいているページを塞ぐ
+
+特に影響はないが
+[Kai's Develope Diary](https://blog.shirai.la/kai/index.html@p=66.html)
+
+``<input name="submit" type="hidden" id="submit" class="submit" value="コメントは閉じています" />``
+といった形に書き換えた。235 files.
+
+
+## 次回作業予定
 
 ### ダウンロードの書き換え
 
@@ -491,10 +470,4 @@ Sitemap: https://blog.shirai.la/sitemap/sitemap.xml
 `download.sql` というファイルで回収済み。
 
 せっかくなので[Conoha Wing のコントロールパネル](https://phpmyadmin22.conoha.ne.jp/index.php)から、`download_monitor_file_meta` とともに各種ファイルフォーマットでダウンロードした。
-
-
-### コメントがあいているページを塞ぐ
-
-特に影響はないが
-[Kai's Develope Diary](https://new.shirai.la/kai/index.html@p=66.html)
 

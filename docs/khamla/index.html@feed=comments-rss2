@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for Khamla&#039;s Blog	</title>
-	<atom:link href="http://blog.shirai.la/khamla/?feed=comments-rss2" rel="self" type="application/rss+xml" />
-	<link>http://blog.shirai.la/khamla</link>
+	<atom:link href="https://blog.shirai.la/khamla/?feed=comments-rss2" rel="self" type="application/rss+xml" />
+	<link>https://blog.shirai.la/khamla</link>
 	<description>Just another KAIT Shirai Lab Blog</description>
 	<lastBuildDate>
 	Sun, 14 Jun 2020 17:01:31 +0000	</lastBuildDate>

@@ -9,8 +9,8 @@
 
 <channel>
 	<title>就活 &#8211; 白井研ラボノート</title>
-	<atom:link href="http://blog.shirai.la/labnote/?feed=rss2&#038;cat=3" rel="self" type="application/rss+xml" />
-	<link>http://blog.shirai.la/labnote</link>
+	<atom:link href="https://blog.shirai.la/labnote/?feed=rss2&#038;cat=3" rel="self" type="application/rss+xml" />
+	<link>https://blog.shirai.la/labnote</link>
 	<description>といいつつ原稿置き場</description>
 	<lastBuildDate>
 	Wed, 28 Feb 2018 23:24:53 +0000	</lastBuildDate>
@@ -22,13 +22,13 @@
 	<generator>https://wordpress.org/?v=5.1.6</generator>
 	<item>
 		<title>喰える履歴書添削（基礎編）</title>
-		<link>http://blog.shirai.la/labnote/?p=37</link>
-				<comments>http://blog.shirai.la/labnote/?p=37#respond</comments>
+		<link>https://blog.shirai.la/labnote/?p=37</link>
+				<comments>https://blog.shirai.la/labnote/?p=37#respond</comments>
 				<pubDate>Sun, 03 Mar 2013 10:48:40 +0000</pubDate>
 		<dc:creator><![CDATA[shirai]]></dc:creator>
 				<category><![CDATA[就活]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/labnote/?p=37</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/labnote/?p=37</guid>
 				<description><![CDATA[ゲーム関係の就職、それも有名企業の企画職に内定するともなると、会社説明会は1万人を超え、送]]></description>
 								<content:encoded><![CDATA[<p>ゲーム関係の就職、それも有名企業の企画職に内定するともなると、会社説明会は1万人を超え、送られてくる履歴書は数千通といった規模になります。その中から採用されるのは年間10名以下、せいぜい2～3人といったところです。</p>
 <p>実際にそのような採用試験で最終面接や内定をもらうようになると、各企業がどのような人物を必要としているのかが感じられる能力が必要になります。正直なところ、最終面接は「相性」や「勝負運」も重要なので、攻略法のようなものは掲げませんが、書類審査や一次試験などの予選であれば攻略法はありますし、これは一般的な企業でも共通な点が多いのです。</p>
@@ -226,7 +226,7 @@ PC作業に慣れているのであれば、EXCEL版の履歴書サンプルを�
 <p>だからこそ、「喰える履歴書」としては、本当に「一部の隙もない。それでいて面白みがある」というラインが重要なのです。</p>
 <p>以上、「基礎編」を終わります。</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/labnote/?feed=rss2&#038;p=37</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/labnote/?feed=rss2&#038;p=37</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 	</channel>

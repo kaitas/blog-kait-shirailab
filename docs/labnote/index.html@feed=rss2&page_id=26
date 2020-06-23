@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	著者略歴 へのコメント	</title>
-	<atom:link href="http://blog.shirai.la/labnote/?feed=rss2&#038;page_id=26" rel="self" type="application/rss+xml" />
-	<link>http://blog.shirai.la/labnote</link>
+	<atom:link href="https://blog.shirai.la/labnote/?feed=rss2&#038;page_id=26" rel="self" type="application/rss+xml" />
+	<link>https://blog.shirai.la/labnote</link>
 	<description>といいつつ原稿置き場</description>
 	<lastBuildDate>
 	Sun, 14 Jun 2020 17:51:57 +0000	</lastBuildDate>

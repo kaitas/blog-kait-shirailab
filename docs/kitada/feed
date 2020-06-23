@@ -9,8 +9,8 @@
 
 <channel>
 	<title>スタイリッシュ学習帳</title>
-	<atom:link href="http://blog.shirai.la/kitada/feed" rel="self" type="application/rss+xml" />
-	<link>http://blog.shirai.la/kitada</link>
+	<atom:link href="https://blog.shirai.la/kitada/feed" rel="self" type="application/rss+xml" />
+	<link>https://blog.shirai.la/kitada</link>
 	<description>ゆるく日々をまとめます</description>
 	<lastBuildDate>
 	Wed, 28 Feb 2018 23:24:51 +0000	</lastBuildDate>
@@ -22,13 +22,13 @@
 	<generator>https://wordpress.org/?v=5.1.6</generator>
 	<item>
 		<title>XcodeでSubversionを使う</title>
-		<link>http://blog.shirai.la/kitada/archives/285</link>
-				<comments>http://blog.shirai.la/kitada/archives/285#respond</comments>
+		<link>https://blog.shirai.la/kitada/archives/285</link>
+				<comments>https://blog.shirai.la/kitada/archives/285#respond</comments>
 				<pubDate>Fri, 31 May 2013 10:19:35 +0000</pubDate>
 		<dc:creator><![CDATA[north]]></dc:creator>
 				<category><![CDATA[未分類]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/kitada/?p=285</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/kitada/?p=285</guid>
 				<description><![CDATA[研究室VPSにインストールされているSubversionを使って、研究関係のプログラムをバージョン管理していま [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>研究室VPSにインストールされているSubversionを使って、研究関係のプログラムをバージョン管理しています。</p>
 <p>今回はMac環境でSubversionを使う方法を調査してみました。</p>
@@ -41,8 +41,8 @@
 <p><strong>1. XcodeからSubversionを使う</strong></p>
 <p><a href="http://akabeko.me/blog/2011/09/xcode-4-svn/">こちら</a>のサイトを参考にXcodeのOrganaizer上でリポジトリの登録・プロジェクトのインポート・チェックアウトをおこない、Xcodeのプロジェクト・マネージャーから変更点をコミットすることが出来ました。ただ、複数のファイルを一度にコミットする方法が分からず、調査中です。</p>
 <p>ひとまず、<a href="http://sazameki.jp/translations/xcode4/IDEs/Conceptual/Xcode4TransitionGuide/SCM/SCM.html#//apple_ref/doc/uid/TP40009984-CH7-SW10">Xcode4移行ガイド</a>を読んで知ったリビジョンごとのコードを比較しながらプログラミングできるバージョンエディタという機能が便利そうだと感じました。</p>
-<div id="attachment_295" style="width: 310px" class="wp-caption aligncenter"><a href="https://new.shirai.la/kitada/files/2013/05/editer.png"><img aria-describedby="caption-attachment-295" src="http://blog.shirai.la/kitada/files/2013/05/editer-300x77.png" alt="editer" title="エディタのモードの切り替え" width="300" height="77" class="size-medium wp-image-295 " srcset="http://blog.shirai.la/kitada/files/2013/05/editer-300x77.png 300w, http://blog.shirai.la/kitada/files/2013/05/editer.png 303w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-295" class="wp-caption-text">エディタのモードの切り替え</p></div>
-<div id="attachment_296" style="width: 310px" class="wp-caption aligncenter"><a href="https://new.shirai.la/kitada/files/2013/05/versionediter.jpg"><img aria-describedby="caption-attachment-296" src="http://blog.shirai.la/kitada/files/2013/05/versionediter-300x163.jpg" alt="バージョンエディタ" width="300" height="163" class="size-medium wp-image-296" srcset="http://blog.shirai.la/kitada/files/2013/05/versionediter-300x163.jpg 300w, http://blog.shirai.la/kitada/files/2013/05/versionediter-1024x559.jpg 1024w, http://blog.shirai.la/kitada/files/2013/05/versionediter.jpg 1366w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-296" class="wp-caption-text">バージョンエディタ</p></div>
+<div id="attachment_295" style="width: 310px" class="wp-caption aligncenter"><a href="https://new.shirai.la/kitada/files/2013/05/editer.png"><img aria-describedby="caption-attachment-295" src="https://blog.shirai.la/kitada/files/2013/05/editer-300x77.png" alt="editer" title="エディタのモードの切り替え" width="300" height="77" class="size-medium wp-image-295 " srcset="https://blog.shirai.la/kitada/files/2013/05/editer-300x77.png 300w, https://blog.shirai.la/kitada/files/2013/05/editer.png 303w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-295" class="wp-caption-text">エディタのモードの切り替え</p></div>
+<div id="attachment_296" style="width: 310px" class="wp-caption aligncenter"><a href="https://new.shirai.la/kitada/files/2013/05/versionediter.jpg"><img aria-describedby="caption-attachment-296" src="https://blog.shirai.la/kitada/files/2013/05/versionediter-300x163.jpg" alt="バージョンエディタ" width="300" height="163" class="size-medium wp-image-296" srcset="https://blog.shirai.la/kitada/files/2013/05/versionediter-300x163.jpg 300w, https://blog.shirai.la/kitada/files/2013/05/versionediter-1024x559.jpg 1024w, https://blog.shirai.la/kitada/files/2013/05/versionediter.jpg 1366w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-296" class="wp-caption-text">バージョンエディタ</p></div>
 <p><strong>2. ターミナルでSubversion</strong></p>
 <p>CUIが好きなので、ターミナルからSubversionを使う方法をまとめました。</p>
 <p><strong>チェックアウト</strong>（ワーキングコピーの作成）</p>
@@ -94,18 +94,18 @@
 <li>リポジトリブラウザとWorking Copoesウィンドウ内（変更があった場合に一つ前のリビジョンと比較）にあるDiffボタンを押す。</li>
 </ul>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/kitada/archives/285/feed</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/kitada/archives/285/feed</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>「入門 機械学習」覚え書きメモ１</title>
-		<link>http://blog.shirai.la/kitada/archives/194</link>
-				<comments>http://blog.shirai.la/kitada/archives/194#respond</comments>
+		<link>https://blog.shirai.la/kitada/archives/194</link>
+				<comments>https://blog.shirai.la/kitada/archives/194#respond</comments>
 				<pubDate>Wed, 23 Jan 2013 10:13:30 +0000</pubDate>
 		<dc:creator><![CDATA[north]]></dc:creator>
 				<category><![CDATA[機械学習]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/kitada/?p=194</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/kitada/?p=194</guid>
 				<description><![CDATA[就活スタート、M1終わりの中間発表の申請などブログを2ヶ月程、寝かしている間に様々な事がありました&#8230 [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>就活スタート、M1終わりの中間発表の申請などブログを2ヶ月程、寝かしている間に様々な事がありました&#8230;。今後の修士論文に向けた研究において、データを分析するための知識として統計や機械学習について理解する必要があるので、オライリー本の「入門 機械学習」（原書：Machine Learning for Hackers）を読み始めました。まずは、1~3章を読破することを目標としたいと思います。</p>
 <p><span id="more-194"></span></p>
@@ -133,18 +133,18 @@
 <li>やる夫シリーズ、ありました。<a href="http://www.slideshare.net/guest8ee130/svmr-with-yaruo-presentation/">やる夫で学ぶSVM&amp;R</a></li>
 </ul>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/kitada/archives/194/feed</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/kitada/archives/194/feed</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>Googleサイト内のコンテンツのエクスポート</title>
-		<link>http://blog.shirai.la/kitada/archives/167</link>
-				<comments>http://blog.shirai.la/kitada/archives/167#respond</comments>
+		<link>https://blog.shirai.la/kitada/archives/167</link>
+				<comments>https://blog.shirai.la/kitada/archives/167#respond</comments>
 				<pubDate>Sat, 24 Nov 2012 07:25:10 +0000</pubDate>
 		<dc:creator><![CDATA[north]]></dc:creator>
 				<category><![CDATA[Web]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/kitada/?p=167</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/kitada/?p=167</guid>
 				<description><![CDATA[研究室のWebサイト移行計画の関係で、Googleサイトで作られた旧Webサイト内のコンテンツをエクスポートす [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>研究室のWebサイト移行計画の関係で、Googleサイトで作られた旧Webサイト内のコンテンツをエクスポートする必要があったので、Googleサイト内のコンテンツのエクスポート方法を調べてみました。</p>
 <p><span id="more-167"></span></p>
@@ -157,20 +157,20 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/kitada/archives/167/feed</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/kitada/archives/167/feed</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>ブログでゼミ進捗報告（11月13日）</title>
-		<link>http://blog.shirai.la/kitada/archives/21</link>
-				<comments>http://blog.shirai.la/kitada/archives/21#respond</comments>
+		<link>https://blog.shirai.la/kitada/archives/21</link>
+				<comments>https://blog.shirai.la/kitada/archives/21#respond</comments>
 				<pubDate>Tue, 13 Nov 2012 11:32:45 +0000</pubDate>
 		<dc:creator><![CDATA[north]]></dc:creator>
 				<category><![CDATA[iOS]]></category>
 		<category><![CDATA[アプリ]]></category>
 		<category><![CDATA[ゼミ関係]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/kitada/?p=21</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/kitada/?p=21</guid>
 				<description><![CDATA[今週は研究室内ゼミは実施されず、各自blog内で進捗報告とのことなので、中止になった先週（11月6日）分の内容 [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>今週は研究室内ゼミは実施されず、各自blog内で進捗報告とのことなので、中止になった先週（11月6日）分の内容も含めて報告したいと思います。</p>
 <p><span id="more-21"></span></p>
@@ -189,32 +189,32 @@
 <p>このアプリはSNS（GREE, Twitter, Facebookのどれかを指定して連携）の友人間で視聴しているTV番組の共有、感情（エモ）ボタンを通して視聴しているTV番組に対する感情の共有が行えるアプリです。</p>
 <p>先日、手持ちのipod touchにインストールし、Twitterのアカウントと連携してアプリの方を使ってみました。なお、視聴した番組は日曜19時からテレビ東京で放送している「<a title="モヤモヤさまぁ～ず2" href="http://www.tv-tokyo.co.jp/samaazu2/" target="_blank">モヤモヤさまぁ〜ず2</a>」です。</p>
 <p>アプリの基本的な使い方としては、視聴する番組を番組表から選んで番組の視聴をしながら、画面下にある3つの感情ボタンを押して感情の共有を行います。アプリ画面中央ではその番組のタグが付けられたTwitterのソーシャルストリームが流れ、番組に関するツィートもemoconから投稿することが出来ます。</p>
-<div id="attachment_59" style="width: 210px" class="wp-caption aligncenter"><a href="https://new.shirai.la/kitada/files/2012/11/IMG_0026.png"><img aria-describedby="caption-attachment-59" src="http://blog.shirai.la/kitada/files/2012/11/IMG_0026-200x300.png" alt="" title="IMG_0026" width="200" height="300" class="size-medium wp-image-59" srcset="http://blog.shirai.la/kitada/files/2012/11/IMG_0026-200x300.png 200w, http://blog.shirai.la/kitada/files/2012/11/IMG_0026.png 640w" sizes="(max-width: 200px) 100vw, 200px" /></a><p id="caption-attachment-59" class="wp-caption-text">emoconの基本画面</p></div>
+<div id="attachment_59" style="width: 210px" class="wp-caption aligncenter"><a href="https://new.shirai.la/kitada/files/2012/11/IMG_0026.png"><img aria-describedby="caption-attachment-59" src="https://blog.shirai.la/kitada/files/2012/11/IMG_0026-200x300.png" alt="" title="IMG_0026" width="200" height="300" class="size-medium wp-image-59" srcset="https://blog.shirai.la/kitada/files/2012/11/IMG_0026-200x300.png 200w, https://blog.shirai.la/kitada/files/2012/11/IMG_0026.png 640w" sizes="(max-width: 200px) 100vw, 200px" /></a><p id="caption-attachment-59" class="wp-caption-text">emoconの基本画面</p></div>
 <p>ボタンを押して投稿を行うとemoconを使っている同じ感情を投稿したユーザーの比率が表示されます。また、emoconを使っているSNSの友人がどの感情で番組を見ているのか画面上部にTwitterアイコンがマッピングされます（周りに使っている方が居なかったので写真ではわからないですが）。</p>
-<div id="attachment_66" style="width: 210px" class="wp-caption aligncenter"><a href="https://new.shirai.la/kitada/files/2012/11/IMG_0017.png"><img aria-describedby="caption-attachment-66" src="http://blog.shirai.la/kitada/files/2012/11/IMG_0017-200x300.png" alt="" title="IMG_0017" width="200" height="300" class="size-medium wp-image-66" srcset="http://blog.shirai.la/kitada/files/2012/11/IMG_0017-200x300.png 200w, http://blog.shirai.la/kitada/files/2012/11/IMG_0017.png 640w" sizes="(max-width: 200px) 100vw, 200px" /></a><p id="caption-attachment-66" class="wp-caption-text">エモの投稿</p></div>
+<div id="attachment_66" style="width: 210px" class="wp-caption aligncenter"><a href="https://new.shirai.la/kitada/files/2012/11/IMG_0017.png"><img aria-describedby="caption-attachment-66" src="https://blog.shirai.la/kitada/files/2012/11/IMG_0017-200x300.png" alt="" title="IMG_0017" width="200" height="300" class="size-medium wp-image-66" srcset="https://blog.shirai.la/kitada/files/2012/11/IMG_0017-200x300.png 200w, https://blog.shirai.la/kitada/files/2012/11/IMG_0017.png 640w" sizes="(max-width: 200px) 100vw, 200px" /></a><p id="caption-attachment-66" class="wp-caption-text">エモの投稿</p></div>
 <p>また、番組表では各番組のエモの割合を見ることができ、投稿されたエモの量から番組の盛り上がりやアプリユーザーの感情の分布を確認することができます。</p>
-<p><a href="https://new.shirai.la/kitada/files/2012/11/IMG_0018.png"><img src="http://blog.shirai.la/kitada/files/2012/11/IMG_0018-200x300.png" alt="" title="IMG_0018" width="200" height="300" class="aligncenter size-medium wp-image-67" srcset="http://blog.shirai.la/kitada/files/2012/11/IMG_0018-200x300.png 200w, http://blog.shirai.la/kitada/files/2012/11/IMG_0018.png 640w" sizes="(max-width: 200px) 100vw, 200px" /></a></p>
+<p><a href="https://new.shirai.la/kitada/files/2012/11/IMG_0018.png"><img src="https://blog.shirai.la/kitada/files/2012/11/IMG_0018-200x300.png" alt="" title="IMG_0018" width="200" height="300" class="aligncenter size-medium wp-image-67" srcset="https://blog.shirai.la/kitada/files/2012/11/IMG_0018-200x300.png 200w, https://blog.shirai.la/kitada/files/2012/11/IMG_0018.png 640w" sizes="(max-width: 200px) 100vw, 200px" /></a></p>
 <p>実際に触れて見たところ、個人的には番組表で各番組の盛り上がり状況と感情の分布を把握出来るのが面白く、興味深かったです。</p>
 <p>また、自分が探せていないだけかもしれませんが、3つの感情ボタンについて公式サイトとアプリ内にどの感情のときにどのボタンを押せばいいのか説明がなく、赤＝面白い、黄色＝驚き、青＝感動、悲しいという解釈で使いました。ひとまず、今後もこの分野のアプリや技術についても継続してリサーチしていこうと思います。ちなみに余談になりますが、来週、11月18日のモヤさまはSIGGRAPH Asia 2012の開催地シンガポールでモヤモヤするみたいです（<a title="番組内容" href="http://tv.yahoo.co.jp/program/63345148/" target="_blank">番組内容</a>）。</p>
 <p>&nbsp;</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/kitada/archives/21/feed</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/kitada/archives/21/feed</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>blog開設</title>
-		<link>http://blog.shirai.la/kitada/archives/1</link>
-				<comments>http://blog.shirai.la/kitada/archives/1#comments</comments>
+		<link>https://blog.shirai.la/kitada/archives/1</link>
+				<comments>https://blog.shirai.la/kitada/archives/1#comments</comments>
 				<pubDate>Wed, 07 Nov 2012 07:05:18 +0000</pubDate>
 		<dc:creator><![CDATA[north]]></dc:creator>
 				<category><![CDATA[雑記]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/kitada/?p=1</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/kitada/?p=1</guid>
 				<description><![CDATA[日々の研究活動および調査内容をまとめていくblogです。 公開を通じて、日々の活動にメリハリが生まれるように継 [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>日々の研究活動および調査内容をまとめていくblogです。</p>
 <p>公開を通じて、日々の活動にメリハリが生まれるように継続していく予定です。</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/kitada/archives/1/feed</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/kitada/archives/1/feed</wfw:commentRss>
 		<slash:comments>3</slash:comments>
 							</item>
 	</channel>

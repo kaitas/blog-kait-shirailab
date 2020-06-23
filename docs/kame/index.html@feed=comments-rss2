@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	kameblog!! へのコメント	</title>
-	<atom:link href="http://blog.shirai.la/kame/?feed=comments-rss2" rel="self" type="application/rss+xml" />
-	<link>http://blog.shirai.la/kame</link>
+	<atom:link href="https://blog.shirai.la/kame/?feed=comments-rss2" rel="self" type="application/rss+xml" />
+	<link>https://blog.shirai.la/kame</link>
 	<description>主に特撮。ソーシャルゲームの情報なんかも時々。気ままに感じたこと書く。そんなブログです。どうぞよろしく。</description>
 	<lastBuildDate>
 	Thu, 01 Nov 2012 09:42:01 +0000	</lastBuildDate>
@@ -21,10 +21,10 @@
 			<item>
 				<title>
 				匿名 より Hello world! へのコメント				</title>
-				<link>http://blog.shirai.la/kame/?p=1#comment-1</link>
+				<link>https://blog.shirai.la/kame/?p=1#comment-1</link>
 		<dc:creator><![CDATA[匿名]]></dc:creator>
 		<pubDate>Thu, 01 Nov 2012 09:42:01 +0000</pubDate>
-		<guid isPermaLink="false">http://blog.shirai.la/kame/?p=1#comment-1</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/kame/?p=1#comment-1</guid>
 					<description><![CDATA[]]></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 						</item>

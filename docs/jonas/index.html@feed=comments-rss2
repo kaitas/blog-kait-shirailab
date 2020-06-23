@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for Jonas&#039;s Blog	</title>
-	<atom:link href="http://blog.shirai.la/jonas/?feed=comments-rss2" rel="self" type="application/rss+xml" />
-	<link>http://blog.shirai.la/jonas</link>
+	<atom:link href="https://blog.shirai.la/jonas/?feed=comments-rss2" rel="self" type="application/rss+xml" />
+	<link>https://blog.shirai.la/jonas</link>
 	<description>Just another KAIT Shirai Lab Blog Sites site</description>
 	<lastBuildDate>
 	Sat, 17 Nov 2012 13:10:48 +0000	</lastBuildDate>
@@ -21,10 +21,10 @@
 			<item>
 				<title>
 				Comment on Eye morphing by admin				</title>
-				<link>http://blog.shirai.la/jonas/?p=15#comment-2</link>
+				<link>https://blog.shirai.la/jonas/?p=15#comment-2</link>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sat, 17 Nov 2012 13:10:48 +0000</pubDate>
-		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=15#comment-2</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/jonas/?p=15#comment-2</guid>
 					<description><![CDATA[Jonas, 
 The articles couldn&#039;t show when I clicked.
 I have changed the setting of permalinks, it looks fine.

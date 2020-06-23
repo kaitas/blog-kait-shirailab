@@ -2,13 +2,13 @@
 	<service>
 		<engineName>WordPress</engineName>
 		<engineLink>https://wordpress.org/</engineLink>
-		<homePageLink>http://blog.shirai.la/iwadate</homePageLink>
+		<homePageLink>https://blog.shirai.la/iwadate</homePageLink>
 		<apis>
-			<api name="WordPress" blogID="1" preferred="true" apiLink="http://blog.shirai.la/iwadate/xmlrpc.php" />
-			<api name="Movable Type" blogID="1" preferred="false" apiLink="http://blog.shirai.la/iwadate/xmlrpc.php" />
-			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="http://blog.shirai.la/iwadate/xmlrpc.php" />
-			<api name="Blogger" blogID="1" preferred="false" apiLink="http://blog.shirai.la/iwadate/xmlrpc.php" />
-				<api name="WP-API" blogID="1" preferred="false" apiLink="http://blog.shirai.la/iwadate/index.php?rest_route=/" />
+			<api name="WordPress" blogID="1" preferred="true" apiLink="https://blog.shirai.la/iwadate/xmlrpc.php" />
+			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://blog.shirai.la/iwadate/xmlrpc.php" />
+			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://blog.shirai.la/iwadate/xmlrpc.php" />
+			<api name="Blogger" blogID="1" preferred="false" apiLink="https://blog.shirai.la/iwadate/xmlrpc.php" />
+				<api name="WP-API" blogID="1" preferred="false" apiLink="https://blog.shirai.la/iwadate/index.php?rest_route=/" />
 			</apis>
 	</service>
 </rsd>

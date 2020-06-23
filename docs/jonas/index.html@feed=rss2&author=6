@@ -9,8 +9,8 @@
 
 <channel>
 	<title>jonas &#8211; Jonas&#039;s Blog</title>
-	<atom:link href="http://blog.shirai.la/jonas/?feed=rss2&#038;author=6" rel="self" type="application/rss+xml" />
-	<link>http://blog.shirai.la/jonas</link>
+	<atom:link href="https://blog.shirai.la/jonas/?feed=rss2&#038;author=6" rel="self" type="application/rss+xml" />
+	<link>https://blog.shirai.la/jonas</link>
 	<description>Just another KAIT Shirai Lab Blog Sites site</description>
 	<lastBuildDate>
 	Wed, 28 Feb 2018 23:24:50 +0000	</lastBuildDate>
@@ -22,13 +22,13 @@
 	<generator>https://wordpress.org/?v=5.1.6</generator>
 	<item>
 		<title>Singapore</title>
-		<link>http://blog.shirai.la/jonas/?p=52</link>
-				<comments>http://blog.shirai.la/jonas/?p=52#respond</comments>
+		<link>https://blog.shirai.la/jonas/?p=52</link>
+				<comments>https://blog.shirai.la/jonas/?p=52#respond</comments>
 				<pubDate>Sat, 08 Dec 2012 18:00:35 +0000</pubDate>
 		<dc:creator><![CDATA[jonas]]></dc:creator>
 				<category><![CDATA[未分類]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=52</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/jonas/?p=52</guid>
 				<description><![CDATA[I thought that I would write a report of the trip to Singapore and Siggraph Asia. First of I would have to say that the trip to Singapore was a very good experience and I got to meet a lot &#8230; <a href="https://new.shirai.la/jonas/?p=52">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
 								<content:encoded><![CDATA[<p>I thought that I would write a report of the trip to Singapore and Siggraph Asia.</p>
 <p>First of I would have to say that the trip to Singapore was a very good experience and I got to meet a lot of interesting people in the business. I don&#8217;t think I have ever meet that many animators in the same place before.</p>
@@ -53,18 +53,18 @@ Some flamingos in the dark.</p>
 <p><img src="https://dl.dropbox.com/u/4559876/Siggraph%20Asia/IMG_3129.JPG" alt="" /><br />
 The jungle.</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/jonas/?feed=rss2&#038;p=52</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/jonas/?feed=rss2&#038;p=52</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>Keith Lango</title>
-		<link>http://blog.shirai.la/jonas/?p=40</link>
-				<comments>http://blog.shirai.la/jonas/?p=40#respond</comments>
+		<link>https://blog.shirai.la/jonas/?p=40</link>
+				<comments>https://blog.shirai.la/jonas/?p=40#respond</comments>
 				<pubDate>Fri, 07 Dec 2012 06:01:23 +0000</pubDate>
 		<dc:creator><![CDATA[jonas]]></dc:creator>
 				<category><![CDATA[未分類]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=40</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/jonas/?p=40</guid>
 				<description><![CDATA[Yesterday I bought an animation tutorial set from Keith Lango. He is a highly skilled animator and teacher. I have watched a lot of his tutorials before. But now I decided to buy his entire tutorial collection of 60+ video &#8230; <a href="https://new.shirai.la/jonas/?p=40">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
 								<content:encoded><![CDATA[<p>Yesterday I bought an animation tutorial set from <a href="http://keithlango.blogspot.jp/" title="Keith Lango" target="_blank">Keith Lango</a>. He is a highly skilled animator and teacher. I have watched a lot of his tutorials before. But now I decided to buy his entire tutorial collection of 60+ video hours of animation tutorials. The price was only 99 us$, around 8500 Yen a believe.</p>
 <p>These tutorials will hopefully help my workflow and give me a lot of good tips and tricks in Maya.</p>
@@ -74,34 +74,34 @@ I&#8217;m not fully happy with it yet and this planing phase is quite important,
 [vimeo]https://vimeo.com/55075089[/vimeo]</p>
 <p>What needs improving is the body language and better line of action. Right now it&#8217;s a little to chaotic and the arms are moving to much. I also want more solid extreme poses that really shows the emotions, going from despair to angry.</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/jonas/?feed=rss2&#038;p=40</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/jonas/?feed=rss2&#038;p=40</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>Stereoscopic Animation</title>
-		<link>http://blog.shirai.la/jonas/?p=36</link>
-				<comments>http://blog.shirai.la/jonas/?p=36#respond</comments>
+		<link>https://blog.shirai.la/jonas/?p=36</link>
+				<comments>https://blog.shirai.la/jonas/?p=36#respond</comments>
 				<pubDate>Sat, 24 Nov 2012 08:33:15 +0000</pubDate>
 		<dc:creator><![CDATA[jonas]]></dc:creator>
 				<category><![CDATA[未分類]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=36</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/jonas/?p=36</guid>
 				<description><![CDATA[I&#8217;m working on rendering some of my old animations into stereoscopic film clips that I&#8217;m going to try out with the 2x3D Scritter system. I think the biggest challenge with it is knowing how the 3D effect will look like. &#8230; <a href="https://new.shirai.la/jonas/?p=36">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
 								<content:encoded><![CDATA[<p>I&#8217;m working on rendering some of my old animations into stereoscopic film clips that I&#8217;m going to try out with the 2x3D Scritter system.<br />
 I think the biggest challenge with it is knowing how the 3D effect will look like. The laptop I&#8217;m working with is not supporting stereoscopic effect in maya. So I have to do a lot of test renders with different setups, that I can try out on the 2x3D system, before I know which setup to use.</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/jonas/?feed=rss2&#038;p=36</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/jonas/?feed=rss2&#038;p=36</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>3D film</title>
-		<link>http://blog.shirai.la/jonas/?p=34</link>
-				<comments>http://blog.shirai.la/jonas/?p=34#respond</comments>
+		<link>https://blog.shirai.la/jonas/?p=34</link>
+				<comments>https://blog.shirai.la/jonas/?p=34#respond</comments>
 				<pubDate>Fri, 23 Nov 2012 05:45:36 +0000</pubDate>
 		<dc:creator><![CDATA[jonas]]></dc:creator>
 				<category><![CDATA[未分類]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=34</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/jonas/?p=34</guid>
 				<description><![CDATA[I&#8217;m working on exporting 3D material from the labs 3D camera. We are going to use filmed 3D short clips to show of the 2x3D Scritter system at SIGGRAPH. The problem right now is that the 3D files can&#8217;t be &#8230; <a href="https://new.shirai.la/jonas/?p=34">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
 								<content:encoded><![CDATA[<p>I&#8217;m working on exporting 3D material from the labs 3D camera.<br />
 We are going to use filmed 3D short clips to show of the 2x3D Scritter system at SIGGRAPH.</p>
@@ -109,18 +109,18 @@ We are going to use filmed 3D short clips to show of the 2x3D Scritter system at
 But the results is not perfect right now because one of the sides becomes very shaky and unwatchable. So I&#8217;m trying to decrees the shakes using Youtubes own anti-shaking solution. So far with no good results.</p>
 <p>//Jonas</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/jonas/?feed=rss2&#038;p=34</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/jonas/?feed=rss2&#038;p=34</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>First month</title>
-		<link>http://blog.shirai.la/jonas/?p=29</link>
-				<comments>http://blog.shirai.la/jonas/?p=29#respond</comments>
+		<link>https://blog.shirai.la/jonas/?p=29</link>
+				<comments>https://blog.shirai.la/jonas/?p=29#respond</comments>
 				<pubDate>Thu, 22 Nov 2012 11:20:14 +0000</pubDate>
 		<dc:creator><![CDATA[jonas]]></dc:creator>
 				<category><![CDATA[未分類]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=29</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/jonas/?p=29</guid>
 				<description><![CDATA[So we&#8217;re half way through our second month, here in Japan, and I thought I would summaries the first month. We arrived here in Japan October 10:e and spent our first 3 days in an hotel near to the Hon-Atsugi &#8230; <a href="https://new.shirai.la/jonas/?p=29">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
 								<content:encoded><![CDATA[<p>So we&#8217;re half way through our second month, here in Japan, and I thought I would summaries the first month.</p>
 <p>We arrived here in Japan October 10:e and spent our first 3 days in an hotel near to the Hon-Atsugi station. During those first days we had to fix quite a lot of things to get settled in Japan. we looked for an apartment and signed all the needed papers, which was quite a lot. We also opened up a bank account so that we could pay our rent and bills trough a Japanese account.</p>
@@ -132,57 +132,57 @@ But the results is not perfect right now because one of the sides becomes very s
 <p>All the best,<br />
 Jonas</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/jonas/?feed=rss2&#038;p=29</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/jonas/?feed=rss2&#038;p=29</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>Eye morphing</title>
-		<link>http://blog.shirai.la/jonas/?p=15</link>
-				<comments>http://blog.shirai.la/jonas/?p=15#comments</comments>
+		<link>https://blog.shirai.la/jonas/?p=15</link>
+				<comments>https://blog.shirai.la/jonas/?p=15#comments</comments>
 				<pubDate>Tue, 13 Nov 2012 03:50:13 +0000</pubDate>
 		<dc:creator><![CDATA[jonas]]></dc:creator>
 				<category><![CDATA[未分類]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=15</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/jonas/?p=15</guid>
 				<description><![CDATA[I&#8217;m in the rigging phase of the character now. I just finished creating the morph-targets for the right eye and are now working on mirroring it to the left eye. A simple blink: The skin around the eye adapting to the &#8230; <a href="https://new.shirai.la/jonas/?p=15">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
 								<content:encoded><![CDATA[<p>I&#8217;m in the rigging phase of the character now.<br />
 I just finished creating the morph-targets for the right eye and are now working on mirroring it to the left eye.<br />
 A simple blink:<br />
-<img src="http://blog.shirai.la/jonas/wp-content/blogs.dir/9/files/HLIC/512954dbf876cb4db4387b11915a8b48.gif" alt="Eye Blinking" /><br />
+<img src="https://blog.shirai.la/jonas/wp-content/blogs.dir/9/files/HLIC/512954dbf876cb4db4387b11915a8b48.gif" alt="Eye Blinking" /><br />
 The skin around the eye adapting to the eyes movement:<br />
-<img src="http://blog.shirai.la/jonas/wp-content/blogs.dir/9/files/HLIC/e81eaeba2123ae50af1f6b3a538263c0.gif" alt="" /></p>
+<img src="https://blog.shirai.la/jonas/wp-content/blogs.dir/9/files/HLIC/e81eaeba2123ae50af1f6b3a538263c0.gif" alt="" /></p>
 <p>I&#8217;ve also been collecting good dialogue sounds for my animations and are now working on sketching out how I want the animations to be like.</p>
 <p>All the best,<br />
 Jonas<br />
 &nbsp;</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/jonas/?feed=rss2&#038;p=15</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/jonas/?feed=rss2&#038;p=15</wfw:commentRss>
 		<slash:comments>1</slash:comments>
 							</item>
 		<item>
 		<title>Unwraping</title>
-		<link>http://blog.shirai.la/jonas/?p=10</link>
-				<comments>http://blog.shirai.la/jonas/?p=10#respond</comments>
+		<link>https://blog.shirai.la/jonas/?p=10</link>
+				<comments>https://blog.shirai.la/jonas/?p=10#respond</comments>
 				<pubDate>Tue, 06 Nov 2012 13:53:42 +0000</pubDate>
 		<dc:creator><![CDATA[jonas]]></dc:creator>
 				<category><![CDATA[未分類]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=10</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/jonas/?p=10</guid>
 				<description><![CDATA[Finished unwraping one of the character, that I&#8217;m going to animate, today. Next up is planing the rig of the character.]]></description>
 								<content:encoded><![CDATA[
 
 <div id="bx-gallery-0" class="bxslider-gallery adaptive-height-on ">
     <div class="gallery-wrapper">
         <div class="bxslider">
-                            <div class="bxslide"><img src="http://blog.shirai.la/jonas/files/2012/11/Mong.jpg" alt="" title="Mong" /></div>
-                            <div class="bxslide"><img src="http://blog.shirai.la/jonas/files/2012/11/Mong_UV.jpg" alt="" title="Mong_UV" /></div>
+                            <div class="bxslide"><img src="https://blog.shirai.la/jonas/files/2012/11/Mong.jpg" alt="" title="Mong" /></div>
+                            <div class="bxslide"><img src="https://blog.shirai.la/jonas/files/2012/11/Mong_UV.jpg" alt="" title="Mong_UV" /></div>
                     </div>
     </div>
 
     
         <div class="pager-wrapper">
             <div class="bxpager">
-                <a data-slide-index="0" href="" title="Mong"><img src="http://blog.shirai.la/jonas/files/2012/11/Mong-150x150.jpg" alt="" title="Mong" /></a><a data-slide-index="1" href="" title="Mong_UV"><img src="http://blog.shirai.la/jonas/files/2012/11/Mong_UV-150x150.jpg" alt="" title="Mong_UV" /></a>            </div>
+                <a data-slide-index="0" href="" title="Mong"><img src="https://blog.shirai.la/jonas/files/2012/11/Mong-150x150.jpg" alt="" title="Mong" /></a><a data-slide-index="1" href="" title="Mong_UV"><img src="https://blog.shirai.la/jonas/files/2012/11/Mong_UV-150x150.jpg" alt="" title="Mong_UV" /></a>            </div>
         </div>
 
     
@@ -190,18 +190,18 @@ Jonas<br />
 <p>Finished unwraping one of the character, that I&#8217;m going to animate, today.<br />
 Next up is planing the rig of the character.</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/jonas/?feed=rss2&#038;p=10</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/jonas/?feed=rss2&#038;p=10</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>Introduction</title>
-		<link>http://blog.shirai.la/jonas/?p=4</link>
-				<comments>http://blog.shirai.la/jonas/?p=4#respond</comments>
+		<link>https://blog.shirai.la/jonas/?p=4</link>
+				<comments>https://blog.shirai.la/jonas/?p=4#respond</comments>
 				<pubDate>Wed, 24 Oct 2012 03:28:49 +0000</pubDate>
 		<dc:creator><![CDATA[jonas]]></dc:creator>
 				<category><![CDATA[未分類]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/jonas/?p=4</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/jonas/?p=4</guid>
 				<description><![CDATA[Hello everyone! My name is Jonas Schild. I&#8217;m from Sweden but newly moved to Atsugi to study at Kanagawa institute of technology. In Sweden I studied Computer Graphics &#38; Animation, with a Bachelor degree of Arts in 2012. My goal &#8230; <a href="https://new.shirai.la/jonas/?p=4">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
 								<content:encoded><![CDATA[<p>Hello everyone!<br />
 My name is Jonas Schild. I&#8217;m from Sweden but newly moved to Atsugi to<br />
@@ -219,7 +219,7 @@ to get a better understanding of them.</p>
 <p>Best regards,<br />
 Jonas Schild</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/jonas/?feed=rss2&#038;p=4</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/jonas/?feed=rss2&#038;p=4</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 	</channel>

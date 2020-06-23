@@ -9,8 +9,8 @@
 
 <channel>
 	<title>kameblog!!</title>
-	<atom:link href="http://blog.shirai.la/kame/?feed=rss2" rel="self" type="application/rss+xml" />
-	<link>http://blog.shirai.la/kame</link>
+	<atom:link href="https://blog.shirai.la/kame/?feed=rss2" rel="self" type="application/rss+xml" />
+	<link>https://blog.shirai.la/kame</link>
 	<description>主に特撮。ソーシャルゲームの情報なんかも時々。気ままに感じたこと書く。そんなブログです。どうぞよろしく。</description>
 	<lastBuildDate>
 	Wed, 28 Feb 2018 23:24:51 +0000	</lastBuildDate>
@@ -22,14 +22,14 @@
 	<generator>https://wordpress.org/?v=5.1.6</generator>
 	<item>
 		<title>ちょこっと生存報告</title>
-		<link>http://blog.shirai.la/kame/?p=316</link>
-				<comments>http://blog.shirai.la/kame/?p=316#respond</comments>
+		<link>https://blog.shirai.la/kame/?p=316</link>
+				<comments>https://blog.shirai.la/kame/?p=316#respond</comments>
 				<pubDate>Sun, 10 Mar 2013 12:53:42 +0000</pubDate>
 		<dc:creator><![CDATA[kame]]></dc:creator>
 				<category><![CDATA[アニメ]]></category>
 		<category><![CDATA[特撮]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/kame/?p=316</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/kame/?p=316</guid>
 				<description><![CDATA[1ヶ月ちょっとぶりの更新。 でも、明日からもちょっと色々あるので、 生存報告も兼ねてちょっとだけ更新。 &#038;nb [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>1ヶ月ちょっとぶりの更新。</p>
 <p>でも、明日からもちょっと色々あるので、</p>
@@ -63,13 +63,13 @@
 こんな感じです。しばらくしたらまた書きます。</p>
 <p>それでは。</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/kame/?feed=rss2&#038;p=316</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/kame/?feed=rss2&#038;p=316</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>株式会社ORATTA……百姫繚乱！戦国アスカ，クイーンズソウル</title>
-		<link>http://blog.shirai.la/kame/?p=306</link>
-				<comments>http://blog.shirai.la/kame/?p=306#respond</comments>
+		<link>https://blog.shirai.la/kame/?p=306</link>
+				<comments>https://blog.shirai.la/kame/?p=306#respond</comments>
 				<pubDate>Thu, 31 Jan 2013 10:08:03 +0000</pubDate>
 		<dc:creator><![CDATA[kame]]></dc:creator>
 				<category><![CDATA[SAP紹介]]></category>
@@ -82,7 +82,7 @@
 		<category><![CDATA[採用]]></category>
 		<category><![CDATA[百姫繚乱！戦国アスカ]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/kame/?p=306</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/kame/?p=306</guid>
 				<description><![CDATA[GREEのSAPを紹介しちゃうコーナー！ SAPとは、Social Application Providerの [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>GREEのSAPを紹介しちゃうコーナー！</p>
 <p>SAPとは、Social Application Providerの略。</p>
@@ -111,13 +111,13 @@
 <p>役に立ったらいいね！ボタンを押してくれ！</p>
 <p>次回もヨロシク！</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/kame/?feed=rss2&#038;p=306</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/kame/?feed=rss2&#038;p=306</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>株式会社日本一ソフトウェア…ディスガイア魔界コレクション</title>
-		<link>http://blog.shirai.la/kame/?p=304</link>
-				<comments>http://blog.shirai.la/kame/?p=304#respond</comments>
+		<link>https://blog.shirai.la/kame/?p=304</link>
+				<comments>https://blog.shirai.la/kame/?p=304#respond</comments>
 				<pubDate>Thu, 31 Jan 2013 09:30:44 +0000</pubDate>
 		<dc:creator><![CDATA[kame]]></dc:creator>
 				<category><![CDATA[SAP紹介]]></category>
@@ -129,7 +129,7 @@
 		<category><![CDATA[新川宗平]]></category>
 		<category><![CDATA[日本一ソフトウェア]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/kame/?p=304</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/kame/?p=304</guid>
 				<description><![CDATA[GREEのSAPを紹介しちゃうコーナー！ SAPとは、Social Application Providerの [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>GREEのSAPを紹介しちゃうコーナー！</p>
 <p>SAPとは、Social Application Providerの略。</p>
@@ -158,13 +158,13 @@
 <p>役に立ったらいいね！ボタンを押してくれ！</p>
 <p>次回もヨロシク！</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/kame/?feed=rss2&#038;p=304</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/kame/?feed=rss2&#038;p=304</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>株式会社ニジボックス……女神乱戦☆ビーナスマスター！，ガールズ＆パンツァー</title>
-		<link>http://blog.shirai.la/kame/?p=302</link>
-				<comments>http://blog.shirai.la/kame/?p=302#respond</comments>
+		<link>https://blog.shirai.la/kame/?p=302</link>
+				<comments>https://blog.shirai.la/kame/?p=302#respond</comments>
 				<pubDate>Thu, 31 Jan 2013 09:09:15 +0000</pubDate>
 		<dc:creator><![CDATA[kame]]></dc:creator>
 				<category><![CDATA[SAP紹介]]></category>
@@ -177,7 +177,7 @@
 		<category><![CDATA[採用]]></category>
 		<category><![CDATA[木村稔]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/kame/?p=302</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/kame/?p=302</guid>
 				<description><![CDATA[GREEのSAPを紹介しちゃうコーナー！ SAPとは、Social Application Providerの [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>GREEのSAPを紹介しちゃうコーナー！</p>
 <p>SAPとは、Social Application Providerの略。</p>
@@ -209,13 +209,13 @@
 <p>役に立ったらいいね！ボタンを押してくれ！</p>
 <p>次回もヨロシク！</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/kame/?feed=rss2&#038;p=302</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/kame/?feed=rss2&#038;p=302</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>エヌ・ティ・ティ・ソルマーレ株式会社……恋忍者 ～愛と欲望の平安乱舞～</title>
-		<link>http://blog.shirai.la/kame/?p=300</link>
-				<comments>http://blog.shirai.la/kame/?p=300#respond</comments>
+		<link>https://blog.shirai.la/kame/?p=300</link>
+				<comments>https://blog.shirai.la/kame/?p=300#respond</comments>
 				<pubDate>Thu, 31 Jan 2013 08:00:53 +0000</pubDate>
 		<dc:creator><![CDATA[kame]]></dc:creator>
 				<category><![CDATA[SAP紹介]]></category>
@@ -227,7 +227,7 @@
 		<category><![CDATA[恋忍者 ～愛と欲望の平安乱舞～]]></category>
 		<category><![CDATA[採用]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/kame/?p=300</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/kame/?p=300</guid>
 				<description><![CDATA[GREEのSAPを紹介しちゃうコーナー！ SAPとは、Social Application Providerの [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>GREEのSAPを紹介しちゃうコーナー！</p>
 <p>SAPとは、Social Application Providerの略。</p>
@@ -256,13 +256,13 @@
 <p>役に立ったらいいね！ボタンを押してくれ！</p>
 <p>次回もヨロシク！</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/kame/?feed=rss2&#038;p=300</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/kame/?feed=rss2&#038;p=300</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>株式会社ポニーキャニオン…まおゆう魔王勇者，西部警察 Theカード ～新たなる挑戦～</title>
-		<link>http://blog.shirai.la/kame/?p=298</link>
-				<comments>http://blog.shirai.la/kame/?p=298#respond</comments>
+		<link>https://blog.shirai.la/kame/?p=298</link>
+				<comments>https://blog.shirai.la/kame/?p=298#respond</comments>
 				<pubDate>Thu, 31 Jan 2013 07:38:00 +0000</pubDate>
 		<dc:creator><![CDATA[kame]]></dc:creator>
 				<category><![CDATA[SAP紹介]]></category>
@@ -275,7 +275,7 @@
 		<category><![CDATA[桐畑敏春]]></category>
 		<category><![CDATA[西部警察 Theカード ～新たなる挑戦～]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/kame/?p=298</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/kame/?p=298</guid>
 				<description><![CDATA[GREEのSAPを紹介しちゃうコーナー！ SAPとは、Social Application Providerの [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>GREEのSAPを紹介しちゃうコーナー！</p>
 <p>SAPとは、Social Application Providerの略。</p>
@@ -305,13 +305,13 @@
 <p>役に立ったらいいね！ボタンを押してくれ！</p>
 <p>次回もヨロシク！</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/kame/?feed=rss2&#038;p=298</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/kame/?feed=rss2&#038;p=298</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>株式会社レッド・エンタテインメント……サクラ大戦 ～オールスターコレクション～</title>
-		<link>http://blog.shirai.la/kame/?p=295</link>
-				<comments>http://blog.shirai.la/kame/?p=295#respond</comments>
+		<link>https://blog.shirai.la/kame/?p=295</link>
+				<comments>https://blog.shirai.la/kame/?p=295#respond</comments>
 				<pubDate>Thu, 31 Jan 2013 07:12:18 +0000</pubDate>
 		<dc:creator><![CDATA[kame]]></dc:creator>
 				<category><![CDATA[SAP紹介]]></category>
@@ -323,7 +323,7 @@
 		<category><![CDATA[名越康晃]]></category>
 		<category><![CDATA[採用]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/kame/?p=295</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/kame/?p=295</guid>
 				<description><![CDATA[GREEのSAPを紹介しちゃうコーナー！ SAPとは、Social Application Providerの [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>GREEのSAPを紹介しちゃうコーナー！</p>
 <p>SAPとは、Social Application Providerの略。</p>
@@ -355,13 +355,13 @@
 <p>役に立ったらいいね！ボタンを押してくれ！</p>
 <p>次回もヨロシク！</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/kame/?feed=rss2&#038;p=295</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/kame/?feed=rss2&#038;p=295</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>株式会社バンダイナムコゲームス……テイルズ オブ カード エボルブ，サモンナイト コレクション</title>
-		<link>http://blog.shirai.la/kame/?p=292</link>
-				<comments>http://blog.shirai.la/kame/?p=292#respond</comments>
+		<link>https://blog.shirai.la/kame/?p=292</link>
+				<comments>https://blog.shirai.la/kame/?p=292#respond</comments>
 				<pubDate>Thu, 31 Jan 2013 06:50:03 +0000</pubDate>
 		<dc:creator><![CDATA[kame]]></dc:creator>
 				<category><![CDATA[SAP紹介]]></category>
@@ -374,7 +374,7 @@
 		<category><![CDATA[大下聡]]></category>
 		<category><![CDATA[採用]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/kame/?p=292</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/kame/?p=292</guid>
 				<description><![CDATA[GREEのSAPを紹介しちゃうコーナー！ SAPとは、Social Application Providerの [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>GREEのSAPを紹介しちゃうコーナー！</p>
 <p>SAPとは、Social Application Providerの略。</p>
@@ -406,13 +406,13 @@
 <p>役に立ったらいいね！ボタンを押してくれ！</p>
 <p>次回もヨロシク！</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/kame/?feed=rss2&#038;p=292</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/kame/?feed=rss2&#038;p=292</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>株式会社インデックス……ペルソナ4 ザ・カードバトル、織田信奈の野望</title>
-		<link>http://blog.shirai.la/kame/?p=275</link>
-				<comments>http://blog.shirai.la/kame/?p=275#respond</comments>
+		<link>https://blog.shirai.la/kame/?p=275</link>
+				<comments>https://blog.shirai.la/kame/?p=275#respond</comments>
 				<pubDate>Thu, 17 Jan 2013 11:10:15 +0000</pubDate>
 		<dc:creator><![CDATA[kame]]></dc:creator>
 				<category><![CDATA[SAP紹介]]></category>
@@ -425,7 +425,7 @@
 		<category><![CDATA[織田信奈の野望]]></category>
 		<category><![CDATA[落合正美]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/kame/?p=275</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/kame/?p=275</guid>
 				<description><![CDATA[GREEのSAPを紹介しちゃうコーナー！ SAPとは、Social Application Providerの [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>GREEのSAPを紹介しちゃうコーナー！</p>
 <p>SAPとは、Social Application Providerの略。</p>
@@ -439,8 +439,8 @@
 <p>現在GREEには、『<a href="http://jp.apps.gree.net/ja/57585">ペルソナ4 ザ・カードバトル</a>』，『<a href="http://jp.apps.gree.net/ja/57529" target="_blank">織田信奈の野望</a>』といった、</p>
 <p>人気のキャラクターを利用したソーシャルゲームを中心に、</p>
 <p>多数のソーシャルゲームを提供しているぞ。</p>
-<p><a href="http://jp.apps.gree.net/ja/57529" target="_blank"><img src="http://blog.shirai.la/kame/wp-content/blogs.dir/13/files/HLIC/5c7f8b25d1be8a9e795820dd97e7399f.jpg" title="織田信奈の野望" width="144" height="144" class="alignright" /></a><br />
-<a href="http://jp.apps.gree.net/ja/57585" target="_blank"><img src="http://blog.shirai.la/kame/wp-content/blogs.dir/13/files/HLIC/f8f65063270b9e7c51c940682fef86c5.jpg" title="ペルソナ4 ザ・カードバトル" width="144" height="144" class="alignright" /></a></p>
+<p><a href="http://jp.apps.gree.net/ja/57529" target="_blank"><img src="https://blog.shirai.la/kame/wp-content/blogs.dir/13/files/HLIC/5c7f8b25d1be8a9e795820dd97e7399f.jpg" title="織田信奈の野望" width="144" height="144" class="alignright" /></a><br />
+<a href="http://jp.apps.gree.net/ja/57585" target="_blank"><img src="https://blog.shirai.la/kame/wp-content/blogs.dir/13/files/HLIC/f8f65063270b9e7c51c940682fef86c5.jpg" title="ペルソナ4 ザ・カードバトル" width="144" height="144" class="alignright" /></a></p>
 <h2>【SAPデータ】</h2>
 <p>GREE, mobageに提供</p>
 <p>会社名　株式会社インデックス</p>
@@ -457,13 +457,13 @@
 <p>役に立ったらいいね！ボタンを押してくれ！</p>
 <p>次回もヨロシク！</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/kame/?feed=rss2&#038;p=275</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/kame/?feed=rss2&#038;p=275</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>ONE-UP 株式会社……メガミエンゲイジ！BREAK、戦国/ZERO</title>
-		<link>http://blog.shirai.la/kame/?p=270</link>
-				<comments>http://blog.shirai.la/kame/?p=270#respond</comments>
+		<link>https://blog.shirai.la/kame/?p=270</link>
+				<comments>https://blog.shirai.la/kame/?p=270#respond</comments>
 				<pubDate>Thu, 17 Jan 2013 08:02:45 +0000</pubDate>
 		<dc:creator><![CDATA[kame]]></dc:creator>
 				<category><![CDATA[SAP紹介]]></category>
@@ -476,7 +476,7 @@
 		<category><![CDATA[戦国/ZERO]]></category>
 		<category><![CDATA[採用]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/kame/?p=270</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/kame/?p=270</guid>
 				<description><![CDATA[GREEのSAPを紹介しちゃうコーナー！ SAPとは、Social Application Providerの [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>GREEのSAPを紹介しちゃうコーナー！</p>
 <p>SAPとは、Social Application Providerの略。</p>
@@ -488,8 +488,8 @@
 <p>現在GREEには、KeyやCIRCUSといったアダルトゲームメーカーのキャラクターが集結した、</p>
 <p>カードゲーム『<a href="http://jp.apps.gree.net/ja/58391" target="_blank">メガミエンゲイジ！BREAK</a>』や、</p>
 <p>戦国時代が舞台のカードゲーム『<a href="http://jp.apps.gree.net/ja/57605" target="_blank">戦国/ZERO</a>』などのタイトルを提供しているぞ。</p>
-<p><a href="http://jp.apps.gree.net/ja/58391" target="_blank"><img src="http://blog.shirai.la/kame/wp-content/blogs.dir/13/files/HLIC/0e65774c4898fe590cad15fe797bac41.jpg" title="メガミエンゲイジ！BREAK" width="144" height="144" class="alignright" /></a><br />
-<a href="http://jp.apps.gree.net/ja/57605" target="_blank"><img src="http://blog.shirai.la/kame/wp-content/blogs.dir/13/files/HLIC/a7254e8ddcd05b8797075cba05b881da.jpg" title="戦国/ZERO" width="144" height="144" class="alignright" /></a></p>
+<p><a href="http://jp.apps.gree.net/ja/58391" target="_blank"><img src="https://blog.shirai.la/kame/wp-content/blogs.dir/13/files/HLIC/0e65774c4898fe590cad15fe797bac41.jpg" title="メガミエンゲイジ！BREAK" width="144" height="144" class="alignright" /></a><br />
+<a href="http://jp.apps.gree.net/ja/57605" target="_blank"><img src="https://blog.shirai.la/kame/wp-content/blogs.dir/13/files/HLIC/a7254e8ddcd05b8797075cba05b881da.jpg" title="戦国/ZERO" width="144" height="144" class="alignright" /></a></p>
 <h2>【SAPデータ】</h2>
 <p>GREE，モバゲータウンともに提供</p>
 <p>会社名　ONE-UP 株式会社</p>
@@ -504,7 +504,7 @@
 <p>役に立ったらいいね！ボタンを押してくれ！</p>
 <p>次回もヨロシク！</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/kame/?feed=rss2&#038;p=270</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/kame/?feed=rss2&#038;p=270</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 	</channel>

@@ -9,8 +9,8 @@
 
 <channel>
 	<title>白井研ラボノート</title>
-	<atom:link href="http://blog.shirai.la/labnote/?feed=rss2" rel="self" type="application/rss+xml" />
-	<link>http://blog.shirai.la/labnote</link>
+	<atom:link href="https://blog.shirai.la/labnote/?feed=rss2" rel="self" type="application/rss+xml" />
+	<link>https://blog.shirai.la/labnote</link>
 	<description>といいつつ原稿置き場</description>
 	<lastBuildDate>
 	Wed, 28 Feb 2018 23:24:53 +0000	</lastBuildDate>
@@ -22,14 +22,14 @@
 	<generator>https://wordpress.org/?v=5.1.6</generator>
 	<item>
 		<title>白のゲーミフィケーション・黒のゲーミフィケーション</title>
-		<link>http://blog.shirai.la/labnote/?p=49</link>
-				<comments>http://blog.shirai.la/labnote/?p=49#respond</comments>
+		<link>https://blog.shirai.la/labnote/?p=49</link>
+				<comments>https://blog.shirai.la/labnote/?p=49#respond</comments>
 				<pubDate>Fri, 16 Aug 2013 10:14:26 +0000</pubDate>
 		<dc:creator><![CDATA[shirai]]></dc:creator>
 				<category><![CDATA[草稿]]></category>
 		<category><![CDATA[ゲーミフィケーション]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/labnote/?p=49</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/labnote/?p=49</guid>
 				<description><![CDATA[ゲーミフィケーション(Gamification)といえば，ゲームのルールをビジネスや企業活]]></description>
 								<content:encoded><![CDATA[<p>ゲーミフィケーション(Gamification)といえば，ゲームのルールをビジネスや企業活動に持ち込んで，社員のやる気を引き出そう！という事例が多く紹介されております．<br />
 しかし私は，今日的な大学生を相手にする上で，<br />
@@ -64,18 +64,18 @@
 本人が気が付かないうちに，相手を盤面の上に置き，最適戦略を取らせることで，自分の意図する方向に自ら進ませるという高等テクニックです．</p>
 <p>詳しくはいま執筆中の本に書いておきます．</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/labnote/?feed=rss2&#038;p=49</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/labnote/?feed=rss2&#038;p=49</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>経済学と生物学が教えてくれる、「生き延びるエンジニアのための多様性」</title>
-		<link>http://blog.shirai.la/labnote/?p=47</link>
-				<comments>http://blog.shirai.la/labnote/?p=47#respond</comments>
+		<link>https://blog.shirai.la/labnote/?p=47</link>
+				<comments>https://blog.shirai.la/labnote/?p=47#respond</comments>
 				<pubDate>Sat, 25 May 2013 05:24:22 +0000</pubDate>
 		<dc:creator><![CDATA[shirai]]></dc:creator>
 				<category><![CDATA[草稿]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/labnote/?p=47</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/labnote/?p=47</guid>
 				<description><![CDATA[技術が生まれてからその技術の意味を考えることには、 「なんだか後付で卑怯なんじゃないか？」]]></description>
 								<content:encoded><![CDATA[<p>技術が生まれてからその技術の意味を考えることには、</p>
 <p>「なんだか後付で卑怯なんじゃないか？」</p>
@@ -111,18 +111,18 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/labnote/?feed=rss2&#038;p=47</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/labnote/?feed=rss2&#038;p=47</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>喰える履歴書添削（基礎編）</title>
-		<link>http://blog.shirai.la/labnote/?p=37</link>
-				<comments>http://blog.shirai.la/labnote/?p=37#respond</comments>
+		<link>https://blog.shirai.la/labnote/?p=37</link>
+				<comments>https://blog.shirai.la/labnote/?p=37#respond</comments>
 				<pubDate>Sun, 03 Mar 2013 10:48:40 +0000</pubDate>
 		<dc:creator><![CDATA[shirai]]></dc:creator>
 				<category><![CDATA[就活]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/labnote/?p=37</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/labnote/?p=37</guid>
 				<description><![CDATA[ゲーム関係の就職、それも有名企業の企画職に内定するともなると、会社説明会は1万人を超え、送]]></description>
 								<content:encoded><![CDATA[<p>ゲーム関係の就職、それも有名企業の企画職に内定するともなると、会社説明会は1万人を超え、送られてくる履歴書は数千通といった規模になります。その中から採用されるのは年間10名以下、せいぜい2～3人といったところです。</p>
 <p>実際にそのような採用試験で最終面接や内定をもらうようになると、各企業がどのような人物を必要としているのかが感じられる能力が必要になります。正直なところ、最終面接は「相性」や「勝負運」も重要なので、攻略法のようなものは掲げませんが、書類審査や一次試験などの予選であれば攻略法はありますし、これは一般的な企業でも共通な点が多いのです。</p>
@@ -320,18 +320,18 @@ PC作業に慣れているのであれば、EXCEL版の履歴書サンプルを�
 <p>だからこそ、「喰える履歴書」としては、本当に「一部の隙もない。それでいて面白みがある」というラインが重要なのです。</p>
 <p>以上、「基礎編」を終わります。</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/labnote/?feed=rss2&#038;p=37</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/labnote/?feed=rss2&#038;p=37</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>おもしろいことに人は動く</title>
-		<link>http://blog.shirai.la/labnote/?p=31</link>
-				<comments>http://blog.shirai.la/labnote/?p=31#respond</comments>
+		<link>https://blog.shirai.la/labnote/?p=31</link>
+				<comments>https://blog.shirai.la/labnote/?p=31#respond</comments>
 				<pubDate>Wed, 27 Feb 2013 14:06:10 +0000</pubDate>
 		<dc:creator><![CDATA[shirai]]></dc:creator>
 				<category><![CDATA[草稿]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/labnote/?p=31</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/labnote/?p=31</guid>
 				<description><![CDATA[『面白いことに人は動く』と聞いて皆さんはどう思いますか？ &#160; 『そりゃそうだ』で]]></description>
 								<content:encoded><![CDATA[<p>『面白いことに人は動く』と聞いて皆さんはどう思いますか？</p>
 <p>&nbsp;</p>
@@ -364,18 +364,18 @@ PC作業に慣れているのであれば、EXCEL版の履歴書サンプルを�
 この「面白いことに人は動く」、「面白くないと続かない」というポイントは重要で、次のお話に続きます。</p>
 <p>&nbsp;</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/labnote/?feed=rss2&#038;p=31</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/labnote/?feed=rss2&#038;p=31</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>おもしろくないと続かない</title>
-		<link>http://blog.shirai.la/labnote/?p=29</link>
-				<comments>http://blog.shirai.la/labnote/?p=29#respond</comments>
+		<link>https://blog.shirai.la/labnote/?p=29</link>
+				<comments>https://blog.shirai.la/labnote/?p=29#respond</comments>
 				<pubDate>Wed, 27 Feb 2013 14:03:22 +0000</pubDate>
 		<dc:creator><![CDATA[shirai]]></dc:creator>
 				<category><![CDATA[草稿]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/labnote/?p=29</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/labnote/?p=29</guid>
 				<description><![CDATA[&#160; 私が働いている神奈川工科大学・情報メディア学科には「ゲームクリエイタになりた]]></description>
 								<content:encoded><![CDATA[<p>&nbsp;</p>
 <p>私が働いている神奈川工科大学・情報メディア学科には「ゲームクリエイタになりたい！」という学生さんがたくさんいらっしゃいます。文系とも理系ともつかない「情報メディア学科」の学生さんを相手に、ゲーム技術やメディアアート、新しい映像技術や、「おもしろさ」を解明する科学の面白さを学ぶ機会をつくり、実際の産業の中で活躍していただけるような「人材」</p>
@@ -383,18 +383,18 @@ PC作業に慣れているのであれば、EXCEL版の履歴書サンプルを�
 <p>お絵かきが得意な学生も、プログラミングが得意な学生も、同じ課題に取り組みます。基本的にはひとりで、本とWiiリモコンと格闘しながら『自分の作りたい世界』を作り、発表します。</p>
 <p>多くの学生は最初『任天堂Wiiなんて、最近起動すらしてねーわ』とか『ワタシ、プログラミングとか無理！』という感じの事をおっしゃいます。ですが、実際に作ってみると、これは面白い。そして誰にでもできることの組み合わせで「新しい体験」は生まれてくるのです。</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/labnote/?feed=rss2&#038;p=29</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/labnote/?feed=rss2&#038;p=29</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 		<item>
 		<title>プロローグ：おもしろい話はむずかしい</title>
-		<link>http://blog.shirai.la/labnote/?p=4</link>
-				<comments>http://blog.shirai.la/labnote/?p=4#respond</comments>
+		<link>https://blog.shirai.la/labnote/?p=4</link>
+				<comments>https://blog.shirai.la/labnote/?p=4#respond</comments>
 				<pubDate>Wed, 27 Feb 2013 12:56:25 +0000</pubDate>
 		<dc:creator><![CDATA[shirai]]></dc:creator>
 				<category><![CDATA[草稿]]></category>
 
-		<guid isPermaLink="false">http://blog.shirai.la/labnote/?p=4</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/labnote/?p=4</guid>
 				<description><![CDATA[&#160; 「――で、白井さんだったら&#8221;おもしろい話&#8221;が書けると]]></description>
 								<content:encoded><![CDATA[<p>&nbsp;</p>
 <p>「――で、白井さんだったら&#8221;おもしろい話&#8221;が書けると思うんですよ」</p>
@@ -435,7 +435,7 @@ PC作業に慣れているのであれば、EXCEL版の履歴書サンプルを�
 <p>――そうしてこの本は始まりました。</p>
 <p>&nbsp;</p>
 ]]></content:encoded>
-							<wfw:commentRss>http://blog.shirai.la/labnote/?feed=rss2&#038;p=4</wfw:commentRss>
+							<wfw:commentRss>https://blog.shirai.la/labnote/?feed=rss2&#038;p=4</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 	</channel>

@@ -42,7 +42,7 @@
         <table name="wp_download_monitor_files">
             <column name="id">1</column>
             <column name="title">【3Dディスプレイの新方式「2x3D」の開発に成功：2Dと3Dを同スクリーンで上映】</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/PressRelease2x3D-20121025.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/PressRelease2x3D-20121025.pdf</column>
             <column name="file_description">2012年10月25日（木）
 報道関係各位・プレスリリース：神奈川工科大学 情報メディア学科 白井研究室
 
@@ -57,7 +57,7 @@
         <table name="wp_download_monitor_files">
             <column name="id">2</column>
             <column name="title">2x3D: Real-Time Shader for Simultaneous 2D/3D Hybrid Theater</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/2x3D-Abst0923SR3F.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/2x3D-Abst0923SR3F.pdf</column>
             <column name="file_description">Wataru FUJIMURA, Yukua KOIDE, Robert SONGER, Takahiro HAYAKAWA, Akihiko SHIRAI, Kazuhisa YANAKA, &quot;2x3D: Real-Time Shader for Simultaneous 2D/3D Hybrid Theater&quot;, ACM SIGGRAPH ASIA 2012 Emerging Technologies, Singapore, 2012.</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-01 01:31:00</column>
@@ -69,7 +69,7 @@
         <table name="wp_download_monitor_files">
             <column name="id">3</column>
             <column name="title">2X3D：2D+3D同時上映可能なハイブリッドシアター</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/2x3D-vrsj2012.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/2x3D-vrsj2012.pdf</column>
             <column name="file_description">藤村航，小出雄空明，早川貴奉，谷中一寿，白井暁彦, &quot;2X3D：2D+3D同時上映可能なハイブリッドシアター&quot;, 第17回日本バーチャルリアリティ学会大会論文集, 2012年9月</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-01 01:36:00</column>
@@ -81,7 +81,7 @@
         <table name="wp_download_monitor_files">
             <column name="id">4</column>
             <column name="title">日経産業新聞2012年10月30日「2次元と3次元同一画面で表示」</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/39d6801b25e3fc313c5cc40cba4bccce.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/39d6801b25e3fc313c5cc40cba4bccce.pdf</column>
             <column name="file_description">日経産業新聞2012年10月30日「2次元と3次元同一画面で表示」</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-01 13:03:03</column>
@@ -93,7 +93,7 @@
         <table name="wp_download_monitor_files">
             <column name="id">5</column>
             <column name="title">卒論TeXテンプレート</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/SotsuronTeX.zip</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/SotsuronTeX.zip</column>
             <column name="file_description">とりあえず作ってみたレベル，でも亀山くんには十分使えるのではないでしょうか．修士にもおすすめ．</column>
             <column name="dlversion">1</column>
             <column name="postDate">2012-11-01 20:58:05</column>
@@ -105,7 +105,7 @@
         <table name="wp_download_monitor_files">
             <column name="id">6</column>
             <column name="title">(非公開)ScritterHGX converter</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/Scritter3D.zip</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/Scritter3D.zip</column>
             <column name="file_description">for Processing 2.x
 
 ソースの場所はこちら
@@ -128,7 +128,7 @@ C:\Users\aki\Dropbox\Labo2012\NEC-DS\ScritterGXgen
         <table name="wp_download_monitor_files">
             <column name="id">7</column>
             <column name="title">KinectTVRemote+AccuMotionLib</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/KinectTVRemote1.zip</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/KinectTVRemote1.zip</column>
             <column name="file_description">CQ出版社「インターフェース」2013年1月号「研究 人間センシング」の特集関連記事『誤認識しにくいジェスチャ入力の研究！』のためのサンプルプログラムです。
 
 本誌記事の詳細はこちらをお読みください。
@@ -144,7 +144,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">8</column>
             <column name="title">フランスからのアート系研究者が特別講演(2012/12/3 5限) </column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/FrenchGameArtistPoster20121119.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/FrenchGameArtistPoster20121119.pdf</column>
             <column name="file_description">2012年度　特別講演企画
 「ビデオゲームおよびVR環境における感情表現」
 講師：ゲームアーティスト：Erik GESLIN（エリック・ジェラン、FRANCE）
@@ -169,7 +169,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">9</column>
             <column name="title">IVRC2010学内説明会ポスター</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/IVRCpre201004-KAIT.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/IVRCpre201004-KAIT.pdf</column>
             <column name="file_description">IVRC2010IVRC2010学内説明会のポスター</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-28 03:28:28</column>
@@ -181,7 +181,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">10</column>
             <column name="title">2x3D-Abst0923SR3F.pdf</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/2x3D-Abst0923SR3F.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/2x3D-Abst0923SR3F.pdf</column>
             <column name="file_description">Wataru FUJIMURA, Yukua KOIDE, Robert SONGER, Takahiro HAYAKAWA, Akihiko SHIRAI, Kazuhisa YANAKA, \&quot;2x3D: Real-Time Shader for Simultaneous 2D/3D Hybrid Theater\&quot;, ACM SIGGRAPH ASIA 2012 Emerging Technologies (accepted), Singapore, 2012.</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-28 05:25:01</column>
@@ -193,7 +193,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">11</column>
             <column name="title">エンタテイメントシステムにおける加速度センサを用いたユーザ解析と非言語評価手法の提案</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/H23-Takumi.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/H23-Takumi.pdf</column>
             <column name="file_description">エンタテイメントシステムにおける加速度センサを用いたユーザ解析と非言語評価手法の提案</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-28 06:22:28</column>
@@ -205,7 +205,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">12</column>
             <column name="title">次世代エンタテイメントシステム開発のためのプロトタイピング手法</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/H23-Yamashita.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/H23-Yamashita.pdf</column>
             <column name="file_description">次世代エンタテイメントシステム開発のためのプロトタイピング手法</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-28 06:27:36</column>
@@ -217,7 +217,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">13</column>
             <column name="title">骨格情報を用いたNUIにおける認識アルゴリズムの開発</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/H23-Fujimura.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/H23-Fujimura.pdf</column>
             <column name="file_description">骨格情報を用いたNUIにおける認識アルゴリズムの開発</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 04:33:13</column>
@@ -229,7 +229,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">14</column>
             <column name="title">霧箱を使った科学コミュニケーションのための放射線可視化システムの開発</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/H23-Kitada.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/H23-Kitada.pdf</column>
             <column name="file_description">霧箱を使った科学コミュニケーションのための放射線可視化システムの開発</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 04:37:46</column>
@@ -241,7 +241,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">15</column>
             <column name="title">脈波の物理的可視化によるノンバーバル・コミュニケーション手法の開発</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/H23Y-Miyakawa.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/H23Y-Miyakawa.pdf</column>
             <column name="file_description">脈波の物理的可視化によるノンバーバル・コミュニケーション手法の開発</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 04:41:01</column>
@@ -253,7 +253,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">16</column>
             <column name="title">ペルソナ法を用いたブログ形式による商品案内サイト構築</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/H23Y-Tsuzuku.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/H23Y-Tsuzuku.pdf</column>
             <column name="file_description">ペルソナ法を用いたブログ形式による商品案内サイト構築</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 04:44:42</column>
@@ -265,7 +265,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">17</column>
             <column name="title">映像多重化システムと速度変化に注目したe-sports観戦での高い一体感を生み出す演出手法の提案と開発</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/H22-Arahara.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/H22-Arahara.pdf</column>
             <column name="file_description">映像多重化システムと速度変化に注目したe-sports観戦での高い一体感を生み出す演出手法の提案と開発</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 04:47:48</column>
@@ -277,7 +277,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">18</column>
             <column name="title">測域センサを用いたエンタテイメントシステムにおける遊戯状態の可視化による人の自然な振る舞いの物理評価（特別改訂版）</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/H22-iwadate.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/H22-iwadate.pdf</column>
             <column name="file_description">測域センサを用いたエンタテイメントシステムにおける遊戯状態の可視化による人の自然な振る舞いの物理評価（特別改訂版）</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 04:50:12</column>
@@ -289,7 +289,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">19</column>
             <column name="title">デジタルシネマにおけるHDR画像の性質を使ったデバイス非依存のカラーマネジメント手法</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/H22-syu.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/H22-syu.pdf</column>
             <column name="file_description">デジタルシネマにおけるHDR画像の性質を使ったデバイス非依存のカラーマネジメント手法</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 04:53:50</column>
@@ -301,7 +301,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">20</column>
             <column name="title">UbiCode：パブリックディスプレイへのバーチャルインタラクティビティの追加</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRSJ2012-UbiCode.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRSJ2012-UbiCode.pdf</column>
             <column name="file_description">UbiCode：パブリックディスプレイへのバーチャルインタラクティビティの追加</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 05:07:00</column>
@@ -313,7 +313,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">21</column>
             <column name="title">2X3D：2D+3D同時上映可能なハイブリッドシアター</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/2x3D-vrsj20121.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/2x3D-vrsj20121.pdf</column>
             <column name="file_description">2X3D：2D+3D同時上映可能なハイブリッドシアター</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 05:13:00</column>
@@ -325,7 +325,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">22</column>
             <column name="title">RFIDとプロジェクションマッピングを活用した科学館向けエンタテイメントVRシステム</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/Science-quest2012kitada.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/Science-quest2012kitada.pdf</column>
             <column name="file_description">RFIDとプロジェクションマッピングを活用した科学館向けエンタテイメントVRシステム&quot;, エンタテイメントコンピューティング2012</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 05:15:00</column>
@@ -337,7 +337,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">23</column>
             <column name="title">カラオケに並列するダンスゲームのゲームデザインの提案</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/EC2012-Nara.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/EC2012-Nara.pdf</column>
             <column name="file_description">カラオケに並列するダンスゲームのゲームデザインの提案</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 05:22:00</column>
@@ -349,7 +349,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">24</column>
             <column name="title">多重化隠蔽技術UbiCodeを使ったデジタルサイネージのインタラクティブ化によるコミュニケーション支援</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/HCG2012-1210.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/HCG2012-1210.pdf</column>
             <column name="file_description">多重化隠蔽技術UbiCodeを使ったデジタルサイネージのインタラクティブ化によるコミュニケーション支援</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 05:42:00</column>
@@ -361,7 +361,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">25</column>
             <column name="title">PARAOKE alpha: a new application development of multiplex-hidden display technique for music entertainment system</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/NICOINT2012-PARAOKE-0517.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/NICOINT2012-PARAOKE-0517.pdf</column>
             <column name="file_description">PARAOKE alpha: a new application development of multiplex-hidden display technique for music entertainment system</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 05:50:00</column>
@@ -373,7 +373,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">26</column>
             <column name="title">AccuMotion: intuitive recognition algorithm for new interactions and experiences for the post-PC era</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRIC2012-AccuMotion0426.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRIC2012-AccuMotion0426.pdf</column>
             <column name="file_description">AccuMotion: intuitive recognition algorithm for new interactions and experiences for the post-PC era</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 06:07:00</column>
@@ -385,7 +385,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">27</column>
             <column name="title">多重化･隠蔽画像を用いたデジタルサイネージの開発</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/ITSympo2011-Koide-0215YK3.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/ITSympo2011-Koide-0215YK3.pdf</column>
             <column name="file_description">多重化･隠蔽画像を用いたデジタルサイネージの開発</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 06:15:00</column>
@@ -397,7 +397,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">28</column>
             <column name="title">霧箱を使った科学コミュニケーションによる放射線理解の調査手法</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/ITSympo2011-kitada.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/ITSympo2011-kitada.pdf</column>
             <column name="file_description">霧箱を使った科学コミュニケーションによる放射線理解の調査手法</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 06:23:00</column>
@@ -409,7 +409,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">29</column>
             <column name="title">多重化・隠蔽サイネージを用いた次世代カラオケ・エンタテイメントシステムの提案</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/ArtSciForum2012Koide.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/ArtSciForum2012Koide.pdf</column>
             <column name="file_description">多重化・隠蔽サイネージを用いた次世代カラオケ・エンタテイメントシステムの提案</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 06:30:00</column>
@@ -421,7 +421,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">30</column>
             <column name="title">霧箱の動画像処理による空間放射線可視化システム</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/ArtSciForum2012kitada.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/ArtSciForum2012kitada.pdf</column>
             <column name="file_description">霧箱の動画像処理による空間放射線可視化システム</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 06:36:00</column>
@@ -433,7 +433,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">31</column>
             <column name="title">CartooNect: Sensory motor playing system using cartoon actions</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/CartoonectVRIC2011F.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/CartoonectVRIC2011F.pdf</column>
             <column name="file_description">CartooNect: Sensory motor playing system using cartoon actions</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 06:50:00</column>
@@ -445,7 +445,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">32</column>
             <column name="title">加速度センサを用いたエンタテインメントシステムの非言語評価手法の提案</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/EC2011_Takumi.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/EC2011_Takumi.pdf</column>
             <column name="file_description">加速度センサを用いたエンタテインメントシステムの非言語評価手法の提案</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 07:03:00</column>
@@ -457,7 +457,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">33</column>
             <column name="title">奥行き画像センサを用いた展示空間の物理評価</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRSJ2011-ResBeK-F.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRSJ2011-ResBeK-F.pdf</column>
             <column name="file_description">奥行き画像センサを用いた展示空間の物理評価</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 07:11:00</column>
@@ -469,7 +469,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">34</column>
             <column name="title">全身運動を中心とした震災復興を伝えるシリアスゲームの開発</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/vrsj2011_ver6.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/vrsj2011_ver6.pdf</column>
             <column name="file_description">全身運動を中心とした震災復興を伝えるシリアスゲームの開発</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 07:14:00</column>
@@ -481,7 +481,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">35</column>
             <column name="title">放射線可視化を通した科学コミュニケーション活動</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/NICOGRAPH2011_kitada.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/NICOGRAPH2011_kitada.pdf</column>
             <column name="file_description">放射線可視化を通した科学コミュニケーション活動</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 07:23:00</column>
@@ -493,7 +493,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">36</column>
             <column name="title">実世界指向ゲームインタラクション技術の歴史，フィロソフィ，そして近未来</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/ITE2011AS.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/ITE2011AS.pdf</column>
             <column name="file_description">実世界指向ゲームインタラクション技術の歴史，フィロソフィ，そして近未来</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 07:34:00</column>
@@ -505,7 +505,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">37</column>
             <column name="title">スマートフォンの高精細加速度センサを用いた抽象的動画作品視聴時のユーザ動作分析と作品のクオリティ向上手法の提案</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/NICOGRAPH2011Sp_TakumiPaper.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/NICOGRAPH2011Sp_TakumiPaper.pdf</column>
             <column name="file_description">スマートフォンの高精細加速度センサを用いた抽象的動画作品視聴時のユーザ動作分析と作品のクオリティ向上手法の提案</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 07:44:00</column>
@@ -517,7 +517,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">38</column>
             <column name="title">感圧センサを使った感覚運動インタラクションのための自然なプレイヤ分析アルゴリズムと評価</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/NICOGRAPH_LovePress.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/NICOGRAPH_LovePress.pdf</column>
             <column name="file_description">感圧センサを使った感覚運動インタラクションのための自然なプレイヤ分析アルゴリズムと評価</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 07:46:00</column>
@@ -529,7 +529,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">39</column>
             <column name="title">クリーチャーデザインにおける、手書きに注目したデザインワークフローの提案</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/NICOGRAPH2011_CreatureDesign_NoriyukiYamamoto.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/NICOGRAPH2011_CreatureDesign_NoriyukiYamamoto.pdf</column>
             <column name="file_description">クリーチャーデザインにおける、手書きに注目したデザインワークフローの提案</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 07:48:00</column>
@@ -541,7 +541,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">40</column>
             <column name="title">e-sports 映像のネット配信を考慮した速度変化演出の効果と特性</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/NICOGRAPH2011_e-sports.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/NICOGRAPH2011_e-sports.pdf</column>
             <column name="file_description">e-sports 映像のネット配信を考慮した速度変化演出の効果と特性</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 07:54:00</column>
@@ -553,7 +553,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">41</column>
             <column name="title">放射能はオバケじゃない！霧箱制作 で学ぶ自然放射線の可視化</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/KAITSympo2011-Kiribako.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/KAITSympo2011-Kiribako.pdf</column>
             <column name="file_description">放射能はオバケじゃない！霧箱制作 で学ぶ自然放射線の可視化</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 08:02:00</column>
@@ -565,7 +565,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">42</column>
             <column name="title">LovePress++: 物理入力に感応する新しい恋愛シリアスゲームの提案</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/Interaction2011_Yamashita.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/Interaction2011_Yamashita.pdf</column>
             <column name="file_description">LovePress++: 物理入力に感応する新しい恋愛シリアスゲームの提案</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 08:08:00</column>
@@ -577,7 +577,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">43</column>
             <column name="title">測域センサを用いた体験教育環境の物理的評価</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/ITSympo2011Iwadate.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/ITSympo2011Iwadate.pdf</column>
             <column name="file_description">測域センサを用いた体験教育環境の物理的評価</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 08:15:00</column>
@@ -589,7 +589,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">44</column>
             <column name="title">抽象的なアニメーション作品視聴に対する加速度センサを用いた自然なユーザ解析手法の提案</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/ITSympo2011Takumi.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/ITSympo2011Takumi.pdf</column>
             <column name="file_description">抽象的なアニメーション作品視聴に対する加速度センサを用いた自然なユーザ解析手法の提案</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 08:25:00</column>
@@ -601,7 +601,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">45</column>
             <column name="title">Development of serious game which use full body interaction and accumulated motion</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/Gamic-nicograph.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/Gamic-nicograph.pdf</column>
             <column name="file_description">Development of serious game which use full body interaction and accumulated motion</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 08:35:00</column>
@@ -613,7 +613,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">46</column>
             <column name="title">GAMIC: Exaggerated Real-Time Character Animation Control Method for Full-Body Gesture Interaction System</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/Gamic-SIGGRAPH2011-F.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/Gamic-SIGGRAPH2011-F.pdf</column>
             <column name="file_description">GAMIC: Exaggerated Real-Time Character Animation Control Method for Full-Body Gesture Interaction System</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 08:43:00</column>
@@ -625,7 +625,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">47</column>
             <column name="title">SIGGRAPH 2011_poster</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/GAMICSIGPOS20110727.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/GAMICSIGPOS20110727.pdf</column>
             <column name="file_description">SIGGRAPH 2011_poster</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 08:50:36</column>
@@ -637,7 +637,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">48</column>
             <column name="title">Skeleton-based diverse creature design tool for mass production</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/IREVA-SA2011F1p.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/IREVA-SA2011F1p.pdf</column>
             <column name="file_description">Skeleton-based diverse creature design tool for mass production</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 08:56:00</column>
@@ -649,7 +649,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">49</column>
             <column name="title">SiggraphAsia2011_Skelton_Poster</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/SiggraphAsia2011_Skelton_Poster.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/SiggraphAsia2011_Skelton_Poster.pdf</column>
             <column name="file_description">SiggraphAsia2011_Skelton_Poster</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 08:58:47</column>
@@ -661,7 +661,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">50</column>
             <column name="title">Experimental methods and natural player analysis for sensory-motor interaction using pressure sensors</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/NICOGRAPH2011International_LovePress.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/NICOGRAPH2011International_LovePress.pdf</column>
             <column name="file_description">Experimental methods and natural player analysis for sensory-motor interaction using pressure sensors</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 09:07:00</column>
@@ -673,7 +673,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">51</column>
             <column name="title">ScritterHDR: Multiplex-Hidden Imaging on High Dynamic Range Projection</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/ScritterHDRAbstract.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/ScritterHDRAbstract.pdf</column>
             <column name="file_description">ScritterHDR: Multiplex-Hidden Imaging on High Dynamic Range Projection</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 09:11:00</column>
@@ -685,7 +685,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">52</column>
             <column name="title">ScritterHDR_poster</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/SIGGRAPH-ASIA-2011-POSTER.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/SIGGRAPH-ASIA-2011-POSTER.pdf</column>
             <column name="file_description">ScritterHDR_poster</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-29 09:13:30</column>
@@ -697,7 +697,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">53</column>
             <column name="title">Scritter-L: 時間停止機能と映像多重化システムを用いたe-sports イベントでの高い一体感を演出するバーチャル中継システムの提案</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRSJ2010-eSports.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRSJ2010-eSports.pdf</column>
             <column name="file_description">Scritter-L: 時間停止機能と映像多重化システムを用いたe-sports イベントでの高い一体感を演出するバーチャル中継システムの提案</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-30 05:15:00</column>
@@ -709,7 +709,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">54</column>
             <column name="title">摂動応答と重心動揺計を用いた嗜好画像のリアルタイム推定手法の提案</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRSJ2010-Hitomebore.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRSJ2010-Hitomebore.pdf</column>
             <column name="file_description">摂動応答と重心動揺計を用いた嗜好画像のリアルタイム推定手法の提案</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-30 05:29:00</column>
@@ -721,7 +721,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">55</column>
             <column name="title">ResBe:エンタテイメントシステム周囲のコミュニケーション場に対する遠隔評価手法の提案</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRSJ2010-ResBe.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRSJ2010-ResBe.pdf</column>
             <column name="file_description">ResBe:エンタテイメントシステム周囲のコミュニケーション場に対する遠隔評価手法の提案</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-30 05:31:00</column>
@@ -733,7 +733,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">56</column>
             <column name="title">多重化映像表示における隠蔽映像生成アルゴリズム</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRSJ2010-ScritterH.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRSJ2010-ScritterH.pdf</column>
             <column name="file_description">多重化映像表示における隠蔽映像生成アルゴリズム</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-30 05:36:00</column>
@@ -745,7 +745,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">57</column>
             <column name="title">ステレオ立体視技術と高い互換性を持つ多重化映像提示システム およびコンテンツ制作手法の提案</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRSJ2010-Scritter.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRSJ2010-Scritter.pdf</column>
             <column name="file_description">ステレオ立体視技術と高い互換性を持つ多重化映像提示システム およびコンテンツ制作手法の提案</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-30 05:38:00</column>
@@ -757,7 +757,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">58</column>
             <column name="title">測域センサを用いたResBeシステムとHeatmapによる実世界指向エンタテイメントシステムの物理評価手法</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/EC2010-ResBe0813F.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/EC2010-ResBe0813F.pdf</column>
             <column name="file_description">測域センサを用いたResBeシステムとHeatmapによる実世界指向エンタテイメントシステムの物理評価手法</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-30 05:44:00</column>
@@ -769,7 +769,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">59</column>
             <column name="title">A new &quot;multiplex content&quot;; displaying system compatible with current 3D projection technology</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/a79-nagano.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/a79-nagano.pdf</column>
             <column name="file_description">A new &quot;multiplex content&quot;; displaying system compatible with current 3D projection technology</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-30 08:41:00</column>
@@ -781,7 +781,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">60</column>
             <column name="title">SIGGRAPH 2010_poster</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/SIGGRAPH-POSTERvr6.4.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/SIGGRAPH-POSTERvr6.4.pdf</column>
             <column name="file_description">SIGGRAPH 2010_poster</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-30 08:45:04</column>
@@ -793,7 +793,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">61</column>
             <column name="title">Scritter: A multiplexed image system for a public screen</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/Scritter-ReVolution2010.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/Scritter-ReVolution2010.pdf</column>
             <column name="file_description">Scritter: A multiplexed image system for a public screen</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-30 08:54:00</column>
@@ -805,7 +805,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">62</column>
             <column name="title">日仏VRにおける『面白い』研究スタイルの相違</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRSJ2012-FrJpOSAki.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/VRSJ2012-FrJpOSAki.pdf</column>
             <column name="file_description">日仏VRにおける『面白い』研究スタイルの相違</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-30 09:04:50</column>
@@ -817,7 +817,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">63</column>
             <column name="title">Wiiリモコンとエンタテイメント技術の新学習指導要領への活用</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/WiiRemoteWS-Odawara20110822Web.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/WiiRemoteWS-Odawara20110822Web.pdf</column>
             <column name="file_description">Wiiリモコンとエンタテイメント技術の新学習指導要領への活用</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-30 09:14:00</column>
@@ -829,7 +829,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">64</column>
             <column name="title">3Dディスプレイ互換の多重化映像システム</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/11/TSY2011-ScritterS.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/11/TSY2011-ScritterS.pdf</column>
             <column name="file_description">3Dディスプレイ互換の多重化映像システム</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-11-30 09:42:37</column>
@@ -841,7 +841,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">65</column>
             <column name="title">LovePressOpenBeta2_shiori.</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/12/LovePressOpenBeta2_shiori.zip</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/12/LovePressOpenBeta2_shiori.zip</column>
             <column name="file_description">LovePressOpenBeta2_shiori.</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-12-04 05:46:19</column>
@@ -853,7 +853,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">66</column>
             <column name="title">LovePressOpenBeta2_yuko</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/12/LovePressOpenBeta2_yuko.zip</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/12/LovePressOpenBeta2_yuko.zip</column>
             <column name="file_description">LovePressOpenBeta2_yuko</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-12-04 05:48:49</column>
@@ -865,7 +865,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">67</column>
             <column name="title">LovePressOpenBeta2_suzuka</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2012/12/LovePressOpenBeta2_suzuka.zip</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2012/12/LovePressOpenBeta2_suzuka.zip</column>
             <column name="file_description">LovePressOpenBeta2_suzuka</column>
             <column name="dlversion"></column>
             <column name="postDate">2012-12-04 05:52:09</column>
@@ -877,7 +877,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">68</column>
             <column name="title">LCDプロジェクターを用いた偏光によるステレオ立体視のための画質向上アルゴリズム</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/01/IPSJ2012-Koide.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/01/IPSJ2012-Koide.pdf</column>
             <column name="file_description">LCDプロジェクターを用いた偏光によるステレオ立体視のための画質向上アルゴリズム</column>
             <column name="dlversion"></column>
             <column name="postDate">2013-01-18 11:56:19</column>
@@ -889,7 +889,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">69</column>
             <column name="title">実世界指向エンタテイメントシステムのための 失敗しないゲームデザインの提案</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/02/106a039f0598184d9c03cdda599b8b22.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/02/106a039f0598184d9c03cdda599b8b22.pdf</column>
             <column name="file_description">2012年度卒業論文要旨_奈良</column>
             <column name="dlversion"></column>
             <column name="postDate">2013-02-19 18:31:57</column>
@@ -901,7 +901,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">70</column>
             <column name="title">ソーシャルゲームのジャーナリズム構築を 目的としたブログ自動生成</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/02/ccd9f68c19e478335a9253eadd609eae.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/02/ccd9f68c19e478335a9253eadd609eae.pdf</column>
             <column name="file_description">2012年度卒業論文要旨_亀山</column>
             <column name="dlversion"></column>
             <column name="postDate">2013-02-19 09:46:20</column>
@@ -913,7 +913,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">71</column>
             <column name="title">スマートフォンの加速度センサによる“笑いのツボ”の可視化</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/02/8f3059e28e6707c08f92105ec3cd9fef.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/02/8f3059e28e6707c08f92105ec3cd9fef.pdf</column>
             <column name="file_description">2012年度卒業論文要旨_鈴木</column>
             <column name="dlversion"></column>
             <column name="postDate">2013-02-19 09:49:10</column>
@@ -925,7 +925,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">72</column>
             <column name="title">コンピューターゲームジャンル変容と独立性の可視化</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/02/899256d7c138004ebf482389875b2023.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/02/899256d7c138004ebf482389875b2023.pdf</column>
             <column name="file_description">2012年度卒業論文要旨_加藤航</column>
             <column name="dlversion"></column>
             <column name="postDate">2013-02-19 09:53:32</column>
@@ -937,7 +937,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">73</column>
             <column name="title">センサデータを用いた ユーザ体験空間における行動評価</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/02/1f382bcd3228f32ed300231ad9cd9683.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/02/1f382bcd3228f32ed300231ad9cd9683.pdf</column>
             <column name="file_description">修士論文要旨_岩楯</column>
             <column name="dlversion"></column>
             <column name="postDate">2013-02-19 09:57:47</column>
@@ -949,7 +949,7 @@ http://www.kumikomi.net/interface/sample/201301/if01_130.pdf</column>
         <table name="wp_download_monitor_files">
             <column name="id">74</column>
             <column name="title">科学館向けエンタテイメントシステムにおける成績データを用いたユーザー分析</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/04/AS2013_kitada.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/04/AS2013_kitada.pdf</column>
             <column name="file_description">本稿では,2012年7月21日〜9月2日に新潟県立自然科学館で開催された企画展「謎解きアドベンチャー失われた紋章」で使用したRFIDとデータベースサーバ,プロジェクションマッピングを用いた多人数が同時に参加できる科学クイズエンタテイメントシステムにおいて,サーバー側に記録されている体験者の成績データ群を分析し,体験者の傾向について報告をおこなう.従来の科学館向けエンタテイメントシステムの報告・調査では明らかにされてこなかった,体験者の科学理解の状況と紙メディアを使った具体的なフィードバック方法の提案をおこなう.
 
 This article issues a case study about tendency of the experient in a science museum exhibition, &quot;Science Quest&quot; project which had been held in Niigata Science Museum from July 21, 2012 to September 2. The exhibition was physical human scale interactive system which uses science quiz, RFID and projection mapping to tell elemental science as a special exhibition in a summer holiday. Through a player analysis using post data from answered database of the experients, it reports a state of experients' science understanding and difficulty in vocal interaction devices. Then it proposes actual method using paper media for a better science understanding.</column>
@@ -963,7 +963,7 @@ This article issues a case study about tendency of the experient in a science mu
         <table name="wp_download_monitor_files">
             <column name="id">75</column>
             <column name="title">瞬刊少年マルマル</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/05/AS2013_manga.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/05/AS2013_manga.pdf</column>
             <column name="file_description">瞬刊少年マルマル</column>
             <column name="dlversion"></column>
             <column name="postDate">2013-05-22 18:24:30</column>
@@ -975,7 +975,7 @@ This article issues a case study about tendency of the experient in a science mu
         <table name="wp_download_monitor_files">
             <column name="id">76</column>
             <column name="title">Manga Generator: Immersive Posing Role Playing Game in Manga World</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/05/Manga-VRIC2013f.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/05/Manga-VRIC2013f.pdf</column>
             <column name="file_description">Manga Generator:Immersive Posing Role Playing Game in Manga World</column>
             <column name="dlversion"></column>
             <column name="postDate">2013-05-22 18:39:43</column>
@@ -987,7 +987,7 @@ This article issues a case study about tendency of the experient in a science mu
         <table name="wp_download_monitor_files">
             <column name="id">77</column>
             <column name="title">スマートフォンの加速度センサを用いた微小不随意運動検出による動画視聴時の笑い評価手法</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/09/VRSJ2013_kitada.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/09/VRSJ2013_kitada.pdf</column>
             <column name="file_description"></column>
             <column name="dlversion"></column>
             <column name="postDate">2013-09-13 20:26:00</column>
@@ -999,7 +999,7 @@ This article issues a case study about tendency of the experient in a science mu
         <table name="wp_download_monitor_files">
             <column name="id">78</column>
             <column name="title">マンガ没入型 VR エンタテイメントシステムにおけるコンテンツ制作手法</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/09/VRSJ2013_Koide.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/09/VRSJ2013_Koide.pdf</column>
             <column name="file_description">本論文は第 20 回国際学生対抗バーチャルリアリティコンテストを機会に開発を行った，マン ガの中に入り込んで体験者のオリジナルマンガを作成するマンガ没入型エンタテイメントシステム 『瞬刊少年マルマル』および，その後の研究である『Manga Generator』における追加･改善事項，コ ンテンツ開発のワークフロー，それを用いて行った産業向け展示の手法について報告を行う．あわ せて今後のマンガ没入型エンタテイメントシステム展示における課題と可能性について述べる． キーワード: マンガ没入型，エンタテイメント，VR，コンテンツ制作手法，展示開発</column>
             <column name="dlversion"></column>
             <column name="postDate">2013-09-13 20:39:00</column>
@@ -1011,7 +1011,7 @@ This article issues a case study about tendency of the experient in a science mu
         <table name="wp_download_monitor_files">
             <column name="id">79</column>
             <column name="title">VR エンタテイメントシステムのための リアルタイムマンガ風画像生成シェーダーの開発</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/09/VRSJ2013_fujumura.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/09/VRSJ2013_fujumura.pdf</column>
             <column name="file_description"></column>
             <column name="dlversion"></column>
             <column name="postDate">2013-09-13 20:43:00</column>
@@ -1031,7 +1031,7 @@ This article issues a case study about tendency of the experient in a science mu
             <column name="hits">978</column>
             <column name="user">shirai</column>
             <column name="members">0</column>
-            <column name="mirrors">http://blog.shirai.la/wp-content/uploads/downloads/2013/10/EC2013-ASOS_kitada.pdf</column>
+            <column name="mirrors">https://blog.shirai.la/wp-content/uploads/downloads/2013/10/EC2013-ASOS_kitada.pdf</column>
         </table>
         <table name="wp_download_monitor_files">
             <column name="id">81</column>
@@ -1044,7 +1044,7 @@ This article issues a case study about tendency of the experient in a science mu
             <column name="hits">1090</column>
             <column name="user">shirai</column>
             <column name="members">0</column>
-            <column name="mirrors">http://blog.shirai.la/wp-content/uploads/downloads/2013/10/ec2013ishikawa.pdf</column>
+            <column name="mirrors">https://blog.shirai.la/wp-content/uploads/downloads/2013/10/ec2013ishikawa.pdf</column>
         </table>
         <table name="wp_download_monitor_files">
             <column name="id">82</column>
@@ -1057,7 +1057,7 @@ This article issues a case study about tendency of the experient in a science mu
             <column name="hits">863</column>
             <column name="user">shirai</column>
             <column name="members">0</column>
-            <column name="mirrors">http://blog.shirai.la/wp-content/uploads/downloads/2013/10/EC2013Tadokoro9.pdf</column>
+            <column name="mirrors">https://blog.shirai.la/wp-content/uploads/downloads/2013/10/EC2013Tadokoro9.pdf</column>
         </table>
         <table name="wp_download_monitor_files">
             <column name="id">83</column>
@@ -1070,12 +1070,12 @@ This article issues a case study about tendency of the experient in a science mu
             <column name="hits">787</column>
             <column name="user">shirai</column>
             <column name="members">0</column>
-            <column name="mirrors">http://blog.shirai.la/wp-content/uploads/downloads/2013/10/EC2013_kunitomi_final.pdf</column>
+            <column name="mirrors">https://blog.shirai.la/wp-content/uploads/downloads/2013/10/EC2013_kunitomi_final.pdf</column>
         </table>
         <table name="wp_download_monitor_files">
             <column name="id">84</column>
             <column name="title">姿勢評価によるリアルタイム感情推定を特徴とする動的マンガ生成システム「Manga Generator」</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/10/CEDEC2013_manga_web.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/10/CEDEC2013_manga_web.pdf</column>
             <column name="file_description">「Manga Generator」は、体験者が少年マンガの主人公となり、ストーリーに沿ったポーズを取ることで、マンガを自動生成するエンタテイメントシステムである。生成されたマンガは印刷され、ユーザが持ち帰ることができる。マンガを構成する要素である吹き出しセリフ、効果線、擬音といったマンガ効果の付加は自動で行い、姿勢評価を用いたリアルタイム感情選択によって、体験者のポーズに沿ったマンガ効果を自動で付加する。一般的なゲームシステムと異なり、ストーリーの設計はコントロール可能である。また、通常は「一期一会」となりがちである体感型エンタテイメントシステムと異なり、SNSとの連携によりスマートフォンアプリや広告メディアとしての可能性を持っている。
 http://cedec.cesa.or.jp/2013/program/GD/7225.html</column>
             <column name="dlversion"></column>
@@ -1088,7 +1088,7 @@ http://cedec.cesa.or.jp/2013/program/GD/7225.html</column>
         <table name="wp_download_monitor_files">
             <column name="id">85</column>
             <column name="title">自由なレイアウトとリフロー機能を備えたハイブリッド電子書籍の提案</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/10/nico2013Lee.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/10/nico2013Lee.pdf</column>
             <column name="file_description">現在，爆発的に普及しつつある電子書籍のフォーマットには，PDF をベースとしたマンガや雑誌等レイアウトを重視したものと，HTML をベースとした新聞や小説など文章，内容を重視したもので，大きく分けて 2 つの形式が存在する．本研究ではそのどちらにも着目し，レイアウトを崩さず且つ文章を綺麗に表現することを主軸に，学会誌，マンガ，小説の 3 つの点からリフローを利用したハイブリッド電子書籍の提案を行う．</column>
             <column name="dlversion"></column>
             <column name="postDate">2013-10-19 18:20:23</column>
@@ -1100,7 +1100,7 @@ http://cedec.cesa.or.jp/2013/program/GD/7225.html</column>
         <table name="wp_download_monitor_files">
             <column name="id">86</column>
             <column name="title"> SD法を用いた電子ペーパーデバイスと紙媒体におけるフォント比較評価</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/10/nico2013-koike.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/10/nico2013-koike.pdf</column>
             <column name="file_description">近年，電子出版の発展により手軽に自筆の書籍を出版できるようになった．しかし出版にあたって，種類が多岐にわたるフォントの中から適切なフォントを選択して使用するのは困難である． 本報告は， フォントが与えるイメージを特定することを目的に， 電子ペーパーデバイス上におけるフォントのデザインに対する心理的評価を，SD 法を用いて行い，従来の紙メディアとの特性を比較する．本研究では特に横太ゴシック体，ゴシック体，教科書体の評価に関して E Ink と紙との結果に違いが確認された</column>
             <column name="dlversion"></column>
             <column name="postDate">2013-10-19 18:25:00</column>
@@ -1119,12 +1119,12 @@ http://cedec.cesa.or.jp/2013/program/GD/7225.html</column>
             <column name="hits">822</column>
             <column name="user">shirai</column>
             <column name="members">0</column>
-            <column name="mirrors">http://blog.shirai.la/wp-content/uploads/downloads/2013/10/c103-f103_3992-a14-final_abstract-v2.pdf</column>
+            <column name="mirrors">https://blog.shirai.la/wp-content/uploads/downloads/2013/10/c103-f103_3992-a14-final_abstract-v2.pdf</column>
         </table>
         <table name="wp_download_monitor_files">
             <column name="id">88</column>
             <column name="title">KinEmotion: Context-Controllable Motion Analysis Method for Interactive Cartoon Generator</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/10/SIGGRAPH2013MangaPoster.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/10/SIGGRAPH2013MangaPoster.pdf</column>
             <column name="file_description"></column>
             <column name="dlversion"></column>
             <column name="postDate">2013-10-19 18:49:31</column>
@@ -1136,7 +1136,7 @@ http://cedec.cesa.or.jp/2013/program/GD/7225.html</column>
         <table name="wp_download_monitor_files">
             <column name="id">89</column>
             <column name="title">マンガ没入型エンタテイメントシステムの可能性</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2014/08/HCG2013-C-3-3.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2014/08/HCG2013-C-3-3.pdf</column>
             <column name="file_description">あらまし  本論文は，マンガ没入型 VR エンタテイメントシステム『瞬刊少年マルマル（MangaGenerator）』について，エンタテイメントシステムとしての体験設計と展示を通した評価について報告を行うものである．システムで使用したキネマティクスを用いた感情推定手法『KinEmotion』について，2 種類のアンケートによる姿勢と背景画像のマッチングについて評価を行い，ユーザの感情認識と表現したい感情認識が概ね一致することを確認した．
 キーワード  マンガ，仮想現実，Kinect，感情表現</column>
             <column name="dlversion"></column>
@@ -1149,7 +1149,7 @@ http://cedec.cesa.or.jp/2013/program/GD/7225.html</column>
         <table name="wp_download_monitor_files">
             <column name="id">90</column>
             <column name="title">博物館ネットワーク事業：相模原市立博物館にはどんな人が来ているか	</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/11/Mukai-Museum-20131108.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/11/Mukai-Museum-20131108.pdf</column>
             <column name="file_description">相模原市立博物館と白井研究室の協働事業である「みんなでつくる相模原『知的探求散策アルバム』」は，市立博物館が計画す
 る「さがみはらどこでも博物館」という地域の博物館施設・旧跡をつなぎ，市民に展開する事業である．平成25年度は初年度であり，
 民俗探訪会に参加し，取材で得られたデータのコンテンツ化を行った．また，現在の相模原市立博物館における来場者約1,850
@@ -1167,7 +1167,7 @@ http://cedec.cesa.or.jp/2013/program/GD/7225.html</column>
         <table name="wp_download_monitor_files">
             <column name="id">91</column>
             <column name="title">学生VRコンテストを起点としたVRエンタテイメントシステム開発とその報告</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2013/12/Oukan20131018.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2013/12/Oukan20131018.pdf</column>
             <column name="file_description">Abstract－ 本稿では,第20回国際学生対抗バーチャルリアリティコンテストを起点に開発を行ったVRエンタテイメントシステム『瞬刊少年マルマル/MangaGenerator』のとその後の研究の推移,産業化事例について報告する.
 Index terms－ Manga , VR , Kinect , Emotional expressions</column>
             <column name="dlversion"></column>
@@ -1180,7 +1180,7 @@ Index terms－ Manga , VR , Kinect , Emotional expressions</column>
         <table name="wp_download_monitor_files">
             <column name="id">92</column>
             <column name="title">相模原市立博物館 来館者アンケート-設問 （H25年7-8月実施）</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2014/01/anke-20130715a2.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2014/01/anke-20130715a2.pdf</column>
             <column name="file_description">相模原市⽴博物館情報ネットワークセンター事業
 みんなでつくる相模原
 「知的探求散策アルバム」
@@ -1208,7 +1208,7 @@ Index terms－ Manga , VR , Kinect , Emotional expressions</column>
         <table name="wp_download_monitor_files">
             <column name="id">94</column>
             <column name="title">Labo PowerPoint Template</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2014/03/ShiraiLab.potx_.zip</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2014/03/ShiraiLab.potx_.zip</column>
             <column name="file_description">PowerPoint Template (potx)</column>
             <column name="dlversion">2014</column>
             <column name="postDate">2014-03-02 17:34:00</column>
@@ -1265,7 +1265,7 @@ Index terms－ Manga , VR , Kinect , Emotional expressions</column>
         <table name="wp_download_monitor_files">
             <column name="id">97</column>
             <column name="title">「未来のゲームセンター in アミューあつぎグランドオープンイベント」フライヤー</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2014/04/Amyu_PosterForAmyu_vLight.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2014/04/Amyu_PosterForAmyu_vLight.pdf</column>
             <column name="file_description"></column>
             <column name="dlversion"></column>
             <column name="postDate">2014-04-17 16:31:00</column>
@@ -1277,7 +1277,7 @@ Index terms－ Manga , VR , Kinect , Emotional expressions</column>
         <table name="wp_download_monitor_files">
             <column name="id">98</column>
             <column name="title">「未来のゲームセンター in アミューあつぎグランドオープンイベント」プレスリリース</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2014/04/Press20140416Amyu.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2014/04/Press20140416Amyu.pdf</column>
             <column name="file_description">神奈川工科大学 情報メディア学科 学生有志が
 ～厚木市制60周年記念カウントダウン事業～「アミューあつぎ」オープニングイベントにて「未来のゲームセンター」を発表（2014/4/16）</column>
             <column name="dlversion"></column>
@@ -1290,7 +1290,7 @@ Index terms－ Manga , VR , Kinect , Emotional expressions</column>
         <table name="wp_download_monitor_files">
             <column name="id">99</column>
             <column name="title">神奈川工科大学 情報メディア学科 白井研究室の研究成果2点が先端技術館＠tepiaにおいて常設展示化</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2014/04/PressKit-TEPIA.zip</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2014/04/PressKit-TEPIA.zip</column>
             <column name="file_description">神奈川工科大学 情報メディア学科 白井研究室の研究成果2点が先端技術館＠tepiaにおいて常設展示化
 ■
 2014年4月22日（火）にリニューアルオープンする「先端技術館＠tepia」（一般財団法人 高度技術社会推進協会・東京都港区北青山）にて、神奈川工科大学 情報学部 情報メディア学科 白井研究室の研究成果を中心とした2点が常設展示として「テクノロジースタジオ」に長期展示公開されます。
@@ -1306,7 +1306,7 @@ Index terms－ Manga , VR , Kinect , Emotional expressions</column>
         <table name="wp_download_monitor_files">
             <column name="id">100</column>
             <column name="title">プレスリリース：テレビの多重化を可能にする汎用ソフトウェア「ExPixel」の開発に成功</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2014/05/ExPixel-PressRelease20140502.zip</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2014/05/ExPixel-PressRelease20140502.zip</column>
             <column name="file_description">プレスリリース：2014年5月2日（金）
 神奈川工科大学 情報学部 情報メディア学科 白井暁彦准教授は、従来不可能な技術であった直視型ディスプレイにおける映像多重化と裸眼による隠蔽画像を実現するソフトウェア技術「ExPixel」の開発に成功した。フランスと日本国内で一般向け公開実験を実施し好評を得た。</column>
             <column name="dlversion"></column>
@@ -1319,7 +1319,7 @@ Index terms－ Manga , VR , Kinect , Emotional expressions</column>
         <table name="wp_download_monitor_files">
             <column name="id">101</column>
             <column name="title">FamiLinkTV: Expanding the Social Value of the Living Room with Multiplex Imaging Technology</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2014/07/revolution2014_submission3.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2014/07/revolution2014_submission3.pdf</column>
             <column name="file_description">Hisataka Suzuki, Yannick Littfass, Rex Hsieh, Hiroki Taguchi Fujimura
 Wataru, Yukua Koide, Akihiko Shirai,
 FamiLinkTV: Expanding the Social Value of the Living Room with Multiplex Imaging Technology,
@@ -1334,7 +1334,7 @@ Virtual Reality International Conference - Laval Virtual 2014 Proceedings</colum
         <table name="wp_download_monitor_files">
             <column name="id">102</column>
             <column name="title">“Scritter” to “1p2x3D”: application development using multiplex hiding imaging technology</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2014/07/vric2014_submission_501.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2014/07/vric2014_submission_501.pdf</column>
             <column name="file_description">Yannick Littfass, Hisataka Suzuki, Yukua Koide, Akihiko Shirai,
 “Scritter” to “1p2x3D”: application development using multiplex hiding imaging technology
 Virtual Reality International Conference - Laval Virtual 2014 Proceedings</column>
@@ -1348,7 +1348,7 @@ Virtual Reality International Conference - Laval Virtual 2014 Proceedings</colum
         <table name="wp_download_monitor_files">
             <column name="id">104</column>
             <column name="title">【富士通SSL】PRESS RELEASE多重化不可視映像技術の実用化に着手</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2014/07/【富士通SSL】PRESS-RELEASE_多重化不可視映像技術の実用化に着手.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2014/07/【富士通SSL】PRESS-RELEASE_多重化不可視映像技術の実用化に着手.pdf</column>
             <column name="file_description">新たなエクスペリエンスを提供する新商品の創出を目的として エンターテインメントシステムのエヴァンジェリスト白井暁彦准教授と産学共同研究を開始
 -多重化・不可視映像技術の実用化に着手-
 株式会社富士通ソーシアルサイエンスラボラトリ(本社:川崎市中原区小杉町、代表取締役社長:川口浩幸、以下: 富士通 SSL)は、ICT を活用することで新たなエクスペリエンスを提供する商品の開発を加速するため、エンターテイ ンメントシステム(注1)の第一人者である神奈川工科大学 情報学部 情報メディア学科(所在地:神奈川県厚木市)の 白井暁彦准教授と産学共同研究を開始し、8月1日より多重化・不可視映像技術の実用システム開発に着手します。</column>
@@ -1362,7 +1362,7 @@ Virtual Reality International Conference - Laval Virtual 2014 Proceedings</colum
         <table name="wp_download_monitor_files">
             <column name="id">105</column>
             <column name="title">ExPixel: PixelShader for multiplex-image hiding in consumer 3D flat panels (Poster)</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2014/08/SIGGRAPH2014ExPixelPoster09.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2014/08/SIGGRAPH2014ExPixelPoster09.pdf</column>
             <column name="file_description"></column>
             <column name="dlversion"></column>
             <column name="postDate">2014-08-14 01:33:32</column>
@@ -1395,12 +1395,12 @@ Virtual Reality International Conference - Laval Virtual 2014 Proceedings</colum
             <column name="hits">560</column>
             <column name="user">shirai</column>
             <column name="members">0</column>
-            <column name="mirrors">http://blog.shirai.la/wp-content/uploads/downloads/2014/09/3DIT2014-FujimuraFinal.pdf</column>
+            <column name="mirrors">https://blog.shirai.la/wp-content/uploads/downloads/2014/09/3DIT2014-FujimuraFinal.pdf</column>
         </table>
         <table name="wp_download_monitor_files">
             <column name="id">108</column>
             <column name="title">液晶フラットパネルにおける多重化隠蔽映像の試行と実現</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2014/09/3DIT2014-Koide.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2014/09/3DIT2014-Koide.pdf</column>
             <column name="file_description">本研究は，映像技術の新しい付加価値創出として開発を行ってきた，3D 互換の映像多重化技術の，液晶フラットパネル上での実現について述べている．普及型の3D ディスプレイに用いられるライン・バイ・ライン方式を利用した映像の多重化と隠蔽について試作し，その結果から液晶フラットパネルを用いた多重化隠蔽映像の実現を行った．</column>
             <column name="dlversion"></column>
             <column name="postDate">2014-09-14 15:20:00</column>
@@ -1421,12 +1421,12 @@ Keyword; Oculus Rift,head tracking,,natural user interface,virtual reality.</col
             <column name="hits">859</column>
             <column name="user">shirai</column>
             <column name="members">0</column>
-            <column name="mirrors">http://blog.shirai.la/wp-content/uploads/downloads/2014/09/ITE2014-TaguchiAS.pdf</column>
+            <column name="mirrors">https://blog.shirai.la/wp-content/uploads/downloads/2014/09/ITE2014-TaguchiAS.pdf</column>
         </table>
         <table name="wp_download_monitor_files">
             <column name="id">110</column>
             <column name="title">自作アーケードゲーム「アオモリズム」開発を通じた エンタテインメントシステム開発教育の実践</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2014/09/N1自作アーケードゲーム「アオモリズム」開発を通じた-エンタテインメントシステム開発教育の実践.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2014/09/N1自作アーケードゲーム「アオモリズム」開発を通じた-エンタテインメントシステム開発教育の実践.pdf</column>
             <column name="file_description">近年の大学、専門学校での教育目的でのゲーム制作はゲームソフトウェアの制作が主になっている現状があるが、神奈川工科大学ではゲームを「エンタテインメントシステム」と捉え、一つのプレイヤー体験のために入出力デバイスからハードウェア、ソフトウェア全てのシステムを設計、実現するまでのプロセスを教員指導の下学生に体験させる事を行いオリジナルのアーケードゲーム「アオモリズム」を完成させた。途中に起きた問題、その解決のプロセスにおける発見を参加した学生と指導した教員の視点で伝える。</column>
             <column name="dlversion"></column>
             <column name="postDate">2014-09-14 16:02:21</column>
@@ -1438,7 +1438,7 @@ Keyword; Oculus Rift,head tracking,,natural user interface,virtual reality.</col
         <table name="wp_download_monitor_files">
             <column name="id">111</column>
             <column name="title">3Dディスプレイに付加価値を与える多重化隠蔽映像技術</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2014/09/S23Dディスプレイに付加価値を与える多重化隠蔽映像技術.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2014/09/S23Dディスプレイに付加価値を与える多重化隠蔽映像技術.pdf</column>
             <column name="file_description">白井 暁彦</column>
             <column name="dlversion"></column>
             <column name="postDate">2014-09-14 16:18:00</column>
@@ -1463,7 +1463,7 @@ Abstract: Recently, a trial to accumulate know-how of the qualitative improvemen
         <table name="wp_download_monitor_files">
             <column name="id">113</column>
             <column name="title">Neck gesture recognition by using constancy of head turning</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2014/09/VRIC_ACM_NeckInteractionAS3.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2014/09/VRIC_ACM_NeckInteractionAS3.pdf</column>
             <column name="file_description">ABSTRACT: This article proposes a motion recognition method for Oculus Rift, which is currently the most popular head mounted display
 available, by using neck motion as non-verbal interaction. The method can define three gestures, namely, “agree,” “disagree,” and “make a question,” by determining the constancy of the head turning angle.</column>
             <column name="dlversion"></column>
@@ -1476,7 +1476,7 @@ available, by using neck motion as non-verbal interaction. The method can define
         <table name="wp_download_monitor_files">
             <column name="id">114</column>
             <column name="title">Neck gesture recognition by using constancy of head turning (poster)</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2014/09/Neck-gesture-recognition.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2014/09/Neck-gesture-recognition.pdf</column>
             <column name="file_description"></column>
             <column name="dlversion"></column>
             <column name="postDate">2014-09-14 17:50:05</column>
@@ -1524,7 +1524,7 @@ available, by using neck motion as non-verbal interaction. The method can define
         <table name="wp_download_monitor_files">
             <column name="id">118</column>
             <column name="title">相模Ingress部 部員手帳</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2014/11/Sagamingressbu.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2014/11/Sagamingressbu.pdf</column>
             <column name="file_description">相模Ingress部 2014/11/14発行</column>
             <column name="dlversion">v.1.00</column>
             <column name="postDate">2014-11-14 09:17:22</column>
@@ -1548,7 +1548,7 @@ available, by using neck motion as non-verbal interaction. The method can define
         <table name="wp_download_monitor_files">
             <column name="id">120</column>
             <column name="title">多重化不可視映像技術（第2報）－FPGAを用いたハードウェア化－</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2015/01/SIS2014-79多重化不可視映像技術（第2報）_―FPGAを用いたハードウェア化―.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2015/01/SIS2014-79多重化不可視映像技術（第2報）_―FPGAを用いたハードウェア化―.pdf</column>
             <column name="file_description"></column>
             <column name="dlversion"></column>
             <column name="postDate">2015-01-13 20:38:30</column>
@@ -1560,7 +1560,7 @@ available, by using neck motion as non-verbal interaction. The method can define
         <table name="wp_download_monitor_files">
             <column name="id">121</column>
             <column name="title">マンガ没入型エンタテイメントシステムの国際メディア発信ツールとしての進化</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2015/01/HCG2014-B-6-4.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2015/01/HCG2014-B-6-4.pdf</column>
             <column name="file_description"></column>
             <column name="dlversion"></column>
             <column name="postDate">2015-01-13 20:42:00</column>
@@ -1572,7 +1572,7 @@ available, by using neck motion as non-verbal interaction. The method can define
         <table name="wp_download_monitor_files">
             <column name="id">122</column>
             <column name="title">フィールドミュージアム構築における代替現実ゲーム「Ingress」の活用</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2015/04/ITSympo2014-KoseAS3.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2015/04/ITSympo2014-KoseAS3.pdf</column>
             <column name="file_description">A:\Dropbox (ShiraiLab)\Labo2014-Semi\ITSympo2014</column>
             <column name="dlversion"></column>
             <column name="postDate">2015-04-24 15:11:00</column>
@@ -1584,7 +1584,7 @@ available, by using neck motion as non-verbal interaction. The method can define
         <table name="wp_download_monitor_files">
             <column name="id">123</column>
             <column name="title">無料クラウドサービスを用いたアクティブラーニング支援ツールの開発</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2015/04/ITSympo2014-Matsushita.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2015/04/ITSympo2014-Matsushita.pdf</column>
             <column name="file_description">無料クラウドサービスを用いた
 アクティブラーニング支援ツールの開発
 松下 公輝・伊藤 嘉洋・白井 暁彦</column>
@@ -1598,7 +1598,7 @@ available, by using neck motion as non-verbal interaction. The method can define
         <table name="wp_download_monitor_files">
             <column name="id">124</column>
             <column name="title">マンガ没入型エンタテイメントシステムのためのコンテンツ製作支援ツールの開発</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2015/04/ITシンポジウム安藤0210_2final.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2015/04/ITシンポジウム安藤0210_2final.pdf</column>
             <column name="file_description">マンガ没入型エンタテイメントシステムのためのコンテンツ製作支援ツールの開発
 安藤歩美，中澤遥，國富彦岐，小川耕作，白井暁彦</column>
             <column name="dlversion"></column>
@@ -1611,7 +1611,7 @@ available, by using neck motion as non-verbal interaction. The method can define
         <table name="wp_download_monitor_files">
             <column name="id">125</column>
             <column name="title">博物館ネットワーク事業：特殊映像を使った展示物の開発</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2015/07/Taiyouken.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2015/07/Taiyouken.pdf</column>
             <column name="file_description">博物館ネットワーク事業：特殊映像を使った展示物の開発</column>
             <column name="dlversion"></column>
             <column name="postDate">2015-07-23 13:19:00</column>
@@ -1623,7 +1623,7 @@ available, by using neck motion as non-verbal interaction. The method can define
         <table name="wp_download_monitor_files">
             <column name="id">126</column>
             <column name="title">博物館ネットワーク事業：Ingressを用いたフィールドミュージアムの開発</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2015/07/Ingress.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2015/07/Ingress.pdf</column>
             <column name="file_description">博物館ネットワーク事業：Ingressを用いたフィールドミュージアムの開発
 小瀬 由樹, 美濃部 久美子, 白井 暁彦, 木村 知之
 相模原市立博物館研究報告, ISSN 1346-3683
@@ -1638,7 +1638,7 @@ Vol 23集</column>
         <table name="wp_download_monitor_files">
             <column name="id">127</column>
             <column name="title">神奈川工科大学 共同研究契約書／申込書／承認願</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2015/10/jik_kyoudou.zip</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2015/10/jik_kyoudou.zip</column>
             <column name="file_description">まず神奈川工科大学の共同研究制度についてはこちらのリエゾンオフィスのホームページに記載がございます。
 http://www.kanagawa-it.ac.jp/~l4024/liaison/procedure.html
 受託研究は目的・アウトプットがはっきりしている研究テーマ、
@@ -1668,7 +1668,7 @@ http://www.kanagawa-it.ac.jp/~l4024/liaison/procedure.html
         <table name="wp_download_monitor_files">
             <column name="id">128</column>
             <column name="title">ExFieldプレスリリース20160219</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2016/02/PressRelease0219-1.zip</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2016/02/PressRelease0219-1.zip</column>
             <column name="file_description">神奈川工科大学が “どこから見ても正面に見える” 
 広告向けディスプレイ技術を開発　‐‐ ARや多言語表示に期待</column>
             <column name="dlversion">2</column>
@@ -1729,7 +1729,7 @@ http://www.kanagawa-it.ac.jp/~l4024/liaison/procedure.html
         <table name="wp_download_monitor_files">
             <column name="id">192</column>
             <column name="title">紙と鉛筆による手描きを中心としたアニメーション制作のためのスキャナ特性評価</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2017/05/IIEEJ-Fujikura.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2017/05/IIEEJ-Fujikura.pdf</column>
             <column name="file_description">藤倉 伊織, 柿崎 俊道, 舛本 和也, 白井 暁彦：紙と鉛筆による手描きを中心としたアニメーション制作のためのスキャナ特性評価，第 44 回画像電子学会年次大会，4 pages, 2016/6/19</column>
             <column name="dlversion"></column>
             <column name="postDate">2017-05-22 19:57:00</column>
@@ -1741,7 +1741,7 @@ http://www.kanagawa-it.ac.jp/~l4024/liaison/procedure.html
         <table name="wp_download_monitor_files">
             <column name="id">193</column>
             <column name="title">Poster-紙と鉛筆による手描きを中心としたアニメーション制作のためのスキャナ特性評価</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2017/05/画像電子学会ポスター.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2017/05/画像電子学会ポスター.pdf</column>
             <column name="file_description">Poster PDF</column>
             <column name="dlversion"></column>
             <column name="postDate">2017-05-22 20:33:00</column>
@@ -1802,7 +1802,7 @@ MANPU ’16 Proceedings of the 1st International Workshop on coMics ANalysis, Pr
         <table name="wp_download_monitor_files">
             <column name="id">198</column>
             <column name="title">Web-based multiplex image synthesis for digital signage</column>
-            <column name="filename">http://blog.shirai.la/wp-content/uploads/downloads/2017/05/IWAIT2017_Web-based-multiplex-image-synthesis-for-digital-signage.pdf</column>
+            <column name="filename">https://blog.shirai.la/wp-content/uploads/downloads/2017/05/IWAIT2017_Web-based-multiplex-image-synthesis-for-digital-signage.pdf</column>
             <column name="file_description">Fujisawa Yoshiki, Hisataka Suzuki, Rex Hsieh and Akihiko Shirai, “Web-based multiplex image synthesis for digital signage”, Proceedings of the 20th International Workshop on Advanced Image Technology 2017 (IWAIT 2017), 3 pages. 2017.</column>
             <column name="dlversion"></column>
             <column name="postDate">2017-05-22 22:00:00</column>
