@@ -374,3 +374,83 @@ Googleへの申請も行わない。
 特に影響はないが
 [Kai's Develope Diary](http://new.shirai.la/kai/index.html@p=66.html)
 
+
+## 20200623
+
+### Kagoya vps874185 
+
+vps20160401 (http://blog.shirai.la) 停止
+```
+(2019/8/15)現在のblog.shirai.la と思われる。つぶすサーバ(kagoya.shirai.la)のファイルを/home/akiに移動させて、最終的にはこちらも停止に向けて動く。作業開始時のディスク使用量67.23GB。
+(2020/3/15)調査メモリ使用量1324MB ディスク使用量76.49GB システム負荷0.03,0.08,0.02 →メモリクリア実施して再起動してみた→メモリ539MBディスク使用量76.49GB
+(2020/3/15)スペック変更で3コア,1 GB / 2 GB,80GB SSDに変更。SSD容量が半分（ギリギリ）になっているが、料金は1760→880円になっているので効果はあると思います。PHPをアップグレードするか、できるだけはやく blog.shirai.la を静的サイトに移行すること。
+(2020/3/16) Simply-Staticを使って静的サイトにする見通しはついた。作業ディスクがないので再び160GBに拡張。
+(2020/6/23) wgetを使ってgithub.io に移動済。現在停止実験中。いつでも削除できるはず。
+```
+
+### ドメイン維持方針 https://blog.shirai.la に移動
+
+
+- 今回はリダイレクトを実施しない：単にHTTPをHTTPSにする
+- shirai.la をどこまで生かすのか？
+- www : Google Sites なので消さない限り残る（APIも使える）
+- メール関係: 同上
+- Google Drive がストレージ分だけ少し維持費かかっているかも
+- Googleがサービス止めない限り維持費はかからない
+- なので blog.shirai.la が残っているのは問題なし。
+- kaitas.github.io/kait といった収容にするとしてもこのリポジトリを複製して始めるべき
+- .htaccess による 301 リダイレクトが以外にも簡単だった、ただし
+- [Github Pagesは .htaccess をサポートしない](https://help.github.com/ja/enterprise/2.14/user/articles/redirects-on-github-pages)のでリダイレクトのリダイレクトはできないと考えよう
+
+- 参考
+  https://www.idcf.jp/rentalserver/aossl/operation/unify-access/
+<link rel="canonical" href="(常時SSL化後のHTTPSのURL)">
+→httpで書いている例はなかった（wgetのおかげ？)
+
+- robots.txt
+
+sitemap.xmlがないので生成する
+- https://www.xml-sitemaps.com/ : 500URLまでしか処理できなかった
+- https://seo.fc2.com/sitemap/url.php : 1001URL  ``/sitemap/sitemap.xml`` においておきます
+
+```
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Sitemap: https://new.shirai.la/sitemap.xml
+```
+↓
+修正
+```
+User-agent: *
+Sitemap: https://blog.shirai.la/sitemap/sitemap.xml
+```
+
+
+<meta name="robots" content="noindex"> などになっていると、そのページはインデックスされないので注意してください。
+→なっていない
+
+### ダウンロードの書き換え
+
+- 単純に index.html となっているところをファイルへのリダイレクトにするか
+- ダウンロードディレクトリへのリンクをすべて 論文系の置き場を作って集計するか
+
+論文系の置き場は作りたい気もするのでしばらく考えよう。
+
+ よく考えたらデータベースから拾えばいいのかもしれない
+
+[ダウンロード](http://blog.shirai.la/wp-admin/post.php?post=4939&action=edit)
+> Fujisawa Yoshiki, Hisataka Suzuki, Rex Hsieh and Akihiko Shirai, “Web-based multiplex image synthesis for digital signage”, Proceedings of the 20th International Workshop on Advanced Image Technology 2017 (IWAIT 2017), 3 pages. 2017.
+
+という文字列をたよりに発掘。幸いにして最後のほうにありました。
+`wp_download_monitor_files` というテーブル。
+`download.sql` というファイルで回収済み。
+
+せっかくなので[Conoha Wing のコントロールパネル](https://phpmyadmin22.conoha.ne.jp/index.php)から、`download_monitor_file_meta` とともに各種ファイルフォーマットでダウンロードした。
+
+
+### コメントがあいているページを塞ぐ
+
+特に影響はないが
+[Kai's Develope Diary](http://new.shirai.la/kai/index.html@p=66.html)
+
