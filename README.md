@@ -492,11 +492,6 @@ Sitemap: https://blog.shirai.la/sitemap/sitemap.xml
 </li>
 ```
 
-```
-<li>著書 ゲームクリエイターが知るべき97のこと 2 共著 2013/08</li>
-<li><a class="download-link" title="" href="https://blog.shirai.la/download/4846/" rel="nofollow">
-	芸術科学会誌「DiVA」第33号（2013年夏号）	(788 ダウンロード)
-</a></li>
-```
-の場合はどうするかな・・・
+残り沢山あるな…どうするかな
 
+https://blog.shirai.la/publications/
