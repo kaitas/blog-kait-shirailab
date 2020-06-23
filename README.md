@@ -471,3 +471,32 @@ Sitemap: https://blog.shirai.la/sitemap/sitemap.xml
 
 せっかくなので[Conoha Wing のコントロールパネル](https://phpmyadmin22.conoha.ne.jp/index.php)から、`download_monitor_file_meta` とともに各種ファイルフォーマットでダウンロードした。
 
+
+`blog.shirai.la/download/` で該当するファイルは68箇所35files。
+たとえば `index.html@p=2.html` が主戦場かと。
+まずは外部サイトへのリンクを修正する。
+
+```
+<li><a class="download-link" title="" href="https://blog.shirai.la/download/4849/" rel="nofollow">
+	芸術科学会誌「DiVA」第34号（2013年冬号）	(688 ダウンロード)
+</a></li>
+```
+
+このパターンの場合は外部サイトもリンクが変わっている。
+正しいファイルを探し出してきて Google Alalytics 対応に書き換える。
+
+```
+<li>
+	<a class="download-link" href=https://art-science.org/diva/pdf/diva35-hq.pdf” onclick=“ga(‘send’, ‘event’, ‘pdf’, ‘click’, ‘芸術科学会誌「DiVA」第34号’,1);”>芸術科学会誌「DiVA」第34号</a>
+(688+ ダウンロード)
+</li>
+```
+
+```
+<li>著書 ゲームクリエイターが知るべき97のこと 2 共著 2013/08</li>
+<li><a class="download-link" title="" href="https://blog.shirai.la/download/4846/" rel="nofollow">
+	芸術科学会誌「DiVA」第33号（2013年夏号）	(788 ダウンロード)
+</a></li>
+```
+の場合はどうするかな・・・
+
