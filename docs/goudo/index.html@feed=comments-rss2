@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:content="https://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="https://purl.org/dc/elements/1.1/"
+	xmlns:atom="https://www.w3.org/2005/Atom"
+	xmlns:sy="https://purl.org/rss/1.0/modules/syndication/"
 	
 	>
 <channel>
 	<title>
 	神戸のブログ へのコメント	</title>
-	<atom:link href="https://new.shirai.la/goudo/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://new.shirai.la/goudo</link>
+	<atom:link href="https://blog.shirai.la/goudo/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.shirai.la/goudo</link>
 	<description>Just another KAIT Shirai Lab Blog Sites site</description>
 	<lastBuildDate>
 	Tue, 29 Jan 2013 09:38:40 +0000	</lastBuildDate>
@@ -21,10 +21,10 @@
 			<item>
 				<title>
 				匿名 より ブログ作成記念 へのコメント				</title>
-				<link>https://new.shirai.la/goudo/2013/01/29/hello-world/#comment-1</link>
+				<link>https://blog.shirai.la/goudo/2013/01/29/hello-world/#comment-1</link>
 		<dc:creator><![CDATA[匿名]]></dc:creator>
 		<pubDate>Tue, 29 Jan 2013 09:38:40 +0000</pubDate>
-		<guid isPermaLink="false">https://new.shirai.la/goudo/?p=1#comment-1</guid>
+		<guid isPermaLink="false">https://blog.shirai.la/goudo/?p=1#comment-1</guid>
 					<description><![CDATA[]]></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 						</item>
