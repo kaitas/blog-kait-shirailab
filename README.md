@@ -1,12 +1,12 @@
-# 神奈川工科大学 情報メディア学科 白井研究室 new.shirai.la アーカイブ
+# 神奈川工科大学 情報メディア学科 白井研究室 blog.shirai.la アーカイブ
 
-作業記録
+## 作業記録
 
-## 20200530 とりあえずのアーカイブを作成
+### 20200530 とりあえずのアーカイブを作成
 zipにした段階で2.14GBもある…
 ファイル数: 17,855、フォルダー数: 7,509
 
-## 20200613 このリポジトリを作成、Github PagesにスタティックHTMLとして保存する作業を始める。
+### 20200613 このリポジトリを作成、Github PagesにスタティックHTMLとして保存する作業を始める。
 
 どんなオプションでダウンロードしたか思い出せないので再度実施しながら作業する。
 
@@ -17,13 +17,13 @@ zipにした段階で2.14GBもある…
 0530のindex.htmlからリポジトリに移動してみる。
 何が大きいのか皆目見当つかない。
 
-### スタイルシートの移植
+#### スタイルシートの移植
 
 `Gridster-lite`というスタイルを使っていたようなので移植
 `wp-content/themes/gridster-lite/style.css@ver=5.1.5.css`
 `wp-content/uploads`だけで 758 MB (795,056,501 バイト) あるのでこれを除く`themes`, `plugins`を移植。 →成功
 
-### 画像の移植
+#### 画像の移植
 
 たとえば
 ``https://blog.shirai.la/wp-content/uploads/2017/08/SIGGRAPH2017%E6%97%85%E3%81%AE%E3%81%97%E3%81%8A%E3%82%8A-225x158.png``
@@ -40,7 +40,7 @@ zipにした段階で2.14GBもある…
 - 2010 : 1.9MB ファイル数: 19、フォルダー数: 5
 - その他 : 1.5MB avatars, buddypress, downloads, HLIC
 
-### 投稿ファイルの移動
+#### 投稿ファイルの移動
 
 まずディレクトリ単位で存在しているページの移動
 - 2012 : 38.3kB ファイル数: 1、フォルダー数: 2
@@ -53,13 +53,12 @@ zipにした段階で2.14GBもある…
 
 ここまでやって `/downloads` がないことに気づく。ダウンロードしなおしている方は無事に落とせているようだ。
 
-### 旧ドメインの「https://new.shirai.la」の相対パス化
+#### 旧ドメインの「https://new.shirai.la」の相対パス化
 
 `--convert-links` オプションでダウンロードしなおした素材がどうなるのか確認してから次の作業にしたい。
 
-
-### ドメインの設定
-まずは実験として ``githubpages.shirai.la`` というドメインに設定してみたい
+#### ドメインの設定
+まずは実験として ``githubpages.shirai.la`` というドメインに設定してみた
 
 公式資料
 - [GitHub Pages サイトのカスタムドメインを管理する](https://help.github.com/ja/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
@@ -72,70 +71,14 @@ zipにした段階で2.14GBもある…
 
 - `new.shirai.la` で作業中。最終的には `https://new.shirai.la` でアクセスできるように。
 
+### 20200616の作業
 
-
-### Kagoyaのサーバ情報
-
-- https://vps.kagoya.com/login
-- vps87415
-
-
-| インスタンス名 | CPU | メモリ | ストレージ | IP | 状態 | コスト |
-----|---- 
-| kagoya.shirai.la | 6コア | 2GB | 400GB | 153.127.242.163 | 停止中 | 1760円/月 |
-| new.new.shirai.la | 6コア | 2GB | 160GB | 133.18.30.222 | 使用中 | 1760円/月 |
-
-月額3520円
-
-
-### 153.127.242.163
-
-- 20120824起動
-- kagoya.shirai.la / new.shirai.laとして長年使用してきたが，2016年初頭からdnsとhttpdの動作が不安定になり，2016/4/1にblog(wordpress)のみ引越し，その後，細かなサービスはインスタンスから復元し，問題ないようならそのまま運用し，本サーバは削除予定．
-- (20190815)ファイル回収作業を開始。終了後は速やかに廃棄。
-- (2020/3/15) /home/aki を F:\WinSCP-backup\kagoya\kagoya.shirai.la-v2824 に移動中
-- いったんファイルのバックアップはおわったようなので削除に向けて電源断。
-- (2020/6/14) 電源断しても料金はかかり続けるようなのでインスタンス削除。お疲れ様でした。
-
-nic.laよりエントリー削除
-
-### 133.18.30.222
-- vps20160401
-- (2019/8/15)現在のnew.shirai.la と思われる。つぶすサーバ(kagoya.shirai.la)のファイルを/home/akiに移動させて、最終的にはこちらも停止に向けて動く。作業開始時のディスク使用量67.23GB。
-- (2020/3/15)調査メモリ使用量1324MB ディスク使用量76.49GB システム負荷0.03,0.08,0.02 →メモリクリア実施して再起動してみた→メモリ539MBディスク使用量76.49GB
-- (2020/3/15)スペック変更で3コア,1 GB / 2 GB,80GB SSDに変更。SSD容量が半分（ギリギリ）になっているが、料金は1760→880円になっているので効果はあると思います。PHPをアップグレードするか、できるだけはやく new.shirai.la を静的サイトに移行すること。
-- (2020/3/16) Simply-Staticを使って静的サイトにする見通しはついた。作業ディスクがないので再び160GBに拡張。
-
-### shirai.la DNS
-- blog A 133.18.30.222
-- githubpages CNAME kaitas.github.io.shirai.la.
-- vps CNAME new.shirai.la.
-
-以下はいらないかもしれないエントリー
-- hayabusa A 153.127.243.78
-- red CNAME vps.shirai.la.
-- expixel CNAME vps.shirai.la.
-- waral CNAME vps.shirai.la.
-- mukai CNAME vps.shirai.la.
-- gameloc CNAME vps.shirai.la.
-- exconv CNAME vps.shirai.la.
-- sown CNAME vps.shirai.la.
-- cofun CNAME vps.shirai.la.
-- manga CNAME vps.shirai.la.
-- yumecon CNAME vps.shirai.la.
-- shinken CNAME vps.shirai.la.
-- member CNAME vps.shirai.la.
-- dev CNAME vps.shirai.la.
-
-
-## 20200616の作業
-
-### `wget` ダウンロードファイルの置き直し
+#### `wget` ダウンロードファイルの置き直し
 
 `` wget --mirror --page-requisites --html-extension --convert-links https://new.shirai.la``
 
 
-### `/download` ディレクトリの置き直し（問題あり）
+#### `/download` ディレクトリの置き直し（問題あり）
 
 download　174MB
 https://blog.shirai.la/download/4939/index.html
@@ -143,9 +86,7 @@ https://blog.shirai.la/download/4939/webbased.pdf
 とかにコピーしなおしている。
 しばらく置いてから見てみると反映されているが、PDFに戻す作業はせねばなるまい。
 
-
-
-### ユーザディレクトリの引っ越し
+#### ユーザディレクトリの引っ越し
 
 - access
 - activity
@@ -226,7 +167,7 @@ https://blog.shirai.la/download/4939/webbased.pdf
 - yuzen
 
 
-### サーバ名の変更
+#### サーバ名の変更
 
 - `a href="https://blog-shirai.la/` to `a href="https://blog.shirai.la/` 10000 results in 1764 files
 - `href='https://blog-shirai.la/wp-json/'` to `href='https://blog.shirai.la/wp-json/'` 2303 results in 2303 files
@@ -234,32 +175,27 @@ https://blog.shirai.la/download/4939/webbased.pdf
 - `blog-shirai.la` to `new.shirai.la` 10009 results in 1807 files.
 - `https://ingress.sagamiharacitymuseum.jp/` to `https://kaitas.github.io/sagami-ingress/` 150 results in 27 files
 
-## 20200621
+### 20200621
 
-### 画像とDownloadの置き換え作業
+#### 画像とDownloadの置き換え作業
+
 WinSCPでダウンロードしてきた画像とDownloadsをリポジトリに保管。
 
 - 画像 wp-content\uploads (前回のWgetの結果とあまり変わらない)
 - ファイル \wp-content\uploads\downloads
 
-### conoha-wingへのバックアップ
+#### conoha-wingへのバックアップ
 
 とりあえずデータベース等全部バックアップとれるならやっておく。
 
 `20200621-fullbackup_blog.zip` というファイルが 旧サイトのフルバックアップ。1GBぐらいあった。
 各サイトのcommentやcomment_metaなどを削除して、
-`ForImport20200621.zip` という5つのファイルに分解してConoha-wingに取り込み。そのままでは動かなかったが、
+`ForImport20200621.zip` という5つのファイルに分解してConoha-wingに取り込み。そのままでは動かなかった
 
-> https://aki2020.conohawing.com/blog.shirai.la/wordpress/
-
-で、トップページが見れるぐらいまでは復活した。管理画面には入れない。
+トップページが見れるぐらいまでは復活した。管理画面には入れない。
 というかコンテンツを全面的に書き換えしないと無理かも。
 
-データベース接続情報（`xcj1p_45arbf6w`）は `wp-config.php` に書いてあります。
-
-
-
-### Google Analytics の置き直し
+#### Google Analytics の置き直し
 
 現状はタグがなさそうなので
 トラッキング ID
@@ -306,7 +242,7 @@ WinSCPでダウンロードしてきた画像とDownloadsをリポジトリに�
 ```
 に置換。
 
-### 旧サイトへのリダイレクト設定
+#### 旧サイトへのリダイレクト設定
 [参考](https://keywordfinder.jp/blog/seo/301-redirect/)
 
 旧サイト `/var/www/wordpress/.htaccess` に書かれていたこのパートをざっくり削除
@@ -335,9 +271,7 @@ Redirect permanent / https://blog.shirai.la/
 今回はコメントアウトにしておく。
 Googleへの申請も行わない。
 
-## 次回作業のためのメモ
-
-### ドメイン維持方針
+#### 次回作業のためのメモ -ドメイン維持方針
 
 - 今回はリダイレクトを実施しない（最終着地点を決定するべき）
 - shirai.la をどこまで生かすのか？
@@ -352,20 +286,9 @@ Googleへの申請も行わない。
 
 
 
-## 20200623
+### 20200623
 
-### Kagoya vps874185 
-
-vps20160401 (https://blog.shirai.la) 停止
-```
-(2019/8/15)現在のblog.shirai.la と思われる。つぶすサーバ(kagoya.shirai.la)のファイルを/home/akiに移動させて、最終的にはこちらも停止に向けて動く。作業開始時のディスク使用量67.23GB。
-(2020/3/15)調査メモリ使用量1324MB ディスク使用量76.49GB システム負荷0.03,0.08,0.02 →メモリクリア実施して再起動してみた→メモリ539MBディスク使用量76.49GB
-(2020/3/15)スペック変更で3コア,1 GB / 2 GB,80GB SSDに変更。SSD容量が半分（ギリギリ）になっているが、料金は1760→880円になっているので効果はあると思います。PHPをアップグレードするか、できるだけはやく blog.shirai.la を静的サイトに移行すること。
-(2020/3/16) Simply-Staticを使って静的サイトにする見通しはついた。作業ディスクがないので再び160GBに拡張。
-(2020/6/23) wgetを使ってgithub.io に移動済。現在停止実験中。いつでも削除できるはず。
-```
-
-### HTTPS化
+#### HTTPS化
 
 - https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd 2304 files
 - https://www.w3.org/1999/xhtml 2849 files
@@ -385,17 +308,17 @@ vps20160401 (https://blog.shirai.la) 停止
 ```
 
 
-### 不要なリンク削除
+#### 不要なリンク削除
 
 - <link rel="profile" href="https://gmpg.org/xfn/11" /> 削除 2653 files
 - <link rel="pingback" href="https://blog.shirai.la/xmlrpc.php" /> 削除 867 files
 - <link rel='dns-prefetch' href='https://s.w.org/' /> wordpress へのプリフェッチ、不要っぽいので削除。 4317 files
 
 
-### dns prefetch は httpsをサポートしないので `//` に
+#### dns prefetch は httpsをサポートしないので `//` に
 - <link rel='dns-prefetch' href='//fonts.googleapis.com/' /> 3321 files
 
-### その他コンテンツ書き換え
+#### その他コンテンツ書き換え
 
 - copyright 82 files
 ```
@@ -411,7 +334,7 @@ Shirai Lab <br />
 以上のコンテンツ書き換えはデータベース（download_monitor）のほうには実施しない（discard）。
 
 
-### sitemap.xmlがないので生成する
+#### sitemap.xmlがないので生成する
 - https://www.xml-sitemaps.com/ : 500URLまでしか処理できなかった
 - https://seo.fc2.com/sitemap/url.php : 1001URL  ``/sitemap/sitemap.xml`` においておきます
 
@@ -432,8 +355,7 @@ Sitemap: https://blog.shirai.la/sitemap/sitemap.xml
 `<meta name="robots" content="noindex">` などになっていると、そのページはインデックスされないので注意してください。
 →なっていない
 
-### ドメイン維持方針 https://blog.shirai.la に移動
-
+#### ドメイン維持方針 https://blog.shirai.la に移動
 
 - 今回はリダイレクトを実施しない：単にHTTPをHTTPSにする
 - shirai.la をどこまで生かすのか？ → ドメイン維持を大幅見直しするまで（github.ioが時代遅れになるまで）
@@ -442,7 +364,7 @@ Sitemap: https://blog.shirai.la/sitemap/sitemap.xml
 
 
 
-### コメントがあいているページを塞ぐ
+#### コメントがあいているページを塞ぐ
 
 特に影響はないが
 [Kai's Develope Diary](https://blog.shirai.la/kai/index.html@p=66.html)
